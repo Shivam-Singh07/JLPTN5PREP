@@ -1,5 +1,6 @@
 {
-  "buildCommand": "cd web && npm install && npm run build",
+  "installCommand": "npm --prefix web install",
+  "buildCommand": "npm --prefix web run build",
   "outputDirectory": "web/dist",
   "rewrites": [
     {
@@ -8,4 +9,3 @@
     }
   ]
 }
-
