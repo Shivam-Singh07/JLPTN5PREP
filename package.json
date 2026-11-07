@@ -1,11 +1,11 @@
 {
   "name": "jlpt-n5-prep-root",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "description": "JLPT N5 Prep Master with Multi-Chapter Quizzes and Listen & Learn Reader",
   "scripts": {
     "build": "npm --prefix web run build",
     "dev": "npm --prefix web run dev",
     "preview": "npm --prefix web run preview"
   }
 }
-
