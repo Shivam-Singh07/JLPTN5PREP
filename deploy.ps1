@@ -9,3 +9,4 @@ Write-Host "`n[2/2] Deploying to Vercel..." -ForegroundColor Yellow
 npx vercel deploy web/dist --prod
 
 Write-Host "`nDeployment completed successfully!" -ForegroundColor Green
+

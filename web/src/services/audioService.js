@@ -163,51 +163,111 @@ class AudioService {
         await tryAudioPlay(directUrl);
       } catch {
         // 3. Fallback to browser SpeechSynthesis
-        this.fallbackSpeechSynth(cleaned, rate, text);
+        await this.fallbackSpeechSynth(cleaned, rate, text);
       }
     }
   }
 
   fallbackSpeechSynth(text, rate, originalText) {
-    if (!this.speechSynth) {
-      this.notify(false, '');
-      return;
-    }
-
-    try {
-      this.speechSynth.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.rate = rate;
-      utterance.pitch = 1.0;
-
-      if (!this.japaneseVoice) {
-        this.initVoices();
+    return new Promise((resolve) => {
+      if (!this.speechSynth) {
+        this.notify(false, '');
+        resolve();
+        return;
       }
 
-      if (this.japaneseVoice) {
-        utterance.voice = this.japaneseVoice;
+      try {
+        this.speechSynth.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.rate = rate;
+        utterance.pitch = 1.0;
+
+        if (!this.japaneseVoice) {
+          this.initVoices();
+        }
+
+        if (this.japaneseVoice) {
+          utterance.voice = this.japaneseVoice;
+        }
         utterance.lang = 'ja-JP';
-      } else {
-        // If system doesn't have ja-JP, set lang to ja-JP anyway
-        utterance.lang = 'ja-JP';
+
+        utterance.onstart = () => {
+          this.notify(true, originalText);
+        };
+
+        utterance.onend = () => {
+          this.notify(false, '');
+          resolve();
+        };
+
+        utterance.onerror = () => {
+          this.notify(false, '');
+          resolve();
+        };
+
+        this.speechSynth.speak(utterance);
+      } catch {
+        this.notify(false, '');
+        resolve();
+      }
+    });
+  }
+
+  /**
+   * Speaks English definition clearly using SpeechSynthesis.
+   * Returns a Promise that resolves when finished.
+   */
+  speakEnglish(text, customRate = null) {
+    return new Promise((resolve) => {
+      if (!this.speechSynth || !text) {
+        resolve();
+        return;
       }
 
-      utterance.onstart = () => {
-        this.notify(true, originalText);
-      };
+      try {
+        this.stop();
 
-      utterance.onend = () => {
+        // Clean english text (e.g. remove parentheses, replace slashes with commas for natural cadence)
+        let cleanText = String(text)
+          .replace(/[\(\)]/g, ' ')
+          .replace(/[\/;]/g, ', ')
+          .replace(/\s+/g, ' ')
+          .trim();
+
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        utterance.rate = customRate || 0.95;
+        utterance.lang = 'en-US';
+
+        const voices = this.speechSynth.getVoices();
+        const englishVoice = voices.find(v => 
+          v.lang === 'en-US' || 
+          v.lang === 'en-GB' || 
+          v.lang.startsWith('en')
+        );
+        if (englishVoice) {
+          utterance.voice = englishVoice;
+        }
+
+        utterance.onstart = () => {
+          this.notify(true, text);
+        };
+
+        utterance.onend = () => {
+          this.notify(false, '');
+          resolve();
+        };
+
+        utterance.onerror = () => {
+          this.notify(false, '');
+          resolve();
+        };
+
+        this.speechSynth.speak(utterance);
+      } catch {
         this.notify(false, '');
-      };
-
-      utterance.onerror = () => {
-        this.notify(false, '');
-      };
-
-      this.speechSynth.speak(utterance);
-    } catch {
-      this.notify(false, '');
-    }
+        resolve();
+      }
+    });
   }
 
   // Harmonic Web Audio chime for correct / wrong quiz answers

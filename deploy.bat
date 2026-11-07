@@ -11,3 +11,4 @@ call npx vercel deploy web/dist --prod
 
 echo Done!
 pause
+
