@@ -1,0 +1,312 @@
+[
+  {
+    "id": "vocab_ch1_1",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "はじめまして",
+    "kana": "はじめまして",
+    "romaji": "Hajimemashite",
+    "english": "Nice to meet you",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_2",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "わたし",
+    "kana": "わたし",
+    "romaji": "Watashi",
+    "english": "I",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_3",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "です",
+    "kana": "です",
+    "romaji": "Des",
+    "english": "is, am, are",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_4",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "どうぞ",
+    "kana": "どうぞ",
+    "romaji": "Dōzo",
+    "english": "(Spoken while offering something)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_5",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "いんど",
+    "kana": "いんど",
+    "romaji": "Indo",
+    "english": "India",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_6",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "じん",
+    "kana": "じん",
+    "romaji": "Jin",
+    "english": "Suffix for nationality",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_7",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "いんどじん",
+    "kana": "いんどじん",
+    "romaji": "Indojin",
+    "english": "Indian",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_8",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "にほんじん",
+    "kana": "にほんじん",
+    "romaji": "Nihonjin",
+    "english": "Japanese",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_9",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "ちゅうごくじん",
+    "kana": "ちゅうごくじん",
+    "romaji": "Chūgokujin",
+    "english": "Chinese",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_10",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "あめりかじん",
+    "kana": "あめりかじん",
+    "romaji": "Amerikajin",
+    "english": "American",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_11",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "がくせい",
+    "kana": "がくせい",
+    "romaji": "Gakusei",
+    "english": "Student",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_12",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "せんせい",
+    "kana": "せんせい",
+    "romaji": "Sensei",
+    "english": "Teacher, Professor",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_13",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "きれい",
+    "kana": "きれい",
+    "romaji": "Kirei",
+    "english": "Beautiful",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_14",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "たかい",
+    "kana": "たかい",
+    "romaji": "Takai",
+    "english": "Expensive",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_15",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "ひろい",
+    "kana": "ひろい",
+    "romaji": "Hiroi",
+    "english": "Wide",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_16",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "ともだち",
+    "kana": "ともだち",
+    "romaji": "Tomodachi",
+    "english": "Friend",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_17",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "しゃいん/かいしゃいん",
+    "kana": "しゃいん/かいしゃいん",
+    "romaji": "Shain/Kaishain",
+    "english": "Company employee",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_18",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "はい",
+    "kana": "はい",
+    "romaji": "Hai",
+    "english": "Yes",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_19",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "いいえ",
+    "kana": "いいえ",
+    "romaji": "iie",
+    "english": "No",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_20",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "いんじにあ",
+    "kana": "いんじにあ",
+    "romaji": "Injinia",
+    "english": "Engineer",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_21",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "いしゃ",
+    "kana": "いしゃ",
+    "romaji": "Isha",
+    "english": "Doctor",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_22",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "あの かた",
+    "kana": "あの かた",
+    "romaji": "Ano kata",
+    "english": "That person",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_23",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "どなた",
+    "kana": "どなた",
+    "romaji": "Donata",
+    "english": "Who",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_24",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "さくら",
+    "kana": "さくら",
+    "romaji": "Sakura",
+    "english": "Name of a university",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_25",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "だいがく",
+    "kana": "だいがく",
+    "romaji": "Daigaku",
+    "english": "University",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_26",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "じゃ また",
+    "kana": "じゃ また",
+    "romaji": "Ja mata",
+    "english": "See you again",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_27",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "じゃ また あした",
+    "kana": "じゃ また あした",
+    "romaji": "Ja mata ashita",
+    "english": "See you again tomorrow",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_28",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "しつれい します",
+    "kana": "しつれい します",
+    "romaji": "Shitsurei Shimas",
+    "english": "Excuse Me (At the time of going or at entering a formal place)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_29",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "を じゃま します",
+    "kana": "を じゃま します",
+    "romaji": "O jama shimas",
+    "english": "(At the time of entering someone’s home)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_30",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "いただきます",
+    "kana": "いただきます",
+    "romaji": "Itadakimas",
+    "english": "(Before starting the meal)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch1_31",
+    "chapter": 1,
+    "chapterTitle": "Self Introduction (自己紹介)",
+    "japanese": "ごちそうさま",
+    "kana": "ごちそうさま",
+    "romaji": "Gochisōsama",
+    "english": "(After finishing the meal)",
+    "category": "Basic 1"
+  }
+]

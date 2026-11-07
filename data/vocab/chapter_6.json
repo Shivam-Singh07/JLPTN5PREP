@@ -1,0 +1,882 @@
+[
+  {
+    "id": "vocab_ch6_1",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "いきます",
+    "kana": "いきます",
+    "romaji": "Ikimas",
+    "english": "To go",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_2",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "きます",
+    "kana": "きます",
+    "romaji": "Kimas",
+    "english": "To come",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_3",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "かえります",
+    "kana": "かえります",
+    "romaji": "Kaerimas",
+    "english": "To return",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_4",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "みます",
+    "kana": "みます",
+    "romaji": "Mimas",
+    "english": "To see",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_5",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "ききます",
+    "kana": "ききます",
+    "romaji": "Kikimas",
+    "english": "To hear",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_6",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "します",
+    "kana": "します",
+    "romaji": "Shimas",
+    "english": "To do",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_7",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "たべます",
+    "kana": "たべます",
+    "romaji": "Tabemas",
+    "english": "To eat",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_8",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "のみます",
+    "kana": "のみます",
+    "romaji": "Nomimas",
+    "english": "To drink",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_9",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "よみます",
+    "kana": "よみます",
+    "romaji": "Yomimas",
+    "english": "To read",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_10",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "いきません",
+    "kana": "いきません",
+    "romaji": "Ikimasen",
+    "english": "I don’t go",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_11",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "きません",
+    "kana": "きません",
+    "romaji": "Kimasen",
+    "english": "I don’t come",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_12",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "かえりません",
+    "kana": "かえりません",
+    "romaji": "Kaerimasen",
+    "english": "I don’t return",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_13",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "みません",
+    "kana": "みません",
+    "romaji": "Mimasen",
+    "english": "I don’t see",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_14",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "ききません",
+    "kana": "ききません",
+    "romaji": "Kikimasen",
+    "english": "I don’t hear",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_15",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "しません",
+    "kana": "しません",
+    "romaji": "Shimasen",
+    "english": "I don’t do",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_16",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "たべません",
+    "kana": "たべません",
+    "romaji": "Tabemasen",
+    "english": "I don’t eat",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_17",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "のみません",
+    "kana": "のみません",
+    "romaji": "Nomimasen",
+    "english": "I don’t drink",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_18",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "よみません",
+    "kana": "よみません",
+    "romaji": "Yomimasen",
+    "english": "I don’t read",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_19",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "いきました",
+    "kana": "いきました",
+    "romaji": "Ikimashita",
+    "english": "I went",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_20",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "きました",
+    "kana": "きました",
+    "romaji": "Kimashita",
+    "english": "I came",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_21",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "かえりました",
+    "kana": "かえりました",
+    "romaji": "Kaerimashita",
+    "english": "I returned",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_22",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "みました",
+    "kana": "みました",
+    "romaji": "Mimashita",
+    "english": "I saw",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_23",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "ききました",
+    "kana": "ききました",
+    "romaji": "Kikimashita",
+    "english": "I heard",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_24",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "しました",
+    "kana": "しました",
+    "romaji": "Shimashita",
+    "english": "I did",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_25",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "たべました",
+    "kana": "たべました",
+    "romaji": "Tabemashita",
+    "english": "I ate",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_26",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "のみました",
+    "kana": "のみました",
+    "romaji": "Nomimashita",
+    "english": "I drank",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_27",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "よみました",
+    "kana": "よみました",
+    "romaji": "Yomimashita",
+    "english": "I read",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_28",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "にほん",
+    "kana": "にほん",
+    "romaji": "Nihon",
+    "english": "Japan",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_29",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "かんこく",
+    "kana": "かんこく",
+    "romaji": "Kankoku",
+    "english": "Korea",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_30",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "ちゅうごく",
+    "kana": "ちゅうごく",
+    "romaji": "Chūgoku",
+    "english": "China",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_31",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "いんど",
+    "kana": "いんど",
+    "romaji": "Indo",
+    "english": "India",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_32",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "くに",
+    "kana": "くに",
+    "romaji": "Kuni",
+    "english": "Country",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_33",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "うち",
+    "kana": "うち",
+    "romaji": "Uchi",
+    "english": "Home",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_34",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "いえ",
+    "kana": "いえ",
+    "romaji": "Ie",
+    "english": "House",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_35",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "すき",
+    "kana": "すき",
+    "romaji": "Suki",
+    "english": "Like",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_36",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "きらい",
+    "kana": "きらい",
+    "romaji": "Kirai",
+    "english": "Dislike",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_37",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "おさけ",
+    "kana": "おさけ",
+    "romaji": "Osake",
+    "english": "Wine, whisky, Alcohol",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_38",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "しょくじ",
+    "kana": "しょくじ",
+    "romaji": "Shokuji",
+    "english": "Food (Meal)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_39",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "ごはん",
+    "kana": "ごはん",
+    "romaji": "Gohan",
+    "english": "Food",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_40",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "すし",
+    "kana": "すし",
+    "romaji": "Sushi",
+    "english": "Raw fish rolled in rice",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_41",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "さかな",
+    "kana": "さかな",
+    "romaji": "Sakana",
+    "english": "Fish",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_42",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "にく",
+    "kana": "にく",
+    "romaji": "Niku",
+    "english": "Meat",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_43",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "ぎゅうにく",
+    "kana": "ぎゅうにく",
+    "romaji": "Gyūniku",
+    "english": "Beef",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_44",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "ぶたにく",
+    "kana": "ぶたにく",
+    "romaji": "Butaniku",
+    "english": "Pork",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_45",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "とりにく",
+    "kana": "とりにく",
+    "romaji": "Toriniku",
+    "english": "Chicken",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_46",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "ぎゅうにゅう",
+    "kana": "ぎゅうにゅう",
+    "romaji": "Gyūnyū",
+    "english": "Milk",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_47",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "しごと",
+    "kana": "しごと",
+    "romaji": "Shigoto",
+    "english": "Work, Job",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_48",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "えいが",
+    "kana": "えいが",
+    "romaji": "Eiga",
+    "english": "Film, movie",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_49",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "えいがかん",
+    "kana": "えいがかん",
+    "romaji": "Eigakan",
+    "english": "Movie theater",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_50",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "おんがく",
+    "kana": "おんがく",
+    "romaji": "Ongaku",
+    "english": "Music",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_51",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "しんぶん",
+    "kana": "しんぶん",
+    "romaji": "Shimbun",
+    "english": "Newspaper",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_52",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "ほん",
+    "kana": "ほん",
+    "romaji": "Hon",
+    "english": "Book",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_53",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "テレビ",
+    "kana": "テレビ",
+    "romaji": "Terebi",
+    "english": "TV",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_54",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "はなび",
+    "kana": "はなび",
+    "romaji": "Hanabi",
+    "english": "Fire crackers show",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_55",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "はなみ",
+    "kana": "はなみ",
+    "romaji": "Hanami",
+    "english": "Cherry flower viewing",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_56",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "さくら",
+    "kana": "さくら",
+    "romaji": "Sakura",
+    "english": "Cherry flower",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_57",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "がっこう",
+    "kana": "がっこう",
+    "romaji": "Gakkō",
+    "english": "School",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_58",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "かいしゃ",
+    "kana": "かいしゃ",
+    "romaji": "Kaisha",
+    "english": "Company, office",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_59",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "おちゃ",
+    "kana": "おちゃ",
+    "romaji": "Ocha",
+    "english": "Tea",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_60",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "みず",
+    "kana": "みず",
+    "romaji": "Mizu",
+    "english": "Water",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_61",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "これから",
+    "kana": "これから",
+    "romaji": "Korekara",
+    "english": "From now on",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_62",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "それから",
+    "kana": "それから",
+    "romaji": "Sorekara",
+    "english": "After that",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_63",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "たまご",
+    "kana": "たまご",
+    "romaji": "Tamago",
+    "english": "Eggs",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_64",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "かいしゃ へ いきます",
+    "kana": "かいしゃ へ いきます",
+    "romaji": "Kaisha e ikimas",
+    "english": "To go to company, office",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_65",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "うち へ きます",
+    "kana": "うち へ きます",
+    "romaji": "Uchi e Kimas",
+    "english": "To come home",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_66",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "くに へ かえります",
+    "kana": "くに へ かえります",
+    "romaji": "Kuni e Kaerimas",
+    "english": "To return to country",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_67",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "えいが を みます",
+    "kana": "えいが を みます",
+    "romaji": "Eiga o Mimas",
+    "english": "To see a movie",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_68",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "おんがく を ききます",
+    "kana": "おんがく を ききます",
+    "romaji": "Ongaku o Kikimas",
+    "english": "To listen to music",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_69",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "しごと を します",
+    "kana": "しごと を します",
+    "romaji": "Shigoto o Shimas",
+    "english": "To do work",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_70",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "ごはん を たべます",
+    "kana": "ごはん を たべます",
+    "romaji": "Gohan o Tabemas",
+    "english": "To eat food",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_71",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "おさけ を のみます",
+    "kana": "おさけ を のみます",
+    "romaji": "Osake o Nomimas",
+    "english": "To drink wine, alcohol",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_72",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "しんぶん を よみます",
+    "kana": "しんぶん を よみます",
+    "romaji": "Shimbun o Yomimas",
+    "english": "To read newspaper",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_73",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "のみましょう",
+    "kana": "のみましょう",
+    "romaji": "Nomimashō",
+    "english": "Let’s drink",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_74",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "たべましょう",
+    "kana": "たべましょう",
+    "romaji": "Tabemashō",
+    "english": "Let’s eat",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_75",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "みましょう",
+    "kana": "みましょう",
+    "romaji": "Mimashō",
+    "english": "Let’s see",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_76",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "しましょう",
+    "kana": "しましょう",
+    "romaji": "Shimashō",
+    "english": "Let’s do",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_77",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "よみましょう",
+    "kana": "よみましょう",
+    "romaji": "Yomimashō",
+    "english": "Let’s read",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_78",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "いきましょう",
+    "kana": "いきましょう",
+    "romaji": "Ikimashō",
+    "english": "Let’s go",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_79",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "かえりましょう",
+    "kana": "かえりましょう",
+    "romaji": "Kaerimashō",
+    "english": "Let’s return",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_80",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "はじめましょう",
+    "kana": "はじめましょう",
+    "romaji": "Hajimemashō",
+    "english": "Let’s start",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_81",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "あさ",
+    "kana": "あさ",
+    "romaji": "Asa",
+    "english": "Morning",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_82",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "けさ",
+    "kana": "けさ",
+    "romaji": "Kesa",
+    "english": "Today Morning",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_83",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "よる",
+    "kana": "よる",
+    "romaji": "Yoru",
+    "english": "Night",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_84",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "らいしゅう",
+    "kana": "らいしゅう",
+    "romaji": "Raishū",
+    "english": "Next week",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_85",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "まいにち",
+    "kana": "まいにち",
+    "romaji": "Mainichi",
+    "english": "Daily",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_86",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "まいばん",
+    "kana": "まいばん",
+    "romaji": "Maiban",
+    "english": "Every evening",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_87",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "さっか",
+    "kana": "さっか",
+    "romaji": "Sakka",
+    "english": "Soccer",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch6_88",
+    "chapter": 6,
+    "chapterTitle": "Verbs (基本の動詞)",
+    "japanese": "なら",
+    "kana": "なら",
+    "romaji": "Nara",
+    "english": "(Name of a place)",
+    "category": "Basic 1"
+  }
+]

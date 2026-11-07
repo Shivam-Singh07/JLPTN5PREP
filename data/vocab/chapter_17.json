@@ -1,0 +1,362 @@
+[
+  {
+    "id": "vocab_ch17_1",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "おぼえます",
+    "kana": "おぼえます",
+    "romaji": "",
+    "english": "memorize",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_2",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "わすれます",
+    "kana": "わすれます",
+    "romaji": "",
+    "english": "forgot",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_3",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "なくします",
+    "kana": "なくします",
+    "romaji": "",
+    "english": "lose",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_4",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "だします",
+    "kana": "だします",
+    "romaji": "",
+    "english": "hand in [a report]",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_5",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "はらいます",
+    "kana": "はらいます",
+    "romaji": "",
+    "english": "pay",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_6",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "かえします",
+    "kana": "かえします",
+    "romaji": "",
+    "english": "giveback, return",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_7",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "でかけます",
+    "kana": "でかけます",
+    "romaji": "",
+    "english": "go out",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_8",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "ぬぎます",
+    "kana": "ぬぎます",
+    "romaji": "",
+    "english": "take off (clothes, shoes, etc.)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_9",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "もっていきます",
+    "kana": "もっていきます",
+    "romaji": "",
+    "english": "take (something)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_10",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "もってきます",
+    "kana": "もってきます",
+    "romaji": "",
+    "english": "bring (something)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_11",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "しんぱいします",
+    "kana": "しんぱいします",
+    "romaji": "",
+    "english": "worry",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_12",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "ざんぎょうします",
+    "kana": "ざんぎょうします",
+    "romaji": "",
+    "english": "work overtime",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_13",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "しゅっちょうします",
+    "kana": "しゅっちょうします",
+    "romaji": "",
+    "english": "go on a business trip",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_14",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "のみます",
+    "kana": "のみます",
+    "romaji": "",
+    "english": "take [medicine]",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_15",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "はいります",
+    "kana": "はいります",
+    "romaji": "",
+    "english": "take [bath]",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_16",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "たいせつ",
+    "kana": "たいせつ",
+    "romaji": "",
+    "english": "important, precious",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_17",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "だいじょうぶ",
+    "kana": "だいじょうぶ",
+    "romaji": "",
+    "english": "all right",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_18",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "あぶない",
+    "kana": "あぶない",
+    "romaji": "",
+    "english": "dangerous",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_19",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "もんだい",
+    "kana": "もんだい",
+    "romaji": "",
+    "english": "question, problem, trouble",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_20",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "こたえ",
+    "kana": "こたえ",
+    "romaji": "",
+    "english": "answer",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_21",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "きんえ ん",
+    "kana": "きんえ ん",
+    "romaji": "",
+    "english": "no smoking",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_22",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "けんこう ほけんしょう",
+    "kana": "けんこう ほけんしょう",
+    "romaji": "",
+    "english": "[health] insurance card",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_23",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "かぜ",
+    "kana": "かぜ",
+    "romaji": "",
+    "english": "cold, flu",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_24",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "ねつ",
+    "kana": "ねつ",
+    "romaji": "",
+    "english": "fever",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_25",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "びょうき",
+    "kana": "びょうき",
+    "romaji": "",
+    "english": "illness, disease",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_26",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "くすり",
+    "kana": "くすり",
+    "romaji": "",
+    "english": "medicine",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_27",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "おふろ",
+    "kana": "おふろ",
+    "romaji": "",
+    "english": "bath",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_28",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "うわぎ",
+    "kana": "うわぎ",
+    "romaji": "",
+    "english": "jacket, outerwear",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_29",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "したぎ",
+    "kana": "したぎ",
+    "romaji": "",
+    "english": "under wear",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_30",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "せんせい",
+    "kana": "せんせい",
+    "romaji": "",
+    "english": "doctor ( used when addressing a medical doctor)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_31",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "2, 3 にち",
+    "kana": "2, 3 にち",
+    "romaji": "",
+    "english": "2, 3 days (a few days)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_32",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "ですから",
+    "kana": "ですから",
+    "romaji": "",
+    "english": "therefore, so",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_33",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "どうしましたか。",
+    "kana": "どうしましたか。",
+    "romaji": "",
+    "english": "What’s the matter?",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_34",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "いたいです。",
+    "kana": "いたいです。",
+    "romaji": "",
+    "english": "(I) have a pain [in my ～]",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_35",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "のど",
+    "kana": "のど",
+    "romaji": "",
+    "english": "throat",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch17_36",
+    "chapter": 17,
+    "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+    "japanese": "おだいじに。",
+    "kana": "おだいじに。",
+    "romaji": "",
+    "english": "Take care of yourself. (Said to people who are ill.)",
+    "category": "Basic 2"
+  }
+]

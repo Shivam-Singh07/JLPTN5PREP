@@ -1,0 +1,502 @@
+[
+  {
+    "id": "vocab_ch11_1",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "となり",
+    "kana": "となり",
+    "romaji": "Tonari",
+    "english": "Next to",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_2",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "かぎ",
+    "kana": "かぎ",
+    "romaji": "Kagi",
+    "english": "Keys",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_3",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "わたしたち",
+    "kana": "わたしたち",
+    "romaji": "Watashitachi",
+    "english": "We, us",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_4",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "あなた",
+    "kana": "あなた",
+    "romaji": "Anata",
+    "english": "You (Informal)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_5",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "かいしゃいん",
+    "kana": "かいしゃいん",
+    "romaji": "Kaishain",
+    "english": "Company Employee",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_6",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "しゃいん",
+    "kana": "しゃいん",
+    "romaji": "Shain",
+    "english": "Company Employee",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_7",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "ぎんこういん",
+    "kana": "ぎんこういん",
+    "romaji": "Ginkōin",
+    "english": "Bank Employee",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_8",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "いしゃ",
+    "kana": "いしゃ",
+    "romaji": "Isha",
+    "english": "Doctor",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_9",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "だいがく",
+    "kana": "だいがく",
+    "romaji": "Daigaku",
+    "english": "University",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_10",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "びょういん",
+    "kana": "びょういん",
+    "romaji": "Byōin",
+    "english": "Hospital",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_11",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "びよういん",
+    "kana": "びよういん",
+    "romaji": "Biyōin",
+    "english": "Beauty parlor",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_12",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "くん",
+    "kana": "くん",
+    "romaji": "Kun",
+    "english": "Equivalent of san (Used for younger ones)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_13",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "でんき",
+    "kana": "でんき",
+    "romaji": "Denki",
+    "english": "Electricity",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_14",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "でんきやさん",
+    "kana": "でんきやさん",
+    "romaji": "Denkiyasan",
+    "english": "Electronic showroom",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_15",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "おなまえ",
+    "kana": "おなまえ",
+    "romaji": "Onamae",
+    "english": "(Your) Name",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_16",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "へや",
+    "kana": "へや",
+    "romaji": "Heya",
+    "english": "Room",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_17",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "たばこ",
+    "kana": "たばこ",
+    "romaji": "Tabako",
+    "english": "Ciggarette",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_18",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "すいます",
+    "kana": "すいます",
+    "romaji": "Suimas",
+    "english": "To smoke, to inhale",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_19",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "ちがいます",
+    "kana": "ちがいます",
+    "romaji": "Chigaimas",
+    "english": "To differ, its different",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_20",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "びじゅつかん",
+    "kana": "びじゅつかん",
+    "romaji": "Bijutsukan",
+    "english": "Art museum",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_21",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "ゆうびんきょく",
+    "kana": "ゆうびんきょく",
+    "romaji": "Yūbinkyoku",
+    "english": "Post office",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_22",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "すうぱあ",
+    "kana": "すうぱあ",
+    "romaji": "Sūpā",
+    "english": "Supermarket",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_23",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "とります",
+    "kana": "とります",
+    "romaji": "Torimas",
+    "english": "To take, To pass",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_24",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "あいます",
+    "kana": "あいます",
+    "romaji": "Aimas",
+    "english": "To meet",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_25",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "みせ",
+    "kana": "みせ",
+    "romaji": "Mise",
+    "english": "Shop",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_26",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "しゅくだい",
+    "kana": "しゅくだい",
+    "romaji": "Shukudai",
+    "english": "Homework",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_27",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "だいたい",
+    "kana": "だいたい",
+    "romaji": "Daitai",
+    "english": "Almost",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_28",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "よく",
+    "kana": "よく",
+    "romaji": "Yoku",
+    "english": "Often",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_29",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "すこし",
+    "kana": "すこし",
+    "romaji": "Sukoshi",
+    "english": "Little",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_30",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "ぜんぜん",
+    "kana": "ぜんぜん",
+    "romaji": "Zenzen",
+    "english": "Not at all",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_31",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "せいかつ",
+    "kana": "せいかつ",
+    "romaji": "Seikatsu",
+    "english": "Lifestyle, Daily life",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_32",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "どんな",
+    "kana": "どんな",
+    "romaji": "Donna",
+    "english": "What kind of",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_33",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "やきゅう",
+    "kana": "やきゅう",
+    "romaji": "Yakyū",
+    "english": "Baseball game",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_34",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "うた",
+    "kana": "うた",
+    "romaji": "Uta",
+    "english": "Song",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_35",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "うたいます",
+    "kana": "うたいます",
+    "romaji": "Utaimas",
+    "english": "To sing",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_36",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "やくそく",
+    "kana": "やくそく",
+    "romaji": "Yakusoku",
+    "english": "Promise",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_37",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "はやく",
+    "kana": "はやく",
+    "romaji": "Hayaku",
+    "english": "Quickly",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_38",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "おそく",
+    "kana": "おそく",
+    "romaji": "Osoku",
+    "english": "Late",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_39",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "こども",
+    "kana": "こども",
+    "romaji": "Kodomo",
+    "english": "Child, Children",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_40",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "はこ",
+    "kana": "はこ",
+    "romaji": "Hako",
+    "english": "Box",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_41",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "しゃしん",
+    "kana": "しゃしん",
+    "romaji": "Shashin",
+    "english": "Photograph",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_42",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "もの",
+    "kana": "もの",
+    "romaji": "Mono",
+    "english": "Things",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_43",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "そのほか",
+    "kana": "そのほか",
+    "romaji": "Sonohoka",
+    "english": "Besides, Other than this",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_44",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "たいへん",
+    "kana": "たいへん",
+    "romaji": "Taihen",
+    "english": "Hard, tiresome",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_45",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "おうい",
+    "kana": "おうい",
+    "romaji": "ōi",
+    "english": "Large number of",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_46",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "いろいろ",
+    "kana": "いろいろ",
+    "romaji": "Iroiro",
+    "english": "Various",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_47",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "より",
+    "kana": "より",
+    "romaji": "Yori",
+    "english": "Compared to",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_48",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "ずっと",
+    "kana": "ずっと",
+    "romaji": "zutto",
+    "english": "By far (While comparing)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_49",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "くうこう",
+    "kana": "くうこう",
+    "romaji": "Kūkō",
+    "english": "Airport",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch11_50",
+    "chapter": 11,
+    "chapterTitle": "Question Answers (質問と答え・総復習)",
+    "japanese": "こんど",
+    "kana": "こんど",
+    "romaji": "Kondo",
+    "english": "Next",
+    "category": "Basic 1"
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "id": "vocab_ch16_1",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "のります",
+    "kana": "のります",
+    "romaji": "",
+    "english": "ride, get on [a train]",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_2",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "おりま す",
+    "kana": "おりま す",
+    "romaji": "",
+    "english": "get off",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_3",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "のりかえます",
+    "kana": "のりかえます",
+    "romaji": "",
+    "english": "change (trains, etc.)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_4",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "あびます",
+    "kana": "あびます",
+    "romaji": "",
+    "english": "take [a shower]",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_5",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "いれます",
+    "kana": "いれます",
+    "romaji": "",
+    "english": "put in, insert",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_6",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "だします",
+    "kana": "だします",
+    "romaji": "",
+    "english": "take out, withdraw",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_7",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "はいります",
+    "kana": "はいります",
+    "romaji": "",
+    "english": "enter [university]",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_8",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "でます",
+    "kana": "でます",
+    "romaji": "",
+    "english": "graduate from [university]",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_9",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "やめます",
+    "kana": "やめます",
+    "romaji": "",
+    "english": "quit or retire from [a company], stop, give up",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_10",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "おします",
+    "kana": "おします",
+    "romaji": "",
+    "english": "push, press",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_11",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "わかい",
+    "kana": "わかい",
+    "romaji": "",
+    "english": "young",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_12",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "ながい",
+    "kana": "ながい",
+    "romaji": "",
+    "english": "long",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_13",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "みじかい",
+    "kana": "みじかい",
+    "romaji": "",
+    "english": "short",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_14",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "あかるい",
+    "kana": "あかるい",
+    "romaji": "",
+    "english": "bright, light",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_15",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "くらい",
+    "kana": "くらい",
+    "romaji": "",
+    "english": "dark",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_16",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "せが たかい",
+    "kana": "せが たかい",
+    "romaji": "",
+    "english": "tall (referring to person)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_17",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "あたま が いい",
+    "kana": "あたま が いい",
+    "romaji": "",
+    "english": "intelligent, smart",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_18",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "からだ",
+    "kana": "からだ",
+    "romaji": "",
+    "english": "body",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_19",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "あたま",
+    "kana": "あたま",
+    "romaji": "",
+    "english": "head",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_20",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "かみ",
+    "kana": "かみ",
+    "romaji": "",
+    "english": "hair",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_21",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "かお",
+    "kana": "かお",
+    "romaji": "",
+    "english": "face",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_22",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "め",
+    "kana": "め",
+    "romaji": "",
+    "english": "eye",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_23",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "みみ",
+    "kana": "みみ",
+    "romaji": "",
+    "english": "ear",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_24",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "くち",
+    "kana": "くち",
+    "romaji": "",
+    "english": "mouth",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_25",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "は",
+    "kana": "は",
+    "romaji": "",
+    "english": "tooth",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_26",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "おなか",
+    "kana": "おなか",
+    "romaji": "",
+    "english": "stomach",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_27",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "あし",
+    "kana": "あし",
+    "romaji": "",
+    "english": "leg, foot",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_28",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "サービス",
+    "kana": "サービス",
+    "romaji": "",
+    "english": "service",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_29",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "シャワー",
+    "kana": "シャワー",
+    "romaji": "",
+    "english": "shower",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_30",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "みどり",
+    "kana": "みどり",
+    "romaji": "",
+    "english": "green, greenery",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_31",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "てら",
+    "kana": "てら",
+    "romaji": "",
+    "english": "Buddhist temple",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_32",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "じんじゃ",
+    "kana": "じんじゃ",
+    "romaji": "",
+    "english": "Shinto shrine",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_33",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "りゅうがくせい",
+    "kana": "りゅうがくせい",
+    "romaji": "",
+    "english": "foreign",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_34",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "―ばん",
+    "kana": "―ばん",
+    "romaji": "",
+    "english": "number-",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_35",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "どうやって",
+    "kana": "どうやって",
+    "romaji": "",
+    "english": "in what way, how",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_36",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "どの",
+    "kana": "どの",
+    "romaji": "",
+    "english": "which～(used for three or more)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_37",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "いいえ、まだまだです。",
+    "kana": "いいえ、まだまだです。",
+    "romaji": "",
+    "english": "[No,] I still have a long way to go",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_38",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "おひきだしですか。",
+    "kana": "おひきだしですか。",
+    "romaji": "",
+    "english": "Do you want to withdraw cash?",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_39",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "まず",
+    "kana": "まず",
+    "romaji": "",
+    "english": "first of all",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_40",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "キャッシュカード",
+    "kana": "キャッシュカード",
+    "romaji": "",
+    "english": "cash card",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_41",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "あんしょうばんご",
+    "kana": "あんしょうばんご",
+    "romaji": "",
+    "english": "Password, PIN number",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_42",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "つぎに",
+    "kana": "つぎに",
+    "romaji": "",
+    "english": "next, as a next step",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_43",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "きんがく",
+    "kana": "きんがく",
+    "romaji": "",
+    "english": "amount of money",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch16_44",
+    "chapter": 16,
+    "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+    "japanese": "ボタン",
+    "kana": "ボタン",
+    "romaji": "",
+    "english": "button",
+    "category": "Basic 2"
+  }
+]

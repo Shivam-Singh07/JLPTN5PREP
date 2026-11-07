@@ -1,0 +1,422 @@
+[
+  {
+    "id": "adv_1",
+    "number": 1,
+    "japanese": "とても",
+    "english": "Very",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_2",
+    "number": 2,
+    "japanese": "あまり",
+    "english": "Not very (Used mainly with negatives)",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_3",
+    "number": 3,
+    "japanese": "よく",
+    "english": "Often, well",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_4",
+    "number": 4,
+    "japanese": "ときどき",
+    "english": "Sometime",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_5",
+    "number": 5,
+    "japanese": "ぜんぜん",
+    "english": "Not at all",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_6",
+    "number": 6,
+    "japanese": "いつも",
+    "english": "Always",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_7",
+    "number": 7,
+    "japanese": "たいてい",
+    "english": "Usually",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_8",
+    "number": 8,
+    "japanese": "だいたい",
+    "english": "Roughly",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_9",
+    "number": 9,
+    "japanese": "ほとんど",
+    "english": "Almost",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_10",
+    "number": 10,
+    "japanese": "おおい",
+    "english": "Many (countable things)",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_11",
+    "number": 11,
+    "japanese": "すくない",
+    "english": "A few (countable things)",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_12",
+    "number": 12,
+    "japanese": "すこし",
+    "english": "Little (uncountable)",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_13",
+    "number": 13,
+    "japanese": "たくさん",
+    "english": "Much (uncountable)",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_14",
+    "number": 14,
+    "japanese": "いくつ",
+    "english": "How many (things)",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_15",
+    "number": 15,
+    "japanese": "いくら",
+    "english": "How much",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_16",
+    "number": 16,
+    "japanese": "いちど",
+    "english": "Once",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_17",
+    "number": 17,
+    "japanese": "いちども",
+    "english": "Not even once",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_18",
+    "number": 18,
+    "japanese": "いつか",
+    "english": "Sometime",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_19",
+    "number": 19,
+    "japanese": "いつ",
+    "english": "When",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_20",
+    "number": 20,
+    "japanese": "いろいろ",
+    "english": "Various",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_21",
+    "number": 21,
+    "japanese": "おなじ",
+    "english": "Same",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_22",
+    "number": 22,
+    "japanese": "きっと",
+    "english": "Surely",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_23",
+    "number": 23,
+    "japanese": "～ぐらい",
+    "english": "Approximately",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_24",
+    "number": 24,
+    "japanese": "ごろ",
+    "english": "Around",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_25",
+    "number": 25,
+    "japanese": "さいきん",
+    "english": "Recently",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_26",
+    "number": 26,
+    "japanese": "このごろ",
+    "english": "These days",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_27",
+    "number": 27,
+    "japanese": "しばらくですね。",
+    "english": "Meeting someone after a gap of few days",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_28",
+    "number": 28,
+    "japanese": "ひさしぶりですね。",
+    "english": "Meeting someone after a very long gap",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_29",
+    "number": 29,
+    "japanese": "すごい",
+    "english": "Wonderful",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_30",
+    "number": 30,
+    "japanese": "すばらしい",
+    "english": "Amazing",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_31",
+    "number": 31,
+    "japanese": "ゆっくり",
+    "english": "Slowly, patiently",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_32",
+    "number": 32,
+    "japanese": "でも",
+    "english": "But",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_33",
+    "number": 33,
+    "japanese": "しか ～ ない",
+    "english": "Not more than  ～",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_34",
+    "number": 34,
+    "japanese": "しかし",
+    "english": "But",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_35",
+    "number": 35,
+    "japanese": "ほど",
+    "english": "Approx, upto",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_36",
+    "number": 36,
+    "japanese": "など",
+    "english": "Etc.",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_37",
+    "number": 37,
+    "japanese": "ぜひ",
+    "english": "Please, by all means, definitely",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_38",
+    "number": 38,
+    "japanese": "ぜんぜん",
+    "english": "Not at all",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_39",
+    "number": 39,
+    "japanese": "そして",
+    "english": "And",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_40",
+    "number": 40,
+    "japanese": "それから",
+    "english": "After that",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_41",
+    "number": 41,
+    "japanese": "たいへん",
+    "english": "Hard, tough, difficult",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_42",
+    "number": 42,
+    "japanese": "だけ",
+    "english": "Only",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_43",
+    "number": 43,
+    "japanese": "たぶん",
+    "english": "Probably",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_44",
+    "number": 44,
+    "japanese": "ちがいます",
+    "english": "Its different",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_45",
+    "number": 45,
+    "japanese": "～ちゅう",
+    "english": "During～",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_46",
+    "number": 46,
+    "japanese": "ちょっと",
+    "english": "Little",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_47",
+    "number": 47,
+    "japanese": "どう",
+    "english": "How about",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_48",
+    "number": 48,
+    "japanese": "どんな",
+    "english": "What kind of",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_49",
+    "number": 49,
+    "japanese": "どして",
+    "english": "Why",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_50",
+    "number": 50,
+    "japanese": "どうぞ",
+    "english": "Please",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_51",
+    "number": 51,
+    "japanese": "とくに",
+    "english": "Specially",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_52",
+    "number": 52,
+    "japanese": "なるほど",
+    "english": "Really, indeed",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_53",
+    "number": 53,
+    "japanese": "に ついて",
+    "english": "About",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_54",
+    "number": 54,
+    "japanese": "また",
+    "english": "And",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_55",
+    "number": 55,
+    "japanese": "ほかに",
+    "english": "Other than～",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_56",
+    "number": 56,
+    "japanese": "まで",
+    "english": "Till",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_57",
+    "number": 57,
+    "japanese": "まだまだ",
+    "english": "Still a long way to go",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_58",
+    "number": 58,
+    "japanese": "もう",
+    "english": "Already",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_59",
+    "number": 59,
+    "japanese": "やっと",
+    "english": "Finally",
+    "type": "adverb"
+  },
+  {
+    "id": "adv_60",
+    "number": 60,
+    "japanese": "ぺこぺこ",
+    "english": "Hungry",
+    "type": "adverb"
+  }
+]

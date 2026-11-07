@@ -1,0 +1,432 @@
+[
+  {
+    "id": "vocab_ch12_1",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "かんたん",
+    "kana": "かんたん",
+    "romaji": "",
+    "english": "easy, simple",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_2",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "ちかい",
+    "kana": "ちかい",
+    "romaji": "",
+    "english": "near",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_3",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "とおい",
+    "kana": "とおい",
+    "romaji": "",
+    "english": "far",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_4",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "はやい",
+    "kana": "はやい",
+    "romaji": "",
+    "english": "fast, early",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_5",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "おそい",
+    "kana": "おそい",
+    "romaji": "",
+    "english": "slow, late",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_6",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "おおい",
+    "kana": "おおい",
+    "romaji": "",
+    "english": "many[people] much",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_7",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "すくない",
+    "kana": "すくない",
+    "romaji": "",
+    "english": "few[people], a little",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_8",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "あたたかい",
+    "kana": "あたたかい",
+    "romaji": "",
+    "english": "warm",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_9",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "すずしい",
+    "kana": "すずしい",
+    "romaji": "",
+    "english": "cool",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_10",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "あまい",
+    "kana": "あまい",
+    "romaji": "",
+    "english": "sweet",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_11",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "からい",
+    "kana": "からい",
+    "romaji": "",
+    "english": "hot (taste), spicy",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_12",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "おもい",
+    "kana": "おもい",
+    "romaji": "",
+    "english": "heavy",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_13",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "かるい",
+    "kana": "かるい",
+    "romaji": "",
+    "english": "light",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_14",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "いい",
+    "kana": "いい",
+    "romaji": "",
+    "english": "prefer (coffee is good)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_15",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "きせつ",
+    "kana": "きせつ",
+    "romaji": "",
+    "english": "season",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_16",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "はる",
+    "kana": "はる",
+    "romaji": "",
+    "english": "spring",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_17",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "なつ",
+    "kana": "なつ",
+    "romaji": "",
+    "english": "summer",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_18",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "あき",
+    "kana": "あき",
+    "romaji": "",
+    "english": "autumn",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_19",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "ふゆ",
+    "kana": "ふゆ",
+    "romaji": "",
+    "english": "winter",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_20",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "てんき",
+    "kana": "てんき",
+    "romaji": "",
+    "english": "weather",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_21",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "あめ",
+    "kana": "あめ",
+    "romaji": "",
+    "english": "rain, rainy",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_22",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "ゆき",
+    "kana": "ゆき",
+    "romaji": "",
+    "english": "snow, snowy",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_23",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "くもり",
+    "kana": "くもり",
+    "romaji": "",
+    "english": "cloudy",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_24",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "ホテル",
+    "kana": "ホテル",
+    "romaji": "",
+    "english": "hotel",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_25",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "くうこう",
+    "kana": "くうこう",
+    "romaji": "",
+    "english": "airport",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_26",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "うみ",
+    "kana": "うみ",
+    "romaji": "",
+    "english": "sea, ocean",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_27",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "せかい",
+    "kana": "せかい",
+    "romaji": "",
+    "english": "world",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_28",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "まつり",
+    "kana": "まつり",
+    "romaji": "",
+    "english": "festival",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_29",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "しけん",
+    "kana": "しけん",
+    "romaji": "",
+    "english": "exam",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_30",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "すきやき",
+    "kana": "すきやき",
+    "romaji": "",
+    "english": "sukiyaki (beef and vegetable hot pot)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_31",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "さしみ",
+    "kana": "さしみ",
+    "romaji": "",
+    "english": "sashimi (sliced raw fish)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_32",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "すし",
+    "kana": "すし",
+    "romaji": "",
+    "english": "Sushi (raw fish with vinegared rice dumplings)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_33",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "てんぷら",
+    "kana": "てんぷら",
+    "romaji": "",
+    "english": "tempura (seafood and vegetable deep fried)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_34",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "もみじ",
+    "kana": "もみじ",
+    "romaji": "",
+    "english": "maple, red leaves of autumn",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_35",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "どちら",
+    "kana": "どちら",
+    "romaji": "",
+    "english": "which one (between two things)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_36",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "どちらも",
+    "kana": "どちらも",
+    "romaji": "",
+    "english": "both",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_37",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "ずっと",
+    "kana": "ずっと",
+    "romaji": "",
+    "english": "by far",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_38",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "はじめて",
+    "kana": "はじめて",
+    "romaji": "",
+    "english": "for the first time",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_39",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "ただいま",
+    "kana": "ただいま",
+    "romaji": "",
+    "english": "I am home",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_40",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "おかえりなさい",
+    "kana": "おかえりなさい",
+    "romaji": "",
+    "english": "welcome home",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_41",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "すごいですね",
+    "kana": "すごいですね",
+    "romaji": "",
+    "english": "that’s amazing",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_42",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "でも",
+    "kana": "でも",
+    "romaji": "",
+    "english": "but",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch12_43",
+    "chapter": 12,
+    "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+    "japanese": "つかれました",
+    "kana": "つかれました",
+    "romaji": "",
+    "english": "(I’m) tired",
+    "category": "Basic 2"
+  }
+]

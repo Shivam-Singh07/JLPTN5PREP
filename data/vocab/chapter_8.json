@@ -1,0 +1,252 @@
+[
+  {
+    "id": "vocab_ch8_1",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "こちら",
+    "kana": "こちら",
+    "romaji": "Kochira",
+    "english": "I am (Here is) (Polite)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_2",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "こちらこそ",
+    "kana": "こちらこそ",
+    "romaji": "Kochirakoso",
+    "english": "Same here",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_3",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "じょうず",
+    "kana": "じょうず",
+    "romaji": "Jōzu",
+    "english": "Good at",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_4",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "へた",
+    "kana": "へた",
+    "romaji": "Heta",
+    "english": "Not good at",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_5",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "すき",
+    "kana": "すき",
+    "romaji": "Suki",
+    "english": "Like, love",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_6",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "きらい",
+    "kana": "きらい",
+    "romaji": "Kirai",
+    "english": "Dislike",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_7",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "でわ",
+    "kana": "でわ",
+    "romaji": "Dewa",
+    "english": "Well then",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_8",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "ぎんこう こうざ",
+    "kana": "ぎんこう こうざ",
+    "romaji": "Ginkō Kōza",
+    "english": "Bank Account",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_9",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "しりょう",
+    "kana": "しりょう",
+    "romaji": "Shiryō",
+    "english": "Documents",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_10",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "せつめい",
+    "kana": "せつめい",
+    "romaji": "Setsumei",
+    "english": "Explanation",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_11",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "こたえ",
+    "kana": "こたえ",
+    "romaji": "Kotae",
+    "english": "Answer, Reply",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_12",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "ちょっと",
+    "kana": "ちょっと",
+    "romaji": "Chotto",
+    "english": "Little bit",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_13",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "だします",
+    "kana": "だします",
+    "romaji": "Dashimas",
+    "english": "To Submit",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_14",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "まだ",
+    "kana": "まだ",
+    "romaji": "Mada",
+    "english": "Still, yet",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_15",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "もんだい",
+    "kana": "もんだい",
+    "romaji": "Mondai",
+    "english": "Problem",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_16",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "しつもん",
+    "kana": "しつもん",
+    "romaji": "Shitsumon",
+    "english": "Question",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_17",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "ほか",
+    "kana": "ほか",
+    "romaji": "Hoka",
+    "english": "Other",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_18",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "あまり",
+    "kana": "あまり",
+    "romaji": "Amari",
+    "english": "Not that much",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_19",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "ひ",
+    "kana": "ひ",
+    "romaji": "Hi",
+    "english": "Day",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_20",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "どうして",
+    "kana": "どうして",
+    "romaji": "Dōshite",
+    "english": "Why",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_21",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "から",
+    "kana": "から",
+    "romaji": "kara",
+    "english": "Therefore",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_22",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "ぜんぜん",
+    "kana": "ぜんぜん",
+    "romaji": "zenzen",
+    "english": "Not at all",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_23",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "こまかい",
+    "kana": "こまかい",
+    "romaji": "Komakai",
+    "english": "Change",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_24",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "おかね",
+    "kana": "おかね",
+    "romaji": "Okane",
+    "english": "Money",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch8_25",
+    "chapter": 8,
+    "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+    "japanese": "いけない",
+    "kana": "いけない",
+    "romaji": "ikenai",
+    "english": "Can’t go",
+    "category": "Basic 1"
+  }
+]

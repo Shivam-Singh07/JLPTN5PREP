@@ -1,0 +1,1256 @@
+[
+  {
+    "id": "convo_b1_v1",
+    "chapter": 1,
+    "videoNumber": 1,
+    "title": "Video 1: はじめまして (Nice to meet you)",
+    "lines": [
+      {
+        "speaker": "Satō",
+        "japanese": "おはようございます。",
+        "romaji": "Ohayō gozaimasu.",
+        "english": "Good morning."
+      },
+      {
+        "speaker": "Yamada",
+        "japanese": "おはようございます。さとうさん、こちらは マイク・ミラーさんです。",
+        "romaji": "Ohayō gozaimasu. Satō-san, kochira wa Maiku Mirā-san desu.",
+        "english": "Good morning. Ms. Sato, this is Mr. Mike Miller."
+      },
+      {
+        "speaker": "Miller",
+        "japanese": "はじめまして。マイク・ミラーです。アメリカから きました。どうぞ よろしく。",
+        "romaji": "Hajimemashite. Maiku Mirā desu. Amerika kara kimashita. Dōzo yoroshiku.",
+        "english": "How do you do? I am Mike Miller. I came from the USA. Nice to meet you."
+      },
+      {
+        "speaker": "Satō",
+        "japanese": "さとう けいこです。どうぞ よろしく。",
+        "romaji": "Satō Keiko desu. Dōzo yoroshiku.",
+        "english": "I am Keiko Sato. Pleased to meet you too."
+      }
+    ]
+  },
+  {
+    "id": "convo_b1_v2",
+    "chapter": 2,
+    "videoNumber": 2,
+    "title": "Video 2: ほんのきもちです (A small token of gratitude)",
+    "lines": [
+      {
+        "speaker": "Yamada",
+        "japanese": "はい。どなたですか。",
+        "romaji": "Hai. Donata desu ka.",
+        "english": "Yes. Who is it?"
+      },
+      {
+        "speaker": "Santos",
+        "japanese": "408の サントスです。",
+        "romaji": "Yon-maru-hachi no Santosu desu.",
+        "english": "It is Santos from room 408."
+      },
+      {
+        "speaker": "Yamada",
+        "japanese": "はい。",
+        "romaji": "Hai.",
+        "english": "Yes, coming."
+      },
+      {
+        "speaker": "Santos",
+        "japanese": "こんにちは。サントスです。これから おせわになります。どうぞ よろしく おねがいします。",
+        "romaji": "Konnichiwa. Santosu desu. Korekara osewa ni narimasu. Dōzo yoroshiku onegaishimasu.",
+        "english": "Hello. I am Santos. I will be in your care from now on. I look forward to getting along."
+      },
+      {
+        "speaker": "Yamada",
+        "japanese": "こちらこそ、よろしく。",
+        "romaji": "Kochira koso, yoroshiku.",
+        "english": "Likewise, it is a pleasure to meet you."
+      },
+      {
+        "speaker": "Santos",
+        "japanese": "あのう、これ、ほんのきもちです。",
+        "romaji": "Anō, kore, hon no kimochi desu.",
+        "english": "Um, this is just a small token of my appreciation."
+      },
+      {
+        "speaker": "Yamada",
+        "japanese": "ああ、どうも... なんですか。",
+        "romaji": "Ā, dōmo... nan desu ka.",
+        "english": "Oh, thank you... what is it?"
+      },
+      {
+        "speaker": "Santos",
+        "japanese": "コーヒーです。どうぞ。",
+        "romaji": "Kōhī desu. Dōzo.",
+        "english": "It is coffee. Please enjoy."
+      },
+      {
+        "speaker": "Yamada",
+        "japanese": "どうも ありがとうございます。",
+        "romaji": "Dōmo arigatō gozaimasu.",
+        "english": "Thank you very much."
+      }
+    ]
+  },
+  {
+    "id": "convo_b1_v3",
+    "chapter": 3,
+    "videoNumber": 3,
+    "title": "Video 3: これを ください (Please give me this)",
+    "lines": [
+      {
+        "speaker": "Maria",
+        "japanese": "すみません。ワインうりばは どこですか。",
+        "romaji": "Sumimasen. Wain uriba wa doko desu ka.",
+        "english": "Excuse me. Where is the wine section?"
+      },
+      {
+        "speaker": "Reception",
+        "japanese": "ちかいっかいで ございます。",
+        "romaji": "Chika ikkai de gozaimasu.",
+        "english": "It is on the basement first floor, ma'am."
+      },
+      {
+        "speaker": "Maria",
+        "japanese": "どうも。",
+        "romaji": "Dōmo.",
+        "english": "Thank you."
+      },
+      {
+        "speaker": "Maria",
+        "japanese": "すみません。その ワインを みせてください。",
+        "romaji": "Sumimasen. Sono wain o misete kudasai.",
+        "english": "Excuse me. Please show me that wine."
+      },
+      {
+        "speaker": "Shopkeeper",
+        "japanese": "はい、どうぞ。",
+        "romaji": "Hai, dōzo.",
+        "english": "Certainly, here you are."
+      },
+      {
+        "speaker": "Maria",
+        "japanese": "これは フランスの ワインですか。",
+        "romaji": "Kore wa Furansu no wain desu ka.",
+        "english": "Is this French wine?"
+      },
+      {
+        "speaker": "Shopkeeper",
+        "japanese": "いいえ、イタリアのです。",
+        "romaji": "Iie, Itaria no desu.",
+        "english": "No, it is Italian."
+      },
+      {
+        "speaker": "Maria",
+        "japanese": "いくらですか。",
+        "romaji": "Ikura desu ka.",
+        "english": "How much is it?"
+      },
+      {
+        "speaker": "Shopkeeper",
+        "japanese": "2,500えんです。",
+        "romaji": "Nisen gohyaku-en desu.",
+        "english": "It is 2,500 yen."
+      },
+      {
+        "speaker": "Maria",
+        "japanese": "じゃ、これを ください。",
+        "romaji": "Ja, kore o kudasai.",
+        "english": "Well then, I will take this please."
+      }
+    ]
+  },
+  {
+    "id": "convo_b1_v4",
+    "chapter": 4,
+    "videoNumber": 4,
+    "title": "Video 4: そちらは なんじから なんじまでですか (What are your opening hours?)",
+    "lines": [
+      {
+        "speaker": "104 Operator",
+        "japanese": "はい。104の いしだです。",
+        "romaji": "Hai. Ichi-maru-yon no Ishida desu.",
+        "english": "Yes. This is directory assistance 104, Ishida speaking."
+      },
+      {
+        "speaker": "Karina",
+        "japanese": "やまとびじゅつかんの でんわばんごうを おねがいします。",
+        "romaji": "Yamato Bijutsukan no denwa bangō o onegaishimasu.",
+        "english": "The phone number for the Yamato Art Museum, please."
+      },
+      {
+        "speaker": "104 Operator",
+        "japanese": "やまとびじゅつかんですね、かしこまりました。",
+        "romaji": "Yamato Bijutsukan desu ne, kashikomarimashita.",
+        "english": "Yamato Art Museum, certainly."
+      },
+      {
+        "speaker": "Tape",
+        "japanese": "おといあわせの ばんごうは 0797-38-5432 です。",
+        "romaji": "Otoiawase no bangō wa zero-nana-kyū-nana no san-hachi no go-yon-san-ni desu.",
+        "english": "The requested number is 0797-38-5432."
+      },
+      {
+        "speaker": "Museum Staff",
+        "japanese": "はい。やまとびじゅつかんです。",
+        "romaji": "Hai. Yamato Bijutsukan desu.",
+        "english": "Hello. Yamato Art Museum."
+      },
+      {
+        "speaker": "Karina",
+        "japanese": "すみません、そちらは なんじから なんじまでですか。",
+        "romaji": "Sumimasen, sochira wa nanji kara nanji made desu ka.",
+        "english": "Excuse me, what are your opening hours from what time to what time?"
+      },
+      {
+        "speaker": "Museum Staff",
+        "japanese": "9じから 4じまでです。",
+        "romaji": "Kuji kara yoji made desu.",
+        "english": "From 9:00 AM to 4:00 PM."
+      },
+      {
+        "speaker": "Karina",
+        "japanese": "やすみは なんようびですか。",
+        "romaji": "Yasumi wa nanyōbi desu ka.",
+        "english": "What days are you closed?"
+      },
+      {
+        "speaker": "Museum Staff",
+        "japanese": "げつようびです。",
+        "romaji": "Getsuyōbi desu.",
+        "english": "We are closed on Mondays."
+      },
+      {
+        "speaker": "Karina",
+        "japanese": "どうも。ありがとうございました。",
+        "romaji": "Dōmo. Arigatō gozaimashita.",
+        "english": "Thank you very much."
+      }
+    ]
+  },
+  {
+    "id": "convo_b1_v5",
+    "chapter": 5,
+    "videoNumber": 5,
+    "title": "Video 5: 甲子園へ 行きますか (Does this train go to Koshien?)",
+    "lines": [
+      {
+        "speaker": "Santos",
+        "japanese": "すみません。こうしえんまで いくらですか。",
+        "romaji": "Sumimasen. Kōshien made ikura desu ka.",
+        "english": "Excuse me. How much is the ticket to Koshien?"
+      },
+      {
+        "speaker": "Lady",
+        "japanese": "350えんです。",
+        "romaji": "Sanbyaku gojū-en desu.",
+        "english": "It is 350 yen."
+      },
+      {
+        "speaker": "Santos",
+        "japanese": "350えんですね。ありがとうございました。",
+        "romaji": "Sanbyaku gojū-en desu ne. Arigatō gozaimashita.",
+        "english": "350 yen, right. Thank you very much."
+      },
+      {
+        "speaker": "Lady",
+        "japanese": "どういたしまして。",
+        "romaji": "Dō itashimashite.",
+        "english": "You are welcome."
+      },
+      {
+        "speaker": "Santos",
+        "japanese": "すみません。こうしえんは なんばんせんですか。",
+        "romaji": "Sumimasen. Kōshien wa nanbansen desu ka.",
+        "english": "Excuse me. Which platform is the train to Koshien?"
+      },
+      {
+        "speaker": "Station Master",
+        "japanese": "5ばんせんです。",
+        "romaji": "Gobansen desu.",
+        "english": "Platform 5."
+      },
+      {
+        "speaker": "Santos",
+        "japanese": "どうも。",
+        "romaji": "Dōmo.",
+        "english": "Thank you."
+      },
+      {
+        "speaker": "Santos",
+        "japanese": "あの… この でんしゃは こうしえんへ いきますか。",
+        "romaji": "Ano... kono densha wa Kōshien e ikimasu ka.",
+        "english": "Um... Does this train go to Koshien?"
+      },
+      {
+        "speaker": "Man",
+        "japanese": "いいえ、つぎの ふつうですよ。",
+        "romaji": "Iie, tsugi no futsū desu yo.",
+        "english": "No, take the next local train."
+      },
+      {
+        "speaker": "Santos",
+        "japanese": "そうですか。どうも。",
+        "romaji": "Sō desu ka. Dōmo.",
+        "english": "I see. Thank you."
+      }
+    ]
+  },
+  {
+    "id": "convo_b1_v6",
+    "chapter": 6,
+    "videoNumber": 6,
+    "title": "Video 6: いっしょに 行きませんか (Won't you come along?)",
+    "lines": [
+      {
+        "speaker": "Satō",
+        "japanese": "ミラーさん。",
+        "romaji": "Mirā-san.",
+        "english": "Mr. Miller."
+      },
+      {
+        "speaker": "Miller",
+        "japanese": "なんですか。",
+        "romaji": "Nan desu ka.",
+        "english": "Yes, what is it?"
+      },
+      {
+        "speaker": "Satō",
+        "japanese": "あした ともだちと おはなみを します。ミラーさんも いっしょに いきませんか。",
+        "romaji": "Ashita tomodachi to ohanami o shimasu. Mirā-san mo issho ni ikimasen ka.",
+        "english": "Tomorrow I'm viewing cherry blossoms with friends. Would you like to come with us?"
+      },
+      {
+        "speaker": "Miller",
+        "japanese": "いいですね。どこへ いきますか。",
+        "romaji": "Ii desu ne. Doko e ikimasu ka.",
+        "english": "Sounds wonderful! Where are you going?"
+      },
+      {
+        "speaker": "Satō",
+        "japanese": "おおさかじょうこうえんです。",
+        "romaji": "Ōsakajō Kōen desu.",
+        "english": "Osaka Castle Park."
+      },
+      {
+        "speaker": "Miller",
+        "japanese": "なんじですか。",
+        "romaji": "Nanji desu ka.",
+        "english": "What time?"
+      },
+      {
+        "speaker": "Satō",
+        "japanese": "10じです。おおさかじょうこうえんえきで あいましょう。",
+        "romaji": "Jūji desu. Ōsakajō Kōen eki de aimashō.",
+        "english": "At 10:00 AM. Let's meet at Osaka Castle Park Station."
+      },
+      {
+        "speaker": "Miller",
+        "japanese": "わかりました。",
+        "romaji": "Wakarimashita.",
+        "english": "Got it."
+      },
+      {
+        "speaker": "Satō",
+        "japanese": "じゃ、また あした。",
+        "romaji": "Ja, mata ashita.",
+        "english": "See you tomorrow then!"
+      }
+    ]
+  },
+  {
+    "id": "convo_b1_v7",
+    "chapter": 7,
+    "videoNumber": 7,
+    "title": "Video 7: ごめんください (May I come in?)",
+    "lines": [
+      {
+        "speaker": "Santos",
+        "japanese": "ごめんください。",
+        "romaji": "Gomen kudasai.",
+        "english": "Excuse me, anyone home?"
+      },
+      {
+        "speaker": "Yamada",
+        "japanese": "いらっしゃい。どうぞ おあがりください。",
+        "romaji": "Irasshai. Dōzo oagari kudasai.",
+        "english": "Welcome! Please come on in."
+      },
+      {
+        "speaker": "Santos",
+        "japanese": "しつれいします。",
+        "romaji": "Shitsurei shimasu.",
+        "english": "Thank you for having us."
+      },
+      {
+        "speaker": "Tomoko",
+        "japanese": "コーヒーは いかがですか。",
+        "romaji": "Kōhī wa ikaga desu ka.",
+        "english": "Would you care for some coffee?"
+      },
+      {
+        "speaker": "Santos & Maria",
+        "japanese": "ありがとうございます。",
+        "romaji": "Arigatō gozaimasu.",
+        "english": "Thank you very much."
+      },
+      {
+        "speaker": "Tomoko",
+        "japanese": "どうぞ。",
+        "romaji": "Dōzo.",
+        "english": "Here you are."
+      },
+      {
+        "speaker": "Santos & Maria",
+        "japanese": "いただきます。",
+        "romaji": "Itadakimasu.",
+        "english": "Thank you for the treat."
+      },
+      {
+        "speaker": "Maria",
+        "japanese": "この スプーン、すてきですね。",
+        "romaji": "Kono supūn, suteki desu ne.",
+        "english": "This spoon is lovely, isn't it?"
+      },
+      {
+        "speaker": "Tomoko",
+        "japanese": "ええ、かいしゃの ひとに もらいました。ヨーロッパりょこうの おみやげです。",
+        "romaji": "Ē, kaisha no hito ni moraimashita. Yōroppa ryokō no omiyage desu.",
+        "english": "Yes, I received it from someone at work. It's a souvenir from their Europe trip."
+      }
+    ]
+  },
+  {
+    "id": "convo_b1_v8",
+    "chapter": 8,
+    "videoNumber": 8,
+    "title": "Video 8: そろそろ しつれいします (I should be leaving soon)",
+    "lines": [
+      {
+        "speaker": "Yamada Ichirō",
+        "japanese": "マリアさんは、もう にほんの せいかつに なれましたか。",
+        "romaji": "Maria-san wa, mō Nihon no seikatsu ni naremashita ka.",
+        "english": "Maria, have you gotten used to living in Japan yet?"
+      },
+      {
+        "speaker": "Maria Santos",
+        "japanese": "ええ、まいにち とても たのしいです。",
+        "romaji": "Ē, mainichi totemo tanoshii desu.",
+        "english": "Yes, every day is very enjoyable."
+      },
+      {
+        "speaker": "Yamada Ichirō",
+        "japanese": "そうですか。サントスさん、おしごとは どうですか。",
+        "romaji": "Sō desu ka. Santosu-san, oshigoto wa dō desu ka.",
+        "english": "Is that so? Mr. Santos, how is your work going?"
+      },
+      {
+        "speaker": "Maria Santos",
+        "japanese": "ええ、とても おもしろいです。",
+        "romaji": "Ē, totemo omoshiroi desu.",
+        "english": "Yes, it is very interesting."
+      },
+      {
+        "speaker": "Yamada Ichirō",
+        "japanese": "おちゃを もういっぱいいかがですか。",
+        "romaji": "Ocha o mō ippai ikaga desu ka.",
+        "english": "Would you like another cup of tea?"
+      },
+      {
+        "speaker": "Maria Santos",
+        "japanese": "あ、もう 8時ですね。そろそろ しつれいします。きょうは どうも ありがとうございました。",
+        "romaji": "A, mō hachiji desu ne. Sorosoro shitsurei shimasu. Kyō wa dōmo arigatō gozaimashita.",
+        "english": "Oh, it's already 8:00. We should get going. Thank you very much for today."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v9",
+    "chapter": 12,
+    "videoNumber": 9,
+    "title": "Video 9: ざんねんです (That's too bad)",
+    "lines": [
+      {
+        "speaker": "ミラー",
+        "japanese": "もしもし、ミラーです。",
+        "romaji": "Moshimoshi, Mirā desu.",
+        "english": "Hello. This is Miller."
+      },
+      {
+        "speaker": "きむら",
+        "japanese": "ああ。ミラーさん、こんばんは。おげんきですか。",
+        "romaji": "Ā. Mirā-san, konbanwa. Ogenki desu ka.",
+        "english": "Mr. Miller, Good evening. How are you?"
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "ええ、げんきです。あのう、きむらさん、おざわせいじの コンサート、いっしょに いかがですか。",
+        "romaji": "Ē, genki desu. Anō, Kimura-san, Ozawa Seiji no konsāto, issho ni ikaga desu ka.",
+        "english": "Fine. Thank you. Well Ms. Kimura, would you like to go to the concert of Seiji Ozawa with me?"
+      },
+      {
+        "speaker": "きむら",
+        "japanese": "いいですね。いつですか。",
+        "romaji": "Ii desu ne. Itsu desu ka.",
+        "english": "It sounds great. When is it?"
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "らいしゅうの きんようびの ばんです。",
+        "romaji": "Raishū no kinyōbi no ban desu.",
+        "english": "It’s on Friday night next week."
+      },
+      {
+        "speaker": "きむら",
+        "japanese": "きんようびですか。きんようびの ばんは ちょっと…",
+        "romaji": "Kinyōbi desu ka. Kinyōbi no ban wa chotto...",
+        "english": "Friday? Friday is a bit difficult."
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "だめですか。",
+        "romaji": "Dame desu ka.",
+        "english": "So you can’t come?"
+      },
+      {
+        "speaker": "きむら",
+        "japanese": "ええ、ともだちと やくそくが ありますから。",
+        "romaji": "Ē, tomodachi to yakusoku ga arimasu kara.",
+        "english": "Yes. I have an appointment with my friend."
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "そうですか。ざんねんですね。",
+        "romaji": "Sō desu ka. Zannen desu ne.",
+        "english": "Oh. That’s too bad."
+      },
+      {
+        "speaker": "きむら",
+        "japanese": "ええ。また こんど、おねがいします。",
+        "romaji": "Ē. Mata kondo, onegaishimasu.",
+        "english": "Yeah. Please invite me again some other time."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v10",
+    "chapter": 13,
+    "videoNumber": 10,
+    "title": "Video 10: チリソースは ありませんか (Do you have chili sauce?)",
+    "lines": [
+      {
+        "speaker": "ミラー",
+        "japanese": "すみません、ユニューヤ ストアは どこですか。",
+        "romaji": "Sumimasen, Yunūya Sutoa wa doko desu ka.",
+        "english": "Excuse me, where is the Unuya Store?"
+      },
+      {
+        "speaker": "おんなのひと",
+        "japanese": "ユニューヤ ストアですか。あそこに しろい ビルが ありますね。あそこです。",
+        "romaji": "Yunūya Sutoa desu ka. Asoko ni shiroi biru ga arimasu ne. Asoko desu.",
+        "english": "Unuya Store? There is a white building over there, isn't it? It is right there."
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "そうですか。どうも すみません。",
+        "romaji": "Sō desu ka. Dōmo sumimasen.",
+        "english": "Is that so. Thank you very much."
+      },
+      {
+        "speaker": "おんなのひと",
+        "japanese": "いいえ。",
+        "romaji": "Iie.",
+        "english": "You're welcome."
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "あのう、チリソースは ありませんか。",
+        "romaji": "Anō, chiri sōsu wa arimasen ka.",
+        "english": "Excuse me, do you have chili sauce?"
+      },
+      {
+        "speaker": "てんいん",
+        "japanese": "はい。みぎの おくに スパイス コーナーが あります。8ばんです。",
+        "romaji": "Hai. Migi no oku ni supaisu kōnā ga arimasu. Hachiban desu.",
+        "english": "Yes. There is a spice section in the right corner. Aisle 8."
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "わかりました。どうも。",
+        "romaji": "Wakarimashita. Dōmo.",
+        "english": "Understood. Thank you."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v11",
+    "chapter": 14,
+    "videoNumber": 11,
+    "title": "Video 11: これ、おねがいします (Please take care of this)",
+    "lines": [
+      {
+        "speaker": "かんりにん",
+        "japanese": "いい てんきですね。おでかけですか。",
+        "romaji": "Ii tenki desu ne. Odekake desu ka.",
+        "english": "Nice weather, isn't it? Are you heading out?"
+      },
+      {
+        "speaker": "ワンさん",
+        "japanese": "ええ、ちょっと ゆうびんきょくまで。",
+        "romaji": "Ē, chotto yūbinkyoku made.",
+        "english": "Yes, just going to the post office."
+      },
+      {
+        "speaker": "かんりにん",
+        "japanese": "そうですか。いってらっしゃい。",
+        "romaji": "Sō desu ka. Itterasshai.",
+        "english": "I see. Have a good trip!"
+      },
+      {
+        "speaker": "ワンさん",
+        "japanese": "いってまいります。",
+        "romaji": "Ittemairimasu.",
+        "english": "I'll be back."
+      },
+      {
+        "speaker": "ワンさん",
+        "japanese": "これ、そくたつで おねがいします。",
+        "romaji": "Kore, sokutatsu de onegaishimasu.",
+        "english": "Please send this by express mail."
+      },
+      {
+        "speaker": "ゆうびんきょくいん",
+        "japanese": "はい、オーストラリアですね。370えんです。",
+        "romaji": "Hai, Ōsutoraria desu ne. Sanbyaku nanajū-en desu.",
+        "english": "Certainly, to Australia. That will be 370 yen."
+      },
+      {
+        "speaker": "ワンさん",
+        "japanese": "それから、この にもつも おねがいします。",
+        "romaji": "Sorekara, kono nimotsu mo onegaishimasu.",
+        "english": "And also, please send this parcel too."
+      },
+      {
+        "speaker": "ゆうびんきょくいん",
+        "japanese": "ふなびんですか。こうくうびんですか。",
+        "romaji": "Funabin desu ka. Kōkūbin desu ka.",
+        "english": "By sea mail, or by air mail?"
+      },
+      {
+        "speaker": "ワンさん",
+        "japanese": "ふなびんは いくらですか。",
+        "romaji": "Funabin wa ikura desu ka.",
+        "english": "How much is sea mail?"
+      },
+      {
+        "speaker": "ゆうびんきょくいん",
+        "japanese": "500えんです。",
+        "romaji": "Gohyaku-en desu.",
+        "english": "It is 500 yen."
+      },
+      {
+        "speaker": "ワンさん",
+        "japanese": "どのくらい かかりますか。",
+        "romaji": "Dono kurai kakarimasu ka.",
+        "english": "How long will it take?"
+      },
+      {
+        "speaker": "ゆうびんきょくいん",
+        "japanese": "1かげつぐらいです。",
+        "romaji": "Ikkagetsu gurai desu.",
+        "english": "About one month."
+      },
+      {
+        "speaker": "ワンさん",
+        "japanese": "じゃ、ふなびんで おねがいします。",
+        "romaji": "Ja, funabin de onegaishimasu.",
+        "english": "Then, sea mail please."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v12",
+    "chapter": 15,
+    "videoNumber": 12,
+    "title": "Video 12: おまつりは どうでしたか (How was the festival?)",
+    "lines": [
+      {
+        "speaker": "ミラー",
+        "japanese": "ただいま。",
+        "romaji": "Tadaima.",
+        "english": "I'm back home."
+      },
+      {
+        "speaker": "かんりにん",
+        "japanese": "おかえりなさい。",
+        "romaji": "Okaerinasai.",
+        "english": "Welcome home."
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "これ、きょうとの おみやげです。",
+        "romaji": "Kore, Kyōto no omiyage desu.",
+        "english": "Here is a souvenir from Kyoto."
+      },
+      {
+        "speaker": "かんりにん",
+        "japanese": "どうも、すみません。ぎおんまつりは どうでしたか。",
+        "romaji": "Dōmo, sumimasen. Gion Matsuri wa dō deshita ka.",
+        "english": "Thank you very much. How was the Gion Festival?"
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "とても おもしろかったです。がいこくじんも おおかったですよ。",
+        "romaji": "Totemo omoshirokatta desu. Gaikokujin mo ōkatta desu yo.",
+        "english": "It was very interesting. There were a lot of foreigners too."
+      },
+      {
+        "speaker": "かんりにん",
+        "japanese": "ぎおんまつりは きょうとの まつりで いちばん ゆうめいですからね。",
+        "romaji": "Gion Matsuri wa Kyōto no matsuri de ichiban yūmei desu kara ne.",
+        "english": "Gion Festival is the most famous festival in Kyoto, after all."
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "そうですか。",
+        "romaji": "Sō desu ka.",
+        "english": "I see."
+      },
+      {
+        "speaker": "かんりにん",
+        "japanese": "しゃしんを とりましたか。",
+        "romaji": "Shashin o torimashita ka.",
+        "english": "Did you take photos?"
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "ええ、100まいぐらい とりました。",
+        "romaji": "Ē, hyakumai gurai torimashita.",
+        "english": "Yes, I took about 100 photos."
+      },
+      {
+        "speaker": "かんりにん",
+        "japanese": "すごいですね。",
+        "romaji": "Sugoi desu ne.",
+        "english": "That is amazing!"
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "ええ。でも、ちょっと つかれました。",
+        "romaji": "Ē. Demo, chotto tsukaremashita.",
+        "english": "Yes, but I got a little tired."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v13",
+    "chapter": 16,
+    "videoNumber": 13,
+    "title": "Video 13: べつべつに おねがいします (Charge us separately)",
+    "lines": [
+      {
+        "speaker": "やまだ",
+        "japanese": "もう 12じですよ。ひるごはんを たべに いきませんか。",
+        "romaji": "Mō jūniji desu yo. Hirugohan o tabe ni ikimasen ka.",
+        "english": "It’s already twelve. Shall we go for lunch?"
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "ええ。",
+        "romaji": "Ē.",
+        "english": "Sure."
+      },
+      {
+        "speaker": "やまだ",
+        "japanese": "どこへ いきますか。",
+        "romaji": "Doko e ikimasu ka.",
+        "english": "Where shall we go?"
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "そうですね。きょうは にほんりょうりが たべたいですね。",
+        "romaji": "Sō desu ne. Kyō wa Nihon ryōri ga tabetai desu ne.",
+        "english": "Let me see. Today I want to eat Japanese food."
+      },
+      {
+        "speaker": "やまだ",
+        "japanese": "じゃ、「つるや」へ いきましょう。",
+        "romaji": "Ja, 'Tsuruya' e ikimashō.",
+        "english": "Then, let’s go to 'Tsuru-ya'."
+      },
+      {
+        "speaker": "みせのひと",
+        "japanese": "ごちゅうもんは？",
+        "romaji": "Gochūmon wa?",
+        "english": "May I take your order?"
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "わたしは てんぷらていしょく。",
+        "romaji": "Watashi wa tenpura teishoku.",
+        "english": "I’ll have the tempura set lunch."
+      },
+      {
+        "speaker": "やまだ",
+        "japanese": "わたしは ぎゅうどん。",
+        "romaji": "Watashi wa gyūdon.",
+        "english": "I’ll have gyudon (beef bowl)."
+      },
+      {
+        "speaker": "みせのひと",
+        "japanese": "てんぷらていしょくと ぎゅうどんですね。しょうしょう おまちください。",
+        "romaji": "Tenpura teishoku to gyūdon desu ne. Shōshō omachi kudasai.",
+        "english": "One tempura set lunch and one gyudon. I’ll be right back."
+      },
+      {
+        "speaker": "レジ",
+        "japanese": "1,680えんで ございます。",
+        "romaji": "Sen roppyaku hachijū-en de gozaimasu.",
+        "english": "1,680 yen altogether, sir."
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "すみません。べつべつに おねがいします。",
+        "romaji": "Sumimasen. Betsubetsu ni onegaishimasu.",
+        "english": "Excuse me. Please charge us separately."
+      },
+      {
+        "speaker": "レジ",
+        "japanese": "はい、てんぷらていしょくは 980えん、ぎゅうどんは 700えんです。",
+        "romaji": "Hai, tenpura teishoku wa kyūhyaku hachijū-en, gyūdon wa nanahyaku-en desu.",
+        "english": "Right. 980 yen for the tempura set lunch, 700 yen for the gyudon."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v14",
+    "chapter": 17,
+    "videoNumber": 14,
+    "title": "Video 14: うめだまで いってください (Take me to Umeda, please)",
+    "lines": [
+      {
+        "speaker": "カリナ",
+        "japanese": "うめだまで おねがいします。",
+        "romaji": "Umeda made onegaishimasu.",
+        "english": "To Umeda, please."
+      },
+      {
+        "speaker": "うんてんしゅ",
+        "japanese": "はい。",
+        "romaji": "Hai.",
+        "english": "Right."
+      },
+      {
+        "speaker": "カリナ",
+        "japanese": "あのう、ちょっと いそいで ください。",
+        "romaji": "Anō, chotto isoide kudasai.",
+        "english": "Um, please hurry up a little bit."
+      },
+      {
+        "speaker": "うんてんしゅ",
+        "japanese": "かしこまりました。",
+        "romaji": "Kashikomarimashita.",
+        "english": "Certainly, ma'am."
+      },
+      {
+        "speaker": "カリナ",
+        "japanese": "あそこを みぎへ まがってください。",
+        "romaji": "Asoko o migi e magatte kudasai.",
+        "english": "Please turn right over there."
+      },
+      {
+        "speaker": "うんてんしゅ",
+        "japanese": "みぎですね。",
+        "romaji": "Migi desu ne.",
+        "english": "Right, okay."
+      },
+      {
+        "speaker": "カリナ",
+        "japanese": "あの しんごうを ひだりへ まがってください。",
+        "romaji": "Ano shingō o hidari e magatte kudasai.",
+        "english": "Please turn left at that traffic signal."
+      },
+      {
+        "speaker": "うんてんしゅ",
+        "japanese": "ひだりですね。",
+        "romaji": "Hidari desu ne.",
+        "english": "Left, okay."
+      },
+      {
+        "speaker": "カリナ",
+        "japanese": "あそこで とめてください。",
+        "romaji": "Asoko de tomete kudasai.",
+        "english": "Please stop over there."
+      },
+      {
+        "speaker": "うんてんしゅ",
+        "japanese": "はい、とうちゃくしました。1,800えんです。",
+        "romaji": "Hai, tōchaku shimashita. Sen happyaku-en desu.",
+        "english": "Yes, we have arrived. That is 1,800 yen."
+      },
+      {
+        "speaker": "カリナ",
+        "japanese": "これで おねがいします。どうも。",
+        "romaji": "Kore de onegaishimasu. Dōmo.",
+        "english": "Here you go. Thank you."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v15",
+    "chapter": 18,
+    "videoNumber": 15,
+    "title": "Video 15: ごかぞくは？ (What about your family?)",
+    "lines": [
+      {
+        "speaker": "ミラー",
+        "japanese": "きょうの えいがは よかったですね。",
+        "romaji": "Kyō no eiga wa yokatta desu ne.",
+        "english": "Today's movie was very good, wasn't it?"
+      },
+      {
+        "speaker": "きむら",
+        "japanese": "ええ、とくに あの おとうさんが よかったです。",
+        "romaji": "Ē, tokuni ano otōsan ga yokatta desu.",
+        "english": "Yes, especially that father character was great."
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "そうですね。きむらさんの ごかぞくは？",
+        "romaji": "Sō desu ne. Kimura-san no gokazoku wa?",
+        "english": "I agree. What about your family, Ms. Kimura?"
+      },
+      {
+        "speaker": "きむら",
+        "japanese": "りょうしんと あねが ひとり います。",
+        "romaji": "Ryōshin to ane ga hitori imasu.",
+        "english": "I have my parents and an elder sister."
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "どちらに すんで いますか。",
+        "romaji": "Dochira ni sunde imasu ka.",
+        "english": "Where do they live?"
+      },
+      {
+        "speaker": "きむら",
+        "japanese": "りょうしんは とうきょうの ちかくに すんで います。あねは ロンドンに すんで います。",
+        "romaji": "Ryōshin wa Tōkyō no chikaku ni sunde imasu. Ane wa Rondon ni sunde imasu.",
+        "english": "My parents live near Tokyo. My elder sister lives in London."
+      },
+      {
+        "speaker": "ミラー",
+        "japanese": "ロンドンですか。あねさんは なにを して いますか。",
+        "romaji": "Rondon desu ka. Ane-san wa nani o shite imasu ka.",
+        "english": "London? What does your sister do there?"
+      },
+      {
+        "speaker": "きむら",
+        "japanese": "ぎんこうで はたらいて います。",
+        "romaji": "Ginkō de hataraite imasu.",
+        "english": "She is working at a bank."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v16",
+    "chapter": 19,
+    "videoNumber": 16,
+    "title": "Video 16: つかいかたを おしえてください (Please show me how to use it)",
+    "lines": [
+      {
+        "speaker": "マリア",
+        "japanese": "すみませんが、ちょっと つかいかたを おしえてください。",
+        "romaji": "Sumimasen ga, chotto tsukaikata o oshiete kudasai.",
+        "english": "Excuse me, could you please show me how to use this machine?"
+      },
+      {
+        "speaker": "ぎんこういん",
+        "japanese": "おひきだしですか。",
+        "romaji": "Ohikidashi desu ka.",
+        "english": "A withdrawal?"
+      },
+      {
+        "speaker": "マリア",
+        "japanese": "そうです。",
+        "romaji": "Sō desu.",
+        "english": "Yes, that's right."
+      },
+      {
+        "speaker": "ぎんこういん",
+        "japanese": "じゃ、まず ここを おして ください。",
+        "romaji": "Ja, mazu koko o oshite kudasai.",
+        "english": "Well, first press here."
+      },
+      {
+        "speaker": "マリア",
+        "japanese": "はい。",
+        "romaji": "Hai.",
+        "english": "Yes."
+      },
+      {
+        "speaker": "ぎんこういん",
+        "japanese": "つぎに キャッシュカードを ここに いれて、あんしょうばんごうを おして ください。",
+        "romaji": "Tsugi ni kyasshu kādo o koko ni irete, anshō bangō o oshite kudasai.",
+        "english": "Next, insert your cash card here and enter your PIN code."
+      },
+      {
+        "speaker": "マリア",
+        "japanese": "はい、おしました。",
+        "romaji": "Hai, oshimashita.",
+        "english": "Yes, I entered it."
+      },
+      {
+        "speaker": "ぎんこういん",
+        "japanese": "きんがくを おして、「かくにん」ボタンを おして ください。",
+        "romaji": "Kingaku o oshite, 'kakunin' botan o oshite kudasai.",
+        "english": "Enter the amount and press the 'Confirm' button."
+      },
+      {
+        "speaker": "マリア",
+        "japanese": "5まんえんですね。はい。",
+        "romaji": "Goman-en desu ne. Hai.",
+        "english": "50,000 yen, right. Done."
+      },
+      {
+        "speaker": "ぎんこういん",
+        "japanese": "カードと おかねが でますから、うけとって ください。",
+        "romaji": "Kādo to okane ga demasu kara, uketotte kudasai.",
+        "english": "The card and cash will come out, so please take them."
+      },
+      {
+        "speaker": "マリア",
+        "japanese": "よく わかりました。どうも ありがとう ございました。",
+        "romaji": "Yoku wakarimashita. Dōmo arigatō gozaimashita.",
+        "english": "I understand clearly now. Thank you very much."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v17",
+    "chapter": 20,
+    "videoNumber": 17,
+    "title": "Video 17: どう しましたか (What's the matter?)",
+    "lines": [
+      {
+        "speaker": "いしゃ",
+        "japanese": "どう しましたか。",
+        "romaji": "Dō shimashita ka.",
+        "english": "What is the matter with you?"
+      },
+      {
+        "speaker": "まつもと",
+        "japanese": "きのうから あたまが いたくて、ねつも すこし あります。",
+        "romaji": "Kinō kara atama ga itakute, netsu mo sukoshi arimasu.",
+        "english": "I have had a headache since yesterday, and I have a slight fever."
+      },
+      {
+        "speaker": "いしゃ",
+        "japanese": "ちょっと くちを あけて ください。かぜですね。",
+        "romaji": "Chotto kuchi o akete kudasai. Kaze desu ne.",
+        "english": "Open your mouth for a moment, please. It's a cold."
+      },
+      {
+        "speaker": "まつもと",
+        "japanese": "そうですか。",
+        "romaji": "Sō desu ka.",
+        "english": "I see."
+      },
+      {
+        "speaker": "いしゃ",
+        "japanese": "きょうと あしたは ゆっくり やすんで ください。くすりを のんで、おふろに はいらないで ください。",
+        "romaji": "Kyō to ashita wa yukkuri yasunde kudasai. Kusuri o nonde, ofuro ni hairanaide kudasai.",
+        "english": "Please take a good rest today and tomorrow. Take this medicine and do not take a bath."
+      },
+      {
+        "speaker": "まつもと",
+        "japanese": "わかりました。",
+        "romaji": "Wakarimashita.",
+        "english": "Understood."
+      },
+      {
+        "speaker": "いしゃ",
+        "japanese": "じゃ、おだいじに。",
+        "romaji": "Ja, odaiji ni.",
+        "english": "Well, take care of yourself."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v18",
+    "chapter": 21,
+    "videoNumber": 18,
+    "title": "Video 18: しゅみは なんですか (What is your hobby?)",
+    "lines": [
+      {
+        "speaker": "やまだ",
+        "japanese": "サントスさんの しゅみは なんですか。",
+        "romaji": "Santosu-san no shumi wa nan desu ka.",
+        "english": "Mr. Santos, what is your hobby?"
+      },
+      {
+        "speaker": "サントス",
+        "japanese": "しゃしんです。ふるい たてものの しゃしんを とることが すきです。",
+        "romaji": "Shashin desu. Furui tatemono no shashin o toru koto ga suki desu.",
+        "english": "Photography. I like taking photos of historic buildings."
+      },
+      {
+        "speaker": "やまだ",
+        "japanese": "へえ、おもしろいですね。",
+        "romaji": "Hē, omoshiroi desu ne.",
+        "english": "Wow, that sounds interesting."
+      },
+      {
+        "speaker": "サントス",
+        "japanese": "にほんへ きてから、きょうとや ならへ よく いきました。",
+        "romaji": "Nihon e kite kara, Kyōto ya Nara e yoku ikimashita.",
+        "english": "Since coming to Japan, I have frequently visited Kyoto and Nara."
+      },
+      {
+        "speaker": "やまだ",
+        "japanese": "そうですか。今度 ぜひ しゃしんを みせて ください。",
+        "romaji": "Sō desu ka. Kondo zehi shashin o misete kudasai.",
+        "english": "Is that so? Next time, please be sure to show me your photos."
+      },
+      {
+        "speaker": "サントス",
+        "japanese": "ええ、よろこんで。",
+        "romaji": "Ē, yorokonde.",
+        "english": "Yes, with pleasure."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v19",
+    "chapter": 22,
+    "videoNumber": 19,
+    "title": "Video 19: ダイエットは あしたから します (I'll start my diet tomorrow)",
+    "lines": [
+      {
+        "speaker": "みんな",
+        "japanese": "かんぱい！",
+        "romaji": "Kanpai!",
+        "english": "Cheers!"
+      },
+      {
+        "speaker": "まつもと",
+        "japanese": "マリアさん、たくさん たべて くださいね。",
+        "romaji": "Maria-san, takusan tabete kudasai ne.",
+        "english": "Maria, please eat a lot!"
+      },
+      {
+        "speaker": "マリア",
+        "japanese": "ええ、この ケーキ、とても おいしいですね。",
+        "romaji": "Ē, kono kēki, totemo oishii desu ne.",
+        "english": "Yes, this cake is delicious, isn't it?"
+      },
+      {
+        "speaker": "まつもと",
+        "japanese": "もう ひとつ いかがですか。",
+        "romaji": "Mō hitotsu ikaga desu ka.",
+        "english": "How about having one more piece?"
+      },
+      {
+        "speaker": "マリア",
+        "japanese": "うーん、でも、いま ダイエットをして いますから…",
+        "romaji": "Ūn, demo, ima daietto o shite imasu kara...",
+        "english": "Hmm, but I am on a diet right now, so..."
+      },
+      {
+        "speaker": "まつもと",
+        "japanese": "いいですよ、きょうは パーティーですから。",
+        "romaji": "Ii desu yo, kyō wa pātī desu kara.",
+        "english": "It's fine, it's a party today!"
+      },
+      {
+        "speaker": "マリア",
+        "japanese": "そうですね。じゃ、いただきます。ダイエットは あしたから します！",
+        "romaji": "Sō desu ne. Ja, itadakimasu. Daietto wa ashita kara shimasu!",
+        "english": "That's true! Well then, I'll have it. I'll start dieting tomorrow!"
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v20",
+    "chapter": 23,
+    "videoNumber": 20,
+    "title": "Video 20: なつやすみは どう するの？ (What are you doing for summer vacation?)",
+    "lines": [
+      {
+        "speaker": "こばやし",
+        "japanese": "なつやすみは くにへ かえるの？",
+        "romaji": "Natsuyasumi wa kuni e kaeru no?",
+        "english": "Are you going back to your country for the summer vacation?"
+      },
+      {
+        "speaker": "タワポン",
+        "japanese": "ううん、かえりたいけど、おかねが ないから、かえらない。",
+        "romaji": "Ūn, kaeritai kedo, okane ga nai kara, kaeranai.",
+        "english": "No, I want to go back, but I don't have money, so I won't."
+      },
+      {
+        "speaker": "こばやし",
+        "japanese": "そう。じゃ、なにを するの？",
+        "romaji": "Sō. Ja, nani o suru no?",
+        "english": "I see. Then what are you going to do?"
+      },
+      {
+        "speaker": "タワポン",
+        "japanese": "アルバイトを する つもり。",
+        "romaji": "Arubaito o suru tsumori.",
+        "english": "I plan to work a part-time job."
+      },
+      {
+        "speaker": "こばやし",
+        "japanese": "そうなんだ。たいへんだね。",
+        "romaji": "Sō na n da. Taihen da ne.",
+        "english": "Oh really, that sounds tough."
+      },
+      {
+        "speaker": "タワポン",
+        "japanese": "うん、でも、にほんごの べんきょうにも なるから。",
+        "romaji": "Un, demo, Nihongo no benkyō ni mo naru kara.",
+        "english": "Yeah, but it will also help me practice my Japanese."
+      }
+    ]
+  },
+  {
+    "id": "convo_b2_v21",
+    "chapter": 24,
+    "videoNumber": 21,
+    "title": "Video 21: わたしも そうおもいます (I think so too)",
+    "lines": [
+      {
+        "speaker": "まつもと",
+        "japanese": "あ、サントスさん、しばらくですね。",
+        "romaji": "A, Santosu-san, shibaraku desu ne.",
+        "english": "Ah, Mr. Santos, long time no see!"
+      },
+      {
+        "speaker": "サントス",
+        "japanese": "おひさしぶりです。おげんきでしたか。",
+        "romaji": "Ohisashiburi desu. Ogenki deshita ka.",
+        "english": "Long time no see. How have you been?"
+      },
+      {
+        "speaker": "まつもと",
+        "japanese": "ええ。にほんの せいかつは もう なれましたか。",
+        "romaji": "Ē. Nihon no seikatsu wa mō naremashita ka.",
+        "english": "Fine. Have you already gotten used to life in Japan?"
+      },
+      {
+        "speaker": "サントス",
+        "japanese": "はい、べんりですね。でも、ぶっかが たかいと おもいます。",
+        "romaji": "Hai, benri desu ne. Demo, bukka ga takai to omoimasu.",
+        "english": "Yes, it is very convenient. But I think prices of goods are quite high."
+      },
+      {
+        "speaker": "まつもと",
+        "japanese": "わたしも そうおもいます。とくに とうきょうは たかいですね。",
+        "romaji": "Watashi mo sō omoimasu. Tokuni Tōkyō wa takai desu ne.",
+        "english": "I think so too. Especially in Tokyo, prices are really high."
+      }
+    ]
+  }
+]

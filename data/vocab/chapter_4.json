@@ -1,0 +1,442 @@
+[
+  {
+    "id": "vocab_ch4_1",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "これ",
+    "kana": "これ",
+    "romaji": "Kore",
+    "english": "This (nearer to the speaker)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_2",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "それ",
+    "kana": "それ",
+    "romaji": "Sore",
+    "english": "That (nearer to the listener)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_3",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "あれ",
+    "kana": "あれ",
+    "romaji": "Are",
+    "english": "That over there (Far from both listener & speaker)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_4",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "ほん",
+    "kana": "ほん",
+    "romaji": "Hon",
+    "english": "Book",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_5",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "ファイル",
+    "kana": "ファイル",
+    "romaji": "Fairu",
+    "english": "File",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_6",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "つくえ",
+    "kana": "つくえ",
+    "romaji": "Tsukue",
+    "english": "Table",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_7",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "いす",
+    "kana": "いす",
+    "romaji": "Isu",
+    "english": "Chair",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_8",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "びる",
+    "kana": "びる",
+    "romaji": "Biru",
+    "english": "Building",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_9",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "なん",
+    "kana": "なん",
+    "romaji": "Nan",
+    "english": "What",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_10",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "でから",
+    "kana": "でから",
+    "romaji": "Deskara",
+    "english": "Therefore",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_11",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "とけい",
+    "kana": "とけい",
+    "romaji": "Tokei",
+    "english": "Watch, Clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_12",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "そう です ね",
+    "kana": "そう です ね",
+    "romaji": "Sō des ne",
+    "english": "That’s right",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_13",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "かさ",
+    "kana": "かさ",
+    "romaji": "Kasa",
+    "english": "Umbrella",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_14",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "すごい",
+    "kana": "すごい",
+    "romaji": "Sugoi",
+    "english": "Wonderful, amazing",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_15",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "どうぞ",
+    "kana": "どうぞ",
+    "romaji": "Dōzo",
+    "english": "Please (While offering something to someone)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_16",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "ありがとう",
+    "kana": "ありがとう",
+    "romaji": "Arigatō",
+    "english": "Casual way of saying thanks",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_17",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "よ",
+    "kana": "よ",
+    "romaji": "Yo",
+    "english": "(When spoken in the end) Making an appeal to someone",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_18",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "じむしつ",
+    "kana": "じむしつ",
+    "romaji": "Jimushitsu",
+    "english": "Office room",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_19",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "うけつけ",
+    "kana": "うけつけ",
+    "romaji": "Uketsuke",
+    "english": "Reception",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_20",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "かいぎしつ",
+    "kana": "かいぎしつ",
+    "romaji": "Kaigishitsu",
+    "english": "Meeting room",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_21",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "かいだん",
+    "kana": "かいだん",
+    "romaji": "Kaidan",
+    "english": "Stairs",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_22",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "でんわ",
+    "kana": "でんわ",
+    "romaji": "Denwa",
+    "english": "Telephone",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_23",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "えれべた",
+    "kana": "えれべた",
+    "romaji": "Erebeta",
+    "english": "Lift",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_24",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "いりぐち",
+    "kana": "いりぐち",
+    "romaji": "Iriguchi",
+    "english": "Entrance",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_25",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "でぐち",
+    "kana": "でぐち",
+    "romaji": "Deguchi",
+    "english": "Exit",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_26",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "しょくどう",
+    "kana": "しょくどう",
+    "romaji": "Shokudō",
+    "english": "Canteen",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_27",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "うえ",
+    "kana": "うえ",
+    "romaji": "Ue",
+    "english": "Above",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_28",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "した",
+    "kana": "した",
+    "romaji": "Shita",
+    "english": "Below",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_29",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "そと",
+    "kana": "そと",
+    "romaji": "Soto",
+    "english": "Outside",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_30",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "なか",
+    "kana": "なか",
+    "romaji": "Naka",
+    "english": "Inside",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_31",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "はな",
+    "kana": "はな",
+    "romaji": "Hana",
+    "english": "Flowers",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_32",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "ねこ",
+    "kana": "ねこ",
+    "romaji": "Neko",
+    "english": "Cat",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_33",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "いえ",
+    "kana": "いえ",
+    "romaji": "Ie",
+    "english": "House",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_34",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "てちょう",
+    "kana": "てちょう",
+    "romaji": "Techō",
+    "english": "Pocket Diary",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_35",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "めいし",
+    "kana": "めいし",
+    "romaji": "Meishi",
+    "english": "Visiting card",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_36",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "ざっし",
+    "kana": "ざっし",
+    "romaji": "Zasshi",
+    "english": "Magazine",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_37",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "じどうしゃ",
+    "kana": "じどうしゃ",
+    "romaji": "Jidōsha",
+    "english": "Automobile",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_38",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "かさ",
+    "kana": "かさ",
+    "romaji": "Kasa",
+    "english": "Umbrella",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_39",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "かぎ",
+    "kana": "かぎ",
+    "romaji": "Kagi",
+    "english": "Keys",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_40",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "おてあらい",
+    "kana": "おてあらい",
+    "romaji": "Otearai",
+    "english": "Washroom",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_41",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "じむしょ",
+    "kana": "じむしょ",
+    "romaji": "Jimusho",
+    "english": "Office",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_42",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "えれべた",
+    "kana": "えれべた",
+    "romaji": "Erebeta",
+    "english": "Lift",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_43",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "くに",
+    "kana": "くに",
+    "romaji": "Kuni",
+    "english": "(Your) country",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch4_44",
+    "chapter": 4,
+    "chapterTitle": "This & That (これ・それ・あれ)",
+    "japanese": "くつ",
+    "kana": "くつ",
+    "romaji": "Kutsu",
+    "english": "Shoes",
+    "category": "Basic 1"
+  }
+]

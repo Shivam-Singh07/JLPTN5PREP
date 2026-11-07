@@ -1,0 +1,764 @@
+[
+  {
+    "chapter": 1,
+    "title": "Self Introduction (自己紹介)",
+    "description": "Greetings, nationalities, occupations, and introducing yourself with basic copula (des/dewa arimasen).",
+    "points": [
+      {
+        "title": "Topic Particle は (wa)",
+        "formula": "Noun 1 は Noun 2 です",
+        "explanation": "Particle は follows the topic of the sentence. Pronounced 'wa'. です (desu) means 'is / am / are'.",
+        "examples": [
+          {
+            "jp": "わたしは たなか です。",
+            "ro": "Watashi wa Tanaka desu.",
+            "en": "I am Tanaka."
+          }
+        ]
+      },
+      {
+        "title": "Question Particle か (ka)",
+        "formula": "Sentence + か",
+        "explanation": "か at the end turns any statement into a question, replacing question marks.",
+        "examples": [
+          {
+            "jp": "たなかさんは にほんじん ですか。",
+            "ro": "Tanaka san wa nihonjin desu ka.",
+            "en": "Is Mr. Tanaka Japanese?"
+          }
+        ]
+      },
+      {
+        "title": "Negative Copula ではありません / じゃありません",
+        "formula": "Noun 1 は Noun 2 ではありません",
+        "explanation": "Negative form of です. Meaning 'is not / am not'.",
+        "examples": [
+          {
+            "jp": "わたしは がくせい じゃありません。",
+            "ro": "Watashi wa gakusei ja arimasen.",
+            "en": "I am not a student."
+          }
+        ]
+      },
+      {
+        "title": "Also / Too Particle も (mo)",
+        "formula": "Noun 1 も Noun 2 です",
+        "explanation": "Replaces は to mean 'also' or 'too'.",
+        "examples": [
+          {
+            "jp": "サントスさんも かいしゃいん です。",
+            "ro": "Santosu san mo kaishain desu.",
+            "en": "Mr. Santos is also a company employee."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "title": "Let’s Count (数え方・数字)",
+    "description": "Numbers up to 100,000, Japanese currency (en), asking prices (ikura des ka), and noun modifier (no).",
+    "points": [
+      {
+        "title": "Asking Price: いくらですか (ikura desu ka)",
+        "formula": "Noun は いくらですか",
+        "explanation": "Used to ask how much an item costs.",
+        "examples": [
+          {
+            "jp": "この かばんは いくらですか。さんぜんえん です。",
+            "ro": "Kono kaban wa ikura desu ka. Sanzen en desu.",
+            "en": "How much is this bag? It is 3,000 yen."
+          }
+        ]
+      },
+      {
+        "title": "Possessive & Descriptive Particle の (no)",
+        "formula": "Noun 1 の Noun 2",
+        "explanation": "Connects two nouns: indicates possession (my book), origin (Japanese camera), or category.",
+        "examples": [
+          {
+            "jp": "これは わたしの ほんです。",
+            "ro": "Kore wa watashi no hon desu.",
+            "en": "This is my book."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "title": "Time & Days (時間・曜日)",
+    "description": "Telling time (ji, fun/pun, han), days of the week, months, and time boundaries (kara, made).",
+    "points": [
+      {
+        "title": "Time Expression: 時 (ji) & 分 (fun/pun)",
+        "formula": "[Hour] じ [Minute] ふん です",
+        "explanation": "Suffix じ denotes hours, and ふん/ぷん denotes minutes. 半 (han) means half past.",
+        "examples": [
+          {
+            "jp": "いま なんじですか。くじ はん です。",
+            "ro": "Ima nanji desu ka. Ku-ji han desu.",
+            "en": "What time is it now? It is 9:30."
+          }
+        ]
+      },
+      {
+        "title": "Time Boundaries: から (kara) & まで (made)",
+        "formula": "Time 1 から Time 2 まで",
+        "explanation": "から means 'from', まで means 'until/to'.",
+        "examples": [
+          {
+            "jp": "ぎんこうは くじから よじまで です。",
+            "ro": "Ginkou wa kuji kara yoji made desu.",
+            "en": "The bank is open from 9 to 4."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "title": "This & That (これ・それ・あれ)",
+    "description": "Demonstrative pronouns (kore, sore, are, dore), determiners (kono, sono, ano), and places (koko, soko, asoko).",
+    "points": [
+      {
+        "title": "Demonstratives: これ / それ / あれ / どれ",
+        "formula": "これ / それ / あれ は Noun です",
+        "explanation": "これ (near speaker), それ (near listener), あれ (far from both), どれ (which one).",
+        "examples": [
+          {
+            "jp": "これは じしょ です。",
+            "ro": "Kore wa jisho desu.",
+            "en": "This is a dictionary."
+          }
+        ]
+      },
+      {
+        "title": "Determiners: この / その / あの / どの + Noun",
+        "formula": "この/その/あの + Noun は ...",
+        "explanation": "Must immediately precede a noun.",
+        "examples": [
+          {
+            "jp": "この かさは だれのですか。",
+            "ro": "Kono kasa wa dare no desu ka.",
+            "en": "Whose umbrella is this?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "title": "Basic Adjectives (基本の形容詞)",
+    "description": "True い-adjectives and な-adjectives, negative forms, and modifying nouns.",
+    "points": [
+      {
+        "title": "い-Adjectives & な-Adjectives",
+        "formula": "い-adj: ~い / ~くない (negative) | な-adj: ~です / ~じゃありません",
+        "explanation": "い-adjectives inflect their ending (~い -> ~くない). な-adjectives use です/じゃありません like nouns.",
+        "examples": [
+          {
+            "jp": "きょうは あつくないです。",
+            "ro": "Kyou wa atsukunai desu.",
+            "en": "Today is not hot."
+          }
+        ]
+      },
+      {
+        "title": "Modifying Nouns with Adjectives",
+        "formula": "い-adj + Noun | な-adj + な + Noun",
+        "explanation": "い-adjectives directly precede nouns. な-adjectives require 'な'.",
+        "examples": [
+          {
+            "jp": "これは おいしい おちゃ です。",
+            "ro": "Kore wa oishii ocha desu.",
+            "en": "This is delicious green tea."
+          },
+          {
+            "jp": "きょうとは きれいな まち です。",
+            "ro": "Kyouto wa kireina machi desu.",
+            "en": "Kyoto is a beautiful town."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "title": "Verbs (基本の動詞)",
+    "description": "Present/future masu-form verbs, negative masen, past mashita, direct object particle を (o), and location で (de).",
+    "points": [
+      {
+        "title": "Object Particle を (o)",
+        "formula": "Noun を Verb-ます",
+        "explanation": "Indicates the direct object of a transitive action.",
+        "examples": [
+          {
+            "jp": "みずを のみます。",
+            "ro": "Mizu o nomimasu.",
+            "en": "I drink water."
+          }
+        ]
+      },
+      {
+        "title": "Location of Action Particle で (de)",
+        "formula": "Place で Verb-ます",
+        "explanation": "Indicates the place where an action takes place.",
+        "examples": [
+          {
+            "jp": "としょかんで ほんを よみます。",
+            "ro": "Toshokan de hon o yomimasu.",
+            "en": "I read books at the library."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "title": "My Family & Daily Life (家族・日常)",
+    "description": "Family members (humble vs honorific), existence verbs います (living) and あります (inanimate), place particle に (ni).",
+    "points": [
+      {
+        "title": "Existence: います (animate) vs あります (inanimate)",
+        "formula": "Place に [N] が います / あります",
+        "explanation": "います for living beings (people, animals); あります for inanimate things and plants.",
+        "examples": [
+          {
+            "jp": "きょうしつに たなかさんが います。",
+            "ro": "Kyoushitsu ni Tanaka san ga imasu.",
+            "en": "Mr. Tanaka is in the classroom."
+          },
+          {
+            "jp": "つくえの うえに ほんが あります。",
+            "ro": "Tsukue no ue ni hon ga arimasu.",
+            "en": "There is a book on the desk."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 8,
+    "title": "Tele-Conference & Transport (電話・交通)",
+    "description": "Phone etiquettes (moshi moshi), reason particle から (kara), and transportation particle で (de).",
+    "points": [
+      {
+        "title": "Reason Particle から (kara)",
+        "formula": "[Reason] から、[Result]",
+        "explanation": "Indicates the cause or reason for something.",
+        "examples": [
+          {
+            "jp": "じかんが ありませんから、タクシーで いきます。",
+            "ro": "Jikan ga arimasen kara, takushii de ikimasu.",
+            "en": "Because there is no time, I will go by taxi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 9,
+    "title": "Travel & Places (旅行・場所)",
+    "description": "Travel vocabulary, companion particle と (to), direction particle へ (e), and asking how (douyatte).",
+    "points": [
+      {
+        "title": "Direction Particle へ (e) & Means で (de)",
+        "formula": "Place へ Transport で いきます",
+        "explanation": "へ (pronounced 'e') indicates destination. で indicates method of transportation.",
+        "examples": [
+          {
+            "jp": "ひこうきで にほんへ いきます。",
+            "ro": "Hikouki de Nihon e ikimasu.",
+            "en": "I go to Japan by airplane."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 10,
+    "title": "Give and Take (授受動詞)",
+    "description": "Giving (agemas) and receiving (moraimas), completed actions もう (mou) vs まだ (mada).",
+    "points": [
+      {
+        "title": "Giving & Receiving: あげます (agemasu) & もらいます (moraimasu)",
+        "formula": "Person A は Person B に [Item] を あげます / もらいます",
+        "explanation": "あげます means give; もらいます means receive from someone.",
+        "examples": [
+          {
+            "jp": "わたしは ははに はなを あげました。",
+            "ro": "Watashi wa haha ni hana o agemashita.",
+            "en": "I gave flowers to my mother."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 11,
+    "title": "Question Answers (質問と答え・総復習)",
+    "description": "Interrogatives (doko, dare, nan, itsu, ikura, doushite), native Japanese counters (hitotsu, futatsu...), and people counters.",
+    "points": [
+      {
+        "title": "Native Japanese Counters (ひとつ, ふたつ...)",
+        "formula": "Noun を [Counter] ください",
+        "explanation": "Native counters ひとつ (1), ふたつ (2), みっつ (3), よっつ (4), いつつ (5)... used for general items.",
+        "examples": [
+          {
+            "jp": "りんごを みっつ ください。",
+            "ro": "Ringo o mittsu kudasai.",
+            "en": "Please give me three apples."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 12,
+    "title": "Comparison & Seasons (比較・季節・天気)",
+    "description": "Past tense of adjectives/nouns, comparisons (yori / hou ga), and superlative (ichiban).",
+    "points": [
+      {
+        "title": "Past Tense of Nouns & な-Adjectives",
+        "formula": "Present: です / ではありません | Past: でした / ではありませんでした",
+        "explanation": "Both nouns and な-adjectives form past tense with でした, and negative past with ではありませんでした (or じゃありませんでした).",
+        "examples": [
+          {
+            "jp": "きのうは あめでした。",
+            "ro": "Kinou wa ame deshita.",
+            "en": "Yesterday was rainy."
+          },
+          {
+            "jp": "きょうとは しずかでした。",
+            "ro": "Kyouto wa shizuka deshita.",
+            "en": "Kyoto was quiet."
+          }
+        ]
+      },
+      {
+        "title": "Past Tense of い-Adjectives",
+        "formula": "Positive: ~かったです | Negative: ~くなかったです",
+        "explanation": "Remove the final い and add かったです for positive past, or くなかったです for negative past. (Note: いい becomes よかったです).",
+        "examples": [
+          {
+            "jp": "りょこうは たのしかったです。",
+            "ro": "Ryokou wa tanoshikatta desu.",
+            "en": "The trip was enjoyable."
+          },
+          {
+            "jp": "きのうは さむくなかったです。",
+            "ro": "Kinou wa samukatta desu.",
+            "en": "Yesterday was not cold."
+          }
+        ]
+      },
+      {
+        "title": "Comparison: Noun 1 は Noun 2 より [Adjective] です",
+        "formula": "Noun 1 は Noun 2 より [Adj] です",
+        "explanation": "Noun 1 is more [Adjective] than Noun 2.",
+        "examples": [
+          {
+            "jp": "ひこうきは でんしゃより はやいです。",
+            "ro": "Hikouki wa densha yori hayai desu.",
+            "en": "Airplanes are faster than trains."
+          }
+        ]
+      },
+      {
+        "title": "Choosing Between Two: どちらが [Adjective] ですか",
+        "formula": "Noun 1 と Noun 2 と どちらが [Adj] ですか。…Noun 1 の ほうが [Adj] です。",
+        "explanation": "Which is more [Adjective], Noun 1 or Noun 2? Noun 1 is more...",
+        "examples": [
+          {
+            "jp": "サッカーと やきゅうと どちらが おもしろいですか。…サッカーの ほうが おもしろいです。",
+            "ro": "Sakkaa to yakyuu to dochira ga omoshiroi desu ka. ...Sakkaa no hou ga omoshiroi desu.",
+            "en": "Which is more interesting, soccer or baseball? ...Soccer is more interesting."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "title": "Desires & Purpose (欲しい・～たい・目的)",
+    "description": "Expressing desire with 欲しい (hoshii) and ～たい (tai), and purpose of movement (Place e Verb-stem ni ikimas).",
+    "points": [
+      {
+        "title": "Desire for Noun: が ほしいです (ga hoshii desu)",
+        "formula": "Noun が ほしいです",
+        "explanation": "Used by the speaker to state a desire to have an object. Negative is ほしくないです.",
+        "examples": [
+          {
+            "jp": "わたしは あたらしい くるまが ほしいです。",
+            "ro": "Watashi wa atarashii kuruma ga hoshii desu.",
+            "en": "I want a new car."
+          }
+        ]
+      },
+      {
+        "title": "Desire to Do: Verb-たいです (~tai desu)",
+        "formula": "Verb [ます stem] + たいです",
+        "explanation": "Expresses the speaker's desire to perform an action. Negative is ～たくないです.",
+        "examples": [
+          {
+            "jp": "にほんへ いきたいです。",
+            "ro": "Nihon e ikitai desu.",
+            "en": "I want to go to Japan."
+          },
+          {
+            "jp": "なにも たべたくないです。",
+            "ro": "Nani mo tabetakunai desu.",
+            "en": "I don't want to eat anything."
+          }
+        ]
+      },
+      {
+        "title": "Purpose of Movement: に いきます / きます",
+        "formula": "Place へ Verb [ます stem] / Noun に いきます/きます/かえります",
+        "explanation": "Indicates the purpose for going to or coming to a place.",
+        "examples": [
+          {
+            "jp": "デパートへ かいものに いきます。",
+            "ro": "Depaato e kaimono ni ikimasu.",
+            "en": "I go to the department store to shop."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 14,
+    "title": "Te-form & Requests (て形・～てください)",
+    "description": "Conjugating verbs into て-form, making polite requests (～てください), progressive action (～ています), and offers (～ましょうか).",
+    "points": [
+      {
+        "title": "Verb て-form Conjugation",
+        "formula": "Group 1: いちり->って, みびに->んで, き->いて, ぎ->いで, し->して | Group 2: drop ます add て | Group 3: して, きて",
+        "explanation": "The fundamental connecting form of Japanese verbs, used for requests, progressive, permissions, and sequences.",
+        "examples": [
+          {
+            "jp": "かって (かう), よんで (よむ), たべて (たべる), きて (くる)",
+            "ro": "katte (kau), yonde (yomu), tabete (taberu), kite (kuru)",
+            "en": "buying, reading, eating, coming"
+          }
+        ]
+      },
+      {
+        "title": "Polite Request: ～てください (~te kudasai)",
+        "formula": "Verb-て + ください",
+        "explanation": "Used to ask the listener politely to perform an action.",
+        "examples": [
+          {
+            "jp": "ここに なまえを かいて ください。",
+            "ro": "Koko ni namae o kaite kudasai.",
+            "en": "Please write your name here."
+          }
+        ]
+      },
+      {
+        "title": "Action in Progress: ～ています (~te imasu)",
+        "formula": "Verb-て + います",
+        "explanation": "Indicates an action currently in progress (like English '-ing').",
+        "examples": [
+          {
+            "jp": "いま あめが ふっています。",
+            "ro": "Ima ame ga futte imasu.",
+            "en": "It is raining right now."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 15,
+    "title": "Permissions & Prohibitions (許可・禁止)",
+    "description": "Asking permission (～てもいいですか), stating prohibitions (～てはいけません), and ongoing states (知っています, 住んでいます).",
+    "points": [
+      {
+        "title": "Asking Permission: ～ても いいですか (~te mo ii desu ka)",
+        "formula": "Verb-て + も いいですか",
+        "explanation": "Used to ask 'May I do [action]?'",
+        "examples": [
+          {
+            "jp": "しゃしんを とっても いいですか。",
+            "ro": "Shashin o totte mo ii desu ka.",
+            "en": "May I take a photo?"
+          }
+        ]
+      },
+      {
+        "title": "Prohibition: ～ては いけません (~te wa ikemasen)",
+        "formula": "Verb-て + は いけません",
+        "explanation": "States a prohibition: 'You must not do [action]'.",
+        "examples": [
+          {
+            "jp": "ここで たばこを すっては いけません。",
+            "ro": "Koko de tabako o sutte wa ikemasen.",
+            "en": "You must not smoke here."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 16,
+    "title": "Connecting Actions & Adjectives (文の接続)",
+    "description": "Chaining multiple actions (Verb て, Verb て...), sequential action (～てから), connecting adjectives (～くて, ～で), and describing attributes.",
+    "points": [
+      {
+        "title": "Connecting Actions in Sequence",
+        "formula": "Verb 1-て、Verb 2-て、Verb 3-ます",
+        "explanation": "Used to list multiple actions carried out in chronological order.",
+        "examples": [
+          {
+            "jp": "あさ おきて、シャワーを あびて、かいしゃへ いきます。",
+            "ro": "Asa okite, shawaa o abite, kaisha e ikimasu.",
+            "en": "In the morning I wake up, take a shower, and go to the office."
+          }
+        ]
+      },
+      {
+        "title": "After Doing: ～てから (~te kara)",
+        "formula": "Verb 1-て + から、Verb 2",
+        "explanation": "Emphasizes that Verb 2 takes place only after Verb 1 has completed.",
+        "examples": [
+          {
+            "jp": "くにへ かえってから、父の かいしゃで はたらきます。",
+            "ro": "Kuni e kaette kara, chichi no kaisha de hatarakimasu.",
+            "en": "After returning to my country, I will work at my father's company."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 17,
+    "title": "Nai-form & Obligations (ない形・義務)",
+    "description": "Conjugating ない-form, requests not to do (～ないでください), obligation (～なければなりません), and permission not to do (～なくてもいいです).",
+    "points": [
+      {
+        "title": "Verb ない-form Conjugation",
+        "formula": "Group 1: a-sound + ない | Group 2: drop ます + ない | Group 3: しない, こない",
+        "explanation": "Plain negative form of verbs, essential for rules, obligations, and casual speech.",
+        "examples": [
+          {
+            "jp": "かかない (かく), たべない (たべる), しない (する)",
+            "ro": "kakanai (kaku), tabenai (taberu), shinai (suru)",
+            "en": "not write, not eat, not do"
+          }
+        ]
+      },
+      {
+        "title": "Please Don't: ～ないで ください (~naide kudasai)",
+        "formula": "Verb-ない + で ください",
+        "explanation": "Politely requests someone NOT to do something.",
+        "examples": [
+          {
+            "jp": "ここに くるまを とめないで ください。",
+            "ro": "Koko ni kuruma o tomenaide kudasai.",
+            "en": "Please do not park your car here."
+          }
+        ]
+      },
+      {
+        "title": "Must Do: ～なければ なりません (~nakereba narimasen)",
+        "formula": "Verb-ない (drop い) + ければ なりません",
+        "explanation": "Expresses duty, necessity, or obligation: 'must / have to'.",
+        "examples": [
+          {
+            "jp": "くすりを のまなければ なりません。",
+            "ro": "Kusuri o nomanakereba narimasen.",
+            "en": "I have to take medicine."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 18,
+    "title": "Dictionary Form & Ability (辞書形・可能)",
+    "description": "Verb dictionary form, ability (～ことができます), hobbies (趣味は～ことです), and temporal order (～前に).",
+    "points": [
+      {
+        "title": "Ability: 辞書形 + ことが できます",
+        "formula": "Verb [Dictionary form] + ことが できます",
+        "explanation": "Indicates ability or possibility: 'can do [action]'.",
+        "examples": [
+          {
+            "jp": "わたしは にほんごを はなすことが できます。",
+            "ro": "Watashi wa nihongo o hanasu koto ga dekimasu.",
+            "en": "I can speak Japanese."
+          }
+        ]
+      },
+      {
+        "title": "Before Doing: ～前に (~mae ni)",
+        "formula": "Verb [Dictionary form] / Noun の + まえに",
+        "explanation": "Specifies that an action happens before another event.",
+        "examples": [
+          {
+            "jp": "ねるまえに、ほんを よみます。",
+            "ro": "Neru mae ni, hon o yomimasu.",
+            "en": "Before going to sleep, I read a book."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 19,
+    "title": "Ta-form & Experiences (た形・経験)",
+    "description": "Conjugating た-form, past experiences (～たことがあります), non-exhaustive actions (～たり～たりします), and becoming (～になります).",
+    "points": [
+      {
+        "title": "Past Experience: ～た ことが あります (~ta koto ga arimasu)",
+        "formula": "Verb-た + ことが あります",
+        "explanation": "Indicates that the speaker has had the experience of doing something in the past.",
+        "examples": [
+          {
+            "jp": "ふじさんに のぼった ことが あります。",
+            "ro": "Fujisan ni nobotta koto ga arimasu.",
+            "en": "I have climbed Mount Fuji before."
+          }
+        ]
+      },
+      {
+        "title": "Listing Actions: ～たり ～たり します (~tari ~tari shimasu)",
+        "formula": "Verb 1-たり、Verb 2-たり します",
+        "explanation": "Lists representative actions among others without specifying exact order.",
+        "examples": [
+          {
+            "jp": "にちようびは テニスを したり、えいがを みたり します。",
+            "ro": "Nichiyoubi wa tenisu o shitari, eiga o mitari shimasu.",
+            "en": "On Sundays I do things like playing tennis and watching movies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 20,
+    "title": "Plain Form & Casual Speech (普通形)",
+    "description": "Informal speech (だ, じゃない, だった), casual conversation with friends/family, and conversational particles.",
+    "points": [
+      {
+        "title": "Plain Form (普通形) vs Polite Form (丁寧形)",
+        "formula": "Verb dictionary / ない / た / なかった | Noun/な-adj だ / じゃない",
+        "explanation": "Used in casual conversations among friends and family, as well as grammatical sub-clauses.",
+        "examples": [
+          {
+            "jp": "あした ひま？…うん、ひまだよ。",
+            "ro": "Ashita hima? ...Un, hima da yo.",
+            "en": "Are you free tomorrow? ...Yeah, I'm free."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 21,
+    "title": "Opinions & Quotations (意見・引用)",
+    "description": "Expressing opinions (～と思います), quoting others (～と言いました), confirming agreement (～でしょう).",
+    "points": [
+      {
+        "title": "Expressing Opinions: ～と 思います (~to omoimasu)",
+        "formula": "[Plain Form Sentence] + と 思います",
+        "explanation": "Used to express one's opinion, guess, or perspective: 'I think that...'",
+        "examples": [
+          {
+            "jp": "あしたは いい てんきに なると おもいます。",
+            "ro": "Ashita wa ii tenki ni naru to omoimasu.",
+            "en": "I think tomorrow the weather will become nice."
+          }
+        ]
+      },
+      {
+        "title": "Quoting Speech: ～と 言いました (~to iimashita)",
+        "formula": "[Sentence] + と いいました",
+        "explanation": "Used to quote what someone said.",
+        "examples": [
+          {
+            "jp": "たなかさんは 「らいしゅう やすみます」と いいました。",
+            "ro": "Tanaka san wa 'raishuu yasumimasu' to iimashita.",
+            "en": "Mr. Tanaka said, 'I will take time off next week.'"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 22,
+    "title": "Noun Modification (名詞修飾)",
+    "description": "Using entire verb phrases to describe nouns ([昨日買った] 本), explaining actions, and expanding complex sentences.",
+    "points": [
+      {
+        "title": "Noun Modifying Clauses (連体修飾節)",
+        "formula": "[Plain Form Verb Phrase] + Noun",
+        "explanation": "In Japanese, modifying clauses always precede the noun directly without relative pronouns (no 'who' or 'which'). The subject inside the clause takes が.",
+        "examples": [
+          {
+            "jp": "これは ミラーさんが かいた え です。",
+            "ro": "Kore wa Miraa san ga kaita e desu.",
+            "en": "This is a picture that Mr. Miller painted."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 23,
+    "title": "When & Conditionals (～とき・～と)",
+    "description": "Expressing time condition (～とき), natural/automatic consequences (～と), and giving directions.",
+    "points": [
+      {
+        "title": "When / At the time: ～とき (~toki)",
+        "formula": "[Plain Form / Noun の] + とき",
+        "explanation": "Connects two clauses, specifying the time or occasion when the main action occurs.",
+        "examples": [
+          {
+            "jp": "みちを わたるとき、くるまに きを つけます。",
+            "ro": "Michi o wataru toki, kuruma ni ki o tsukemasu.",
+            "en": "When crossing the street, I watch out for cars."
+          }
+        ]
+      },
+      {
+        "title": "Natural Consequence Conditional: ～と (~to)",
+        "formula": "Verb [Dictionary form] + と、[Result]",
+        "explanation": "Whenever action A occurs, consequence B naturally, inevitably, or automatically follows.",
+        "examples": [
+          {
+            "jp": "この ボタンを おすと、おつりが でます。",
+            "ro": "Kono botan o osu to, otsuri ga demasu.",
+            "en": "If you press this button, the change comes out."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": 24,
+    "title": "Giving & Receiving Favors (授受動詞・恩恵)",
+    "description": "Giving and receiving favors: ～てあげます, ～てもらいます, ～てくれます for actions of kindness.",
+    "points": [
+      {
+        "title": "Giving and Receiving Favors: ～て あげます / もらいます / くれます",
+        "formula": "～てあげます (do for someone) | ～てもらいます (have someone do) | ～てくれます (someone does for me)",
+        "explanation": "Indicates benevolent actions and gratitude between speaker and others.",
+        "examples": [
+          {
+            "jp": "わたしは ともだちに えいごを おしえて あげました。",
+            "ro": "Watashi wa tomodachi ni eigo o oshiete agemashita.",
+            "en": "I taught English to my friend (did a favor)."
+          },
+          {
+            "jp": "サントスさんは わたしを くるまで おくって くれました。",
+            "ro": "Santosu san wa watashi o kuruma de okutte kuremashita.",
+            "en": "Mr. Santos gave me a ride in his car (did me a favor)."
+          }
+        ]
+      }
+    ]
+  }
+]

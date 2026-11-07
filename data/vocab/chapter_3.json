@@ -1,0 +1,312 @@
+[
+  {
+    "id": "vocab_ch3_1",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "いちじ",
+    "kana": "いちじ",
+    "romaji": "Ichiji",
+    "english": "One o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_2",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "にじ",
+    "kana": "にじ",
+    "romaji": "Niji",
+    "english": "Two o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_3",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "さんじ",
+    "kana": "さんじ",
+    "romaji": "Sanji",
+    "english": "Three o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_4",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "よじ",
+    "kana": "よじ",
+    "romaji": "Yoji",
+    "english": "Four o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_5",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "ごじ",
+    "kana": "ごじ",
+    "romaji": "Goji",
+    "english": "Five o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_6",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "ろくじ",
+    "kana": "ろくじ",
+    "romaji": "Rokuji",
+    "english": "Six o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_7",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "しちじ",
+    "kana": "しちじ",
+    "romaji": "Shichiji",
+    "english": "Seven o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_8",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "はちじ",
+    "kana": "はちじ",
+    "romaji": "Hachiji",
+    "english": "Eight o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_9",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "くじ",
+    "kana": "くじ",
+    "romaji": "Kuji",
+    "english": "Nine o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_10",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "じゅうじ",
+    "kana": "じゅうじ",
+    "romaji": "Jūji",
+    "english": "Ten o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_11",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "じゅういちじ",
+    "kana": "じゅういちじ",
+    "romaji": "Jūichiji",
+    "english": "Eleven o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_12",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "じゅうにじ",
+    "kana": "じゅうにじ",
+    "romaji": "Jūniji",
+    "english": "Twelve o clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_13",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "じかん",
+    "kana": "じかん",
+    "romaji": "Jikan",
+    "english": "Time",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_14",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "ごぜん",
+    "kana": "ごぜん",
+    "romaji": "Gozen",
+    "english": "AM",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_15",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "ごご",
+    "kana": "ごご",
+    "romaji": "Gogo",
+    "english": "PM",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_16",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "いま",
+    "kana": "いま",
+    "romaji": "Ima",
+    "english": "Now",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_17",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "しゅっちょう",
+    "kana": "しゅっちょう",
+    "romaji": "Shucchō",
+    "english": "Business trip",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_18",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "から",
+    "kana": "から",
+    "romaji": "Kara",
+    "english": "From",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_19",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "まで",
+    "kana": "まで",
+    "romaji": "Made",
+    "english": "Till",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_20",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "いつ",
+    "kana": "いつ",
+    "romaji": "itsu",
+    "english": "When",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_21",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "たんじょうび",
+    "kana": "たんじょうび",
+    "romaji": "Tanjōbi",
+    "english": "Birthday",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_22",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "なんじ",
+    "kana": "なんじ",
+    "romaji": "Nanji",
+    "english": "What time",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_23",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "なにょうび",
+    "kana": "なにょうび",
+    "romaji": "Nanyōbi",
+    "english": "What day",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_24",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "なん にち",
+    "kana": "なん にち",
+    "romaji": "Nan nichi",
+    "english": "What Date",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_25",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "あした",
+    "kana": "あした",
+    "romaji": "Ashita",
+    "english": "Tomorrow",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_26",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "あさって",
+    "kana": "あさって",
+    "romaji": "Asatte",
+    "english": "Day after tomorrow",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_27",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "きょう",
+    "kana": "きょう",
+    "romaji": "Kyō",
+    "english": "Today",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_28",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "きのう",
+    "kana": "きのう",
+    "romaji": "Kinō",
+    "english": "Yesterday",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_29",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "おととい",
+    "kana": "おととい",
+    "romaji": "Ototoi",
+    "english": "Day before yesterday",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_30",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "りょこう",
+    "kana": "りょこう",
+    "romaji": "Ryokō",
+    "english": "Travel, trip",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch3_31",
+    "chapter": 3,
+    "chapterTitle": "Time & Days (時間・曜日)",
+    "japanese": "でした",
+    "kana": "でした",
+    "romaji": "Deshita",
+    "english": "Past form of des",
+    "category": "Basic 1"
+  }
+]

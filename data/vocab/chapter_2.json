@@ -1,0 +1,642 @@
+[
+  {
+    "id": "vocab_ch2_1",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "いち",
+    "kana": "いち",
+    "romaji": "Ichi",
+    "english": "One",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_2",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "に",
+    "kana": "に",
+    "romaji": "Ni",
+    "english": "Two",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_3",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "さん",
+    "kana": "さん",
+    "romaji": "San",
+    "english": "Three",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_4",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ご",
+    "kana": "ご",
+    "romaji": "Go",
+    "english": "Five",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_5",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ろく",
+    "kana": "ろく",
+    "romaji": "Roku",
+    "english": "Six",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_6",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "なな/しち",
+    "kana": "なな/しち",
+    "romaji": "Nana/Shichi",
+    "english": "Seven",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_7",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "はち",
+    "kana": "はち",
+    "romaji": "Hachi",
+    "english": "Eight",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_8",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "きゅう",
+    "kana": "きゅう",
+    "romaji": "Kyū",
+    "english": "Nine",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_9",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "じゅう",
+    "kana": "じゅう",
+    "romaji": "Jū",
+    "english": "Ten",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_10",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "じゅういち",
+    "kana": "じゅういち",
+    "romaji": "Jūichi",
+    "english": "Eleven",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_11",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "じゅうに",
+    "kana": "じゅうに",
+    "romaji": "Jūni",
+    "english": "Twelve",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_12",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "にじゅう",
+    "kana": "にじゅう",
+    "romaji": "Nijū",
+    "english": "Twenty",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_13",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "さんじゅう",
+    "kana": "さんじゅう",
+    "romaji": "Sanjū",
+    "english": "Thirty",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_14",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "よんじゅう",
+    "kana": "よんじゅう",
+    "romaji": "Yonjū",
+    "english": "Forty",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_15",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ごじゅう",
+    "kana": "ごじゅう",
+    "romaji": "Gojū",
+    "english": "Fifty",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_16",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ろくじゅう",
+    "kana": "ろくじゅう",
+    "romaji": "Rokujū",
+    "english": "Sixty",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_17",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ななじゅう",
+    "kana": "ななじゅう",
+    "romaji": "Nanajū",
+    "english": "Seventy",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_18",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "はちじゅう",
+    "kana": "はちじゅう",
+    "romaji": "Hachijū",
+    "english": "Eighty",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_19",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "きゅうじゅう",
+    "kana": "きゅうじゅう",
+    "romaji": "Kyūjū",
+    "english": "Ninety",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_20",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ひゃく",
+    "kana": "ひゃく",
+    "romaji": "Hyaku",
+    "english": "Hundred",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_21",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "いっせん/せん",
+    "kana": "いっせん/せん",
+    "romaji": "Issen/sen",
+    "english": "One thousand",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_22",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ひゃく",
+    "kana": "ひゃく",
+    "romaji": "Hyaku",
+    "english": "One Hundred",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_23",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "にひゃく",
+    "kana": "にひゃく",
+    "romaji": "Nihyaku",
+    "english": "Two Hundred",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_24",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "さんびゃく",
+    "kana": "さんびゃく",
+    "romaji": "Sambyaku",
+    "english": "Three Hundred",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_25",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "よんひゃく",
+    "kana": "よんひゃく",
+    "romaji": "Yonhyaku",
+    "english": "Four Hundred",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_26",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ろっぴゃく",
+    "kana": "ろっぴゃく",
+    "romaji": "Roppyaku",
+    "english": "Six Hundred",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_27",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "はっぴゃく",
+    "kana": "はっぴゃく",
+    "romaji": "Happyaku",
+    "english": "Eight Hundred",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_28",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "きゅうひゃく",
+    "kana": "きゅうひゃく",
+    "romaji": "Kyūhyaku",
+    "english": "Nine Hundred",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_29",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "いくら",
+    "kana": "いくら",
+    "romaji": "Ikura",
+    "english": "..How much",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_30",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "かばん",
+    "kana": "かばん",
+    "romaji": "Kaban",
+    "english": "Bag",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_31",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ばいく",
+    "kana": "ばいく",
+    "romaji": "Baiku",
+    "english": "Bike",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_32",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "くるま",
+    "kana": "くるま",
+    "romaji": "Kuruma",
+    "english": "Car",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_33",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "でんわ",
+    "kana": "でんわ",
+    "romaji": "Denwa",
+    "english": "Phone",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_34",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "パソコン",
+    "kana": "パソコン",
+    "romaji": "Pasokon",
+    "english": "Computer",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_35",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "とけい",
+    "kana": "とけい",
+    "romaji": "Tokei",
+    "english": "Watch/Clock",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_36",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "いす",
+    "kana": "いす",
+    "romaji": "Isu",
+    "english": "Chair",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_37",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "つくえ",
+    "kana": "つくえ",
+    "romaji": "Tsukue",
+    "english": "Table",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_38",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "いえ",
+    "kana": "いえ",
+    "romaji": "Ie",
+    "english": "House",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_39",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ぺん",
+    "kana": "ぺん",
+    "romaji": "Pen",
+    "english": "Pen",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_40",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "くつ",
+    "kana": "くつ",
+    "romaji": "Kutsu",
+    "english": "Shoes",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_41",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ちょっと",
+    "kana": "ちょっと",
+    "romaji": "Chotto",
+    "english": "Little bit",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_42",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "とても",
+    "kana": "とても",
+    "romaji": "Totemo",
+    "english": "Very",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_43",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "どる",
+    "kana": "どる",
+    "romaji": "Doru",
+    "english": "Dollar",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_44",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "やすみ",
+    "kana": "やすみ",
+    "romaji": "Yasumi",
+    "english": "Holiday, Break",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_45",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ね",
+    "kana": "ね",
+    "romaji": "Ne",
+    "english": "Isn’t it (For confirming)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_46",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "いちまん",
+    "kana": "いちまん",
+    "romaji": "Ichiman",
+    "english": "Ten Thousand",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_47",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ろくまん",
+    "kana": "ろくまん",
+    "romaji": "Rokuman",
+    "english": "Sixty Thousand",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_48",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "にまん",
+    "kana": "にまん",
+    "romaji": "Niman",
+    "english": "Twenty Thousand",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_49",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ななまん",
+    "kana": "ななまん",
+    "romaji": "Nanaman",
+    "english": "Seventy Thousand",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_50",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "さんまん",
+    "kana": "さんまん",
+    "romaji": "Sanman",
+    "english": "Thirty Thousand",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_51",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "はちまん",
+    "kana": "はちまん",
+    "romaji": "Hachiman",
+    "english": "Eighty Thousand",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_52",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "よんまん",
+    "kana": "よんまん",
+    "romaji": "Yonman",
+    "english": "Forty Thousand",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_53",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "きゅうまん",
+    "kana": "きゅうまん",
+    "romaji": "Kyūman",
+    "english": "Ninety Thousand",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_54",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "ごまん",
+    "kana": "ごまん",
+    "romaji": "Goman",
+    "english": "Fifty Thousand",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_55",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "じゅうまん",
+    "kana": "じゅうまん",
+    "romaji": "Jūman",
+    "english": "Hundred Thousand",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_56",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "がっこう",
+    "kana": "がっこう",
+    "romaji": "Gakkō",
+    "english": "School",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_57",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "かばん",
+    "kana": "かばん",
+    "romaji": "Kaban",
+    "english": "Bag",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_58",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "パソコン",
+    "kana": "パソコン",
+    "romaji": "Pasokon",
+    "english": "Computer",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_59",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "おちゃ",
+    "kana": "おちゃ",
+    "romaji": "Ocha",
+    "english": "(Green) Tea",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_60",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "おさけ",
+    "kana": "おさけ",
+    "romaji": "Osake",
+    "english": "Alcohol",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_61",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "しごと",
+    "kana": "しごと",
+    "romaji": "Shigoto",
+    "english": "Work/Job",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_62",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "せき",
+    "kana": "せき",
+    "romaji": "Seki",
+    "english": "Seat",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_63",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "しんぶん",
+    "kana": "しんぶん",
+    "romaji": "Shimbun",
+    "english": "Newspaper",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch2_64",
+    "chapter": 2,
+    "chapterTitle": "Let’s Count (数え方・数字)",
+    "japanese": "びる",
+    "kana": "びる",
+    "romaji": "Biru",
+    "english": "Building",
+    "category": "Basic 1"
+  }
+]

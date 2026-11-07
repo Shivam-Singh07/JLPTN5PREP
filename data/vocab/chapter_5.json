@@ -1,0 +1,222 @@
+[
+  {
+    "id": "vocab_ch5_1",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "むずかしい",
+    "kana": "むずかしい",
+    "romaji": "Muzukashii",
+    "english": "Difficult",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_2",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "やさしい",
+    "kana": "やさしい",
+    "romaji": "Yasashii",
+    "english": "Easy, Kind, Gentle",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_3",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "おもしろい",
+    "kana": "おもしろい",
+    "romaji": "Omoshiroi",
+    "english": "Interesting",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_4",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "はやい",
+    "kana": "はやい",
+    "romaji": "Hayai",
+    "english": "Fast, Quick",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_5",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "おそい",
+    "kana": "おそい",
+    "romaji": "Osoi",
+    "english": "Slow",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_6",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "いい",
+    "kana": "いい",
+    "romaji": "ii",
+    "english": "Good",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_7",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "よくない",
+    "kana": "よくない",
+    "romaji": "Yokunai",
+    "english": "Not good",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_8",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "おいしい",
+    "kana": "おいしい",
+    "romaji": "Oishii",
+    "english": "Tasty",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_9",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "とても",
+    "kana": "とても",
+    "romaji": "Totemo",
+    "english": "Very",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_10",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "くに",
+    "kana": "くに",
+    "romaji": "Kuni",
+    "english": "Country",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_11",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "いつも",
+    "kana": "いつも",
+    "romaji": "Itsumo",
+    "english": "Always",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_12",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "にほんご",
+    "kana": "にほんご",
+    "romaji": "Nihongo",
+    "english": "Japanese Language",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_13",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "えいご",
+    "kana": "えいご",
+    "romaji": "Eigo",
+    "english": "English",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_14",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "りょうり",
+    "kana": "りょうり",
+    "romaji": "Ryōri",
+    "english": "Dish, food, cuisine",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_15",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "コーヒー",
+    "kana": "コーヒー",
+    "romaji": "Kōhii",
+    "english": "Coffee",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_16",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "あたらしい",
+    "kana": "あたらしい",
+    "romaji": "Atarashii",
+    "english": "New",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_17",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "ふるい",
+    "kana": "ふるい",
+    "romaji": "Furui",
+    "english": "Old (things)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_18",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "いそがしい",
+    "kana": "いそがしい",
+    "romaji": "Isogashii",
+    "english": "Busy",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_19",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "たのしい",
+    "kana": "たのしい",
+    "romaji": "Tanoshii",
+    "english": "Enjoyable",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_20",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "ちいさい",
+    "kana": "ちいさい",
+    "romaji": "Chiisai",
+    "english": "Small",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_21",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "ひくい",
+    "kana": "ひくい",
+    "romaji": "Hikui",
+    "english": "Low",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch5_22",
+    "chapter": 5,
+    "chapterTitle": "Basic Adjectives (基本の形容詞)",
+    "japanese": "わるい",
+    "kana": "わるい",
+    "romaji": "Warui",
+    "english": "Bad",
+    "category": "Basic 1"
+  }
+]

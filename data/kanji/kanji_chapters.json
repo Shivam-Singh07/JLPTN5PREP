@@ -1,0 +1,2727 @@
+[
+  {
+    "id": 1,
+    "title": "Numbers & Currency (数字・お金)",
+    "description": "Numbers 1-10, 100, 1000, 10000, and currency Yen (一〜円)",
+    "count": 14,
+    "kanjiList": [
+      {
+        "kanji": "一",
+        "strokes": 1,
+        "onyomi": "イチ, イツ",
+        "kunyomi": "ひと-, ひとつ",
+        "meaning": "One",
+        "examples": [
+          {
+            "word": "一つ",
+            "reading": "ひとつ",
+            "meaning": "One thing"
+          },
+          {
+            "word": "一日",
+            "reading": "ついたち",
+            "meaning": "1st day of month"
+          },
+          {
+            "word": "一人",
+            "reading": "ひとり",
+            "meaning": "One person"
+          }
+        ],
+        "id": "kanji_一",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "二",
+        "strokes": 2,
+        "onyomi": "ニ",
+        "kunyomi": "ふた-, ふたつ",
+        "meaning": "Two",
+        "examples": [
+          {
+            "word": "二つ",
+            "reading": "ふたつ",
+            "meaning": "Two things"
+          },
+          {
+            "word": "二月",
+            "reading": "にがつ",
+            "meaning": "February"
+          },
+          {
+            "word": "二人",
+            "reading": "ふたり",
+            "meaning": "Two people"
+          }
+        ],
+        "id": "kanji_二",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "三",
+        "strokes": 3,
+        "onyomi": "サン",
+        "kunyomi": "み-, みっつ",
+        "meaning": "Three",
+        "examples": [
+          {
+            "word": "三つ",
+            "reading": "みっつ",
+            "meaning": "Three things"
+          },
+          {
+            "word": "三月",
+            "reading": "さんがつ",
+            "meaning": "March"
+          },
+          {
+            "word": "三日",
+            "reading": "みっか",
+            "meaning": "3rd day of month"
+          }
+        ],
+        "id": "kanji_三",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "四",
+        "strokes": 5,
+        "onyomi": "シ",
+        "kunyomi": "よ-, よっつ, よん",
+        "meaning": "Four",
+        "examples": [
+          {
+            "word": "四つ",
+            "reading": "よっつ",
+            "meaning": "Four things"
+          },
+          {
+            "word": "四月",
+            "reading": "しがつ",
+            "meaning": "April"
+          },
+          {
+            "word": "四日",
+            "reading": "よっか",
+            "meaning": "4th day of month"
+          }
+        ],
+        "id": "kanji_四",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "五",
+        "strokes": 4,
+        "onyomi": "ゴ",
+        "kunyomi": "いつ-, いつつ",
+        "meaning": "Five",
+        "examples": [
+          {
+            "word": "五つ",
+            "reading": "いつつ",
+            "meaning": "Five things"
+          },
+          {
+            "word": "五月",
+            "reading": "ごがつ",
+            "meaning": "May"
+          },
+          {
+            "word": "五日",
+            "reading": "いつか",
+            "meaning": "5th day of month"
+          }
+        ],
+        "id": "kanji_五",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "六",
+        "strokes": 4,
+        "onyomi": "ロク",
+        "kunyomi": "む-, むっつ",
+        "meaning": "Six",
+        "examples": [
+          {
+            "word": "六つ",
+            "reading": "むっつ",
+            "meaning": "Six things"
+          },
+          {
+            "word": "六月",
+            "reading": "ろくがつ",
+            "meaning": "June"
+          },
+          {
+            "word": "六日",
+            "reading": "むいか",
+            "meaning": "6th day of month"
+          }
+        ],
+        "id": "kanji_六",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "七",
+        "strokes": 2,
+        "onyomi": "シチ",
+        "kunyomi": "なな, ななつ",
+        "meaning": "Seven",
+        "examples": [
+          {
+            "word": "七つ",
+            "reading": "ななつ",
+            "meaning": "Seven things"
+          },
+          {
+            "word": "七月",
+            "reading": "しちがつ",
+            "meaning": "July"
+          },
+          {
+            "word": "七日",
+            "reading": "なのか",
+            "meaning": "7th day of month"
+          }
+        ],
+        "id": "kanji_七",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "八",
+        "strokes": 2,
+        "onyomi": "ハチ",
+        "kunyomi": "や-, やっつ",
+        "meaning": "Eight",
+        "examples": [
+          {
+            "word": "八つ",
+            "reading": "やっつ",
+            "meaning": "Eight things"
+          },
+          {
+            "word": "八月",
+            "reading": "はちがつ",
+            "meaning": "August"
+          },
+          {
+            "word": "八日",
+            "reading": "ようか",
+            "meaning": "8th day of month"
+          }
+        ],
+        "id": "kanji_八",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "九",
+        "strokes": 2,
+        "onyomi": "キュウ, ク",
+        "kunyomi": "ここの-, ここのつ",
+        "meaning": "Nine",
+        "examples": [
+          {
+            "word": "九つ",
+            "reading": "ここのつ",
+            "meaning": "Nine things"
+          },
+          {
+            "word": "九月",
+            "reading": "くがつ",
+            "meaning": "September"
+          },
+          {
+            "word": "九日",
+            "reading": "ここのか",
+            "meaning": "9th day of month"
+          }
+        ],
+        "id": "kanji_九",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "十",
+        "strokes": 2,
+        "onyomi": "ジュウ, ジッ",
+        "kunyomi": "とお, と",
+        "meaning": "Ten",
+        "examples": [
+          {
+            "word": "十",
+            "reading": "とお",
+            "meaning": "Ten things"
+          },
+          {
+            "word": "十月",
+            "reading": "じゅうがつ",
+            "meaning": "October"
+          },
+          {
+            "word": "十日",
+            "reading": "とおか",
+            "meaning": "10th day of month"
+          }
+        ],
+        "id": "kanji_十",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "百",
+        "strokes": 6,
+        "onyomi": "ヒャク",
+        "kunyomi": "もも",
+        "meaning": "Hundred",
+        "examples": [
+          {
+            "word": "三百",
+            "reading": "さんびゃく",
+            "meaning": "300"
+          },
+          {
+            "word": "六百",
+            "reading": "ろっぴゃく",
+            "meaning": "600"
+          },
+          {
+            "word": "八百",
+            "reading": "はっぴゃく",
+            "meaning": "800"
+          }
+        ],
+        "id": "kanji_百",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "千",
+        "strokes": 3,
+        "onyomi": "セン",
+        "kunyomi": "ち",
+        "meaning": "Thousand",
+        "examples": [
+          {
+            "word": "千円",
+            "reading": "せんえん",
+            "meaning": "1,000 yen"
+          },
+          {
+            "word": "三千",
+            "reading": "さんぜん",
+            "meaning": "3,000"
+          },
+          {
+            "word": "八千",
+            "reading": "はっせん",
+            "meaning": "8,000"
+          }
+        ],
+        "id": "kanji_千",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "万",
+        "strokes": 3,
+        "onyomi": "マン, バン",
+        "kunyomi": "よろず",
+        "meaning": "Ten thousand",
+        "examples": [
+          {
+            "word": "一万円",
+            "reading": "いちまんえん",
+            "meaning": "10,000 yen"
+          },
+          {
+            "word": "万国",
+            "reading": "ばんこく",
+            "meaning": "All nations"
+          }
+        ],
+        "id": "kanji_万",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      },
+      {
+        "kanji": "円",
+        "strokes": 4,
+        "onyomi": "エン",
+        "kunyomi": "まる-い",
+        "meaning": "Yen, circle",
+        "examples": [
+          {
+            "word": "百円",
+            "reading": "ひゃくえん",
+            "meaning": "100 yen"
+          },
+          {
+            "word": "円い",
+            "reading": "まるい",
+            "meaning": "Round"
+          }
+        ],
+        "id": "kanji_円",
+        "chapter": 1,
+        "chapterTitle": "Numbers & Currency (数字・お金)"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Calendar & Elements (曜日・自然)",
+    "description": "Days of the week, Sun, Moon, Fire, Water, Wood, Gold, Earth, Year (日〜年)",
+    "count": 8,
+    "kanjiList": [
+      {
+        "kanji": "日",
+        "strokes": 4,
+        "onyomi": "ニチ, ジツ",
+        "kunyomi": "ひ, -び, -か",
+        "meaning": "Day, sun, Japan",
+        "examples": [
+          {
+            "word": "日曜日",
+            "reading": "にちようび",
+            "meaning": "Sunday"
+          },
+          {
+            "word": "日本",
+            "reading": "にほん",
+            "meaning": "Japan"
+          },
+          {
+            "word": "今日",
+            "reading": "きょう",
+            "meaning": "Today"
+          }
+        ],
+        "id": "kanji_日",
+        "chapter": 2,
+        "chapterTitle": "Calendar & Elements (曜日・自然)"
+      },
+      {
+        "kanji": "月",
+        "strokes": 4,
+        "onyomi": "ゲツ, ガツ",
+        "kunyomi": "つき",
+        "meaning": "Month, moon",
+        "examples": [
+          {
+            "word": "月曜日",
+            "reading": "げつようび",
+            "meaning": "Monday"
+          },
+          {
+            "word": "今月",
+            "reading": "こんげつ",
+            "meaning": "This month"
+          },
+          {
+            "word": "一月",
+            "reading": "いちがつ",
+            "meaning": "January"
+          }
+        ],
+        "id": "kanji_月",
+        "chapter": 2,
+        "chapterTitle": "Calendar & Elements (曜日・自然)"
+      },
+      {
+        "kanji": "火",
+        "strokes": 4,
+        "onyomi": "カ",
+        "kunyomi": "ひ, ほ-",
+        "meaning": "Fire",
+        "examples": [
+          {
+            "word": "火曜日",
+            "reading": "かようび",
+            "meaning": "Tuesday"
+          },
+          {
+            "word": "火事",
+            "reading": "かじ",
+            "meaning": "Fire (incident)"
+          }
+        ],
+        "id": "kanji_火",
+        "chapter": 2,
+        "chapterTitle": "Calendar & Elements (曜日・自然)"
+      },
+      {
+        "kanji": "水",
+        "strokes": 4,
+        "onyomi": "スイ",
+        "kunyomi": "みず",
+        "meaning": "Water",
+        "examples": [
+          {
+            "word": "水曜日",
+            "reading": "すいようび",
+            "meaning": "Wednesday"
+          },
+          {
+            "word": "お水",
+            "reading": "おみず",
+            "meaning": "Water"
+          }
+        ],
+        "id": "kanji_水",
+        "chapter": 2,
+        "chapterTitle": "Calendar & Elements (曜日・自然)"
+      },
+      {
+        "kanji": "木",
+        "strokes": 4,
+        "onyomi": "モク, ボク",
+        "kunyomi": "き, こ-",
+        "meaning": "Tree, wood",
+        "examples": [
+          {
+            "word": "木曜日",
+            "reading": "もくようび",
+            "meaning": "Thursday"
+          },
+          {
+            "word": "木",
+            "reading": "き",
+            "meaning": "Tree"
+          }
+        ],
+        "id": "kanji_木",
+        "chapter": 2,
+        "chapterTitle": "Calendar & Elements (曜日・自然)"
+      },
+      {
+        "kanji": "金",
+        "strokes": 8,
+        "onyomi": "キン, コン",
+        "kunyomi": "かね, かな-",
+        "meaning": "Gold, money",
+        "examples": [
+          {
+            "word": "金曜日",
+            "reading": "きんようび",
+            "meaning": "Friday"
+          },
+          {
+            "word": "お金",
+            "reading": "おかね",
+            "meaning": "Money"
+          }
+        ],
+        "id": "kanji_金",
+        "chapter": 2,
+        "chapterTitle": "Calendar & Elements (曜日・自然)"
+      },
+      {
+        "kanji": "土",
+        "strokes": 3,
+        "onyomi": "ド, ト",
+        "kunyomi": "つち",
+        "meaning": "Soil, earth",
+        "examples": [
+          {
+            "word": "土曜日",
+            "reading": "どようび",
+            "meaning": "Saturday"
+          },
+          {
+            "word": "土地",
+            "reading": "とち",
+            "meaning": "Land"
+          }
+        ],
+        "id": "kanji_土",
+        "chapter": 2,
+        "chapterTitle": "Calendar & Elements (曜日・自然)"
+      },
+      {
+        "kanji": "年",
+        "strokes": 6,
+        "onyomi": "ネン",
+        "kunyomi": "とし",
+        "meaning": "Year",
+        "examples": [
+          {
+            "word": "今年",
+            "reading": "ことし",
+            "meaning": "This year"
+          },
+          {
+            "word": "来年",
+            "reading": "らいねん",
+            "meaning": "Next year"
+          },
+          {
+            "word": "去年",
+            "reading": "きょねん",
+            "meaning": "Last year"
+          }
+        ],
+        "id": "kanji_年",
+        "chapter": 2,
+        "chapterTitle": "Calendar & Elements (曜日・自然)"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "People & Nature (人・自然環境)",
+    "description": "Person, name, book, mountain, river, field, child, woman, man (人〜男)",
+    "count": 9,
+    "kanjiList": [
+      {
+        "kanji": "人",
+        "strokes": 2,
+        "onyomi": "ジン, ニン",
+        "kunyomi": "ひと",
+        "meaning": "Person",
+        "examples": [
+          {
+            "word": "日本人",
+            "reading": "にほんじん",
+            "meaning": "Japanese person"
+          },
+          {
+            "word": "あの人",
+            "reading": "あのひと",
+            "meaning": "That person"
+          },
+          {
+            "word": "三人",
+            "reading": "さんにん",
+            "meaning": "Three people"
+          }
+        ],
+        "id": "kanji_人",
+        "chapter": 3,
+        "chapterTitle": "People & Nature (人・自然環境)"
+      },
+      {
+        "kanji": "名",
+        "strokes": 6,
+        "onyomi": "メイ, ミョウ",
+        "kunyomi": "な",
+        "meaning": "Name, famous",
+        "examples": [
+          {
+            "word": "名前",
+            "reading": "なまえ",
+            "meaning": "Name"
+          },
+          {
+            "word": "有名",
+            "reading": "ゆうめい",
+            "meaning": "Famous"
+          }
+        ],
+        "id": "kanji_名",
+        "chapter": 3,
+        "chapterTitle": "People & Nature (人・自然環境)"
+      },
+      {
+        "kanji": "本",
+        "strokes": 5,
+        "onyomi": "ホン",
+        "kunyomi": "もと",
+        "meaning": "Book, origin, main",
+        "examples": [
+          {
+            "word": "本",
+            "reading": "ほん",
+            "meaning": "Book"
+          },
+          {
+            "word": "日本",
+            "reading": "にほん",
+            "meaning": "Japan"
+          }
+        ],
+        "id": "kanji_本",
+        "chapter": 3,
+        "chapterTitle": "People & Nature (人・自然環境)"
+      },
+      {
+        "kanji": "山",
+        "strokes": 3,
+        "onyomi": "サン",
+        "kunyomi": "やま",
+        "meaning": "Mountain",
+        "examples": [
+          {
+            "word": "山",
+            "reading": "やま",
+            "meaning": "Mountain"
+          },
+          {
+            "word": "富士山",
+            "reading": "ふじさん",
+            "meaning": "Mt. Fuji"
+          }
+        ],
+        "id": "kanji_山",
+        "chapter": 3,
+        "chapterTitle": "People & Nature (人・自然環境)"
+      },
+      {
+        "kanji": "川",
+        "strokes": 3,
+        "onyomi": "セン",
+        "kunyomi": "かわ",
+        "meaning": "River",
+        "examples": [
+          {
+            "word": "川",
+            "reading": "かわ",
+            "meaning": "River"
+          },
+          {
+            "word": "山川さん",
+            "reading": "やまかわさん",
+            "meaning": "Mr. Yamakawa"
+          }
+        ],
+        "id": "kanji_川",
+        "chapter": 3,
+        "chapterTitle": "People & Nature (人・自然環境)"
+      },
+      {
+        "kanji": "田",
+        "strokes": 5,
+        "onyomi": "デン",
+        "kunyomi": "た",
+        "meaning": "Rice field",
+        "examples": [
+          {
+            "word": "田んぼ",
+            "reading": "たんぼ",
+            "meaning": "Rice field"
+          },
+          {
+            "word": "山田さん",
+            "reading": "やまださん",
+            "meaning": "Mr. Yamada"
+          }
+        ],
+        "id": "kanji_田",
+        "chapter": 3,
+        "chapterTitle": "People & Nature (人・自然環境)"
+      },
+      {
+        "kanji": "子",
+        "strokes": 3,
+        "onyomi": "シ, ス",
+        "kunyomi": "こ",
+        "meaning": "Child",
+        "examples": [
+          {
+            "word": "子供",
+            "reading": "こども",
+            "meaning": "Child"
+          },
+          {
+            "word": "女の子",
+            "reading": "おんなのこ",
+            "meaning": "Girl"
+          }
+        ],
+        "id": "kanji_子",
+        "chapter": 3,
+        "chapterTitle": "People & Nature (人・自然環境)"
+      },
+      {
+        "kanji": "女",
+        "strokes": 3,
+        "onyomi": "ジョ, ニョ",
+        "kunyomi": "おんな, め",
+        "meaning": "Woman, female",
+        "examples": [
+          {
+            "word": "女の人",
+            "reading": "おんなのひと",
+            "meaning": "Woman"
+          },
+          {
+            "word": "彼女",
+            "reading": "かのじょ",
+            "meaning": "She / girlfriend"
+          }
+        ],
+        "id": "kanji_女",
+        "chapter": 3,
+        "chapterTitle": "People & Nature (人・自然環境)"
+      },
+      {
+        "kanji": "男",
+        "strokes": 7,
+        "onyomi": "ダン, ナン",
+        "kunyomi": "おとこ",
+        "meaning": "Man, male",
+        "examples": [
+          {
+            "word": "男の人",
+            "reading": "おとこのひと",
+            "meaning": "Man"
+          },
+          {
+            "word": "男の子",
+            "reading": "おとこのこ",
+            "meaning": "Boy"
+          }
+        ],
+        "id": "kanji_男",
+        "chapter": 3,
+        "chapterTitle": "People & Nature (人・自然環境)"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Body & Positions (体・位置・大小)",
+    "description": "Eye, ear, mouth, hand, foot, up, down, middle, big, small (目〜小)",
+    "count": 10,
+    "kanjiList": [
+      {
+        "kanji": "目",
+        "strokes": 5,
+        "onyomi": "モク",
+        "kunyomi": "め, ま-",
+        "meaning": "Eye",
+        "examples": [
+          {
+            "word": "目",
+            "reading": "め",
+            "meaning": "Eye"
+          },
+          {
+            "word": "一日目",
+            "reading": "いちにちめ",
+            "meaning": "First day"
+          }
+        ],
+        "id": "kanji_目",
+        "chapter": 4,
+        "chapterTitle": "Body & Positions (体・位置・大小)"
+      },
+      {
+        "kanji": "耳",
+        "strokes": 6,
+        "onyomi": "ジ",
+        "kunyomi": "みみ",
+        "meaning": "Ear",
+        "examples": [
+          {
+            "word": "耳",
+            "reading": "みみ",
+            "meaning": "Ear"
+          }
+        ],
+        "id": "kanji_耳",
+        "chapter": 4,
+        "chapterTitle": "Body & Positions (体・位置・大小)"
+      },
+      {
+        "kanji": "口",
+        "strokes": 3,
+        "onyomi": "コウ, ク",
+        "kunyomi": "くち",
+        "meaning": "Mouth, entrance",
+        "examples": [
+          {
+            "word": "口",
+            "reading": "くち",
+            "meaning": "Mouth"
+          },
+          {
+            "word": "入口",
+            "reading": "いりぐち",
+            "meaning": "Entrance"
+          },
+          {
+            "word": "出口",
+            "reading": "でぐち",
+            "meaning": "Exit"
+          }
+        ],
+        "id": "kanji_口",
+        "chapter": 4,
+        "chapterTitle": "Body & Positions (体・位置・大小)"
+      },
+      {
+        "kanji": "手",
+        "strokes": 4,
+        "onyomi": "シュ",
+        "kunyomi": "て, た-",
+        "meaning": "Hand",
+        "examples": [
+          {
+            "word": "手",
+            "reading": "て",
+            "meaning": "Hand"
+          },
+          {
+            "word": "上手",
+            "reading": "じょうず",
+            "meaning": "Skillful"
+          },
+          {
+            "word": "下手",
+            "reading": "へた",
+            "meaning": "Unskillful"
+          }
+        ],
+        "id": "kanji_手",
+        "chapter": 4,
+        "chapterTitle": "Body & Positions (体・位置・大小)"
+      },
+      {
+        "kanji": "足",
+        "strokes": 7,
+        "onyomi": "ソク",
+        "kunyomi": "あし, た-りる",
+        "meaning": "Foot, leg, sufficient",
+        "examples": [
+          {
+            "word": "足",
+            "reading": "あし",
+            "meaning": "Foot / leg"
+          },
+          {
+            "word": "足りる",
+            "reading": "たりる",
+            "meaning": "To be sufficient"
+          }
+        ],
+        "id": "kanji_足",
+        "chapter": 4,
+        "chapterTitle": "Body & Positions (体・位置・大小)"
+      },
+      {
+        "kanji": "上",
+        "strokes": 3,
+        "onyomi": "ジョウ",
+        "kunyomi": "うえ, あ-がる, のぼ-る",
+        "meaning": "Up, above",
+        "examples": [
+          {
+            "word": "上",
+            "reading": "うえ",
+            "meaning": "Above / on top"
+          },
+          {
+            "word": "上手",
+            "reading": "じょうず",
+            "meaning": "Good at"
+          }
+        ],
+        "id": "kanji_上",
+        "chapter": 4,
+        "chapterTitle": "Body & Positions (体・位置・大小)"
+      },
+      {
+        "kanji": "下",
+        "strokes": 3,
+        "onyomi": "カ, ゲ",
+        "kunyomi": "した, さ-がる, くだ-る",
+        "meaning": "Down, below",
+        "examples": [
+          {
+            "word": "下",
+            "reading": "した",
+            "meaning": "Under / below"
+          },
+          {
+            "word": "地下鉄",
+            "reading": "ちかてつ",
+            "meaning": "Subway"
+          }
+        ],
+        "id": "kanji_下",
+        "chapter": 4,
+        "chapterTitle": "Body & Positions (体・位置・大小)"
+      },
+      {
+        "kanji": "中",
+        "strokes": 4,
+        "onyomi": "チュウ",
+        "kunyomi": "なか",
+        "meaning": "Middle, inside, China",
+        "examples": [
+          {
+            "word": "中",
+            "reading": "なか",
+            "meaning": "Inside"
+          },
+          {
+            "word": "中国",
+            "reading": "ちゅうごく",
+            "meaning": "China"
+          },
+          {
+            "word": "一日中",
+            "reading": "いちにちじゅう",
+            "meaning": "All day long"
+          }
+        ],
+        "id": "kanji_中",
+        "chapter": 4,
+        "chapterTitle": "Body & Positions (体・位置・大小)"
+      },
+      {
+        "kanji": "大",
+        "strokes": 3,
+        "onyomi": "ダイ, タイ",
+        "kunyomi": "おお-きい",
+        "meaning": "Big, large",
+        "examples": [
+          {
+            "word": "大きい",
+            "reading": "おおきい",
+            "meaning": "Big"
+          },
+          {
+            "word": "大学",
+            "reading": "だいがく",
+            "meaning": "University"
+          },
+          {
+            "word": "大変",
+            "reading": "たいへん",
+            "meaning": "Tough / terrible"
+          }
+        ],
+        "id": "kanji_大",
+        "chapter": 4,
+        "chapterTitle": "Body & Positions (体・位置・大小)"
+      },
+      {
+        "kanji": "小",
+        "strokes": 3,
+        "onyomi": "ショウ",
+        "kunyomi": "ちい-さい, こ-",
+        "meaning": "Small, little",
+        "examples": [
+          {
+            "word": "小さい",
+            "reading": "ちいさい",
+            "meaning": "Small"
+          },
+          {
+            "word": "小学校",
+            "reading": "しょうがっこう",
+            "meaning": "Elementary school"
+          }
+        ],
+        "id": "kanji_小",
+        "chapter": 4,
+        "chapterTitle": "Body & Positions (体・位置・大小)"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "School & Time (学校・時間)",
+    "description": "Study, life, previous, school, what, now, before, after, noon, every (学〜毎)",
+    "count": 10,
+    "kanjiList": [
+      {
+        "kanji": "学",
+        "strokes": 8,
+        "onyomi": "ガク",
+        "kunyomi": "まな-ぶ",
+        "meaning": "Study, learning",
+        "examples": [
+          {
+            "word": "学生",
+            "reading": "がくせい",
+            "meaning": "Student"
+          },
+          {
+            "word": "大学",
+            "reading": "だいがく",
+            "meaning": "University"
+          },
+          {
+            "word": "学校",
+            "reading": "がっこう",
+            "meaning": "School"
+          }
+        ],
+        "id": "kanji_学",
+        "chapter": 5,
+        "chapterTitle": "School & Time (学校・時間)"
+      },
+      {
+        "kanji": "生",
+        "strokes": 5,
+        "onyomi": "セイ, ショウ",
+        "kunyomi": "い-きる, う-まれる, なま",
+        "meaning": "Life, birth, student",
+        "examples": [
+          {
+            "word": "先生",
+            "reading": "せんせい",
+            "meaning": "Teacher"
+          },
+          {
+            "word": "学生",
+            "reading": "がくせい",
+            "meaning": "Student"
+          },
+          {
+            "word": "生まれる",
+            "reading": "うまれる",
+            "meaning": "To be born"
+          }
+        ],
+        "id": "kanji_生",
+        "chapter": 5,
+        "chapterTitle": "School & Time (学校・時間)"
+      },
+      {
+        "kanji": "先",
+        "strokes": 6,
+        "onyomi": "セン",
+        "kunyomi": "さき",
+        "meaning": "Previous, ahead",
+        "examples": [
+          {
+            "word": "先生",
+            "reading": "せんせい",
+            "meaning": "Teacher"
+          },
+          {
+            "word": "先週",
+            "reading": "せんしゅう",
+            "meaning": "Last week"
+          },
+          {
+            "word": "先月",
+            "reading": "せんげつ",
+            "meaning": "Last month"
+          }
+        ],
+        "id": "kanji_先",
+        "chapter": 5,
+        "chapterTitle": "School & Time (学校・時間)"
+      },
+      {
+        "kanji": "校",
+        "strokes": 10,
+        "onyomi": "コウ",
+        "kunyomi": "",
+        "meaning": "School",
+        "examples": [
+          {
+            "word": "学校",
+            "reading": "がっこう",
+            "meaning": "School"
+          },
+          {
+            "word": "高校",
+            "reading": "こうこう",
+            "meaning": "High school"
+          }
+        ],
+        "id": "kanji_校",
+        "chapter": 5,
+        "chapterTitle": "School & Time (学校・時間)"
+      },
+      {
+        "kanji": "何",
+        "strokes": 7,
+        "onyomi": "カ",
+        "kunyomi": "なに, なん",
+        "meaning": "What",
+        "examples": [
+          {
+            "word": "何",
+            "reading": "なに",
+            "meaning": "What"
+          },
+          {
+            "word": "何時",
+            "reading": "なんじ",
+            "meaning": "What time"
+          },
+          {
+            "word": "何人",
+            "reading": "なんにん",
+            "meaning": "How many people"
+          }
+        ],
+        "id": "kanji_何",
+        "chapter": 5,
+        "chapterTitle": "School & Time (学校・時間)"
+      },
+      {
+        "kanji": "今",
+        "strokes": 4,
+        "onyomi": "コン, キン",
+        "kunyomi": "いま",
+        "meaning": "Now",
+        "examples": [
+          {
+            "word": "今",
+            "reading": "いま",
+            "meaning": "Now"
+          },
+          {
+            "word": "今日",
+            "reading": "きょう",
+            "meaning": "Today"
+          },
+          {
+            "word": "今月",
+            "reading": "こんげつ",
+            "meaning": "This month"
+          },
+          {
+            "word": "今年",
+            "reading": "ことし",
+            "meaning": "This year"
+          }
+        ],
+        "id": "kanji_今",
+        "chapter": 5,
+        "chapterTitle": "School & Time (学校・時間)"
+      },
+      {
+        "kanji": "前",
+        "strokes": 9,
+        "onyomi": "ゼン",
+        "kunyomi": "まえ",
+        "meaning": "Before, in front",
+        "examples": [
+          {
+            "word": "前",
+            "reading": "まえ",
+            "meaning": "Front / before"
+          },
+          {
+            "word": "午前",
+            "reading": "ごぜん",
+            "meaning": "Morning / A.M."
+          },
+          {
+            "word": "名前",
+            "reading": "なまえ",
+            "meaning": "Name"
+          }
+        ],
+        "id": "kanji_前",
+        "chapter": 5,
+        "chapterTitle": "School & Time (学校・時間)"
+      },
+      {
+        "kanji": "後",
+        "strokes": 9,
+        "onyomi": "ゴ, コウ",
+        "kunyomi": "のち, うし-ろ, あと",
+        "meaning": "After, behind",
+        "examples": [
+          {
+            "word": "後ろ",
+            "reading": "うしろ",
+            "meaning": "Behind"
+          },
+          {
+            "word": "午後",
+            "reading": "ごご",
+            "meaning": "Afternoon / P.M."
+          },
+          {
+            "word": "後で",
+            "reading": "あとで",
+            "meaning": "Later"
+          }
+        ],
+        "id": "kanji_後",
+        "chapter": 5,
+        "chapterTitle": "School & Time (学校・時間)"
+      },
+      {
+        "kanji": "午",
+        "strokes": 4,
+        "onyomi": "ゴ",
+        "kunyomi": "うま",
+        "meaning": "Noon",
+        "examples": [
+          {
+            "word": "午前",
+            "reading": "ごぜん",
+            "meaning": "A.M."
+          },
+          {
+            "word": "午後",
+            "reading": "ごご",
+            "meaning": "P.M."
+          }
+        ],
+        "id": "kanji_午",
+        "chapter": 5,
+        "chapterTitle": "School & Time (学校・時間)"
+      },
+      {
+        "kanji": "毎",
+        "strokes": 6,
+        "onyomi": "マイ",
+        "kunyomi": "ごと",
+        "meaning": "Every",
+        "examples": [
+          {
+            "word": "毎日",
+            "reading": "まいにち",
+            "meaning": "Every day"
+          },
+          {
+            "word": "毎週",
+            "reading": "まいしゅう",
+            "meaning": "Every week"
+          },
+          {
+            "word": "毎朝",
+            "reading": "まいあさ",
+            "meaning": "Every morning"
+          }
+        ],
+        "id": "kanji_毎",
+        "chapter": 5,
+        "chapterTitle": "School & Time (学校・時間)"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Essential Verbs (基本動詞)",
+    "description": "See, go, come, eat, drink, read, write, hear, talk, buy (見〜買)",
+    "count": 10,
+    "kanjiList": [
+      {
+        "kanji": "見",
+        "strokes": 7,
+        "onyomi": "ケン",
+        "kunyomi": "み-る, み-える",
+        "meaning": "See, look",
+        "examples": [
+          {
+            "word": "見る",
+            "reading": "みる",
+            "meaning": "To look / see"
+          },
+          {
+            "word": "見せる",
+            "reading": "みせる",
+            "meaning": "To show"
+          }
+        ],
+        "id": "kanji_見",
+        "chapter": 6,
+        "chapterTitle": "Essential Verbs (基本動詞)"
+      },
+      {
+        "kanji": "行",
+        "strokes": 6,
+        "onyomi": "コウ, ギョウ",
+        "kunyomi": "い-く, おこな-う",
+        "meaning": "Go, conduct",
+        "examples": [
+          {
+            "word": "行く",
+            "reading": "いく",
+            "meaning": "To go"
+          },
+          {
+            "word": "旅行",
+            "reading": "りょこう",
+            "meaning": "Travel"
+          }
+        ],
+        "id": "kanji_行",
+        "chapter": 6,
+        "chapterTitle": "Essential Verbs (基本動詞)"
+      },
+      {
+        "kanji": "来",
+        "strokes": 7,
+        "onyomi": "ライ",
+        "kunyomi": "く-る, きた-る",
+        "meaning": "Come, next",
+        "examples": [
+          {
+            "word": "来る",
+            "reading": "くる",
+            "meaning": "To come"
+          },
+          {
+            "word": "来週",
+            "reading": "らいしゅう",
+            "meaning": "Next week"
+          },
+          {
+            "word": "来年",
+            "reading": "らいねん",
+            "meaning": "Next year"
+          }
+        ],
+        "id": "kanji_来",
+        "chapter": 6,
+        "chapterTitle": "Essential Verbs (基本動詞)"
+      },
+      {
+        "kanji": "食",
+        "strokes": 9,
+        "onyomi": "ショク",
+        "kunyomi": "た-べる, く-う",
+        "meaning": "Eat, food",
+        "examples": [
+          {
+            "word": "食べる",
+            "reading": "たべる",
+            "meaning": "To eat"
+          },
+          {
+            "word": "食べ物",
+            "reading": "たべもの",
+            "meaning": "Food"
+          },
+          {
+            "word": "食事",
+            "reading": "しょくじ",
+            "meaning": "Meal"
+          }
+        ],
+        "id": "kanji_食",
+        "chapter": 6,
+        "chapterTitle": "Essential Verbs (基本動詞)"
+      },
+      {
+        "kanji": "飲",
+        "strokes": 12,
+        "onyomi": "イン",
+        "kunyomi": "の-む",
+        "meaning": "Drink",
+        "examples": [
+          {
+            "word": "飲む",
+            "reading": "のむ",
+            "meaning": "To drink"
+          },
+          {
+            "word": "飲み物",
+            "reading": "のみもの",
+            "meaning": "Drink / beverage"
+          }
+        ],
+        "id": "kanji_飲",
+        "chapter": 6,
+        "chapterTitle": "Essential Verbs (基本動詞)"
+      },
+      {
+        "kanji": "読",
+        "strokes": 14,
+        "onyomi": "ドク",
+        "kunyomi": "よ-む",
+        "meaning": "Read",
+        "examples": [
+          {
+            "word": "読む",
+            "reading": "よむ",
+            "meaning": "To read"
+          },
+          {
+            "word": "読書",
+            "reading": "どくしょ",
+            "meaning": "Reading books"
+          }
+        ],
+        "id": "kanji_読",
+        "chapter": 6,
+        "chapterTitle": "Essential Verbs (基本動詞)"
+      },
+      {
+        "kanji": "書",
+        "strokes": 10,
+        "onyomi": "ショ",
+        "kunyomi": "か-く",
+        "meaning": "Write, book",
+        "examples": [
+          {
+            "word": "書く",
+            "reading": "かく",
+            "meaning": "To write"
+          },
+          {
+            "word": "辞書",
+            "reading": "じしょ",
+            "meaning": "Dictionary"
+          },
+          {
+            "word": "図書館",
+            "reading": "としょかん",
+            "meaning": "Library"
+          }
+        ],
+        "id": "kanji_書",
+        "chapter": 6,
+        "chapterTitle": "Essential Verbs (基本動詞)"
+      },
+      {
+        "kanji": "聞",
+        "strokes": 14,
+        "onyomi": "ブン, モン",
+        "kunyomi": "き-く, き-こえる",
+        "meaning": "Hear, listen, ask",
+        "examples": [
+          {
+            "word": "聞く",
+            "reading": "きく",
+            "meaning": "To hear / ask"
+          },
+          {
+            "word": "新聞",
+            "reading": "しんぶん",
+            "meaning": "Newspaper"
+          }
+        ],
+        "id": "kanji_聞",
+        "chapter": 6,
+        "chapterTitle": "Essential Verbs (基本動詞)"
+      },
+      {
+        "kanji": "話",
+        "strokes": 13,
+        "onyomi": "ワ",
+        "kunyomi": "はな-す, はなし",
+        "meaning": "Talk, speak, story",
+        "examples": [
+          {
+            "word": "話す",
+            "reading": "はなす",
+            "meaning": "To speak"
+          },
+          {
+            "word": "電話",
+            "reading": "でんわ",
+            "meaning": "Telephone"
+          },
+          {
+            "word": "会話",
+            "reading": "かいわ",
+            "meaning": "Conversation"
+          }
+        ],
+        "id": "kanji_話",
+        "chapter": 6,
+        "chapterTitle": "Essential Verbs (基本動詞)"
+      },
+      {
+        "kanji": "買",
+        "strokes": 12,
+        "onyomi": "バイ",
+        "kunyomi": "か-う",
+        "meaning": "Buy",
+        "examples": [
+          {
+            "word": "買う",
+            "reading": "かう",
+            "meaning": "To buy"
+          },
+          {
+            "word": "買い物",
+            "reading": "かいもの",
+            "meaning": "Shopping"
+          }
+        ],
+        "id": "kanji_買",
+        "chapter": 6,
+        "chapterTitle": "Essential Verbs (基本動詞)"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Colors, Transport & Adjectives (色・交通・形容詞)",
+    "description": "Car, electric, white, red, blue, black, high, cheap, new, old, long, many, few (車〜少)",
+    "count": 13,
+    "kanjiList": [
+      {
+        "kanji": "車",
+        "strokes": 7,
+        "onyomi": "シャ",
+        "kunyomi": "くるま",
+        "meaning": "Car, vehicle",
+        "examples": [
+          {
+            "word": "車",
+            "reading": "くるま",
+            "meaning": "Car"
+          },
+          {
+            "word": "電車",
+            "reading": "でんしゃ",
+            "meaning": "Electric train"
+          },
+          {
+            "word": "自転車",
+            "reading": "じてんしゃ",
+            "meaning": "Bicycle"
+          }
+        ],
+        "id": "kanji_車",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "電",
+        "strokes": 13,
+        "onyomi": "デン",
+        "kunyomi": "",
+        "meaning": "Electricity",
+        "examples": [
+          {
+            "word": "電車",
+            "reading": "でんしゃ",
+            "meaning": "Train"
+          },
+          {
+            "word": "電気",
+            "reading": "でんき",
+            "meaning": "Electricity / light"
+          },
+          {
+            "word": "電話",
+            "reading": "でんわ",
+            "meaning": "Telephone"
+          }
+        ],
+        "id": "kanji_電",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "白",
+        "strokes": 5,
+        "onyomi": "ハク",
+        "kunyomi": "しろ, しろ-い",
+        "meaning": "White",
+        "examples": [
+          {
+            "word": "白い",
+            "reading": "しろい",
+            "meaning": "White"
+          },
+          {
+            "word": "白黒",
+            "reading": "しろくろ",
+            "meaning": "Black and white"
+          }
+        ],
+        "id": "kanji_白",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "赤",
+        "strokes": 7,
+        "onyomi": "セキ",
+        "kunyomi": "あか, あか-い",
+        "meaning": "Red",
+        "examples": [
+          {
+            "word": "赤い",
+            "reading": "あかい",
+            "meaning": "Red"
+          },
+          {
+            "word": "赤ちゃん",
+            "reading": "あかちゃん",
+            "meaning": "Baby"
+          }
+        ],
+        "id": "kanji_赤",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "青",
+        "strokes": 8,
+        "onyomi": "セイ",
+        "kunyomi": "あお, あお-い",
+        "meaning": "Blue",
+        "examples": [
+          {
+            "word": "青い",
+            "reading": "あおい",
+            "meaning": "Blue"
+          },
+          {
+            "word": "青空",
+            "reading": "あおぞら",
+            "meaning": "Blue sky"
+          }
+        ],
+        "id": "kanji_青",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "黒",
+        "strokes": 11,
+        "onyomi": "コク",
+        "kunyomi": "くろ, くろ-い",
+        "meaning": "Black",
+        "examples": [
+          {
+            "word": "黒い",
+            "reading": "くろい",
+            "meaning": "Black"
+          },
+          {
+            "word": "黒板",
+            "reading": "こくばん",
+            "meaning": "Blackboard"
+          }
+        ],
+        "id": "kanji_黒",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "高",
+        "strokes": 10,
+        "onyomi": "コウ",
+        "kunyomi": "たか-い",
+        "meaning": "High, tall, expensive",
+        "examples": [
+          {
+            "word": "高い",
+            "reading": "たかい",
+            "meaning": "High / expensive"
+          },
+          {
+            "word": "高校",
+            "reading": "こうこう",
+            "meaning": "High school"
+          }
+        ],
+        "id": "kanji_高",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "安",
+        "strokes": 6,
+        "onyomi": "アン",
+        "kunyomi": "やす-い",
+        "meaning": "Cheap, safe, calm",
+        "examples": [
+          {
+            "word": "安い",
+            "reading": "やすい",
+            "meaning": "Cheap"
+          },
+          {
+            "word": "安心",
+            "reading": "あんしん",
+            "meaning": "Relief / peace of mind"
+          }
+        ],
+        "id": "kanji_安",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "新",
+        "strokes": 13,
+        "onyomi": "シン",
+        "kunyomi": "あたら-しい",
+        "meaning": "New",
+        "examples": [
+          {
+            "word": "新しい",
+            "reading": "あたらしい",
+            "meaning": "New"
+          },
+          {
+            "word": "新聞",
+            "reading": "しんぶん",
+            "meaning": "Newspaper"
+          },
+          {
+            "word": "新年",
+            "reading": "しんねん",
+            "meaning": "New Year"
+          }
+        ],
+        "id": "kanji_新",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "古",
+        "strokes": 5,
+        "onyomi": "コ",
+        "kunyomi": "ふる-い",
+        "meaning": "Old",
+        "examples": [
+          {
+            "word": "古い",
+            "reading": "ふるい",
+            "meaning": "Old (things)"
+          },
+          {
+            "word": "中古",
+            "reading": "ちゅうこ",
+            "meaning": "Second-hand"
+          }
+        ],
+        "id": "kanji_古",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "長",
+        "strokes": 8,
+        "onyomi": "チョウ",
+        "kunyomi": "なが-い",
+        "meaning": "Long, leader",
+        "examples": [
+          {
+            "word": "長い",
+            "reading": "ながい",
+            "meaning": "Long"
+          },
+          {
+            "word": "社長",
+            "reading": "しゃちょう",
+            "meaning": "Company president"
+          }
+        ],
+        "id": "kanji_長",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "多",
+        "strokes": 6,
+        "onyomi": "タ",
+        "kunyomi": "おお-い",
+        "meaning": "Many, frequent",
+        "examples": [
+          {
+            "word": "多い",
+            "reading": "おおい",
+            "meaning": "Many"
+          },
+          {
+            "word": "多分",
+            "reading": "たぶん",
+            "meaning": "Probably"
+          }
+        ],
+        "id": "kanji_多",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      },
+      {
+        "kanji": "少",
+        "strokes": 4,
+        "onyomi": "ショウ",
+        "kunyomi": "すく-ない, すこ-し",
+        "meaning": "Few, little",
+        "examples": [
+          {
+            "word": "少ない",
+            "reading": "すくない",
+            "meaning": "Few"
+          },
+          {
+            "word": "少し",
+            "reading": "すこし",
+            "meaning": "A little"
+          }
+        ],
+        "id": "kanji_少",
+        "chapter": 7,
+        "chapterTitle": "Colors, Transport & Adjectives (色・交通・形容詞)"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Family & Directions (家族・方角・社会)",
+    "description": "Friend, mother, father, east, west, south, north, road, company, meet (友〜会)",
+    "count": 10,
+    "kanjiList": [
+      {
+        "kanji": "友",
+        "strokes": 4,
+        "onyomi": "ユウ",
+        "kunyomi": "とも",
+        "meaning": "Friend",
+        "examples": [
+          {
+            "word": "友達",
+            "reading": "ともだち",
+            "meaning": "Friend"
+          },
+          {
+            "word": "友人",
+            "reading": "ゆうじん",
+            "meaning": "Friend (formal)"
+          }
+        ],
+        "id": "kanji_友",
+        "chapter": 8,
+        "chapterTitle": "Family & Directions (家族・方角・社会)"
+      },
+      {
+        "kanji": "母",
+        "strokes": 5,
+        "onyomi": "ボ",
+        "kunyomi": "はは",
+        "meaning": "Mother",
+        "examples": [
+          {
+            "word": "母",
+            "reading": "はは",
+            "meaning": "My mother"
+          },
+          {
+            "word": "お母さん",
+            "reading": "おかあさん",
+            "meaning": "Mother (polite)"
+          }
+        ],
+        "id": "kanji_母",
+        "chapter": 8,
+        "chapterTitle": "Family & Directions (家族・方角・社会)"
+      },
+      {
+        "kanji": "父",
+        "strokes": 4,
+        "onyomi": "フ",
+        "kunyomi": "ちち",
+        "meaning": "Father",
+        "examples": [
+          {
+            "word": "父",
+            "reading": "ちち",
+            "meaning": "My father"
+          },
+          {
+            "word": "お父さん",
+            "reading": "おとうさん",
+            "meaning": "Father (polite)"
+          }
+        ],
+        "id": "kanji_父",
+        "chapter": 8,
+        "chapterTitle": "Family & Directions (家族・方角・社会)"
+      },
+      {
+        "kanji": "東",
+        "strokes": 8,
+        "onyomi": "トウ",
+        "kunyomi": "ひがし",
+        "meaning": "East",
+        "examples": [
+          {
+            "word": "東",
+            "reading": "ひがし",
+            "meaning": "East"
+          },
+          {
+            "word": "東京",
+            "reading": "とうきょう",
+            "meaning": "Tokyo"
+          },
+          {
+            "word": "東口",
+            "reading": "ひがしぐち",
+            "meaning": "East exit"
+          }
+        ],
+        "id": "kanji_東",
+        "chapter": 8,
+        "chapterTitle": "Family & Directions (家族・方角・社会)"
+      },
+      {
+        "kanji": "西",
+        "strokes": 6,
+        "onyomi": "セイ, サイ",
+        "kunyomi": "にし",
+        "meaning": "West",
+        "examples": [
+          {
+            "word": "西",
+            "reading": "にし",
+            "meaning": "West"
+          },
+          {
+            "word": "西口",
+            "reading": "にしぐち",
+            "meaning": "West exit"
+          },
+          {
+            "word": "関西",
+            "reading": "かんさい",
+            "meaning": "Kansai"
+          }
+        ],
+        "id": "kanji_西",
+        "chapter": 8,
+        "chapterTitle": "Family & Directions (家族・方角・社会)"
+      },
+      {
+        "kanji": "南",
+        "strokes": 9,
+        "onyomi": "ナン",
+        "kunyomi": "みなみ",
+        "meaning": "South",
+        "examples": [
+          {
+            "word": "南",
+            "reading": "みなみ",
+            "meaning": "South"
+          },
+          {
+            "word": "南口",
+            "reading": "みなみぐち",
+            "meaning": "South exit"
+          }
+        ],
+        "id": "kanji_南",
+        "chapter": 8,
+        "chapterTitle": "Family & Directions (家族・方角・社会)"
+      },
+      {
+        "kanji": "北",
+        "strokes": 5,
+        "onyomi": "ホク",
+        "kunyomi": "きた",
+        "meaning": "North",
+        "examples": [
+          {
+            "word": "北",
+            "reading": "きた",
+            "meaning": "North"
+          },
+          {
+            "word": "北口",
+            "reading": "きたぐち",
+            "meaning": "North exit"
+          },
+          {
+            "word": "北海道",
+            "reading": "ほっかいどう",
+            "meaning": "Hokkaido"
+          }
+        ],
+        "id": "kanji_北",
+        "chapter": 8,
+        "chapterTitle": "Family & Directions (家族・方角・社会)"
+      },
+      {
+        "kanji": "道",
+        "strokes": 12,
+        "onyomi": "ドウ",
+        "kunyomi": "みち",
+        "meaning": "Road, way, path",
+        "examples": [
+          {
+            "word": "道",
+            "reading": "みち",
+            "meaning": "Street / road"
+          },
+          {
+            "word": "北海道",
+            "reading": "ほっかいどう",
+            "meaning": "Hokkaido"
+          }
+        ],
+        "id": "kanji_道",
+        "chapter": 8,
+        "chapterTitle": "Family & Directions (家族・方角・社会)"
+      },
+      {
+        "kanji": "社",
+        "strokes": 7,
+        "onyomi": "シャ",
+        "kunyomi": "やしろ",
+        "meaning": "Company, shrine",
+        "examples": [
+          {
+            "word": "会社",
+            "reading": "かいしゃ",
+            "meaning": "Company"
+          },
+          {
+            "word": "社員",
+            "reading": "しゃいん",
+            "meaning": "Company employee"
+          },
+          {
+            "word": "神社",
+            "reading": "じんじゃ",
+            "meaning": "Shinto shrine"
+          }
+        ],
+        "id": "kanji_社",
+        "chapter": 8,
+        "chapterTitle": "Family & Directions (家族・方角・社会)"
+      },
+      {
+        "kanji": "会",
+        "strokes": 6,
+        "onyomi": "カイ",
+        "kunyomi": "あ-う",
+        "meaning": "Meet, society",
+        "examples": [
+          {
+            "word": "会う",
+            "reading": "あう",
+            "meaning": "To meet"
+          },
+          {
+            "word": "会社",
+            "reading": "かいしゃ",
+            "meaning": "Company"
+          },
+          {
+            "word": "会話",
+            "reading": "かいわ",
+            "meaning": "Conversation"
+          }
+        ],
+        "id": "kanji_会",
+        "chapter": 8,
+        "chapterTitle": "Family & Directions (家族・方角・社会)"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Time & Environment (時・間・天気・国)",
+    "description": "Time, interval, minute, half, country, language, outside, rain, heaven, spirit, origin (時〜元)",
+    "count": 11,
+    "kanjiList": [
+      {
+        "kanji": "時",
+        "strokes": 10,
+        "onyomi": "ジ",
+        "kunyomi": "とき",
+        "meaning": "Time, hour",
+        "examples": [
+          {
+            "word": "何時",
+            "reading": "なんじ",
+            "meaning": "What time"
+          },
+          {
+            "word": "時間",
+            "reading": "じかん",
+            "meaning": "Time / hours"
+          },
+          {
+            "word": "時",
+            "reading": "とき",
+            "meaning": "When / at the time"
+          }
+        ],
+        "id": "kanji_時",
+        "chapter": 9,
+        "chapterTitle": "Time & Environment (時・間・天気・国)"
+      },
+      {
+        "kanji": "間",
+        "strokes": 12,
+        "onyomi": "カン, ケン",
+        "kunyomi": "あいだ, ま",
+        "meaning": "Interval, space, between",
+        "examples": [
+          {
+            "word": "時間",
+            "reading": "じかん",
+            "meaning": "Time / hour span"
+          },
+          {
+            "word": "間",
+            "reading": "あいだ",
+            "meaning": "Between"
+          }
+        ],
+        "id": "kanji_間",
+        "chapter": 9,
+        "chapterTitle": "Time & Environment (時・間・天気・国)"
+      },
+      {
+        "kanji": "分",
+        "strokes": 4,
+        "onyomi": "ブン, フン, ブ",
+        "kunyomi": "わ-ける, わ-かる",
+        "meaning": "Minute, part, understand",
+        "examples": [
+          {
+            "word": "五分",
+            "reading": "ごふん",
+            "meaning": "5 minutes"
+          },
+          {
+            "word": "分かる",
+            "reading": "わかる",
+            "meaning": "To understand"
+          },
+          {
+            "word": "半分",
+            "reading": "はんぶん",
+            "meaning": "Half"
+          }
+        ],
+        "id": "kanji_分",
+        "chapter": 9,
+        "chapterTitle": "Time & Environment (時・間・天気・国)"
+      },
+      {
+        "kanji": "半",
+        "strokes": 5,
+        "onyomi": "ハン",
+        "kunyomi": "なか-ば",
+        "meaning": "Half",
+        "examples": [
+          {
+            "word": "一時半",
+            "reading": "いちじはん",
+            "meaning": "1:30"
+          },
+          {
+            "word": "半年",
+            "reading": "はんとし",
+            "meaning": "Half a year"
+          }
+        ],
+        "id": "kanji_半",
+        "chapter": 9,
+        "chapterTitle": "Time & Environment (時・間・天気・国)"
+      },
+      {
+        "kanji": "国",
+        "strokes": 8,
+        "onyomi": "コク",
+        "kunyomi": "くに",
+        "meaning": "Country, nation",
+        "examples": [
+          {
+            "word": "国",
+            "reading": "くに",
+            "meaning": "Country / homeland"
+          },
+          {
+            "word": "外国",
+            "reading": "がいこく",
+            "meaning": "Foreign country"
+          },
+          {
+            "word": "中国",
+            "reading": "ちゅうごく",
+            "meaning": "China"
+          }
+        ],
+        "id": "kanji_国",
+        "chapter": 9,
+        "chapterTitle": "Time & Environment (時・間・天気・国)"
+      },
+      {
+        "kanji": "語",
+        "strokes": 14,
+        "onyomi": "ゴ",
+        "kunyomi": "かた-る",
+        "meaning": "Language, word",
+        "examples": [
+          {
+            "word": "日本語",
+            "reading": "にほんご",
+            "meaning": "Japanese language"
+          },
+          {
+            "word": "英語",
+            "reading": "えいご",
+            "meaning": "English language"
+          }
+        ],
+        "id": "kanji_語",
+        "chapter": 9,
+        "chapterTitle": "Time & Environment (時・間・天気・国)"
+      },
+      {
+        "kanji": "外",
+        "strokes": 5,
+        "onyomi": "ガイ, ゲ",
+        "kunyomi": "そと, ほか",
+        "meaning": "Outside, foreign",
+        "examples": [
+          {
+            "word": "外",
+            "reading": "そと",
+            "meaning": "Outside"
+          },
+          {
+            "word": "外国",
+            "reading": "がいこく",
+            "meaning": "Foreign country"
+          },
+          {
+            "word": "外国人",
+            "reading": "がいこくじん",
+            "meaning": "Foreigner"
+          }
+        ],
+        "id": "kanji_外",
+        "chapter": 9,
+        "chapterTitle": "Time & Environment (時・間・天気・国)"
+      },
+      {
+        "kanji": "雨",
+        "strokes": 8,
+        "onyomi": "ウ",
+        "kunyomi": "あめ, あま-",
+        "meaning": "Rain",
+        "examples": [
+          {
+            "word": "雨",
+            "reading": "あめ",
+            "meaning": "Rain"
+          },
+          {
+            "word": "大雨",
+            "reading": "おおあめ",
+            "meaning": "Heavy rain"
+          }
+        ],
+        "id": "kanji_雨",
+        "chapter": 9,
+        "chapterTitle": "Time & Environment (時・間・天気・国)"
+      },
+      {
+        "kanji": "天",
+        "strokes": 4,
+        "onyomi": "テン",
+        "kunyomi": "あまつ, あめ",
+        "meaning": "Heaven, sky",
+        "examples": [
+          {
+            "word": "天気",
+            "reading": "てんき",
+            "meaning": "Weather"
+          },
+          {
+            "word": "天国",
+            "reading": "てんごく",
+            "meaning": "Heaven"
+          }
+        ],
+        "id": "kanji_天",
+        "chapter": 9,
+        "chapterTitle": "Time & Environment (時・間・天気・国)"
+      },
+      {
+        "kanji": "気",
+        "strokes": 6,
+        "onyomi": "キ, ケ",
+        "kunyomi": "",
+        "meaning": "Spirit, mind, atmosphere",
+        "examples": [
+          {
+            "word": "元気",
+            "reading": "げんき",
+            "meaning": "Healthy / energetic"
+          },
+          {
+            "word": "電気",
+            "reading": "でんき",
+            "meaning": "Electricity"
+          },
+          {
+            "word": "天気",
+            "reading": "てんき",
+            "meaning": "Weather"
+          }
+        ],
+        "id": "kanji_気",
+        "chapter": 9,
+        "chapterTitle": "Time & Environment (時・間・天気・国)"
+      },
+      {
+        "kanji": "元",
+        "strokes": 4,
+        "onyomi": "ゲン, ガン",
+        "kunyomi": "もと",
+        "meaning": "Origin, beginning",
+        "examples": [
+          {
+            "word": "元気",
+            "reading": "げんき",
+            "meaning": "Energetic / well"
+          }
+        ],
+        "id": "kanji_元",
+        "chapter": 9,
+        "chapterTitle": "Time & Environment (時・間・天気・国)"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Daily Life & Travel (生活・飲食・移動)",
+    "description": "Fish, meat, shop, station, flower, tea, sky, port, gate, house, tribe, travel, self, turn, stand (魚〜立)",
+    "count": 15,
+    "kanjiList": [
+      {
+        "kanji": "魚",
+        "strokes": 11,
+        "onyomi": "ギョ",
+        "kunyomi": "さかな, うお",
+        "meaning": "Fish",
+        "examples": [
+          {
+            "word": "魚",
+            "reading": "さかな",
+            "meaning": "Fish"
+          }
+        ],
+        "id": "kanji_魚",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "肉",
+        "strokes": 6,
+        "onyomi": "ニク",
+        "kunyomi": "",
+        "meaning": "Meat",
+        "examples": [
+          {
+            "word": "肉",
+            "reading": "にく",
+            "meaning": "Meat"
+          },
+          {
+            "word": "牛肉",
+            "reading": "ぎゅうにく",
+            "meaning": "Beef"
+          },
+          {
+            "word": "鳥肉",
+            "reading": "とりにく",
+            "meaning": "Chicken"
+          }
+        ],
+        "id": "kanji_肉",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "店",
+        "strokes": 8,
+        "onyomi": "テン",
+        "kunyomi": "みせ, たな",
+        "meaning": "Store, shop",
+        "examples": [
+          {
+            "word": "店",
+            "reading": "みせ",
+            "meaning": "Shop"
+          },
+          {
+            "word": "喫茶店",
+            "reading": "きっさてん",
+            "meaning": "Coffee shop"
+          }
+        ],
+        "id": "kanji_店",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "駅",
+        "strokes": 14,
+        "onyomi": "エキ",
+        "kunyomi": "",
+        "meaning": "Station",
+        "examples": [
+          {
+            "word": "駅",
+            "reading": "えき",
+            "meaning": "Train station"
+          },
+          {
+            "word": "東京駅",
+            "reading": "とうきょうえき",
+            "meaning": "Tokyo Station"
+          }
+        ],
+        "id": "kanji_駅",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "花",
+        "strokes": 7,
+        "onyomi": "カ",
+        "kunyomi": "はな",
+        "meaning": "Flower",
+        "examples": [
+          {
+            "word": "花",
+            "reading": "はな",
+            "meaning": "Flower"
+          },
+          {
+            "word": "花火",
+            "reading": "はなび",
+            "meaning": "Fireworks"
+          }
+        ],
+        "id": "kanji_花",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "茶",
+        "strokes": 9,
+        "onyomi": "チャ, サ",
+        "kunyomi": "",
+        "meaning": "Tea",
+        "examples": [
+          {
+            "word": "お茶",
+            "reading": "おちゃ",
+            "meaning": "Green tea"
+          },
+          {
+            "word": "紅茶",
+            "reading": "こうちゃ",
+            "meaning": "Black tea"
+          },
+          {
+            "word": "喫茶店",
+            "reading": "きっさてん",
+            "meaning": "Coffee shop"
+          }
+        ],
+        "id": "kanji_茶",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "空",
+        "strokes": 8,
+        "onyomi": "クウ",
+        "kunyomi": "そら, あ-く, から",
+        "meaning": "Sky, empty",
+        "examples": [
+          {
+            "word": "空",
+            "reading": "そら",
+            "meaning": "Sky"
+          },
+          {
+            "word": "空港",
+            "reading": "くうこう",
+            "meaning": "Airport"
+          }
+        ],
+        "id": "kanji_空",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "港",
+        "strokes": 12,
+        "onyomi": "コウ",
+        "kunyomi": "みなと",
+        "meaning": "Port, harbor",
+        "examples": [
+          {
+            "word": "空港",
+            "reading": "くうこう",
+            "meaning": "Airport"
+          },
+          {
+            "word": "港",
+            "reading": "みなと",
+            "meaning": "Harbor"
+          }
+        ],
+        "id": "kanji_港",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "門",
+        "strokes": 8,
+        "onyomi": "モン",
+        "kunyomi": "かど",
+        "meaning": "Gate",
+        "examples": [
+          {
+            "word": "門",
+            "reading": "もん",
+            "meaning": "Gate"
+          },
+          {
+            "word": "専門",
+            "reading": "せんもん",
+            "meaning": "Specialty / major"
+          }
+        ],
+        "id": "kanji_門",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "家",
+        "strokes": 10,
+        "onyomi": "カ, ケ",
+        "kunyomi": "いえ, や",
+        "meaning": "House, family, expert",
+        "examples": [
+          {
+            "word": "家",
+            "reading": "いえ",
+            "meaning": "House / home"
+          },
+          {
+            "word": "家族",
+            "reading": "かぞく",
+            "meaning": "Family"
+          }
+        ],
+        "id": "kanji_家",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "族",
+        "strokes": 11,
+        "onyomi": "ゾク",
+        "kunyomi": "",
+        "meaning": "Tribe, family",
+        "examples": [
+          {
+            "word": "家族",
+            "reading": "かぞく",
+            "meaning": "Family"
+          }
+        ],
+        "id": "kanji_族",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "旅",
+        "strokes": 10,
+        "onyomi": "リョ",
+        "kunyomi": "たび",
+        "meaning": "Travel, trip",
+        "examples": [
+          {
+            "word": "旅行",
+            "reading": "りょこう",
+            "meaning": "Travel / trip"
+          },
+          {
+            "word": "一人旅",
+            "reading": "ひとりたび",
+            "meaning": "Solo journey"
+          }
+        ],
+        "id": "kanji_旅",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "自",
+        "strokes": 6,
+        "onyomi": "ジ, シ",
+        "kunyomi": "みずか-ら",
+        "meaning": "Self",
+        "examples": [
+          {
+            "word": "自分",
+            "reading": "じぶん",
+            "meaning": "Oneself"
+          },
+          {
+            "word": "自転車",
+            "reading": "じてんしゃ",
+            "meaning": "Bicycle"
+          },
+          {
+            "word": "自動車",
+            "reading": "じどうしゃ",
+            "meaning": "Automobile"
+          }
+        ],
+        "id": "kanji_自",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "転",
+        "strokes": 11,
+        "onyomi": "テン",
+        "kunyomi": "ころ-がる",
+        "meaning": "Revolve, roll, turn",
+        "examples": [
+          {
+            "word": "自転車",
+            "reading": "じてんしゃ",
+            "meaning": "Bicycle"
+          },
+          {
+            "word": "運転",
+            "reading": "うんてん",
+            "meaning": "Driving"
+          }
+        ],
+        "id": "kanji_転",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      },
+      {
+        "kanji": "立",
+        "strokes": 5,
+        "onyomi": "リツ",
+        "kunyomi": "た-つ, た-てる",
+        "meaning": "Stand, establish",
+        "examples": [
+          {
+            "word": "立つ",
+            "reading": "たつ",
+            "meaning": "To stand"
+          },
+          {
+            "word": "役に立つ",
+            "reading": "やくにたつ",
+            "meaning": "To be useful"
+          }
+        ],
+        "id": "kanji_立",
+        "chapter": 10,
+        "chapterTitle": "Daily Life & Travel (生活・飲食・移動)"
+      }
+    ]
+  }
+]

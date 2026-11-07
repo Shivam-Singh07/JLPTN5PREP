@@ -1,0 +1,422 @@
+[
+  {
+    "id": "vocab_ch14_1",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "つけます",
+    "kana": "つけます",
+    "romaji": "",
+    "english": "turn on",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_2",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "けします",
+    "kana": "けします",
+    "romaji": "",
+    "english": "turn off",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_3",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "あけます",
+    "kana": "あけます",
+    "romaji": "",
+    "english": "open",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_4",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "しめます",
+    "kana": "しめます",
+    "romaji": "",
+    "english": "close, shut",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_5",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "いそぎます",
+    "kana": "いそぎます",
+    "romaji": "",
+    "english": "hurry",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_6",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "まちます",
+    "kana": "まちます",
+    "romaji": "",
+    "english": "wait",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_7",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "とめます",
+    "kana": "とめます",
+    "romaji": "",
+    "english": "stop, park",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_8",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "まがります",
+    "kana": "まがります",
+    "romaji": "",
+    "english": "turn [to the right]",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_9",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "もちます",
+    "kana": "もちます",
+    "romaji": "",
+    "english": "hold",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_10",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "とります",
+    "kana": "とります",
+    "romaji": "",
+    "english": "take, pass",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_11",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "てつだいます",
+    "kana": "てつだいます",
+    "romaji": "",
+    "english": "help (with a task)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_12",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "よびます",
+    "kana": "よびます",
+    "romaji": "",
+    "english": "call",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_13",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "はなします",
+    "kana": "はなします",
+    "romaji": "",
+    "english": "speak, talk",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_14",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "みせます",
+    "kana": "みせます",
+    "romaji": "",
+    "english": "show",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_15",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "おしえます",
+    "kana": "おしえます",
+    "romaji": "",
+    "english": "tell [an address]",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_16",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "はじめます",
+    "kana": "はじめます",
+    "romaji": "",
+    "english": "start, begin",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_17",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "ふります",
+    "kana": "ふります",
+    "romaji": "",
+    "english": "rain",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_18",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "コピーします",
+    "kana": "コピーします",
+    "romaji": "",
+    "english": "copy",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_19",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "エアコン",
+    "kana": "エアコン",
+    "romaji": "",
+    "english": "air conditioner",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_20",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "パスポート",
+    "kana": "パスポート",
+    "romaji": "",
+    "english": "passport",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_21",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "なまえ",
+    "kana": "なまえ",
+    "romaji": "",
+    "english": "name",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_22",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "じゅうしょ",
+    "kana": "じゅうしょ",
+    "romaji": "",
+    "english": "address",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_23",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "ちず",
+    "kana": "ちず",
+    "romaji": "",
+    "english": "map",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_24",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "しお",
+    "kana": "しお",
+    "romaji": "",
+    "english": "salt",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_25",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "さとう",
+    "kana": "さとう",
+    "romaji": "",
+    "english": "sugar",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_26",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "よみかた",
+    "kana": "よみかた",
+    "romaji": "",
+    "english": "how to read, way of reading",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_27",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "ゆっくり",
+    "kana": "ゆっくり",
+    "romaji": "",
+    "english": "slowly, leisurely",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_28",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "すぐ",
+    "kana": "すぐ",
+    "romaji": "",
+    "english": "immediately",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_29",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "また",
+    "kana": "また",
+    "romaji": "",
+    "english": "again",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_30",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "あとで",
+    "kana": "あとで",
+    "romaji": "",
+    "english": "later",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_31",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "もう すこし",
+    "kana": "もう すこし",
+    "romaji": "",
+    "english": "a little more",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_32",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "もう",
+    "kana": "もう",
+    "romaji": "",
+    "english": "~more, another ~",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_33",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "いいですよ。",
+    "kana": "いいですよ。",
+    "romaji": "",
+    "english": "Sure. / Certainly",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_34",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "さあ",
+    "kana": "さあ",
+    "romaji": "",
+    "english": "(used when encouraging some course of action)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_35",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "あれ？",
+    "kana": "あれ？",
+    "romaji": "",
+    "english": "Oh! (In surprise or in wonder)",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_36",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "ください。",
+    "kana": "ください。",
+    "romaji": "",
+    "english": "Turn to the at the signal",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_37",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "まっすぐ",
+    "kana": "まっすぐ",
+    "romaji": "",
+    "english": "Straight",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_38",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "これで おねがいします。",
+    "kana": "これで おねがいします。",
+    "romaji": "",
+    "english": "I’d like to pay with this.",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_39",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "おつり",
+    "kana": "おつり",
+    "romaji": "",
+    "english": "Change",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_40",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "のみます",
+    "kana": "のみます",
+    "romaji": "",
+    "english": "Group II verbs",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_41",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "みます",
+    "kana": "みます",
+    "romaji": "",
+    "english": "Group III verbs",
+    "category": "Basic 2"
+  },
+  {
+    "id": "vocab_ch14_42",
+    "chapter": 14,
+    "chapterTitle": "Te-form & Requests (て形・～てください)",
+    "japanese": "かいもの します",
+    "kana": "かいもの します",
+    "romaji": "",
+    "english": "Verb Groups",
+    "category": "Basic 2"
+  }
+]

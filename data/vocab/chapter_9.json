@@ -1,0 +1,422 @@
+[
+  {
+    "id": "vocab_ch9_1",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "はたらきます",
+    "kana": "はたらきます",
+    "romaji": "Hatarakimas",
+    "english": "To work",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_2",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "べんきょう します",
+    "kana": "べんきょう します",
+    "romaji": "Benkyō shimas",
+    "english": "To study",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_3",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "おわります",
+    "kana": "おわります",
+    "romaji": "Owarimas",
+    "english": "To finish",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_4",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "まいあさ",
+    "kana": "まいあさ",
+    "romaji": "Maiasa",
+    "english": "Every morning",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_5",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "まいばん",
+    "kana": "まいばん",
+    "romaji": "Maiban",
+    "english": "Every evening",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_6",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "まいにち",
+    "kana": "まいにち",
+    "romaji": "Mainichi",
+    "english": "Everyday",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_7",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "やすみ",
+    "kana": "やすみ",
+    "romaji": "Yasumi",
+    "english": "Holiday, Break",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_8",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "ひるやすみ",
+    "kana": "ひるやすみ",
+    "romaji": "Hiruyasumi",
+    "english": "Lunch break",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_9",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "やすみます",
+    "kana": "やすみます",
+    "romaji": "Yasumimas",
+    "english": "To take a break",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_10",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "えき",
+    "kana": "えき",
+    "romaji": "Eki",
+    "english": "Station",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_11",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "でんしゃ",
+    "kana": "でんしゃ",
+    "romaji": "Densha",
+    "english": "Train",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_12",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "ひこうき",
+    "kana": "ひこうき",
+    "romaji": "Hikōki",
+    "english": "Aeroplane",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_13",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "ふね",
+    "kana": "ふね",
+    "romaji": "Fune",
+    "english": "Ship, boat",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_14",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "ふつう",
+    "kana": "ふつう",
+    "romaji": "Futsū",
+    "english": "Local (train)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_15",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "かいそく",
+    "kana": "かいそく",
+    "romaji": "Kaisoku",
+    "english": "Rapid (train)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_16",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "しんかいそく",
+    "kana": "しんかいそく",
+    "romaji": "Shinkaisoku",
+    "english": "Special rapid (train)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_17",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "しんかんせん",
+    "kana": "しんかんせん",
+    "romaji": "Shinkansen",
+    "english": "Shinkasen (Bullet train)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_18",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "じてんしゃ",
+    "kana": "じてんしゃ",
+    "romaji": "Jitensha",
+    "english": "Bycycle",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_19",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "かれ",
+    "kana": "かれ",
+    "romaji": "Kare",
+    "english": "He, Boyfriend",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_20",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "かのじょ",
+    "kana": "かのじょ",
+    "romaji": "Kanojo",
+    "english": "She, Girfriend",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_21",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "かぞく",
+    "kana": "かぞく",
+    "romaji": "Kazoku",
+    "english": "Family",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_22",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "せんげつ",
+    "kana": "せんげつ",
+    "romaji": "Sengetsu",
+    "english": "Last month",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_23",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "こんげつ",
+    "kana": "こんげつ",
+    "romaji": "Kongetsu",
+    "english": "This month",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_24",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "らいげつ",
+    "kana": "らいげつ",
+    "romaji": "Raigetsu",
+    "english": "Next month",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_25",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "きょねん",
+    "kana": "きょねん",
+    "romaji": "Kyonen",
+    "english": "Last year",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_26",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "ことし",
+    "kana": "ことし",
+    "romaji": "Kotoshi",
+    "english": "This year",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_27",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "らいねん",
+    "kana": "らいねん",
+    "romaji": "Rainen",
+    "english": "Next year",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_28",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "もう",
+    "kana": "もう",
+    "romaji": "Mō",
+    "english": "Already",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_29",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "きょうしつ",
+    "kana": "きょうしつ",
+    "romaji": "Kyōshitsu",
+    "english": "Classroom",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_30",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "かんたん",
+    "kana": "かんたん",
+    "romaji": "Kantan",
+    "english": "Simple",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_31",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "てんき",
+    "kana": "てんき",
+    "romaji": "Tenki",
+    "english": "Weather",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_32",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "あめ",
+    "kana": "あめ",
+    "romaji": "Ame",
+    "english": "Rain",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_33",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "いちばん",
+    "kana": "いちばん",
+    "romaji": "Ichiban",
+    "english": "most-",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_34",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "はじめて",
+    "kana": "はじめて",
+    "romaji": "Hajimete",
+    "english": "For the first time",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_35",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "あまり",
+    "kana": "あまり",
+    "romaji": "amari",
+    "english": "Not that much",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_36",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "おとこ",
+    "kana": "おとこ",
+    "romaji": "Otoko",
+    "english": "Male",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_37",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "おんな",
+    "kana": "おんな",
+    "romaji": "Onna",
+    "english": "Female",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_38",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "アイエムシー",
+    "kana": "アイエムシー",
+    "romaji": "IMC",
+    "english": "Name of company",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_39",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "この ちかく",
+    "kana": "この ちかく",
+    "romaji": "Kono chikaku",
+    "english": "Near this area",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_40",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "にわ",
+    "kana": "にわ",
+    "romaji": "Niwa",
+    "english": "Garden",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_41",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "ゆうびんきょうく",
+    "kana": "ゆうびんきょうく",
+    "romaji": "Yūbinkyōku",
+    "english": "Post office",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch9_42",
+    "chapter": 9,
+    "chapterTitle": "Travel & Places (旅行・場所)",
+    "japanese": "まえ",
+    "kana": "まえ",
+    "romaji": "Mae",
+    "english": "in front of",
+    "category": "Basic 1"
+  }
+]

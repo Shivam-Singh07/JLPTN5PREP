@@ -1,0 +1,2186 @@
+[
+  {
+    "id": "drill_vocab_5",
+    "num": 5,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "＿＿＿＿＿で ほんを かります。",
+    "options": [
+      "ほんや",
+      "こうばん",
+      "としょかん",
+      "えいがかん"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「としょかん」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "＿＿＿＿＿で ほんを かります。"
+  },
+  {
+    "id": "drill_vocab_6",
+    "num": 6,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "きょうは ＿＿＿＿＿です。あしたは みっか です。",
+    "options": [
+      "ふつか",
+      "はつか",
+      "よっか",
+      "ついたち"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「ふつか」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "きょうは ＿＿＿＿＿です。あしたは みっか です。"
+  },
+  {
+    "id": "drill_vocab_7",
+    "num": 7,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "しけんが おわりました。きょうしつを ＿＿＿＿＿ください。",
+    "options": [
+      "すわって",
+      "でて",
+      "かえって",
+      "べんきょうして"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「でて」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "しけんが おわりました。きょうしつを ＿＿＿＿＿ください。"
+  },
+  {
+    "id": "drill_vocab_8",
+    "num": 8,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "＿＿＿＿＿なまえを かいて ください。つぎに、しつもんに こたえて ください。",
+    "options": [
+      "ときどき",
+      "もちろん",
+      "はじめに",
+      "いちばん"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「はじめに」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "＿＿＿＿＿なまえを かいて ください。つぎに、しつもんに こたえて ください。"
+  },
+  {
+    "id": "drill_vocab_9",
+    "num": 9,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "A「なにか＿＿＿＿＿は ありませんか。」 B「おちゃで いいですか。」 A「はい、けっこうです。」",
+    "options": [
+      "くだもの",
+      "たべもの",
+      "のりもの",
+      "のみもの"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「のみもの」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "「なにか＿＿＿＿＿は ありませんか。」 「おちゃで いいですか。」 「はい、けっこうです。」"
+  },
+  {
+    "id": "drill_vocab_10",
+    "num": 10,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "ごはんを たべた あとは「＿＿＿＿＿。」と いいます。",
+    "options": [
+      "ごちそうさま",
+      "いただきます",
+      "しつれいします",
+      "おねがいします"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「ごちそうさま」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "ごはんを たべた あとは「＿＿＿＿＿。」と いいます。"
+  },
+  {
+    "id": "drill_vocab_11",
+    "num": 11,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "わたしの おばあさん の たんじょうびは じゅうがつ いつかです。",
+    "options": [
+      "わたしの おばあさんは じゅうがつ いつかに うまれました。",
+      "わたしの おばあさんは じゅうがつ いつかに しにました。",
+      "わたしの おばあさんは じゅうがつ いつかに けっこんしました。",
+      "わたしの おばあさんは じゅうがつ いつかに はじまりました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「わたしの おばあさんは じゅうがつ いつかに うまれました。」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "わたしの おばあさん の たんじょうびは じゅうがつ いつかです。"
+  },
+  {
+    "id": "drill_vocab_12",
+    "num": 12,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "りょうしんは でかけて います。",
+    "options": [
+      "あねも いもうとも いえに いません。",
+      "あにも おとうとも いえに いません。",
+      "ちちも ははも いえに いません。",
+      "おばも おじも いえに いません。"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「ちちも ははも いえに いません。」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "りょうしんは でかけて います。"
+  },
+  {
+    "id": "drill_vocab_13",
+    "num": 13,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "きょうは てんきが いいです。",
+    "options": [
+      "きょうは くもって います。",
+      "きょうは あめが ふって います。",
+      "きょうは ゆきが ふって います。",
+      "きょうは よく はれて います。"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「きょうは よく はれて います。」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "きょうは てんきが いいです。"
+  },
+  {
+    "id": "drill_vocab_14",
+    "num": 14,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "あしたは しちがつ はつかです。",
+    "options": [
+      "あしたは 4 がつ 8 か です。",
+      "あしたは 7 がつ 8 か です。",
+      "あしたは 4 がつ 20 か です。",
+      "あしたは 7 がつ 20 か です。"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「あしたは 7 がつ 20 か です。」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "あしたは しちがつ はつかです。"
+  },
+  {
+    "id": "drill_vocab_15",
+    "num": 15,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "たなか「あの ひとは どなたですか」",
+    "options": [
+      "たなかさんは あの ひとの いえが わかりません。",
+      "たなかさんは あの ひとの なまえが わかりません。",
+      "たなかさんは あの ひとの しごとが わかりません。",
+      "たなかさんは あの ひとの くにが わかりません。"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「たなかさんは あの ひとの なまえが わかりません。」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "たなか「あの ひとは どなたですか」"
+  },
+  {
+    "id": "drill_vocab_16",
+    "num": 16,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "わたしの __________ に さとうを いれてください。",
+    "options": [
+      "さくら",
+      "ひこうき",
+      "コーヒー",
+      "クーラー"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「コーヒー」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "わたしの コーヒー に さとうを いれてください。"
+  },
+  {
+    "id": "drill_vocab_17",
+    "num": 17,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "わたしは いつも あさ __________ おきます。",
+    "options": [
+      "ほそく",
+      "おそく",
+      "おもく",
+      "とおく"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「おそく」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "わたしは いつも あさ おそく おきます。"
+  },
+  {
+    "id": "drill_vocab_18",
+    "num": 18,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "いけに さかなが __________ います。",
+    "options": [
+      "ふたつ",
+      "ふたり",
+      "にまい",
+      "にひき"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「にひき」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "いけに さかなが にひき います。"
+  },
+  {
+    "id": "drill_vocab_19",
+    "num": 19,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "わたしは __________  この ざっしを かいました。",
+    "options": [
+      "はじめ",
+      "はじめて",
+      "はじめの",
+      "はじめから"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「はじめて」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "わたしは はじめて  この ざっしを かいました。"
+  },
+  {
+    "id": "drill_vocab_20",
+    "num": 20,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "すずきさんは しろい ぼうしを  __________  います。",
+    "options": [
+      "はいて",
+      "きて",
+      "かぶって",
+      "かけて"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「かぶって」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "すずきさんは しろい ぼうしを  かぶって  います。"
+  },
+  {
+    "id": "drill_vocab_21",
+    "num": 21,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "わたしは  __________  です から、あんして してください。",
+    "options": [
+      "てんき",
+      "げんき",
+      "びょうき",
+      "でんき"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「げんき」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "わたしは  げんき  です から、あんして してください。"
+  },
+  {
+    "id": "drill_vocab_22",
+    "num": 22,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "あなたの ほんは きれいです が、わたしの ほんは  __________  です。",
+    "options": [
+      "きびしい",
+      "きたない",
+      "かわいい",
+      "いい"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「きたない」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "あなたの ほんは きれいです が、わたしの ほんは  きたない  です。"
+  },
+  {
+    "id": "drill_vocab_23",
+    "num": 23,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "きのう デパートで  __________  ひとに あいました。",
+    "options": [
+      "ざんねんな",
+      "しんせつな",
+      "かんたんな",
+      "へたな"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「しんせつな」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "きのう デパートで  しんせつな  ひとに あいました。"
+  },
+  {
+    "id": "drill_vocab_24",
+    "num": 24,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "ぎんこうの まえに くるまが  __________  います。",
+    "options": [
+      "のって",
+      "たって",
+      "とまって",
+      "すわって"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「とまって」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "ぎんこうの まえに くるまが  とまって  います。"
+  },
+  {
+    "id": "drill_vocab_25",
+    "num": 25,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "まいばん かおを  __________ から ねます。",
+    "options": [
+      "みがいて",
+      "あらって",
+      "そうじして",
+      "せんたくして"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「あらって」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "まいばん かおを  あらって から ねます。"
+  },
+  {
+    "id": "drill_vocab_26",
+    "num": 26,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "__________  のなつも きょねんの なつも とても あつかった です。",
+    "options": [
+      "おととい",
+      "ことし",
+      "まいねん",
+      "らいねん"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「ことし」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "ことし  のなつも きょねんの なつも とても あつかった です。"
+  },
+  {
+    "id": "drill_vocab_27",
+    "num": 27,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "わたしは ゆうべ ともだちに __________  を かけました。",
+    "options": [
+      "でんき",
+      "でんとう",
+      "でんわ",
+      "でんしゃ"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「でんわ」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "わたしは ゆうべ ともだちに でんわ  を かけました。"
+  },
+  {
+    "id": "drill_vocab_28",
+    "num": 28,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "この ほんは ふとくない です。 __________  です。",
+    "options": [
+      "ほそい",
+      "うすい",
+      "ふかい",
+      "せまい"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「うすい」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "この ほんは ふとくない です。 うすい  です。"
+  },
+  {
+    "id": "drill_vocab_29",
+    "num": 29,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "__________  を しめて かいしゃへ いきます。",
+    "options": [
+      "セーター",
+      "シャツ",
+      "ズボン",
+      "ネクタイ"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「ネクタイ」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "ネクタイ  を しめて かいしゃへ いきます。"
+  },
+  {
+    "id": "drill_vocab_30",
+    "num": 30,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "すずきさんの じてんしゃは __________  きれい です。",
+    "options": [
+      "いそがしくて",
+      "わかつて",
+      "あたらしくて",
+      "あつくて"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「あたらしくて」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "すずきさんの じてんしゃは あたらしくて  きれい です。"
+  },
+  {
+    "id": "drill_vocab_31",
+    "num": 31,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "わたしは __________  にちようびに としょかんへ いきます。",
+    "options": [
+      "まいしゅう",
+      "まいあさ",
+      "まいにち",
+      "まいとし"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「まいしゅう」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "わたしは まいしゅう  にちようびに としょかんへ いきます。"
+  },
+  {
+    "id": "drill_vocab_32",
+    "num": 32,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "「この おかしは いくらですか。」「それは __________  です。",
+    "options": [
+      "はちじっさつ",
+      "はちじっぽん",
+      "はちじゆうえん",
+      "はちじゅうだい"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「はちじゆうえん」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "「この おかしは いくらですか。」「それは はちじゆうえん  です。"
+  },
+  {
+    "id": "drill_vocab_33",
+    "num": 33,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "やすみの ひは いつも うちで __________  を ひきます。",
+    "options": [
+      "オートバイ",
+      "テニス",
+      "スリッパ",
+      "ギター"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「ギター」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "やすみの ひは いつも うちで ギター  を ひきます。"
+  },
+  {
+    "id": "drill_vocab_34",
+    "num": 34,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "__________  えいがを みに いきませんか。",
+    "options": [
+      "ゆうべ",
+      "きのう",
+      "あした",
+      "おととい"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「あした」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "あした  えいがを みに いきませんか。"
+  },
+  {
+    "id": "drill_vocab_35",
+    "num": 35,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "かぜを __________  かいしゃを やすみました。",
+    "options": [
+      "やって",
+      "なって",
+      "ふいて",
+      "ひいて"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「ひいて」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "かぜを ひいて  かいしゃを やすみました。"
+  },
+  {
+    "id": "drill_vocab_36",
+    "num": 36,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "それは とても  __________ ほん です。",
+    "options": [
+      "たいせつな",
+      "いろいろな",
+      "じょうぶな",
+      "にぎやかな"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「たいせつな」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "それは とても  たいせつな ほん です。"
+  },
+  {
+    "id": "drill_vocab_37",
+    "num": 37,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "さとうさんは __________ こない でしょう。",
+    "options": [
+      "ちょうど",
+      "すこし",
+      "たぶん",
+      "だんだん"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「たぶん」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "さとうさんは たぶん こない でしょう。"
+  },
+  {
+    "id": "drill_vocab_38",
+    "num": 38,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "じゅうぎょうは __________ さんじに おわりました。",
+    "options": [
+      "ちょっと",
+      "だんだん",
+      "まっすぐ",
+      "ちょうど"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「ちょうど」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "じゅうぎょうは ちょうど さんじに おわりました。"
+  },
+  {
+    "id": "drill_vocab_39",
+    "num": 39,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "この セーターは うすいので、あまり __________ ないです。",
+    "options": [
+      "さむく",
+      "すずしく",
+      "あたたかく",
+      "あかく"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「あたたかく」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "この セーターは うすいので、あまり あたたかく ないです。"
+  },
+  {
+    "id": "drill_vocab_40",
+    "num": 40,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "わたしの きょうしつは  __________ にあります。",
+    "options": [
+      "にかい",
+      "にだい",
+      "にはい",
+      "にまい"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「にかい」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "わたしの きょうしつは  にかい にあります。"
+  },
+  {
+    "id": "drill_vocab_41",
+    "num": 41,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "やまださんは ことし__________ になります。",
+    "options": [
+      "ついたち",
+      "よっか",
+      "はつか",
+      "はたち"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「はたち」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "やまださんは ことしはたち になります。"
+  },
+  {
+    "id": "drill_vocab_42",
+    "num": 42,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "くるまで うちから びょういん まで 30 ぷん__________ 。",
+    "options": [
+      "かけます",
+      "かかります",
+      "いります",
+      "います"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「かかります」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "くるまで うちから びょういん まで  ぷんかかります 。"
+  },
+  {
+    "id": "drill_vocab_43",
+    "num": 43,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "わたしは まいあさ  __________7 じに おきます。",
+    "options": [
+      "たいてい",
+      "たいへん",
+      "だいぶ",
+      "だんだん"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「たいてい」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "わたしは まいあさ  たいてい じに おきます。"
+  },
+  {
+    "id": "drill_vocab_44",
+    "num": 44,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "この くつしたは うすい ですが、__________   です。",
+    "options": [
+      "かんたん",
+      "じょうぶ",
+      "げんき",
+      "じょうず"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「じょうぶ」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "この くつしたは うすい ですが、じょうぶ   です。"
+  },
+  {
+    "id": "drill_vocab_45",
+    "num": 45,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "この __________  じじょは だれの ですか。",
+    "options": [
+      "ながい",
+      "まるい",
+      "みじかい",
+      "ちいさい"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「ちいさい」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "この ちいさい  じじょは だれの ですか。"
+  },
+  {
+    "id": "drill_vocab_46",
+    "num": 46,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "たくさん たべた ので、おなかが __________  なりました。",
+    "options": [
+      "いたく",
+      "はやく",
+      "しずかに",
+      "きれいに"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「いたく」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "たくさん たべた ので、おなかが いたく  なりました。"
+  },
+  {
+    "id": "drill_vocab_47",
+    "num": 47,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "この ぎゅうにゅうは れいぞうこに ありましたから、とても_________です。",
+    "options": [
+      "あついです",
+      "つめたいです",
+      "さむいです",
+      "すずしいです"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「つめたいです」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "この ぎゅうにゅうは れいぞうこに ありましたから、とてもつめたいですです。"
+  },
+  {
+    "id": "drill_vocab_48",
+    "num": 48,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "あの__________ を わたって、だいがくへ いきます。",
+    "options": [
+      "ほん",
+      "まど",
+      "はし",
+      "くも"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「はし」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "あのはし を わたって、だいがくへ いきます。"
+  },
+  {
+    "id": "drill_vocab_49",
+    "num": 49,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "えいがかんの まえに みせが __________  あります。",
+    "options": [
+      "おおぜい",
+      "たいへん",
+      "たくさん",
+      "いろいろ"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「たくさん」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "えいがかんの まえに みせが たくさん  あります。"
+  },
+  {
+    "id": "drill_vocab_50",
+    "num": 50,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "いっしゅうかんに __________  テニスを します。",
+    "options": [
+      "さんかい",
+      "さんばん",
+      "さんがい",
+      "さんじ"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「さんかい」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "いっしゅうかんに さんかい  テニスを します。"
+  },
+  {
+    "id": "drill_vocab_5",
+    "num": 5,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "「どの ひと ＿＿＿＿＿＿たなかさん ですか。」 「あの おとこの ひと です。」",
+    "options": [
+      "を",
+      "の",
+      "が",
+      "や"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「が」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "「どの ひと ＿＿＿＿＿＿たなかさん ですか。」 「あの おとこの ひと です。」"
+  },
+  {
+    "id": "drill_vocab_6",
+    "num": 6,
+    "section": "vocab",
+    "category": "語彙・文字 (Vocabulary & Kanji)",
+    "difficulty": "hard",
+    "question": "たなかさんは きのう びょうき＿＿＿＿＿＿がっこうを やすみました。",
+    "options": [
+      "が",
+      "を",
+      "で",
+      "に"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「が」。文脈に最も適した語彙・漢字表現です。",
+    "audioText": "たなかさんは きのう びょうき＿＿＿＿＿＿がっこうを やすみました。"
+  },
+  {
+    "id": "drill_grammar_8",
+    "num": 8,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "わたしは ときどき こうえん＿＿＿＿＿ さんぽします。",
+    "options": [
+      "の",
+      "と",
+      "が",
+      "を"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「を」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "わたしは ときどき こうえん＿＿＿＿＿ さんぽします。"
+  },
+  {
+    "id": "drill_grammar_9",
+    "num": 9,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "かいこくの えいが＿＿＿＿＿ かいこくごを べんきょうする ひとが います。",
+    "options": [
+      "が",
+      "に",
+      "で",
+      "へ"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「で」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "かいこくの えいが＿＿＿＿＿ かいこくごを べんきょうする ひとが います。"
+  },
+  {
+    "id": "drill_grammar_10",
+    "num": 10,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "わたしは 1 ねん＿＿＿＿＿ 1 かい おおきい りょこうを します。",
+    "options": [
+      "と",
+      "に",
+      "を",
+      "が"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「に」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "わたしは  ねん＿＿＿＿＿  かい おおきい りょこうを します。"
+  },
+  {
+    "id": "drill_grammar_11",
+    "num": 11,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "きのうは どこ＿＿＿＿＿ いきませんでした。",
+    "options": [
+      "ても",
+      "でも",
+      "まで",
+      "へも"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「へも」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "きのうは どこ＿＿＿＿＿ いきませんでした。"
+  },
+  {
+    "id": "drill_grammar_12",
+    "num": 12,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "きのう さかなを たべました。おととい＿＿＿＿たべました。",
+    "options": [
+      "や",
+      "も",
+      "と",
+      "に"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「も」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "きのう さかなを たべました。おととい＿＿＿＿たべました。"
+  },
+  {
+    "id": "drill_grammar_13",
+    "num": 13,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "せんしゅうは げつようび＿＿＿＿＿ すいようびまで とても いい てんきでした。",
+    "options": [
+      "しか",
+      "から",
+      "ごろ",
+      "でも"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「から」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "せんしゅうは げつようび＿＿＿＿＿ すいようびまで とても いい てんきでした。"
+  },
+  {
+    "id": "drill_grammar_14",
+    "num": 14,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "すみませんが、ぎんこうは どこに ある＿＿＿＿＿おしえてください。",
+    "options": [
+      "か",
+      "と",
+      "を",
+      "が"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「か」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "すみませんが、ぎんこうは どこに ある＿＿＿＿＿おしえてください。"
+  },
+  {
+    "id": "drill_grammar_15",
+    "num": 15,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "わたしは いま にほんごの じしょ＿＿＿＿ほしいです。",
+    "options": [
+      "に",
+      "の",
+      "が",
+      "で"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「が」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "わたしは いま にほんごの じしょ＿＿＿＿ほしいです。"
+  },
+  {
+    "id": "drill_grammar_17",
+    "num": 17,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "きのうは＿＿＿＿＿。",
+    "options": [
+      "あつい ないでっした",
+      "あつい なかった",
+      "あつく なくでした",
+      "あつく なかった"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「あつく なかった」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "きのうは＿＿＿＿＿。"
+  },
+  {
+    "id": "drill_grammar_18",
+    "num": 18,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "「この じしょを どうぞ」。 「どうも ありがとう。＿＿＿＿＿つかいます。",
+    "options": [
+      "たいせつ",
+      "たいせつな",
+      "たいせつに",
+      "たいせつだ"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「たいせつに」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "「この じしょを どうぞ」。 「どうも ありがとう。＿＿＿＿＿つかいます。"
+  },
+  {
+    "id": "drill_grammar_19",
+    "num": 19,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "「かぜは どうですか。」「もう＿＿＿＿＿＿なりました。」",
+    "options": [
+      "いい",
+      "いいに",
+      "よく",
+      "よくに"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「よく」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "「かぜは どうですか。」「もう＿＿＿＿＿＿なりました。」"
+  },
+  {
+    "id": "drill_grammar_20",
+    "num": 20,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "わたしは いしゃに＿＿＿＿たいです。",
+    "options": [
+      "なら",
+      "なり",
+      "なる",
+      "なった"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「なり」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "わたしは いしゃに＿＿＿＿たいです。"
+  },
+  {
+    "id": "drill_grammar_21",
+    "num": 21,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "きょうは かぜが つよいですから、まどを＿＿＿＿ください。",
+    "options": [
+      "あけない",
+      "あけなく",
+      "あけなくて",
+      "あけないで"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「あけないで」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "きょうは かぜが つよいですから、まどを＿＿＿＿ください。"
+  },
+  {
+    "id": "drill_grammar_22",
+    "num": 22,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "わたしは きょう、かいしゃへ＿＿＿＿まえに びょういんへ いきます。",
+    "options": [
+      "いく",
+      "いか",
+      "いって",
+      "いった"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「いく」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "わたしは きょう、かいしゃへ＿＿＿＿まえに びょういんへ いきます。"
+  },
+  {
+    "id": "drill_grammar_23",
+    "num": 23,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "きのう としょかんから＿＿＿＿ほんは このほん です。",
+    "options": [
+      "かりる",
+      "かりて",
+      "かりた",
+      "かります"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「かりた」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "きのう としょかんから＿＿＿＿ほんは このほん です。"
+  },
+  {
+    "id": "drill_grammar_24",
+    "num": 24,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "「ちょっと まってください。てを＿＿＿＿から りょうりを つくります。」",
+    "options": [
+      "あらう",
+      "あらい",
+      "あらった",
+      "あらって"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「あらって」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "「ちょっと まってください。てを＿＿＿＿から りょうりを つくります。」"
+  },
+  {
+    "id": "drill_grammar_25",
+    "num": 25,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "ちょっと コーヒーを＿＿＿＿＿に いきませんか。",
+    "options": [
+      "のま",
+      "のみ",
+      "のむ",
+      "のんで"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「のみ」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "ちょっと コーヒーを＿＿＿＿＿に いきませんか。"
+  },
+  {
+    "id": "drill_grammar_26",
+    "num": 26,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "うたを＿＿＿＿＿ながら あるきましょう。",
+    "options": [
+      "うたい",
+      "うたう",
+      "うたわ",
+      "うたって"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「うたい」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "うたを＿＿＿＿＿ながら あるきましょう。"
+  },
+  {
+    "id": "drill_grammar_27",
+    "num": 27,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "こどもは はを＿＿＿＿ねました。",
+    "options": [
+      "みがかない",
+      "みがかなく",
+      "みがかなくて",
+      "みがかないで"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「みがかないで」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "こどもは はを＿＿＿＿ねました。"
+  },
+  {
+    "id": "drill_grammar_28",
+    "num": 28,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "きのうは しけんが＿＿＿＿ から とても つかれました。",
+    "options": [
+      "あり",
+      "ある",
+      "あって",
+      "あった"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「あった」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "きのうは しけんが＿＿＿＿ から とても つかれました。"
+  },
+  {
+    "id": "drill_grammar_29",
+    "num": 29,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "まいにち よる 12 じ まで しごとを ＿＿＿＿＿ びょうきに なりました。",
+    "options": [
+      "する",
+      "して",
+      "しない",
+      "します"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「して」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "まいにち よる  じ まで しごとを ＿＿＿＿＿ びょうきに なりました。"
+  },
+  {
+    "id": "drill_grammar_30",
+    "num": 30,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "にほんじんは よる＿＿＿＿とき、「おやすみなさい」といいます。",
+    "options": [
+      "ね",
+      "ねる",
+      "ねて",
+      "ねた"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「ねる」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "にほんじんは よる＿＿＿＿とき、「おやすみなさい」といいます。"
+  },
+  {
+    "id": "drill_grammar_31",
+    "num": 31,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "「コーヒーと こうちゃと＿＿＿＿ が すきですか。」 「コーヒーの ほうが すきです。」",
+    "options": [
+      "どこ",
+      "どう",
+      "どちら",
+      "だれ"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「どちら」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "「コーヒーと こうちゃと＿＿＿＿ が すきですか。」 「コーヒーの ほうが すきです。」"
+  },
+  {
+    "id": "drill_grammar_32",
+    "num": 32,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "せんせい「らいしゅう しけんが あります。」 がくせい「＿＿＿＿＿に ありますか。」",
+    "options": [
+      "どこ",
+      "いつ",
+      "なに",
+      "なんようび"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「なんようび」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "せんせい「らいしゅう しけんが あります。」 がくせい「＿＿＿＿＿に ありますか。」"
+  },
+  {
+    "id": "drill_grammar_33",
+    "num": 33,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "「＿＿＿＿とうきょうに いますか。」 「１かげつ います。」",
+    "options": [
+      "どこの",
+      "どう",
+      "どうして",
+      "どのぐらい"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「どのぐらい」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "「＿＿＿＿とうきょうに いますか。」 「１かげつ います。」"
+  },
+  {
+    "id": "drill_grammar_34",
+    "num": 34,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "hard",
+    "question": "「やすみ には どんな ＿＿＿＿ を しますか。」 「テニスを したり、おんがくを きいたり します。」",
+    "options": [
+      "こと",
+      "ところ",
+      "もの",
+      "とき"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「こと」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "「やすみ には どんな ＿＿＿＿ を しますか。」 「テニスを したり、おんがくを きいたり します。」"
+  },
+  {
+    "id": "drill_grammar_35",
+    "num": 35,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "この おかしは＿＿＿＿＿ あげません。",
+    "options": [
+      "だれが",
+      "だれと",
+      "だれにも",
+      "だれしか"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「だれにも」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "この おかしは＿＿＿＿＿ あげません。"
+  },
+  {
+    "id": "drill_grammar_36",
+    "num": 36,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "わたしは おさけを あまり＿＿＿＿ 。",
+    "options": [
+      "のみます",
+      "のみません",
+      "のんでください",
+      "のまないでください"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「のみません」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "わたしは おさけを あまり＿＿＿＿ 。"
+  },
+  {
+    "id": "drill_grammar_37",
+    "num": 37,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "しごとが ＿＿＿＿＿ あと、どう しますか。",
+    "options": [
+      "おわる",
+      "おわり",
+      "おわって",
+      "おわった"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「おわった」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "しごとが ＿＿＿＿＿ あと、どう しますか。"
+  },
+  {
+    "id": "drill_grammar_41",
+    "num": 41,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "きのう ここに だれ＿＿＿＿＿きましたか。",
+    "options": [
+      "は",
+      "を",
+      "が",
+      "に"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「が」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "きのう ここに だれ＿＿＿＿＿きましたか。"
+  },
+  {
+    "id": "drill_grammar_42",
+    "num": 42,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "わたしは やまださん＿＿＿＿＿ ここで まちます。",
+    "options": [
+      "が",
+      "を",
+      "で",
+      "に"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「を」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "わたしは やまださん＿＿＿＿＿ ここで まちます。"
+  },
+  {
+    "id": "drill_grammar_43",
+    "num": 43,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "１にち＿＿＿＿＿＿、２かい はを  みがきます。",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "の"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「に」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "１にち＿＿＿＿＿＿、２かい はを  みがきます。"
+  },
+  {
+    "id": "drill_grammar_44",
+    "num": 44,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "テーブルの うえに みかん＿＿＿＿＿りんご などが あります。",
+    "options": [
+      "が",
+      "も",
+      "を",
+      "や"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「や」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "テーブルの うえに みかん＿＿＿＿＿りんご などが あります。"
+  },
+  {
+    "id": "drill_grammar_45",
+    "num": 45,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "はは＿＿＿＿だいどころに います。",
+    "options": [
+      "に",
+      "を",
+      "は",
+      "で"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「は」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "はは＿＿＿＿だいどころに います。"
+  },
+  {
+    "id": "drill_grammar_46",
+    "num": 46,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "その ことを だれ＿＿＿＿ききましたか。",
+    "options": [
+      "は",
+      "で",
+      "を",
+      "に"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「に」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "その ことを だれ＿＿＿＿ききましたか。"
+  },
+  {
+    "id": "drill_grammar_47",
+    "num": 47,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "たなか さん＿＿＿＿おととい あいました。",
+    "options": [
+      "のは",
+      "へは",
+      "で は",
+      "には"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「には」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "たなか さん＿＿＿＿おととい あいました。"
+  },
+  {
+    "id": "drill_grammar_48",
+    "num": 48,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "その かばん＿＿＿＿きのう かいました。",
+    "options": [
+      "は",
+      "の",
+      "も",
+      "に"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「は」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "その かばん＿＿＿＿きのう かいました。"
+  },
+  {
+    "id": "drill_grammar_49",
+    "num": 49,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "だれ＿＿＿＿＿、やまかわさんの でんわ ばんごうを おしえてください。",
+    "options": [
+      "は",
+      "か",
+      "が",
+      "に"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「か」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "だれ＿＿＿＿＿、やまかわさんの でんわ ばんごうを おしえてください。"
+  },
+  {
+    "id": "drill_grammar_50",
+    "num": 50,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "ゆうびんきょくは、レストランの みぎです＿＿＿、ひだりです＿＿。",
+    "options": [
+      "ね\\ね",
+      "が\\が",
+      "か\\か",
+      "よ\\よ"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「か\\か」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "ゆうびんきょくは、レストランの みぎです＿＿＿、ひだりです＿＿。"
+  },
+  {
+    "id": "drill_grammar_51",
+    "num": 51,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "かようび＿＿＿＿きょうまで テストが ありました。",
+    "options": [
+      "に",
+      "だけ",
+      "から",
+      "は"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「から」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "かようび＿＿＿＿きょうまで テストが ありました。"
+  },
+  {
+    "id": "drill_grammar_52",
+    "num": 52,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "わたしの かぞくは、ぜんぶ＿＿＿＿８にんです。",
+    "options": [
+      "が",
+      "の",
+      "を",
+      "で"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「で」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "わたしの かぞくは、ぜんぶ＿＿＿＿８にんです。"
+  },
+  {
+    "id": "drill_grammar_53",
+    "num": 53,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "じてんしゃ＿＿＿＿のって かいものに いきました。",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "が"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「に」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "じてんしゃ＿＿＿＿のって かいものに いきました。"
+  },
+  {
+    "id": "drill_grammar_54",
+    "num": 54,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "あめ＿＿＿＿かわの みずが きたなく なりました。",
+    "options": [
+      "は",
+      "で",
+      "の",
+      "に"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「で」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "あめ＿＿＿＿かわの みずが きたなく なりました。"
+  },
+  {
+    "id": "drill_grammar_56",
+    "num": 56,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "きのうは あまり＿＿＿＿です。",
+    "options": [
+      "あつかった",
+      "あついかった",
+      "あつくなかった",
+      "あついじゃなかった"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「あつくなかった」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "きのうは あまり＿＿＿＿です。"
+  },
+  {
+    "id": "drill_grammar_57",
+    "num": 57,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "まどから ＿＿＿＿＿＿かぜが はいりました。",
+    "options": [
+      "すずしい",
+      "すずしいの",
+      "すずしいな",
+      "すずしくて"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「すずしい」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "まどから ＿＿＿＿＿＿かぜが はいりました。"
+  },
+  {
+    "id": "drill_grammar_58",
+    "num": 58,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "もう ちょっと＿＿＿を、みせてください。",
+    "options": [
+      "やすいな",
+      "やすいも",
+      "やすいの",
+      "やすくて"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「やすいの」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "もう ちょっと＿＿＿を、みせてください。"
+  },
+  {
+    "id": "drill_grammar_59",
+    "num": 59,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "わたしは にくも さかな＿＿＿ たべません。",
+    "options": [
+      "は",
+      "を",
+      "が",
+      "も"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「も」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "わたしは にくも さかな＿＿＿ たべません。"
+  },
+  {
+    "id": "drill_grammar_60",
+    "num": 60,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "がいこく＿＿＿でがみが きました。",
+    "options": [
+      "とも",
+      "ごろ",
+      "から",
+      "しか"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「から」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "がいこく＿＿＿でがみが きました。"
+  },
+  {
+    "id": "drill_grammar_61",
+    "num": 61,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "このまちは＿＿＿＿べんりな ところです。",
+    "options": [
+      "にぎやか",
+      "にぎやかだ",
+      "にぎやかで",
+      "にぎやかの"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「にぎやかで」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "このまちは＿＿＿＿べんりな ところです。"
+  },
+  {
+    "id": "drill_grammar_62",
+    "num": 62,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "じしょを＿＿＿＿かんじを おばえます。",
+    "options": [
+      "みる",
+      "みて",
+      "みた",
+      "みに"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「みて」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "じしょを＿＿＿＿かんじを おばえます。"
+  },
+  {
+    "id": "drill_grammar_63",
+    "num": 63,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "あさは いそがしくて しんぶんは＿＿＿＿。",
+    "options": [
+      "よみた",
+      "よんだ",
+      "よみない",
+      "よまない"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「よまない」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "あさは いそがしくて しんぶんは＿＿＿＿。"
+  },
+  {
+    "id": "drill_grammar_64",
+    "num": 64,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "パンを はんぶんに ＿＿＿＿ください。",
+    "options": [
+      "きて",
+      "きって",
+      "きりて",
+      "きらって"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「きって」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "パンを はんぶんに ＿＿＿＿ください。"
+  },
+  {
+    "id": "drill_grammar_66",
+    "num": 66,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "わたしは げんかんの ドア＿＿＿＿＿＿。",
+    "options": [
+      "が あいた",
+      "が あけた",
+      "を あいた",
+      "を あけた"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解:「を あけた」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "わたしは げんかんの ドア＿＿＿＿＿＿。"
+  },
+  {
+    "id": "drill_grammar_68",
+    "num": 68,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "こどもたちは もう こうえんに＿＿＿＿から、 うちには いません。",
+    "options": [
+      "いく",
+      "いった",
+      "いって",
+      "いかなかった"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解:「いった」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "こどもたちは もう こうえんに＿＿＿＿から、 うちには いません。"
+  },
+  {
+    "id": "drill_grammar_69",
+    "num": 69,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "じゅぎょうちゅう だから、＿＿＿＿してください。",
+    "options": [
+      "しずかに",
+      "しずかで",
+      "しずかだ",
+      "しずかな"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解:「しずかに」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "じゅぎょうちゅう だから、＿＿＿＿してください。"
+  },
+  {
+    "id": "drill_grammar_70",
+    "num": 70,
+    "section": "grammar",
+    "category": "文法・助詞 (Grammar & Particles)",
+    "difficulty": "very_hard",
+    "question": "わたしは さくぶんを＿＿＿＿とき、いつも ペンを つかいます。",
+    "options": [
+      "かいた",
+      "かいて",
+      "かく",
+      "かきに"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解:「かく」。助詞の役割・動詞の接続（て形・ない形・た形など）に基づく適切な選択です。",
+    "audioText": "わたしは さくぶんを＿＿＿＿とき、いつも ペンを つかいます。"
+  },
+  {
+    "id": "drill_star_1",
+    "section": "star_ordering",
+    "category": "★ 語の並べ替え (Sentence Composition)",
+    "difficulty": "very_hard",
+    "question": "きのう わたしは [ ___ ] [ ___ ] [ ★ ] [ ___ ] かいました。\n（正しい並び順にして、★に入るものを1つ選びなさい）",
+    "options": [
+      "ほんを",
+      "デパートで",
+      "あたらしい",
+      "2さつ"
+    ],
+    "correctIndex": 0,
+    "explanation": "正しい語順: デパートで (2) あたらしい (3) ★ほんを (1) 2さつ (4) かいました。\n場所(で) → 連体修飾語(あたらしい) → 目的語(★ほんを) → 数量詞(2さつ) → 動詞 の順になります。★に入るのは「ほんを」です。",
+    "audioText": "きのう わたしは デパートで あたらしい ほんを 2さつ かいました。"
+  },
+  {
+    "id": "drill_star_2",
+    "section": "star_ordering",
+    "category": "★ 語の並べ替え (Sentence Composition)",
+    "difficulty": "very_hard",
+    "question": "あしたの パーティーには [ ___ ] [ ___ ] [ ★ ] [ ___ ] ください。\n（正しい並び順にして、★に入るものを1つ選びなさい）",
+    "options": [
+      "じかんを",
+      "おくれたり",
+      "まちがえないで",
+      "ぜったいに"
+    ],
+    "correctIndex": 2,
+    "explanation": "正しい語順: ぜったいに (4) じかんを (1) ★まちがえないで (3) おくれたり しないで (2) ください。\nまたは「ぜったいに じかんを まちがえないで ください」。★に入るのは「まちがえないで」です。",
+    "audioText": "あしたの パーティーには ぜったいに じかんを まちがえないで ください。"
+  },
+  {
+    "id": "drill_star_3",
+    "section": "star_ordering",
+    "category": "★ 語の並べ替え (Sentence Composition)",
+    "difficulty": "very_hard",
+    "question": "たなかさんは [ ___ ] [ ___ ] [ ★ ] [ ___ ] と 言っていました。\n（正しい並び順にして、★に入るものを1つ選びなさい）",
+    "options": [
+      "らいしゅうの",
+      "あめが",
+      "きんようびに",
+      "ふるだろう"
+    ],
+    "correctIndex": 2,
+    "explanation": "正しい語順: らいしゅうの (1) きんようびに (3) ★あめが (2) ふるだろう (4) と 言っていました。\n★に入るのは「あめが」です。",
+    "audioText": "たなかさんは らいしゅうの きんようびに あめが ふるだろうと いっていました。"
+  },
+  {
+    "id": "drill_star_4",
+    "section": "star_ordering",
+    "category": "★ 語の並べ替え (Sentence Composition)",
+    "difficulty": "very_hard",
+    "question": "わたしは [ ___ ] [ ___ ] [ ★ ] [ ___ ] ことがあります。\n（正しい並び順にして、★に入るものを1つ選びなさい）",
+    "options": [
+      "いちども",
+      "ふじさんに",
+      "日本で",
+      "のぼった"
+    ],
+    "correctIndex": 1,
+    "explanation": "正しい語順: 日本で (3) いちども (1) ★ふじさんに (2) のぼった (4) ことがあります。\n「〜た ことが あります」で経験を表します。★に入るのは「ふじさんに」です。",
+    "audioText": "わたしは 日本で いちども ふじさんに のぼった ことが あります。"
+  },
+  {
+    "id": "drill_star_5",
+    "section": "star_ordering",
+    "category": "★ 語の並べ替え (Sentence Composition)",
+    "difficulty": "very_hard",
+    "question": "この りょうりは [ ___ ] [ ___ ] [ ★ ] [ ___ ] つくりました。\n（正しい並び順にして、★に入るものを1つ選びなさい）",
+    "options": [
+      "母に",
+      "ならって",
+      "じぶんで",
+      "ひとりで"
+    ],
+    "correctIndex": 1,
+    "explanation": "正しい語順: 母に (1) ★ならって (2) ひとりで (4) じぶんで (3) つくりました。\n★に入るのは「ならって」です。",
+    "audioText": "この りょうりは 母に ならって じぶんで つくりました。"
+  },
+  {
+    "id": "drill_star_6",
+    "section": "star_ordering",
+    "category": "★ 語の並べ替え (Sentence Composition)",
+    "difficulty": "very_hard",
+    "question": "えきへ [ ___ ] [ ___ ] [ ★ ] [ ___ ] まがって ください。\n（正しい並び順にして、★に入るものを1つ選びなさい）",
+    "options": [
+      "みぎへ",
+      "みちを",
+      "いく",
+      "ふたつめの"
+    ],
+    "correctIndex": 3,
+    "explanation": "正しい語順: えきへ いく (3) ふたつめの (4) ★みちを (2) みぎへ (1) まがって ください。\n動詞「いく」が名詞「みち」を修飾します。曲がる角・道には助詞「を」を使います。★に入るのは「みちを」です。",
+    "audioText": "えきへ いく ふたつめの みちを みぎへ まがって ください。"
+  },
+  {
+    "id": "drill_star_7",
+    "section": "star_ordering",
+    "category": "★ 語の並べ替え (Sentence Composition)",
+    "difficulty": "very_hard",
+    "question": "へやの でんきを [ ___ ] [ ___ ] [ ★ ] [ ___ ] ねました。\n（正しい並び順にして、★に入るものを1つ選びなさい）",
+    "options": [
+      "そのまま",
+      "けさないで",
+      "あかるい",
+      "くらくしないで"
+    ],
+    "correctIndex": 1,
+    "explanation": "正しい語順: けさないで (2) あかるい (3) ★そのまま (1) ねました。\n「〜ないで（付帯状況）」を用います。★に入るのは「そのまま」です。",
+    "audioText": "へやの でんきを けさないで そのまま ねました。"
+  },
+  {
+    "id": "drill_star_8",
+    "section": "star_ordering",
+    "category": "★ 語の並べ替え (Sentence Composition)",
+    "difficulty": "very_hard",
+    "question": "あしたまでに この レポートを [ ___ ] [ ___ ] [ ★ ] [ ___ ] ならない。\n（正しい並び順にして、★に入るものを1つ選びなさい）",
+    "options": [
+      "ぜんぶ",
+      "かかなければ",
+      "先生に",
+      "だして"
+    ],
+    "correctIndex": 1,
+    "explanation": "正しい語順: 先生に (3) ぜんぶ (1) ★かかなければ (2) ならない。\n義務表現「〜なければならない」です。★に入るのは「かかなければ」です。",
+    "audioText": "あしたまでに この レポートを 先生に ぜんぶ かかなければ ならない。"
+  },
+  {
+    "id": "drill_gv_1",
+    "section": "grammar",
+    "category": "授受動詞 (Giving & Receiving)",
+    "difficulty": "very_hard",
+    "question": "たんじょうびに ともだちが わたしに とけいを ＿＿＿＿＿＿。",
+    "options": [
+      "あげました",
+      "くれました",
+      "もらいました",
+      "やりました"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「くれました」。第三者（ともだち）が自分（わたし）に物をくれるときは「くれます/くれました」を使います。「あげました」は自分が他人に与えるときに使います。",
+    "audioText": "たんじょうびに ともだちが わたしに とけいを くれました。"
+  },
+  {
+    "id": "drill_gv_2",
+    "section": "grammar",
+    "category": "授受動詞 (Giving & Receiving)",
+    "difficulty": "very_hard",
+    "question": "わたしは やまだせんせいに 日本語を おしえて ＿＿＿＿＿＿。",
+    "options": [
+      "あげました",
+      "くれました",
+      "いただきました",
+      "やりました"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解は「いただきました（もらいました）」。目上の人（やまだ先生）から恩恵を受けるときは謙譲表現の「いただきました」または「もらいました」を使います。先生に対して「あげました」は失礼で誤りです。",
+    "audioText": "わたしは やまだせんせいに 日本語を おしえて いただきました。"
+  },
+  {
+    "id": "drill_gv_3",
+    "section": "grammar",
+    "category": "授受動詞 (Giving & Receiving)",
+    "difficulty": "very_hard",
+    "question": "みちが わからなかったので、しらない ひとが えきまで あんないして ＿＿＿＿＿＿。",
+    "options": [
+      "もらいました",
+      "くれました",
+      "あげました",
+      "とどきました"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「くれました」。「しらないひとが（主語）…案内してくれました」となります。「もらいました」にする場合は主語が「わたしは（知らない人に）」である必要があります。",
+    "audioText": "みちが わからなかったので、しらない ひとが えきまで あんないして くれました。"
+  },
+  {
+    "id": "drill_gv_4",
+    "section": "grammar",
+    "category": "授受動詞 (Giving & Receiving)",
+    "difficulty": "very_hard",
+    "question": "いもうとの たんじょうびに きれいな にんぎょうを かって ＿＿＿＿＿＿。",
+    "options": [
+      "くれました",
+      "あげました",
+      "もらいました",
+      "とどけました"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「あげました」。自分が妹（身内・他者）のために何かをしてあげるときは「〜てあげました」を使います。",
+    "audioText": "いもうとの たんじょうびに きれいな にんぎょうを かって あげました。"
+  },
+  {
+    "id": "drill_prt_1",
+    "section": "grammar",
+    "category": "難関助詞 (Tricky Particles)",
+    "difficulty": "very_hard",
+    "question": "きょうは レポートを 5じ＿＿＿＿＿ ださなければ なりません。",
+    "options": [
+      "まで",
+      "までに",
+      "から",
+      "ごろに"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「までに」。「〜まで」は継続する動作（5時まで勉強する）を表し、「〜までに」は期限・締め切り（5時までに提出する）を表します。",
+    "audioText": "きょうは レポートを 5じまでに ださなければ なりません。"
+  },
+  {
+    "id": "drill_prt_2",
+    "section": "grammar",
+    "category": "難関助詞 (Tricky Particles)",
+    "difficulty": "very_hard",
+    "question": "まいにち えきまで あるいて、バス＿＿＿＿＿ のって 会社へ いきます。",
+    "options": [
+      "を",
+      "で",
+      "に",
+      "へ"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解は「に」。「乗る（のる）」の対象には助詞「に」を使います（バスに乗る）。「を」を使うのは降りるとき（バスを降りる）です。",
+    "audioText": "まいにち えきまで あるいて、バスに のって 会社へ いきます。"
+  },
+  {
+    "id": "drill_prt_3",
+    "section": "grammar",
+    "category": "難関助詞 (Tricky Particles)",
+    "difficulty": "very_hard",
+    "question": "さいふの なかに 100えん＿＿＿＿＿ ありません。こまりました。",
+    "options": [
+      "だけ",
+      "しか",
+      "でも",
+      "ほど"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「しか」。「しか」は後ろに必ず否定形（ありません）を伴って「〜だけしかない」という不足感を強調します。「だけ」の後ろは肯定（あります）が基本です。",
+    "audioText": "さいふの なかに 100えんしか ありません。こまりました。"
+  },
+  {
+    "id": "drill_prt_4",
+    "section": "grammar",
+    "category": "難関助詞 (Tricky Particles)",
+    "difficulty": "very_hard",
+    "question": "日曜日に えきの まえで ともだち＿＿＿＿＿ あいました。",
+    "options": [
+      "を",
+      "に",
+      "で",
+      "へ"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「に」。「会う（あう）」の相手には助詞「に」を用います（友達に会う）。「を」は使えません。",
+    "audioText": "日曜日に えきの まえで ともだちに あいました。"
+  },
+  {
+    "id": "drill_prt_5",
+    "section": "grammar",
+    "category": "難関助詞 (Tricky Particles)",
+    "difficulty": "very_hard",
+    "question": "あさ おきて、まどを あけると、つめたい かぜ＿＿＿＿＿ はいって きました。",
+    "options": [
+      "を",
+      "に",
+      "が",
+      "で"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解は「が」。自然現象や自動詞（入る、降る、吹く）の主体・発見の対象には助詞「が」を用います。",
+    "audioText": "あさ おきて、まどを あけると、つめたい かぜが はいって きました。"
+  },
+  {
+    "id": "drill_prt_6",
+    "section": "grammar",
+    "category": "難関助詞 (Tricky Particles)",
+    "difficulty": "very_hard",
+    "question": "きのうは あたまが いたかったので、どこ＿＿＿＿＿ いきませんでした。",
+    "options": [
+      "でも",
+      "へも",
+      "にも",
+      "までも"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「へも」。「どこへも 行きませんでした」で完全な移動の否定を表します。",
+    "audioText": "きのうは あたまが いたかったので、どこへも いきませんでした。"
+  },
+  {
+    "id": "drill_kj_sp1",
+    "section": "kanji",
+    "category": "語彙・文字 (Special Kanji Readings)",
+    "difficulty": "very_hard",
+    "question": "きょうは ４月【20日】です。ただしい よみかたは どれですか。",
+    "options": [
+      "にじゅうにち",
+      "はつか",
+      "ふつか",
+      "はるか"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「はつか」。「20日」は特殊な訓読みで「はつか」と読みます。2日は「ふつか」、14日は「じゅうよっか」です。",
+    "audioText": "きょうは ４月 はつか です。"
+  },
+  {
+    "id": "drill_kj_sp2",
+    "section": "kanji",
+    "category": "語彙・文字 (Special Kanji Readings)",
+    "difficulty": "very_hard",
+    "question": "かれは ことし 【20歳】に なりました。ただしい よみかたは どれですか。",
+    "options": [
+      "にじゅっさい",
+      "はたち",
+      "ふたつ",
+      "はつか"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「はたち」。20歳の伝統的な日本語の特別な読み方は「はたち」です。",
+    "audioText": "かれは ことし はたちに なりました。"
+  },
+  {
+    "id": "drill_kj_sp3",
+    "section": "kanji",
+    "category": "語彙・文字 (Special Kanji Readings)",
+    "difficulty": "very_hard",
+    "question": "わたしの あねは りょうりが とても【上手】です。ただしい よみかたは どれですか。",
+    "options": [
+      "うわて",
+      "かみて",
+      "じょうず",
+      "へた"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解は「じょうず」。「上手」の音読み熟語は「じょうず（Skillful）」です。反対語は「下手（へた）」です。",
+    "audioText": "わたしの あねは りょうりが とても じょうず です。"
+  },
+  {
+    "id": "drill_kj_sp4",
+    "section": "kanji",
+    "category": "語彙・文字 (Special Kanji Readings)",
+    "difficulty": "very_hard",
+    "question": "【一昨年】の ふゆ、日本へ りょこうに いきました。ただしい よみかたは どれですか。",
+    "options": [
+      "おととし",
+      "きょねん",
+      "さくねん",
+      "ことし"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解は「おととし」。「一昨年」は2年前を意味し、「おととし（または いっさくねん）」と読みます。1年前は「きょねん（去年）」です。",
+    "audioText": "おととしの ふゆ、日本へ りょこうに いきました。"
+  },
+  {
+    "id": "drill_conj_1",
+    "section": "grammar",
+    "category": "文法・活用 (Advanced Conjugation)",
+    "difficulty": "very_hard",
+    "question": "ボタンを ＿＿＿＿＿と、きっぷが でて きます。",
+    "options": [
+      "おした",
+      "おして",
+      "おす",
+      "おせば"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解は「おす」。「辞書形＋と」で機械の操作や自然な結果を表します。「おした と」などの過去形には接続できません。",
+    "audioText": "ボタンを おすと、きっぷが でて きます。"
+  },
+  {
+    "id": "drill_conj_2",
+    "section": "grammar",
+    "category": "文法・活用 (Advanced Conjugation)",
+    "difficulty": "very_hard",
+    "question": "おんがくを ＿＿＿＿＿ながら、べんきょうするのは よく ありません。",
+    "options": [
+      "きく",
+      "きき",
+      "きいて",
+      "きいた"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「きき」。「動詞ます形語幹＋ながら」で同時進行動作（〜しながら）を表します。「ききます」の語幹「きき」が接続します。",
+    "audioText": "おんがくを ききながら、べんきょうするのは よく ありません。"
+  },
+  {
+    "id": "drill_conj_3",
+    "section": "grammar",
+    "category": "文法・活用 (Advanced Conjugation)",
+    "difficulty": "very_hard",
+    "question": "しゅくだいを ＿＿＿＿＿ あとで、テレビを みます。",
+    "options": [
+      "する",
+      "して",
+      "した",
+      "しなかった"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解は「した」。「動詞た形＋あとで」で順序関係（〜した後に）を表します。「〜てから」と同じ意味合いです。",
+    "audioText": "しゅくだいを した あとで、テレビを みます。"
+  },
+  {
+    "id": "drill_conj_4",
+    "section": "grammar",
+    "category": "文法・活用 (Advanced Conjugation)",
+    "difficulty": "very_hard",
+    "question": "ここで しゃしんを ＿＿＿＿＿は いけません。",
+    "options": [
+      "とって",
+      "とる",
+      "とった",
+      "とらないで"
+    ],
+    "correctIndex": 0,
+    "explanation": "正解は「とって」。「動詞て形＋は いけません」で禁止（〜してはならない）を表します。",
+    "audioText": "ここで しゃしんを とっては いけません。"
+  }
+]

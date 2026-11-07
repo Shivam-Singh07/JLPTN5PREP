@@ -1,0 +1,482 @@
+[
+  {
+    "id": "vocab_ch10_1",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "おくります",
+    "kana": "おくります",
+    "romaji": "Okurimas",
+    "english": "To send, to gift",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_2",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "おわります",
+    "kana": "おわります",
+    "romaji": "Owarimas",
+    "english": "To finish",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_3",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "あげます",
+    "kana": "あげます",
+    "romaji": "Agemas",
+    "english": "To give",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_4",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "もらいます",
+    "kana": "もらいます",
+    "romaji": "Moraimas",
+    "english": "To recieve",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_5",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "かします",
+    "kana": "かします",
+    "romaji": "Kashimas",
+    "english": "To lend",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_6",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "かります",
+    "kana": "かります",
+    "romaji": "Karimas",
+    "english": "To borrow",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_7",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "かいます",
+    "kana": "かいます",
+    "romaji": "Kaimas",
+    "english": "To purchase",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_8",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "かきます",
+    "kana": "かきます",
+    "romaji": "Kakimas",
+    "english": "To write",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_9",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "ならいます",
+    "kana": "ならいます",
+    "romaji": "Naraimas",
+    "english": "To learn, to practice",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_10",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "て",
+    "kana": "て",
+    "romaji": "Te",
+    "english": "Hand, Hands",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_11",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "はし",
+    "kana": "はし",
+    "romaji": "Hashi",
+    "english": "Chopsticks",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_12",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "はさみ",
+    "kana": "はさみ",
+    "romaji": "Hasami",
+    "english": "Scissors",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_13",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "かみ",
+    "kana": "かみ",
+    "romaji": "Kami",
+    "english": "Paper",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_14",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "はな",
+    "kana": "はな",
+    "romaji": "Hana",
+    "english": "Flowers",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_15",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "えんぴつ",
+    "kana": "えんぴつ",
+    "romaji": "Empitsu",
+    "english": "Pencil",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_16",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "けしごむ",
+    "kana": "けしごむ",
+    "romaji": "Keshigomu",
+    "english": "Eraser",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_17",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "シャツ",
+    "kana": "シャツ",
+    "romaji": "Shatsu",
+    "english": "Shirt",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_18",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "ぷれぜんと",
+    "kana": "ぷれぜんと",
+    "romaji": "Purezento",
+    "english": "Present, Gift",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_19",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "にもつ",
+    "kana": "にもつ",
+    "romaji": "Nimotsu",
+    "english": "Luggage, Bag",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_20",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "おかね",
+    "kana": "おかね",
+    "romaji": "Okane",
+    "english": "Money",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_21",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "きっぷ",
+    "kana": "きっぷ",
+    "romaji": "Kippu",
+    "english": "Ticket (Bus, train)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_22",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "これから",
+    "kana": "これから",
+    "romaji": "Korekara",
+    "english": "From now on",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_23",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "あね",
+    "kana": "あね",
+    "romaji": "Ane",
+    "english": "(My) Elder sister",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_24",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "おねえさん",
+    "kana": "おねえさん",
+    "romaji": "Onēsan",
+    "english": "Someone else’s elder sister",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_25",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "あに",
+    "kana": "あに",
+    "romaji": "Ani",
+    "english": "(My) Elder brother",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_26",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "おにいさん",
+    "kana": "おにいさん",
+    "romaji": "Oniisan",
+    "english": "Someone else’s elder brother",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_27",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "おっと",
+    "kana": "おっと",
+    "romaji": "Otto",
+    "english": "(My) Husband",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_28",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "ごしゅじん",
+    "kana": "ごしゅじん",
+    "romaji": "Goshujin",
+    "english": "Someone else’s husband",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_29",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "つま",
+    "kana": "つま",
+    "romaji": "Tsuma",
+    "english": "(My) Wife",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_30",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "おくさん",
+    "kana": "おくさん",
+    "romaji": "Okusan",
+    "english": "Someone else’s wife",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_31",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "むすめ",
+    "kana": "むすめ",
+    "romaji": "Musume",
+    "english": "(My) Daughter",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_32",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "むすめさん",
+    "kana": "むすめさん",
+    "romaji": "Musumesan",
+    "english": "Someone else’s Daughter",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_33",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "むすこ",
+    "kana": "むすこ",
+    "romaji": "Musuko",
+    "english": "(My) son",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_34",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "むすこさん",
+    "kana": "むすこさん",
+    "romaji": "Musukosan",
+    "english": "Someone else’s son",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_35",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "がんばります",
+    "kana": "がんばります",
+    "romaji": "Gambarimas",
+    "english": "I will do my best",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_36",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "すばらしい",
+    "kana": "すばらしい",
+    "romaji": "Subarashii",
+    "english": "Wonderful, amazing, admirable",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_37",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "ところで",
+    "kana": "ところで",
+    "romaji": "Tokorode",
+    "english": "By the way (while changing a topic)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_38",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "ほしい",
+    "kana": "ほしい",
+    "romaji": "Hoshii",
+    "english": "Want, Desire (for Noun)",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_39",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "てんき",
+    "kana": "てんき",
+    "romaji": "Tenki",
+    "english": "Weather, Climate",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_40",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "まんが",
+    "kana": "まんが",
+    "romaji": "Manga",
+    "english": "Comic book",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_41",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "ところ",
+    "kana": "ところ",
+    "romaji": "Tokoro",
+    "english": "Place",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_42",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "テレビ",
+    "kana": "テレビ",
+    "romaji": "Terebi",
+    "english": "TV",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_43",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "ラジオ",
+    "kana": "ラジオ",
+    "romaji": "Rajio",
+    "english": "Radio",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_44",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "れぽうと",
+    "kana": "れぽうと",
+    "romaji": "Repōto",
+    "english": "Report",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_45",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "かあど",
+    "kana": "かあど",
+    "romaji": "Kādo",
+    "english": "Card",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_46",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "かぞく",
+    "kana": "かぞく",
+    "romaji": "Kazoku",
+    "english": "Family",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_47",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "もう",
+    "kana": "もう",
+    "romaji": "Mō",
+    "english": "Already",
+    "category": "Basic 1"
+  },
+  {
+    "id": "vocab_ch10_48",
+    "chapter": 10,
+    "chapterTitle": "Give and Take (授受動詞)",
+    "japanese": "まだ",
+    "kana": "まだ",
+    "romaji": "Mada",
+    "english": "Still, Not yet",
+    "category": "Basic 1"
+  }
+]
