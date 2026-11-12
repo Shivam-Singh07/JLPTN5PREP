@@ -54,6 +54,8 @@ export default function App() {
           <VocabLearn 
             onStartPractice={handleStartPractice}
             activeChapter={activeChapterForLearn}
+            currentRate={currentRate}
+            setCurrentRate={setCurrentRate}
           />
         )}
 

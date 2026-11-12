@@ -29,7 +29,7 @@ import { storageService } from '../services/storageService';
 import AudioButton from '../components/AudioButton';
 import audioService from '../services/audioService';
 
-export default function VocabLearn({ onStartPractice, activeChapter = 1 }) {
+export default function VocabLearn({ onStartPractice, activeChapter = 1, currentRate, setCurrentRate }) {
   // Multi-chapter selection state (array of chapter numbers: 1..24)
   const [selectedChapters, setSelectedChapters] = useState(() => {
     if (activeChapter === 'all') return Array.from({ length: 24 }, (_, i) => i + 1);
@@ -53,8 +53,16 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1 }) {
   const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
   const [audioPhase, setAudioPhase] = useState('idle'); // 'idle' | 'japanese' | 'delay' | 'english' | 'between'
   const [recallDelaySec, setRecallDelaySec] = useState(1.5); // pause to let learner guess meaning
-  const [audioSpeed, setAudioSpeed] = useState(0.95);
+  const [audioSpeed, setAudioSpeed] = useState(currentRate || 1.0);
+  const [practiceDirection, setPracticeDirection] = useState('jp_to_en'); // 'jp_to_en' | 'en_to_jp'
   const [isLooping, setIsLooping] = useState(false);
+
+  // Sync audio speed if changed externally
+  useEffect(() => {
+    if (currentRate) {
+      setAudioSpeed(currentRate);
+    }
+  }, [currentRate]);
 
   // Cancellation token ref to prevent overlapping speech loops
   const playbackTokenRef = useRef(0);
@@ -223,9 +231,16 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1 }) {
     if (!word) return;
 
     // Update Mobile Lock Screen / Notification Media Controls
+    const mediaTitle = practiceDirection === 'en_to_jp'
+      ? `🇬🇧 ${word.english}`
+      : `${word.japanese || word.kana}${word.romaji ? ` (${word.romaji})` : ''}`;
+    const mediaArtist = practiceDirection === 'en_to_jp'
+      ? `🇯🇵 ${word.japanese || word.kana}${word.romaji ? ` (${word.romaji})` : ''}`
+      : `💬 ${word.english}`;
+
     audioService.setMediaSession({
-      title: `${word.japanese || word.kana}${word.romaji ? ` (${word.romaji})` : ''}`,
-      artist: `💬 ${word.english}`,
+      title: mediaTitle,
+      artist: mediaArtist,
       album: `${word.chapterOrigin || 'Lesson'} • JLPT N5 Master`,
       onPlay: () => resumeListenLearn(),
       onPause: () => pauseListenLearn(),
@@ -234,29 +249,57 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1 }) {
     });
 
     try {
-      // 1. Speak Japanese word (HTML5 audio stream - mobile background compatible)
-      setAudioPhase('japanese');
-      await audioService.speak(word.japanese || word.kana, audioSpeed);
+      if (practiceDirection === 'en_to_jp') {
+        // Mode 2: English first, recall gap, then Japanese word
+        // 1. Speak English definition
+        setAudioPhase('english');
+        await audioService.speakEnglish(word.english, audioSpeed);
 
-      if (playbackTokenRef.current !== token) return;
+        if (playbackTokenRef.current !== token) return;
 
-      // 2. Hardware silence pause for recall gap (unthrottled by mobile OS)
-      setAudioPhase('delay');
-      await audioService.playSilence(recallDelaySec);
+        // 2. Hardware silence pause for recall gap (learner recalls Japanese word)
+        setAudioPhase('delay');
+        await audioService.playSilence(recallDelaySec);
 
-      if (playbackTokenRef.current !== token) return;
+        if (playbackTokenRef.current !== token) return;
 
-      // 3. Speak English definition (HTML5 audio stream + Web Speech fallback)
-      setAudioPhase('english');
-      await audioService.speakEnglish(word.english, audioSpeed);
+        // 3. Speak Japanese word
+        setAudioPhase('japanese');
+        await audioService.speak(word.japanese || word.kana, audioSpeed);
 
-      if (playbackTokenRef.current !== token) return;
+        if (playbackTokenRef.current !== token) return;
 
-      // 4. Brief silence between words (unthrottled by mobile OS)
-      setAudioPhase('between');
-      await audioService.playSilence(1.0);
+        // 4. Brief silence between words
+        setAudioPhase('between');
+        await audioService.playSilence(1.0);
 
-      if (playbackTokenRef.current !== token) return;
+        if (playbackTokenRef.current !== token) return;
+      } else {
+        // Mode 1: Japanese first, recall gap, then English meaning
+        // 1. Speak Japanese word (HTML5 audio stream - mobile background compatible)
+        setAudioPhase('japanese');
+        await audioService.speak(word.japanese || word.kana, audioSpeed);
+
+        if (playbackTokenRef.current !== token) return;
+
+        // 2. Hardware silence pause for recall gap (learner recalls English meaning)
+        setAudioPhase('delay');
+        await audioService.playSilence(recallDelaySec);
+
+        if (playbackTokenRef.current !== token) return;
+
+        // 3. Speak English definition (HTML5 audio stream + Web Speech fallback)
+        setAudioPhase('english');
+        await audioService.speakEnglish(word.english, audioSpeed);
+
+        if (playbackTokenRef.current !== token) return;
+
+        // 4. Brief silence between words (unthrottled by mobile OS)
+        setAudioPhase('between');
+        await audioService.playSilence(1.0);
+
+        if (playbackTokenRef.current !== token) return;
+      }
 
       // 5. Proceed to next word
       runAudioLoop(index + 1, token);
@@ -498,7 +541,6 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1 }) {
               <div>
                 <div className="flex items-center gap-2">
                   <span className="font-extrabold text-sm text-white">Continuous Audio Reader</span>
-                  <span className="text-[10px] font-mono font-bold px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">v0.0.1</span>
                   <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider ${
                     audioPhase === 'japanese' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30 animate-pulse' :
                     audioPhase === 'delay' ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' :
@@ -506,7 +548,11 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1 }) {
                     'bg-slate-800 text-slate-400'
                   }`}>
                     {audioPhase === 'japanese' ? '🇯🇵 Reading Japanese' :
-                     audioPhase === 'delay' ? `⏳ Guess Meaning (${recallDelaySec}s)` :
+                     audioPhase === 'delay' ? (
+                       practiceDirection === 'en_to_jp'
+                         ? `⏳ Recall Japanese (${recallDelaySec}s)`
+                         : `⏳ Guess Meaning (${recallDelaySec}s)`
+                     ) :
                      audioPhase === 'english' ? '🇬🇧 Reading English Meaning' :
                      isAudioPaused ? '⏸️ Paused' : 'Ready'}
                   </span>
@@ -519,6 +565,63 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1 }) {
 
             {/* Quick Player Settings */}
             <div className="flex flex-wrap items-center gap-2 text-xs">
+              {/* Practice Direction Toggle (JP->EN vs EN->JP) */}
+              <div className="flex items-center gap-1 bg-slate-800/90 p-1 rounded-xl border border-white/5">
+                <span className="text-slate-400 text-[11px] px-1 font-medium">Order:</span>
+                <button
+                  onClick={() => setPracticeDirection('jp_to_en')}
+                  className={`px-2 py-0.5 rounded-lg text-[11px] font-bold transition-all flex items-center gap-1 ${
+                    practiceDirection === 'jp_to_en'
+                      ? 'bg-rose-500 text-white shadow-sm'
+                      : 'text-slate-400 hover:text-white'
+                  }`}
+                  title="Practice Japanese to English (Japanese spoken first, then English)"
+                >
+                  <span>🇯🇵 ➔ 🇬🇧</span>
+                  <span className="hidden sm:inline">JP ➔ EN</span>
+                </button>
+                <button
+                  onClick={() => setPracticeDirection('en_to_jp')}
+                  className={`px-2 py-0.5 rounded-lg text-[11px] font-bold transition-all flex items-center gap-1 ${
+                    practiceDirection === 'en_to_jp'
+                      ? 'bg-teal-500 text-white shadow-sm'
+                      : 'text-slate-400 hover:text-white'
+                  }`}
+                  title="Practice English to Japanese (English spoken first, then Japanese)"
+                >
+                  <span>🇬🇧 ➔ 🇯🇵</span>
+                  <span className="hidden sm:inline">EN ➔ JP</span>
+                </button>
+              </div>
+
+              {/* Speed selector (0.75x to 2.0x) */}
+              <div className="flex items-center gap-1 bg-slate-800/90 p-1 rounded-xl border border-white/5">
+                <span className="text-slate-400 text-[11px] px-1 font-medium">Speed:</span>
+                {[
+                  { val: 0.75, label: '0.75x' },
+                  { val: 1.0, label: '1.0x' },
+                  { val: 1.25, label: '1.25x' },
+                  { val: 1.5, label: '1.5x' },
+                  { val: 2.0, label: '2.0x' }
+                ].map(s => (
+                  <button
+                    key={s.val}
+                    onClick={() => {
+                      setAudioSpeed(s.val);
+                      audioService.setRate(s.val);
+                      if (setCurrentRate) setCurrentRate(s.val);
+                    }}
+                    className={`px-1.5 py-0.5 rounded text-[10px] font-bold transition-all ${
+                      Math.abs(audioSpeed - s.val) < 0.05
+                        ? 'bg-emerald-500 text-white shadow-sm'
+                        : 'text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    {s.label}
+                  </button>
+                ))}
+              </div>
+
               {/* Delay selector */}
               <div className="flex items-center gap-1 bg-slate-800/80 px-2 py-1 rounded-xl border border-white/5">
                 <span className="text-slate-400 text-[11px]">Recall Gap:</span>
@@ -567,18 +670,34 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1 }) {
                 <span className="text-[11px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-mono">
                   {currentAudioWord.chapterOrigin || 'Word'}
                 </span>
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/5 text-slate-300 font-medium">
+                  {practiceDirection === 'en_to_jp' ? '🇬🇧 English ➔ 🇯🇵 Japanese' : '🇯🇵 Japanese ➔ 🇬🇧 English'}
+                </span>
                 {currentAudioWord.romaji && (
                   <span className="text-xs text-rose-300 font-sans">
                     {currentAudioWord.romaji}
                   </span>
                 )}
               </div>
-              <div className="text-3xl sm:text-4xl font-black text-white font-jp">
-                {currentAudioWord.japanese || currentAudioWord.kana}
-              </div>
-              <div className="text-base sm:text-lg font-bold text-amber-200">
-                💬 {currentAudioWord.english}
-              </div>
+              {practiceDirection === 'en_to_jp' ? (
+                <>
+                  <div className="text-2xl sm:text-3xl font-black text-emerald-200">
+                    💬 {currentAudioWord.english}
+                  </div>
+                  <div className="text-xl sm:text-2xl font-bold text-slate-300 font-jp">
+                    🇯🇵 {currentAudioWord.japanese || currentAudioWord.kana}
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="text-3xl sm:text-4xl font-black text-white font-jp">
+                    {currentAudioWord.japanese || currentAudioWord.kana}
+                  </div>
+                  <div className="text-base sm:text-lg font-bold text-amber-200">
+                    💬 {currentAudioWord.english}
+                  </div>
+                </>
+              )}
             </div>
 
             {/* Playback Controls */}

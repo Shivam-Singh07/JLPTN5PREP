@@ -58,7 +58,7 @@ class AudioService {
   }
 
   setRate(newRate) {
-    this.rate = Math.max(0.6, Math.min(1.5, newRate));
+    this.rate = Math.max(0.5, Math.min(2.0, newRate));
     if (this.currentAudio) {
       this.currentAudio.playbackRate = this.rate;
     }
@@ -228,7 +228,7 @@ class AudioService {
     const cleaned = this.cleanEnglishText(text);
     if (!cleaned) return true;
 
-    const rate = customRate || 0.95;
+    const rate = customRate || this.rate;
     const encoded = encodeURIComponent(cleaned);
 
     const directUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=${encoded}`;
@@ -305,7 +305,7 @@ class AudioService {
         const timeoutId = setTimeout(done, 6000);
 
         const utterance = new SpeechSynthesisUtterance(text);
-        utterance.rate = rate || 0.95;
+        utterance.rate = rate || this.rate;
         utterance.lang = 'en-US';
 
         if (!this.englishVoice) this.initVoices();

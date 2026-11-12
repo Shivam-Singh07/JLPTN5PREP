@@ -52,9 +52,6 @@ export default function Navbar({ activeTab, setActiveTab, streak = 0, currentRat
                 <span className="px-2 py-0.5 text-[10px] font-extrabold uppercase rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/30">
                   Master
                 </span>
-                <span className="px-1.5 py-0.2 text-[9px] font-mono font-bold rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/30">
-                  v0.0.1
-                </span>
               </div>
               <p className="text-[11px] text-slate-400 font-jp font-medium">日本語能力試験 N5 完全対策</p>
             </div>
@@ -109,8 +106,10 @@ export default function Navbar({ activeTab, setActiveTab, streak = 0, currentRat
             <span className="text-slate-400 px-2 font-medium">Speed:</span>
             {[
               { val: 0.75, label: '0.75x' },
-              { val: 0.95, label: '1.0x' },
-              { val: 1.2, label: '1.2x' }
+              { val: 1.0, label: '1.0x' },
+              { val: 1.25, label: '1.25x' },
+              { val: 1.5, label: '1.5x' },
+              { val: 2.0, label: '2.0x' }
             ].map(s => (
               <button
                 key={s.val}
