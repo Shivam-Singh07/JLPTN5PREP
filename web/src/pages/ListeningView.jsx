@@ -133,23 +133,48 @@ export default function ListeningView() {
                   </div>
                 </div>
 
-                {/* Sentence Script (Blurred if hidden) */}
-                <div className={`p-4 rounded-xl bg-slate-900/60 border border-white/5 transition-all ${
-                  !isRevealed ? 'filter blur-sm select-none opacity-40 cursor-pointer' : ''
-                }`}
-                onClick={() => !isRevealed && toggleReveal(ex.id)}
+                {/* Sentence Script & English Meaning (Hidden until revealed) */}
+                <div 
+                  className={`p-4 rounded-xl border transition-all ${
+                    !isRevealed 
+                      ? 'bg-slate-900/40 border-white/5 cursor-pointer hover:border-emerald-500/20' 
+                      : 'bg-slate-900/80 border-emerald-500/20 shadow-md'
+                  }`}
+                  onClick={() => !isRevealed && toggleReveal(ex.id)}
                 >
-                  <div className="text-base md:text-lg font-bold text-white font-jp leading-relaxed">
-                    {ex.japanese || ex.romaji}
-                  </div>
-                  {ex.romaji && (
-                    <div className="text-xs text-emerald-300 font-sans mt-1">
-                      {ex.romaji}
+                  {!isRevealed ? (
+                    <div className="py-2.5 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-slate-400 select-none">
+                      <div className="flex items-center gap-2 text-xs">
+                        <EyeOff size={14} className="text-slate-500 shrink-0" />
+                        <span>Script & English meaning hidden. Listen to audio, then click <strong>Reveal</strong>.</span>
+                      </div>
+                      <span className="text-[11px] font-bold text-emerald-400 hover:text-emerald-300 transition-colors shrink-0">
+                        Tap to Reveal 👁️
+                      </span>
                     </div>
-                  )}
-                  {ex.english && (
-                    <div className="text-xs text-slate-400 mt-2 pt-2 border-t border-white/5">
-                      {ex.english}
+                  ) : (
+                    <div className="space-y-2.5 animate-fadeIn">
+                      {/* Japanese Script */}
+                      <div className="text-base md:text-lg font-bold text-white font-jp leading-relaxed">
+                        {ex.japanese || ex.romaji}
+                      </div>
+
+                      {/* Romaji */}
+                      {ex.romaji && (
+                        <div className="text-xs text-emerald-300 font-sans">
+                          {ex.romaji}
+                        </div>
+                      )}
+
+                      {/* English Meaning - Only shown when Reveal is clicked, NOT read aloud */}
+                      {ex.english && (
+                        <div className="text-sm font-medium text-amber-200 mt-2.5 pt-2.5 border-t border-white/10 flex items-start gap-2">
+                          <span className="text-[10px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/25 shrink-0">
+                            Meaning
+                          </span>
+                          <span className="leading-relaxed">{ex.english}</span>
+                        </div>
+                      )}
                     </div>
                   )}
                 </div>

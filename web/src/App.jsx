@@ -102,11 +102,11 @@ export default function App() {
           <span>Basic 1 & 2 • Script Book • N5 Kanji 110</span>
           <span>•</span>
           <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono font-bold text-xs shadow-sm">
-            v0.0.2
+            v0.0.3
           </span>
         </div>
         <div className="text-[11px] text-slate-500">
-          Mobile Background Audio & Native Voice Engine • 24 Comprehensive Lessons • Build v0.0.2
+          Mobile Background Audio & Native Voice Engine • 24 Comprehensive Lessons • Build v0.0.3
         </div>
       </footer>
     </div>

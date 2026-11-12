@@ -18277,2470 +18277,2470 @@ const n5Data = {
     }
   ],
   "listening": [
-    {
-      "chapter": 1,
-      "title": "Chapter 1 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch1_1",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 1,
-          "japanese": "はじめまして. わたし は いんど じん です. はじめまして. わたし は ちゅうごくじん です. いんどじん じゃ ありません.",
-          "romaji": "Hajimemashite. Watashi wa indo jin des. Hajimemashite. Watashi wa Chūgokujin des. indojin ja arimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_2",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 2,
-          "japanese": "ミラー さん は いんどじん じゃ ありません. あめりかじん です.",
-          "romaji": "Mira san wa indojin ja arimasen. Amerikajin des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_3",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 3,
-          "japanese": "やまだ さん は かいしゃいん です. せんせい じゃ ありません.",
-          "romaji": "Yamada san wa kaishain des. Sensei ja arimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_4",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 4,
-          "japanese": "ジム さん は ふらんすじん です. はい, ふらんすじん です.",
-          "romaji": "Jimu san wa furansujin des. Hai, furansujin des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_5",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 5,
-          "japanese": "やまだ さん は しゃいん です. クマル さん も しゃいん です.",
-          "romaji": "Yamada san wa shain des. Kumar san mo shain des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_6",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 6,
-          "japanese": "やまだ さん は どいつじん です か. いいえ, わたし は どいつじん じゃ ありません.",
-          "romaji": "Yamada san wa doitsujin des ka. iie, watashi wa doitsujin ja arimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_7",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 7,
-          "japanese": "カリナ さん は せんせい です か. いいえ, がくせい です.",
-          "romaji": "Karina san wa sensei des ka. iie, gakusei des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_8",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 8,
-          "japanese": "やまだ さん は にほんじん です. たなか さん も にほんじん です.",
-          "romaji": "Yamada san wa nihonjin des. Tanaka san mo nihonjin des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_9",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 9,
-          "japanese": "いんど は ひろい です か. はい, いんど は ひろい です.",
-          "romaji": "Indo wa hiroi des ka. Hai, Indo wa hiroi des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_10",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 10,
-          "japanese": "にほん は きれい です か. はい, にほん は きれい です.",
-          "romaji": "Nihon wa kirei des ka. Hai, Nihon wa kirei des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_11",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 11,
-          "japanese": "よしだ さん こんにちわ, おげんき です か. はい, げんき です. ありがとうございます.",
-          "romaji": "Yoshida san konnichiwa, Ogenki des ka. Hai, Genki des. Arigatōgozaimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_12",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 12,
-          "japanese": "たまは は きれい です. ときょう とえる も きれい です.",
-          "romaji": "Tajmahal wa kirei des. Tokyō tower mo kirei des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_13",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 13,
-          "japanese": "にほん の やました です. よろしく おねがいします.",
-          "romaji": "Nihon no Yamashita des. Yoroshiku onegaishimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_14",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 14,
-          "japanese": "くまもと です. よろしく おねがいします.",
-          "romaji": "Kumamoto des. Yoroshiku onegaishimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_15",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 15,
-          "japanese": "きむら です. よろしく おねがいします.",
-          "romaji": "Kimura des. Yoroshiku onegaishimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_16",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 16,
-          "japanese": "よしだ です. よろしく おねがいします.",
-          "romaji": "Yoshida des. Yoroshiku onegaishimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_17",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 17,
-          "japanese": "かわむら です. よろしく おねがいします.",
-          "romaji": "Kawamura des. Yoroshiku onegaishimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_18",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 18,
-          "japanese": "わたなべ です. よろしく おねがいします.",
-          "romaji": "Watanabe des. Yoroshiku onegaishimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_19",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 19,
-          "japanese": "さとう です. よろしく おねがいします.",
-          "romaji": "Satō des. Yoroshiku onegaishimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_20",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 20,
-          "japanese": "いとう です. よろしく おねがいします れいぶん おあぶあ あなた……… ……………….よう いんじにあ……………………….えんぎねえる いしゃ…………………………..どとる あの かた……………はと ぺそん どなた…………………………ほ さくら………なめ お あ うにえし だいがく………………….うにえし れいぶん (えあんえす)",
-          "romaji": "Itō des. Yoroshiku onegaishimas Reibun Vocabulary Anata……… ……………….You Injinia……………………….Engineer Isha…………………………..Doctor Ano kata……………That person Donata…………………………Who Sakura………Name of a university Daigaku………………….University Reibun (Examples)",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_1",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 1,
-          "japanese": "まいく ミラー さん です か. はい, まいく ミラー です.",
-          "romaji": "Maiku Mira san des ka. Hai, Maiku Mira des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_2",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 2,
-          "japanese": "ミラー さん は がくせい です か. いいえ, がくせい じゃ ありません. かいしゃいん です.",
-          "romaji": "Mira san wa gakusei des ka. iie, gakusei ja arimasen. Kaishain des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch1_3",
-          "chapter": 1,
-          "chapterTitle": "Self Introduction (自己紹介)",
-          "number": 3,
-          "japanese": "わん さん は いんじにあ です か. いいえ, わん さん は いんじにあ じゃ ありません. いしゃ です.",
-          "romaji": "Wan san wa injinia des ka. iie, wan san wa injinia ja arimasen. isha des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        }
-      ]
-    },
-    {
-      "chapter": 2,
-      "title": "Chapter 2 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch2_1",
-          "chapter": 2,
-          "chapterTitle": "Let’s Count (数え方・数字)",
-          "number": 1,
-          "japanese": "あなた の パソコン は いんど の パソコン です か. いいえ. あめりか の パソコン です.",
-          "romaji": "Anata no pasokon wa Indo no pasokon des ka. iie. Amerika no pasokon des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch2_2",
-          "chapter": 2,
-          "chapterTitle": "Let’s Count (数え方・数字)",
-          "number": 2,
-          "japanese": "パソコン は いくら です か. パソコン は よんまん るぺえ です.",
-          "romaji": "Pasokon wa ikura des ka. Pasokon wa yonman rupee des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch2_3",
-          "chapter": 2,
-          "chapterTitle": "Let’s Count (数え方・数字)",
-          "number": 3,
-          "japanese": "きむ さん の とけい は いくら です か. にせん さんびゃく えん です.",
-          "romaji": "Kim san no tokei wa ikura des ka. Nisen Sambyaku en des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch2_4",
-          "chapter": 2,
-          "chapterTitle": "Let’s Count (数え方・数字)",
-          "number": 4,
-          "japanese": "あなた の ばいく は いくら です か. ばいく は にじゅうまん えん です.",
-          "romaji": "Anata no Baiku wa ikura des ka. Baiku wa Nijūman en des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch2_5",
-          "chapter": 2,
-          "chapterTitle": "Let’s Count (数え方・数字)",
-          "number": 5,
-          "japanese": "ジム さん の カメラ は いくら です か. わたし の カメラ は ろくまん えん です.",
-          "romaji": "Jimu san no kamera wa ikura des ka. Watashi no kamera wa Rokuman en des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch2_6",
-          "chapter": 2,
-          "chapterTitle": "Let’s Count (数え方・数字)",
-          "number": 6,
-          "japanese": "あめりか の くるま は いくら です か. あめりか の くるま は にまん どる です.",
-          "romaji": "Amerika no kuruma wa ikura des ka. Amerika no kuruma wa Niman Doru des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch2_7",
-          "chapter": 2,
-          "chapterTitle": "Let’s Count (数え方・数字)",
-          "number": 7,
-          "japanese": "たなか さん の かばん は たかい です か. はい, ちょっと たかい です. いちまん えん です.",
-          "romaji": "Tanaka san no kaban wa takai des ka. Hai, chotto takai des. Ichiman en des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch2_8",
-          "chapter": 2,
-          "chapterTitle": "Let’s Count (数え方・数字)",
-          "number": 8,
-          "japanese": "れな さん の でんわ は たかい です か. はい, ちょっと たかい です. ごまん るぺえ です.",
-          "romaji": "Rena san no Denwa wa takai des ka. Hai, chotto takai des. Goman rupee des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch2_9",
-          "chapter": 2,
-          "chapterTitle": "Let’s Count (数え方・数字)",
-          "number": 9,
-          "japanese": "にほん の おさけ は いくら です か. おさけ は ごひゃく えん です.",
-          "romaji": "Nihon no osake wa ikura des ka. Osake wa Gohyaku en des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        }
-      ]
-    },
-    {
-      "chapter": 3,
-      "title": "Chapter 3 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch3_7",
-          "chapter": 3,
-          "chapterTitle": "Time & Days (時間・曜日)",
-          "number": 7,
-          "japanese": "がっこう の やすみ は どようび と にちようび です か. いいえ, にちようび です.",
-          "romaji": "Gakkō no yasumi wa doyōbi to nichiyōbi des ka. iie, Nichiyōbi des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch3_10",
-          "chapter": 3,
-          "chapterTitle": "Time & Days (時間・曜日)",
-          "number": 10,
-          "japanese": "やすみ は なにょうび です か. すいようび です.",
-          "romaji": "Yasumi wa nanyōbi des ka. Suiyōbi des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch3_13",
-          "chapter": 3,
-          "chapterTitle": "Time & Days (時間・曜日)",
-          "number": 13,
-          "japanese": "たんじょうび は いつ です か. たんじょうび は じゅうがつ みっか です.",
-          "romaji": "Tanjōbi wa itsu des ka. Tanjōbi wa Jūgatsu mikka des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch3_14",
-          "chapter": 3,
-          "chapterTitle": "Time & Days (時間・曜日)",
-          "number": 14,
-          "japanese": "ここのか は なにょうび です か. ここのか は もくようび です.",
-          "romaji": "Kokonoka wa nanyōbi des ka. Kokonoka wa mokuyōbi des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch3_15",
-          "chapter": 3,
-          "chapterTitle": "Time & Days (時間・曜日)",
-          "number": 15,
-          "japanese": "あした は なん にち です か. あした は じゅうよっか です.",
-          "romaji": "Ashita wa nan nichi des ka. Ashita wa jūyokka des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch3_16",
-          "chapter": 3,
-          "chapterTitle": "Time & Days (時間・曜日)",
-          "number": 16,
-          "japanese": "げつようび は なん にち です か. げつようび は じゅうさん にち です.",
-          "romaji": "Getsuyōbi wa nan nichi des ka. Getsuyōbi wa jūsan nichi des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        }
-      ]
-    },
-    {
-      "chapter": 4,
-      "title": "Chapter 4 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch4_1",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 1,
-          "japanese": "これ は わし の ほん です.",
-          "romaji": "Kore wa watshi no hon des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_2",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 2,
-          "japanese": "あれ は なん です か. あれ は にほんご の ほん です.",
-          "romaji": "Are wa nan des ka. Are wa Nihongo no hon des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_3",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 3,
-          "japanese": "ここ は いりぐち です か. でぐち です か. ここ は でぐち です.",
-          "romaji": "Koko wa iriguchi des ka. Deguchi des ka. Koko wa deguchi des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_4",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 4,
-          "japanese": "これ は だれ の ほん です か. それ は せんせい の ほん です.",
-          "romaji": "Kore wa dare no hon des ka. Sore wa sensei no hon des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_5",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 5,
-          "japanese": "ここ は どこ です か. ここ は じむしつ です.",
-          "romaji": "Koko wa doko des ka. Koko wa jimushitsu des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_6",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 6,
-          "japanese": "うけつけ は どこ です か. あそこ です.",
-          "romaji": "Uketsuke wa doko des ka. Asoko des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_7",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 7,
-          "japanese": "かばん は どこ です か. かばん は いす の うえ です.",
-          "romaji": "Kaban wa doko des ka. Kaban wa isu no ue des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_8",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 8,
-          "japanese": "しんぶん は どこ です か. しんぶん は くるま の なか です.",
-          "romaji": "Shimbun wa doko des ka. Shimbun wa kuruma no naka des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_9",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 9,
-          "japanese": "ねこ は どこ です か. ねこ は いす の した です.",
-          "romaji": "Neko wa doko des ka. Neko wa isu no shita des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_10",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 10,
-          "japanese": "パソコン は どこ です か. パソコン は いえ の なか です.",
-          "romaji": "Pasokon wa doko des ka. Pasokon wa ie no naka des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_1",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 1,
-          "japanese": "れいぶん (えあんえす)",
-          "romaji": "Reibun (Examples)",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_1",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 1,
-          "japanese": "これ は てえほね あど です か. はい, そう です.",
-          "romaji": "Kore wa telephone card des ka. Hai, sō des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_2",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 2,
-          "japanese": "それ は ノート です か. いいえ, そう じゃ ありません. てちょう です.",
-          "romaji": "Sore wa nōto des ka. iie, sō ja arimasen. Techō des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_3",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 3,
-          "japanese": "それ は なん です か. めいし です.",
-          "romaji": "Sore wa nan des ka. Meishi des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_4",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 4,
-          "japanese": "これ は きゅう です か. なな です か. きゅう です.",
-          "romaji": "Kore wa kyū des ka. Nana des ka. Kyū des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_5",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 5,
-          "japanese": "それ は なん の ざっし です か. じどうしゃ の ざっし です.",
-          "romaji": "Sore wa nan no zasshi des ka. Jidōsha no zasshi des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_6",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 6,
-          "japanese": "あれ は だれ の かばん です か. さとう さん の かばん です.",
-          "romaji": "Are wa dare no kaban des ka. Satō san no kaban des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_7",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 7,
-          "japanese": "この かさ は あなた の です か. いいえ, わたし の じゃ ありません.",
-          "romaji": "Kono kasa wa anata no des ka. iie, watashi no ja arimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_8",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 8,
-          "japanese": "この かぎ は だれ の です か. わたし の です. れいぶん おあぶあ ノート……… ……………….のてぼおく てちょう……………………….ぽけと ぢあ めいし………………………いしちんぐ あど ざっし………..…………….まがじね じどうしゃ…………………….あうともびえ かさ…………………………うんれっあ かぎ…………………………..けす しん おうさか.…………….(あえ なめ) おてあらい…………………….わろおむ じむしょ………………………おっふぃえ えれべた………………………いと くに…………………….(ようる) おうん くつ………………………しょえす",
-          "romaji": "Kono kagi wa dare no des ka. Watashi no des. Reibun Vocabulary Nōto……… ……………….Notebook Techō……………………….Pocket Diary Meishi………………………Visiting card Zasshi………..…………….Magazine Jidōsha…………………….Automobile Kasa…………………………Umbrella Kagi…………………………..Keys Shin Ōsaka.…………….(Place Name) Otearai…………………….Washroom Jimusho………………………Office Erebeta………………………Lift Kuni…………………….(Your) country Kutsu………………………Shoes",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_2",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 2,
-          "japanese": "れいぶん (えあんえす)",
-          "romaji": "Reibun (Examples)",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_1",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 1,
-          "japanese": "ここ は しん おうさか です か. はい, そう です.",
-          "romaji": "Koko wa Shin Ōsaka des ka. Hai, sō des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_2",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 2,
-          "japanese": "おてあらい は どこ です か. あそこ です.",
-          "romaji": "Otearai wa doko des ka. Asoko des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_3",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 3,
-          "japanese": "やまだ さん は どこ です か. じむしょ です.",
-          "romaji": "Yamada san wa doko des ka. Jimusho des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_4",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 4,
-          "japanese": "えれべた は どちら です か. そちら です.",
-          "romaji": "Erebeta wa dochira des ka. Sochira des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_5",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 5,
-          "japanese": "くに は どちら です か. あめりか です.",
-          "romaji": "Kuni wa dochira des ka. Amerika des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch4_6",
-          "chapter": 4,
-          "chapterTitle": "This & That (これ・それ・あれ)",
-          "number": 6,
-          "japanese": "それ は どこ の くつ です か. いたりあ の くつ です.",
-          "romaji": "Sore wa doko no kutsu des ka. Itaria no kutsu des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        }
-      ]
-    },
-    {
-      "chapter": 5,
-      "title": "Chapter 5 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch5_1",
-          "chapter": 5,
-          "chapterTitle": "Basic Adjectives (基本の形容詞)",
-          "number": 1,
-          "japanese": "きょう は とても あつい です ね.",
-          "romaji": "Kyō wa totemo atsui des ne.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch5_2",
-          "chapter": 5,
-          "chapterTitle": "Basic Adjectives (基本の形容詞)",
-          "number": 2,
-          "japanese": "ミラー さん は らいしゅう の げつようび まで いそがしい です.",
-          "romaji": "Mira san wa raishū no getsuyōbi made isogashii des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch5_3",
-          "chapter": 5,
-          "chapterTitle": "Basic Adjectives (基本の形容詞)",
-          "number": 3,
-          "japanese": "にほんご は やさしい です が, えいご は むずかしい です ね.",
-          "romaji": "Nihongo wa yasashii des ga, Eigo wa muzukashii des ne.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch5_4",
-          "chapter": 5,
-          "chapterTitle": "Basic Adjectives (基本の形容詞)",
-          "number": 4,
-          "japanese": "この かさ は だれ の です か.",
-          "romaji": "Kono kasa wa dare no des ka.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch5_5",
-          "chapter": 5,
-          "chapterTitle": "Basic Adjectives (基本の形容詞)",
-          "number": 5,
-          "japanese": "この しんぶん は あなた の です か.",
-          "romaji": "Kono Shimbun wa anata no des ka.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch5_6",
-          "chapter": 5,
-          "chapterTitle": "Basic Adjectives (基本の形容詞)",
-          "number": 6,
-          "japanese": "あの ひと は だれ です か. ミラー さん です.",
-          "romaji": "Ano hito wa dare des ka. Mira san des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch5_8",
-          "chapter": 5,
-          "chapterTitle": "Basic Adjectives (基本の形容詞)",
-          "number": 8,
-          "japanese": "にほん の りょうり は どう です か.",
-          "romaji": "Nihon no ryōri wa dō des ka.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch5_9",
-          "chapter": 5,
-          "chapterTitle": "Basic Adjectives (基本の形容詞)",
-          "number": 9,
-          "japanese": "にほん は どうんな くに です か.",
-          "romaji": "Nihon wa dōnna Kuni des ka.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch5_10",
-          "chapter": 5,
-          "chapterTitle": "Basic Adjectives (基本の形容詞)",
-          "number": 10,
-          "japanese": "ミラー さん の こうら は どれ です か.",
-          "romaji": "Mira san no Kōra wa dore des ka.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch5_11",
-          "chapter": 5,
-          "chapterTitle": "Basic Adjectives (基本の形容詞)",
-          "number": 11,
-          "japanese": "ふじさん は とても たかい やま です か. はい, にほん の なか で いちばん たかい やま です.",
-          "romaji": "Fujisan wa totemo takai yama des ka. Hai, Nihon no naka de ichiban takai yama des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch5_12",
-          "chapter": 5,
-          "chapterTitle": "Basic Adjectives (基本の形容詞)",
-          "number": 12,
-          "japanese": "この ほん は おもしろい です か. いいえ, おもしろくない です.",
-          "romaji": "Kono hon wa omoshiroi des ka. iie, omoshirokunai des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        }
-      ]
-    },
-    {
-      "chapter": 6,
-      "title": "Chapter 6 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch6_1",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 1,
-          "japanese": "らいしゅう の にちようび は どこ へ いきます か. ともだち の うち へ いきます.",
-          "romaji": "Raishū no nichiyōbi wa doko e ikimas ka. Tomodachi no uchi e ikimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_2",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 2,
-          "japanese": "ともだち の うち で なに を します か. えいが を みます.",
-          "romaji": "Tomodachi no uchi de nani o shimas ka. Eiga o mimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_3",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 3,
-          "japanese": "この でんしゃ は よこはま へ いきます か. いいえ, いきません.",
-          "romaji": "Kono densha wa Yokohama e ikimas ka. iie, ikimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_4",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 4,
-          "japanese": "わたし は せんげつ かぞく と にほん に きました.",
-          "romaji": "Watashi wa sengetsu kazoku to nihon ni kimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_5",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 5,
-          "japanese": "わたし は まいにち ジュース を のみます.",
-          "romaji": "Watashi wa mainichi jūsu o nomimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_6",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 6,
-          "japanese": "たなか さん は まいばん さっか を します.",
-          "romaji": "Tanaka san wa maiban sakka o shimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_7",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 7,
-          "japanese": "わたし は テレビ を みません.",
-          "romaji": "Watashi wa Terebi o mimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_8",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 8,
-          "japanese": "すずき さん は らいしゅう の にちようび に ぱ を します.",
-          "romaji": "Suzuki san wa raishū no nichiyōbi ni party o shimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_9",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 9,
-          "japanese": "げつようび は なに を します か.",
-          "romaji": "Getsuyōbi wa nani o shimas ka.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_10",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 10,
-          "japanese": "わたし と いっしょ に おさけ を のみません か.",
-          "romaji": "Watashi to issho ni osake o nomimasen ka.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_11",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 11,
-          "japanese": "わたなべ さん は さかな を たべます か. いいえ, たべません.",
-          "romaji": "Watanabe san wa sakana o tabemas ka. iie, tabemasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_12",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 12,
-          "japanese": "あした, わたし の うち で ぱ を しません か. はい, しましょう.",
-          "romaji": "Ashita, watashi no uchi de party o shimasen ka. Hai, shimashō.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_13",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 13,
-          "japanese": "いっしょ に えいが を みません か. はい, みましょう",
-          "romaji": "Issho ni eiga o mimasen ka. Hai, mimashō",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_14",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 14,
-          "japanese": "よる は なに を します か. おんがく を ききます. れいぶん おあぶあ あさ……………………….もにんぐ けさ……………………とだ もにんぐ よる………………………にと らいしゅう….……………….ねと ええく まいにち…………………だい まいばん……………………ええ ええにんぐ さっか………………………そっえる なら….………………(なめ お あ あえ) ねがちえ ぱと お あ えぶ いす まで れあいんぐ ’ました’ い ‘ませんでした’. ふぉる えあんえ: たべました- たべませんでした れいぶん (えあんえす)",
-          "romaji": "Yoru wa nani o shimas ka. Ongaku o kikimas. Reibun Vocabulary Asa……………………….Morning Kesa……………………Today Morning Yoru………………………Night Raishū….……………….Next week Mainichi…………………Daily Maiban……………………Every evening Sakka………………………Soccer Nara….………………(Name of a place) Negative past of a verb is made by replacing ’mashita’ with ‘masendeshita’. For Example: Tabemashita- Tabemasendeshita Reibun (Examples)",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_1",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 1,
-          "japanese": "あした どこ へ いきます か. なら へ いきます.",
-          "romaji": "Ashita doko e ikimas ka. Nara e ikimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_2",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 2,
-          "japanese": "にちようび どこ へ いきました か. どこ も いきませんでした.",
-          "romaji": "Nichiyōbi doko e ikimashita ka. Doko mo ikimasendeshita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_3",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 3,
-          "japanese": "なん で とうきょ へ いきます か. しんかんせん で いきます.",
-          "romaji": "Nan de Tōkyo e ikimas ka. Shinkansen de ikimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_4",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 4,
-          "japanese": "だれ と とうきょ へ いきます か. やまだ さん と いきます.",
-          "romaji": "Dare to Tōkyo e ikimas ka. Yamada san to ikimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch6_5",
-          "chapter": 6,
-          "chapterTitle": "Verbs (基本の動詞)",
-          "number": 5,
-          "japanese": "いつ にほん へ きました か. さん がつ にじゅう ご にち に きました.",
-          "romaji": "Itsu Nihon e kimashita ka. San gatsu Nijū go nichi ni kimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        }
-      ]
-    },
-    {
-      "chapter": 7,
-      "title": "Chapter 7 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch7_1",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 1,
-          "japanese": "どこ で あさごはん を たべました か. かいしゃ の しょくどう で たべました.",
-          "romaji": "Doko de asagohan o tabemashita ka. Kaisha no shokudō de tabemashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_2",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 2,
-          "japanese": "いっしょ に ひるごはん を たべません か. ええ, たべましょう.",
-          "romaji": "Issho ni hirugohan o tabemasen ka. Ee, tabemashō.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_3",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 3,
-          "japanese": "よる しゅくだい を します. それから ど を ききます.",
-          "romaji": "Yoru shukudai o shimas. Sorekara CD o kikimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_4",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 4,
-          "japanese": "わたし は ジュース を のみませんでした.",
-          "romaji": "Watashi wa jūsu o nomimasendeshita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_5",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 5,
-          "japanese": "ちょっと やすみましょう.",
-          "romaji": "Chotto yasumimashō.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_6",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 6,
-          "japanese": "はし で ごはん を たべます か.",
-          "romaji": "Hashi de gohan o tabemas ka.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_7",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 7,
-          "japanese": "ぺん で てがみ を かきます.",
-          "romaji": "Pen de tegami o kakimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_9",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 9,
-          "japanese": "て で ごはん を たべます.",
-          "romaji": "Te de gohan o tabemas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_10",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 10,
-          "japanese": "あとぷ は にほんご で なん です か. パソコン です.",
-          "romaji": "Laptop wa nihongo de nan des ka. Pasokon des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_11",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 11,
-          "japanese": "きのう の ぱ は たのしかった.",
-          "romaji": "Kinō no party wa tanoshikatta.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_12",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 12,
-          "japanese": "この かいぎしつ は しずか じゃない ね.",
-          "romaji": "Kono kaigishitsu wa shizuka janai ne.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_13",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 13,
-          "japanese": "しんかんせん は はやかった ね.",
-          "romaji": "Shinkansen wa hayakatta ne.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_14",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 14,
-          "japanese": "おさか は にぎやか です か. はい, にぎやか です.",
-          "romaji": "Osaka wa nigiyaka des ka. Hai, nigiyaka des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_15",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 15,
-          "japanese": "とうきょう の ちかてつ は どう です か. きれい です. そして べんり です.",
-          "romaji": "Tōkyō no chikatetsu wa dō des ka. Kirei des. Soshite benri des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_16",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 16,
-          "japanese": "きのう えいが を みました. なんという えいが でした か. [しちにん の さむらい] という えいが です. ふるい えいが です が, とても おもしろかった です.",
-          "romaji": "Kinō eiga o mimashita. Nantoiu eiga deshita ka. [Shichinin no samurai] toiu eiga des. Furui eiga des ga, totemo omoshirokatta des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_17",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 17,
-          "japanese": "きょう は めろ で いきました. そう です か. めろ は どう でした か. やすかった です. そして べんり でした.",
-          "romaji": "Kyō wa Metro de ikimashita. Sō des ka. Metro wa dō deshita ka. Yasukatta des. Soshite benri deshita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_18",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 18,
-          "japanese": "ミラー さん は じどうしゃ を もっています か. いいえ, もっていません. れいぶん おあぶあ それから…………………あてる はと もう………………………….あれあ べんきょう……………………つぢえす かいます………………………と ぶ めきしこ…………………めいお という………………………..あっえど あす あさごはん……………….れあふぁと もっています……………….と はえ れいぶん (えあんえす)",
-          "romaji": "Mira san wa jidōsha o motteimas ka. iie, motteimasen. Reibun Vocabulary Sorekara…………………After that Mō………………………….Already Benkyō……………………Studies Kaimas………………………To buy Mekishiko…………………Mexico toiu………………………..Called as Asagohan……………….Breakfast Motteimas……………….To have Reibun (Examples)",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_1",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 1,
-          "japanese": "たばこ を すいます か. いいえ, すいません.",
-          "romaji": "Tabako o suimas ka. iie, suimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_2",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 2,
-          "japanese": "まいあさ なに を たべます か. ぱん と たまご を たべます.",
-          "romaji": "Maiasa nani o tabemas ka. Pan to tamago o tabemas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_3",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 3,
-          "japanese": "けさ ない を たべました か. なに も たべませんでした.",
-          "romaji": "Kesa nai o tabemashita ka. Nani mo tabemasendeshita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_4",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 4,
-          "japanese": "どようび なに を しました か. にほんご を べんきょう しました. それから えいが を みました. にちようび は なに を しました か. とうもだち と なら へ いきました.",
-          "romaji": "Doyōbi nani o shimashita ka. Nihongo o benkyō shimashita. Sorekara eiga o mimashita. Nichiyōbi wa nani o shimashita ka. Tōmodachi to Nara e ikimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch7_5",
-          "chapter": 7,
-          "chapterTitle": "My Family & Daily Life (家族・日常)",
-          "number": 5,
-          "japanese": "どこ で その かばん を かいました か. めきしこ で かいました.",
-          "romaji": "Doko de sono kaban o kaimashita ka. Mekishiko de kaimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        }
-      ]
-    },
-    {
-      "chapter": 8,
-      "title": "Chapter 8 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch8_1",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 1,
-          "japanese": "たなか さん は だんえ が すき です か. いいえ, すき じゃ ありません.",
-          "romaji": "Tanaka san wa dance ga suki des ka. iie, suki ja arimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_2",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 2,
-          "japanese": "たなか さん は どんな のみもの が すき です か. おさけ が すき です.",
-          "romaji": "Tanaka san wa donna nomimono ga suki des ka. Osake ga suki des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_3",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 3,
-          "japanese": "さとう さん は うた が じょうず です.",
-          "romaji": "Satō san wa uta ga jōzu des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_4",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 4,
-          "japanese": "ミラー さん は うた が じょうず じゃ ありません.",
-          "romaji": "Mira san wa uta ga jōzu ja arimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_5",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 5,
-          "japanese": "どうして きょうと へ いけない の です か. ようじ が ある から です.",
-          "romaji": "Dōshite Kyōto e ikenai no des ka. Yōji ga aru kara des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_6",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 6,
-          "japanese": "いたりあ りょうり が すき です か. ええ, すき です.",
-          "romaji": "Itaria ryōri ga suki des ka. Ee, suki des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_7",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 7,
-          "japanese": "これ は とても ゆうめい な えいが です ね. そう です ね.",
-          "romaji": "Kore wa totemo yūmei na eiga des ne. Sō des ne.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_8",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 8,
-          "japanese": "どうして いま かえる の です か. ようじ が ある から です.",
-          "romaji": "Dōshite ima kaeru no des ka. Yōji ga aru kara des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_9",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 9,
-          "japanese": "かいしゃ で だれ と はなします か. かいしゃ で たなか さん と はなします.",
-          "romaji": "Kaisha de dare to hanashimas ka. Kaisha de tanaka san to hanashimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_10",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 10,
-          "japanese": "クマル さん は さっか が じょうず です か. いいえ, へた です.",
-          "romaji": "Kumar san wa Sakka ga jōzu des ka. iie, heta des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_11",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 11,
-          "japanese": "しん ちゃん は なに が きらい です か. さかな が きらい です.",
-          "romaji": "Shin chan wa nani ga kirai des ka. Sakana ga kirai des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_12",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 12,
-          "japanese": "クマル さん は かんじ が わかります か. かんじ は わかりません が ひらがな は わかります.",
-          "romaji": "Kumar san wa Kanji ga wakarimas ka. Kanji wa wakarimasen ga Hiragana wa wakarimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_13",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 13,
-          "japanese": "きのう でんわ で だれ と はなしました か. はは と はなしました. じゅっぷん はなしました. れいぶん おあぶあ どうして ………..…………… え…………………………………ぱいんちんぐ から…………………………..へれふぉれ ぜんぜん……………………...のと あと あっ こまかい…………………..ちゃんげ おかね…………………………もね いけない…………………………あん’と ご れいぶん (えあんえす)",
-          "romaji": "Kinō denwa de dare to hanashimashita ka. Haha to hanashimashita. Juppun hanashimashita. Reibun Vocabulary Dōshite ………..……………Why e…………………………………Painting kara…………………………..Therefore zenzen……………………...Not at all Komakai…………………..Change Okane…………………………Money ikenai…………………………Can’t go Reibun (Examples)",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_1",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 1,
-          "japanese": "おさけ が すき です か. いいえ, すき じゃ ありません.",
-          "romaji": "Osake ga suki des ka. iie, suki ja arimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_2",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 2,
-          "japanese": "どんな すぽうつ が すき です か. さっか が すき です.",
-          "romaji": "Donna supōtsu ga suki des ka. Sakka ga suki des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_3",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 3,
-          "japanese": "カリナ さん は へ が じょうず です か. はい, とても じょうず です.",
-          "romaji": "Karina san wa e ga jōzu des ka. Hai, totemo jōzu des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_4",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 4,
-          "japanese": "たなか さん は いんどねしあご が わかります か. いいえ, ぜねん わかりません.",
-          "romaji": "Tanaka san wa indoneshiago ga wakarimas ka. iie, zenen wakarimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_5",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 5,
-          "japanese": "こまかい おかね が あります か. いいえ, ありません.",
-          "romaji": "Komakai okane ga arimas ka. iie, arimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch8_6",
-          "chapter": 8,
-          "chapterTitle": "Tele-Conference & Transport (電話・交通)",
-          "number": 6,
-          "japanese": "まいあさ しんぶん を よみます か. いいえ, じかん が ありません から よみません.",
-          "romaji": "Maiasa shimbun o yomimas ka. iie, jikan ga arimasen kara yomimasen.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        }
-      ]
-    },
-    {
-      "chapter": 9,
-      "title": "Chapter 9 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch9_1",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 1,
-          "japanese": "きょうしつ に がくせい が います.",
-          "romaji": "Kyōshitsu ni gakusei ga imas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_2",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 2,
-          "japanese": "あそこ に たかい びる が あります.",
-          "romaji": "Asoko ni takai Biru ga arimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_3",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 3,
-          "japanese": "きのう の しけん は かんたん じゃ ありません でした.",
-          "romaji": "Kinō no shiken wa kantan ja arimasen deshita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_4",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 4,
-          "japanese": "きのう の ひる は いい てんき でした が, よる は あめ でした.",
-          "romaji": "Kinō no hiru wa ii tenki deshita ga, Yoru wa ame deshita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_5",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 5,
-          "japanese": "ぱ は たのしかった です か. いいえ, たのしくなかった です.",
-          "romaji": "Party wa tanoshikatta des ka. iie, tanoshikunakatta des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_6",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 6,
-          "japanese": "どの きせつ が いちばん すき です か. あき が いちばん すき です.",
-          "romaji": "Dono kisetsu ga ichiban suki des ka. Aki ga ichiban suki des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_7",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 7,
-          "japanese": "きのう はじめて すし を たべました.",
-          "romaji": "Kinō hajimete sushi o tabemashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_9",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 9,
-          "japanese": "きょうと は しずか でした か. いいえ, しずか じゃ ありません でした.",
-          "romaji": "Kyōto wa shizuka deshita ka. iie, shizuka ja arimasen deshita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_10",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 10,
-          "japanese": "りょこう は たのしかった です か. はい, とても たのしかった です.",
-          "romaji": "Ryokō wa tanoshikatta des ka. Hai, totemo tanoshikatta des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_11",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 11,
-          "japanese": "てんき は よかった です か. いいえ, あまり よくなかった です.",
-          "romaji": "Tenki wa yokatta des ka. iie, amari yokunakatta des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_12",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 12,
-          "japanese": "にほん りょうり で なに が いちばん すき です か. てんぷら が いちばん すき です.",
-          "romaji": "Nihon ryōri de nani ga ichiban suki des ka. Tempura ga ichiban suki des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_13",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 13,
-          "japanese": "ことし は どこ へ りょこう に いきました か. どこ へ も いきませんでした.",
-          "romaji": "Kotoshi wa Doko e ryokō ni ikimashita ka. Doko e mo ikimasendeshita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_1",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 1,
-          "japanese": "あそこ に おとこ の ひと が います ね. あの ひと は だれ です か. アイエムシー の まつもと さん です.",
-          "romaji": "Asoko ni otoko no hito ga imas ne. Ano hito wa dare des ka. IMC no Matsumoto san des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_2",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 2,
-          "japanese": "この ちかく に でんわ が あります か. はい, あそこ に あります.",
-          "romaji": "Kono chikaku ni denwa ga arimas ka. Hai, asoko ni arimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_3",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 3,
-          "japanese": "にわ に だれ が います か. だれ も いません. ねこ が います.",
-          "romaji": "Niwa ni dare ga imas ka. Dare mo imasen. Neko ga imas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_4",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 4,
-          "japanese": "はこ の なか に なに が あります か. ふるい てがみ や しゃしん が あります.",
-          "romaji": "Hako no naka ni nani ga arimas ka. Furui tegami ya shashin ga arimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch9_5",
-          "chapter": 9,
-          "chapterTitle": "Travel & Places (旅行・場所)",
-          "number": 5,
-          "japanese": "ミラー さん は どこ に います か. かいぎしつ に います.",
-          "romaji": "Mira san wa doko ni imas ka. Kaigishitsu ni imas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        }
-      ]
-    },
-    {
-      "chapter": 10,
-      "title": "Chapter 10 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch10_1",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 1,
-          "japanese": "やまだ さん は きむら さん に まんが を もりました.",
-          "romaji": "Yamada san wa Kimura san ni manga o morimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_2",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 2,
-          "japanese": "きむら さん は たなか さん に ど を あげました.",
-          "romaji": "Kimura san wa Tanaka san ni CD o agemashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_3",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 3,
-          "japanese": "わたし は よしだ さん に かさ を かりました.",
-          "romaji": "Watashi wa Yoshida san ni kasa o Karimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_4",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 4,
-          "japanese": "じょん さん は もりた さん に えいご を おしえます.",
-          "romaji": "John san wa Morita san ni eigo o oshiemas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_5",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 5,
-          "japanese": "じょん さん は もりた さん に にほんご を ならいます.",
-          "romaji": "John san wa Morita san ni nihongo o naraimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_6",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 6,
-          "japanese": "すずき さん は やん さん に おみやげ を おくりました.",
-          "romaji": "Suzuki san wa Yan san ni Omiyage o okurimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_7",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 7,
-          "japanese": "すずき さん は やん さん に てがみ を もらいました.",
-          "romaji": "Suzuki san wa Yan san ni Tegami o moraimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_8",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 8,
-          "japanese": "きのう やん さん から えんぴつ を もらいました.",
-          "romaji": "Kinō Yan san kara empitsu o moraimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_9",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 9,
-          "japanese": "おととい, じょん さん に おかね を かりました.",
-          "romaji": "Ototoi, John san ni okane o karimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_10",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 10,
-          "japanese": "わたし は パソコン が ほしい です.",
-          "romaji": "Watashi wa pasokon ga hoshii des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_11",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 11,
-          "japanese": "わたし は あたらしい いえ が ほしい です.",
-          "romaji": "Watashi wa atarashii ie ga hoshii des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_12",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 12,
-          "japanese": "たなか さん は おかね が ほしい です.",
-          "romaji": "Tanaka san wa okane ga hoshii des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_13",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 13,
-          "japanese": "どんな カメラ が ほしい です か.",
-          "romaji": "Donna kamera ga hoshii des ka.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_14",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 14,
-          "japanese": "ちいさい カメラ が ほしい です.",
-          "romaji": "Chiisai kamera ga hoshii des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_15",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 15,
-          "japanese": "どんな くるま が ほしい です か.",
-          "romaji": "Donna kuruma ga hoshii des ka.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_16",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 16,
-          "japanese": "あたらしい くるま が ほしい です.",
-          "romaji": "Atarashii kuruma ga hoshii des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_17",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 17,
-          "japanese": "わたし は ともだち が ほしい です.",
-          "romaji": "Watashi wa tomodachi ga hoshii des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_18",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 18,
-          "japanese": "すし を たべたい です.",
-          "romaji": "Sushi o tabetai des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_19",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 19,
-          "japanese": "おさけ を のみたい です.",
-          "romaji": "Osake o nomitai des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_20",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 20,
-          "japanese": "えいが を みたい です.",
-          "romaji": "Eiga o mitai des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_21",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 21,
-          "japanese": "たなか さん は なに を かいたい です か. テレビ を かいたい です.",
-          "romaji": "Tanaka san wa nani o kaitai des ka. Terebi o kaitai des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_22",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 22,
-          "japanese": "どんな ほん を よみたい です か. りょこう の ほん を よみたい です.",
-          "romaji": "Donna hon o yomitai des ka. Ryokō no hon o yomitai des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_23",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 23,
-          "japanese": "なつやすみ に どこ へ いきたい です か. わたし は おきなわ へ いきたい です.",
-          "romaji": "Natsuyasumi ni doko e ikitai des ka. Watashi wa okinawa e ikitai des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_24",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 24,
-          "japanese": "わたし は りょうり を ならいたい です. れいぶん (えあんえす)",
-          "romaji": "Watashi wa ryōri o naraitai des. Reibun (Examples)",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_1",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 1,
-          "japanese": "テレビ で にほんご を べんきょう しました か. いいえ, ラジオ で べんきょう しました.",
-          "romaji": "Terebi de nihongo o benkyō shimashita ka. iie, rajio de benkyō shimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_2",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 2,
-          "japanese": "にほんご で れぽと を かきます か. いいえ, えいご で かきます.",
-          "romaji": "Nihongo de report o kakimas ka. iie, eigo de kakimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_3",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 3,
-          "japanese": "“ごおど え” は にほんご で なん です か. “さようなら” です.",
-          "romaji": "“Good bye” wa nihongo de nan des ka. “Sayōnara” des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_4",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 4,
-          "japanese": "だれ に ります かあど を かきます か. かぞく と ともだち に かきます.",
-          "romaji": "Dare ni Christmas kādo o kakimas ka. Kazoku to tomodachi ni kakimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_5",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 5,
-          "japanese": "それ は なん です か. てちょう です. やまだ さん に もらいました.",
-          "romaji": "Sore wa nan des ka. Techō des. Yamada san ni moraimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch10_6",
-          "chapter": 10,
-          "chapterTitle": "Give and Take (授受動詞)",
-          "number": 6,
-          "japanese": "もう しんかんせん の きっぷ を かいました か. はい, もう かいました.",
-          "romaji": "Mō shinkansen no kippu o kaimashita ka. Hai, mō kaimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        }
-      ]
-    },
-    {
-      "chapter": 11,
-      "title": "Chapter 11 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch11_1",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 1,
-          "japanese": "いま なに が いちばん ほしい です か. いま, かのじょ が ほしい です.",
-          "romaji": "Ima nani ga ichiban hoshii des ka. Ima, kanojo ga hoshii des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch11_2",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 2,
-          "japanese": "きょう の かいぎ は たいへん でした ね. そう です ね とても たいへん でした.",
-          "romaji": "Kyō no kaigi wa taihen deshita ne. Sō des ne totemo taihen deshita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch11_3",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 3,
-          "japanese": "こんど の にちようび は なに を します か. こども と しんかんせん で なら へ いきます.",
-          "romaji": "Kondo no nichiyōbi wa nani o shimas ka. Kodomo to shinkansen de Nara e ikimas.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch11_4",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 4,
-          "japanese": "にほん の なに が いちばん すき です か. にほんじん は しんせつ です ね. それ が いちばん すき です. そう です ね. にほん は しんせつ な ひと が おうい です ね.",
-          "romaji": "Nihon no nani ga ichiban suki des ka. Nihonjin wa shinsetsu des ne. Sore ga ichiban suki des. Sō des ne. Nihon wa shinsetsu na hito ga ōi des ne.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch11_5",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 5,
-          "japanese": "えいご の べんきょう は どう です か. たいへん です. れいぶん (えあんえす)",
-          "romaji": "Eigo no benkyō wa dō des ka. Taihen des. Reibun (Examples)",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch11_1",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 1,
-          "japanese": "きょうと は しずか でした か. いいえ, しずか じゃ ありません でした.",
-          "romaji": "Kyōto wa shizuka deshita ka. iie, shizuka ja arimasen deshita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch11_2",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 2,
-          "japanese": "りょこう は たのしかった です か. はい, とても たのしかった です.",
-          "romaji": "Ryokō wa tanoshikatta des ka. Hai, totemo tanoshikatta des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch11_3",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 3,
-          "japanese": "てんき は よかった です か. いいえ, あまり よくなかった です.",
-          "romaji": "Tenki wa yokatta des ka. iie, amari yokunakatta des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch11_4",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 4,
-          "japanese": "きのう の ぱ は どう でした か. とても にぎやか でした. いろいろな ひと に あいました.",
-          "romaji": "Kinō no party wa dō deshita ka. Totemo nigiyaka deshita. Iroirona hito ni aimashita.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch11_5",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 5,
-          "japanese": "とうきょう は ねよく より ひと が おうい です か. はい, ずっと おうい です か.",
-          "romaji": "Tōkyō wa NewYork yori hito ga ōi des ka. Hai, zutto ōi des ka.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch11_6",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 6,
-          "japanese": "くうこう まで バス と でんしゃ と どちら が はやい です か. でんしゃ の ほう が はやい です.",
-          "romaji": "Kūkō made basu to densha to dochira ga hayai des ka. Densha no hō ga hayai des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        },
-        {
-          "id": "listen_ch11_7",
-          "chapter": 11,
-          "chapterTitle": "Question Answers (質問と答え・総復習)",
-          "number": 7,
-          "japanese": "うみ と やま と どちら が すき です か. どちら も すき です.",
-          "romaji": "Umi to yama to dochira ga suki des ka. Dochira mo suki des.",
-          "english": "Listen carefully to the pronunciation and practice repeating."
-        }
-      ]
-    },
-    {
-      "chapter": 12,
-      "title": "Lesson 12 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch12_1",
-          "chapter": 12,
-          "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
-          "number": 1,
-          "japanese": "きょうとは しずかでしたか。 いいえ、しずかじゃ ありませんでした。",
-          "romaji": "",
-          "english": "Was Kyoto quiet?  …No, it wasn’t."
-        },
-        {
-          "id": "listen_ch12_2",
-          "chapter": 12,
-          "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
-          "number": 2,
-          "japanese": "りょこうは たのしかったですか。 はい、とても たのしかったです。",
-          "romaji": "",
-          "english": "Was the trip enjoyable?  …Yes, it was very enjoyable."
-        },
-        {
-          "id": "listen_ch12_3",
-          "chapter": 12,
-          "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
-          "number": 3,
-          "japanese": "てんきは よかったですか。 いいえ、あまり よくなかったです。",
-          "romaji": "",
-          "english": "Was the weather good?  …No, it wasn’t so good."
-        },
-        {
-          "id": "listen_ch12_4",
-          "chapter": 12,
-          "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
-          "number": 4,
-          "japanese": "きのうの パーティーは どうでしたか。 とても にぎやか でした。いろいろな ひとに あいました。",
-          "romaji": "",
-          "english": "How was the party yesterday?  …It was very lively. I met various  people."
-        },
-        {
-          "id": "listen_ch12_5",
-          "chapter": 12,
-          "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
-          "number": 5,
-          "japanese": "とうきょうは ニューヨークより ひとが おおいですか。 はい、ずっと おおいです。",
-          "romaji": "",
-          "english": "Are there more people in Tokyo  than in New York?  …Yes, a lot more."
-        },
-        {
-          "id": "listen_ch12_6",
-          "chapter": 12,
-          "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
-          "number": 6,
-          "japanese": "くうこうまで バスと でんしゃと どちらが はやいですか。 でんしゃの ほうが はやいです。",
-          "romaji": "",
-          "english": "Which is the faster way to get  to the airport, by bus or by train?  …the train is faster."
-        },
-        {
-          "id": "listen_ch12_7",
-          "chapter": 12,
-          "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
-          "number": 7,
-          "japanese": "うみと やまと どちらが すきですか。 どちらも すきです。",
-          "romaji": "",
-          "english": "Which do you prefer, the sea or  the mountains?  …I like both."
-        },
-        {
-          "id": "listen_ch12_8",
-          "chapter": 12,
-          "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
-          "number": 8,
-          "japanese": "にほんりょうりで なにが いちばん すきですか。 …てんぷらが いちばん すきです。",
-          "romaji": "",
-          "english": "Listen and practice pronunciation aloud."
-        }
-      ]
-    },
-    {
-      "chapter": 13,
-      "title": "Lesson 13 Listening Practice (CHŌKAI)",
-      "exercises": []
-    },
-    {
-      "chapter": 14,
-      "title": "Lesson 14 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch14_1",
-          "chapter": 14,
-          "chapterTitle": "Te-form & Requests (て形・～てください)",
-          "number": 1,
-          "japanese": "ここに じゅうしょと なまえを か いて ください。 …はい、わかりました。",
-          "romaji": "",
-          "english": "Please write your name and  address here.  …Yes."
-        },
-        {
-          "id": "listen_ch14_2",
-          "chapter": 14,
-          "chapterTitle": "Te-form & Requests (て形・～てください)",
-          "number": 2,
-          "japanese": "あの シャツを みせて ください。 …はい、どうぞ。 もう、すこし おおきいのは、ありませ んか。 …はい、この シャツは いかがです か。",
-          "romaji": "",
-          "english": "Please show me that shirt.  …here you are.  Do you have one a little  bigger?  …Yes. How about this shirt."
-        },
-        {
-          "id": "listen_ch14_3",
-          "chapter": 14,
-          "chapterTitle": "Te-form & Requests (て形・～てください)",
-          "number": 3,
-          "japanese": "すみませんが、この かんじの よみ かたを おしえて ください。 …それは 「かきとめ」ですよ。",
-          "romaji": "",
-          "english": "Excuse me. Please tell me  how to read this kanji.  …It’s “kakitome.”"
-        },
-        {
-          "id": "listen_ch14_4",
-          "chapter": 14,
-          "chapterTitle": "Te-form & Requests (て形・～てください)",
-          "number": 4,
-          "japanese": "あついですね。まどを あけましょう か。 …すみません。おねがいします。",
-          "romaji": "",
-          "english": "It’s hot, isn’t it? Shall I open  the window?  …Yes, please."
-        },
-        {
-          "id": "listen_ch14_5",
-          "chapter": 14,
-          "chapterTitle": "Te-form & Requests (て形・～てください)",
-          "number": 5,
-          "japanese": "えきまで むかえに いきましょう か。 …いいえ、けっこうです。タクシーで いきますから。",
-          "romaji": "",
-          "english": "Shall I come to the station  to pick you up?  …No, thank you. I will come  by taxi."
-        },
-        {
-          "id": "listen_ch14_6",
-          "chapter": 14,
-          "chapterTitle": "Te-form & Requests (て形・～てください)",
-          "number": 6,
-          "japanese": "さとうさんは どこですか。 …いま かいぎしつで まつもとさんと はなして います。 じゃ、また あとで きます。",
-          "romaji": "",
-          "english": "Listen and practice pronunciation aloud."
-        }
-      ]
-    },
-    {
-      "chapter": 15,
-      "title": "Lesson 15 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch15_1",
-          "chapter": 15,
-          "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
-          "number": 1,
-          "japanese": "この カタログを もらってもいいです か。 …ええ、いいですよ。どうぞ。",
-          "romaji": "",
-          "english": "May I keep this catalog?  …sure, please do."
-        },
-        {
-          "id": "listen_ch15_2",
-          "chapter": 15,
-          "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
-          "number": 2,
-          "japanese": "この じしょを かりてもいいですか。 …すみません、ちょっと….。いま つかって います。",
-          "romaji": "",
-          "english": "May I borrow this  dictionary?  …I am sorry, but…I am using it  now."
-        },
-        {
-          "id": "listen_ch15_3",
-          "chapter": 15,
-          "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
-          "number": 3,
-          "japanese": "ここで あそんでは いけません。 …はい。",
-          "romaji": "",
-          "english": "You must not play here.  …all right."
-        },
-        {
-          "id": "listen_ch15_4",
-          "chapter": 15,
-          "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
-          "number": 4,
-          "japanese": "しやくしょの でんわばんごうを しって いますか。 …いいえ、しりません。",
-          "romaji": "",
-          "english": "Do you know the phone  number of the City Hall?  …No, I don’t."
-        },
-        {
-          "id": "listen_ch15_5",
-          "chapter": 15,
-          "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
-          "number": 5,
-          "japanese": "マリアさんは どこに すんで います か。 …おおさかに すんで います。",
-          "romaji": "",
-          "english": "Where do you live, Ms.  Maria?  …I live in Osaka."
-        },
-        {
-          "id": "listen_ch15_6",
-          "chapter": 15,
-          "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
-          "number": 6,
-          "japanese": "ワンさんは どくしんですか。 …いいえ、けっこんして います。",
-          "romaji": "",
-          "english": "Is Mr. Wan single?  …No, he is married."
-        },
-        {
-          "id": "listen_ch15_7",
-          "chapter": 15,
-          "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
-          "number": 7,
-          "japanese": "おしごとは なんですか。 …きょうしです。ふじだいがくで おしえて います。 せんもんは？ …にほんの びじゅつです。",
-          "romaji": "",
-          "english": "Listen and practice pronunciation aloud."
-        }
-      ]
-    },
-    {
-      "chapter": 16,
-      "title": "Lesson 16 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch16_1",
-          "chapter": 16,
-          "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
-          "number": 1,
-          "japanese": "きのう なにを しましたか。 …としょかんへ いって、ほんを かり て、それから ともだちに あいまし た。",
-          "romaji": "",
-          "english": "What did you do  yesterday?  …I went to the library and  borrowed some books, and  then met a friend."
-        },
-        {
-          "id": "listen_ch16_3",
-          "chapter": 16,
-          "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
-          "number": 3,
-          "japanese": "くにへ かえってから、なにを し ますか。 …ちちの かいしゃで はたらきます。",
-          "romaji": "",
-          "english": "What are you going to do  after getting back to your  country?  …I will work for my father’s  company."
-        },
-        {
-          "id": "listen_ch16_4",
-          "chapter": 16,
-          "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
-          "number": 4,
-          "japanese": "サントスさんは どの ひと です か。 …あの せが たかくて、かみが くろ い ひとです。",
-          "romaji": "",
-          "english": "Which person is Mr.  Santos?  …He is that tall man with dark  hair."
-        },
-        {
-          "id": "listen_ch16_5",
-          "chapter": 16,
-          "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
-          "number": 5,
-          "japanese": "ならは どんな まちですか。 …しずかで、きれいな まちです。",
-          "romaji": "",
-          "english": "What kind of city is Nara?  …It is that quiet and beautiful  city."
-        },
-        {
-          "id": "listen_ch16_6",
-          "chapter": 16,
-          "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
-          "number": 6,
-          "japanese": "あの ひとは だれですか。 …カリナさんです。インドネシアじん で、ふじだいがくの りゅうがくせい です。",
-          "romaji": "",
-          "english": "Listen and practice pronunciation aloud."
-        }
-      ]
-    },
-    {
-      "chapter": 17,
-      "title": "Lesson 17 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch17_1",
-          "chapter": 17,
-          "chapterTitle": "Nai-form & Obligations (ない形・義務)",
-          "number": 1,
-          "japanese": "そこに くるまを とめないで ください。 …すみません。",
-          "romaji": "",
-          "english": "Do not park your car  there, please.  …I am sorry."
-        },
-        {
-          "id": "listen_ch17_3",
-          "chapter": 17,
-          "chapterTitle": "Nai-form & Obligations (ない形・義務)",
-          "number": 3,
-          "japanese": "こんばん のみに いきませんか。 …すみません。きょうは つまと やく そくが あります。ですから、はやく かえらなければ なりません。",
-          "romaji": "",
-          "english": "Shall we go for a drink  tonight?  ..Sorry, today I’m going out  with my wife.  So I must go to home early."
-        },
-        {
-          "id": "listen_ch17_4",
-          "chapter": 17,
-          "chapterTitle": "Nai-form & Obligations (ない形・義務)",
-          "number": 4,
-          "japanese": "レポートは いつまでに ださなけ れば なりませんか。 …きんようびまでに だしてください。",
-          "romaji": "",
-          "english": "By when do I have to  submit the report?  …Submit it by Friday, please."
-        },
-        {
-          "id": "listen_ch17_5",
-          "chapter": 17,
-          "chapterTitle": "Nai-form & Obligations (ない形・義務)",
-          "number": 5,
-          "japanese": "こどもも おかねを はらわなけれ ば なりませんか。 …いいえ、はらわなくても いいです。",
-          "romaji": "",
-          "english": "Listen and practice pronunciation aloud."
-        }
-      ]
-    },
-    {
-      "chapter": 18,
-      "title": "Lesson 18 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch18_1",
-          "chapter": 18,
-          "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
-          "number": 1,
-          "japanese": "スキーが できますか。 …はい、できます。でも、あまり じょうず じゃ ありません。",
-          "romaji": "",
-          "english": "Can you ski?  …yes I can. But I am not very  good at it."
-        },
-        {
-          "id": "listen_ch18_2",
-          "chapter": 18,
-          "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
-          "number": 2,
-          "japanese": "マリアさんは パソコンを つかう こと が できますか。 …いいえ、できません。",
-          "romaji": "",
-          "english": "Can you use a personal  computer, Ms. Maria?  …No, I can’t"
-        },
-        {
-          "id": "listen_ch18_4",
-          "chapter": 18,
-          "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
-          "number": 4,
-          "japanese": "カードで はらう ことが できますか。 …すみませんが、げんきんで おねがいしま す。",
-          "romaji": "",
-          "english": "Can I pay by credit card?  …I am sorry, but please pay in  cash."
-        },
-        {
-          "id": "listen_ch18_5",
-          "chapter": 18,
-          "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
-          "number": 5,
-          "japanese": "しゅみは なんですか。 …ふるい とけいを あつめる ことです。",
-          "romaji": "",
-          "english": "What is your hobby?  …Collecting old clocks and  watches."
-        },
-        {
-          "id": "listen_ch18_6",
-          "chapter": 18,
-          "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
-          "number": 6,
-          "japanese": "にほんの こどもは がっこうに はいる まえに、ひらがなを おぼえなければ なり ませんか。 …いいえ、おぼえなくても いいです。",
-          "romaji": "",
-          "english": "Must Japanese children  Learn Hiragana before they  enter school?  …no, they need not."
-        },
-        {
-          "id": "listen_ch18_7",
-          "chapter": 18,
-          "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
-          "number": 7,
-          "japanese": "しょくじの まえに、この くすりを のんで ください。 ….はい、わかりました。",
-          "romaji": "",
-          "english": "Please take this medicine  before meals.  …Ok, I understood."
-        }
-      ]
-    },
-    {
-      "chapter": 19,
-      "title": "Lesson 19 Listening Practice (CHŌKAI)",
-      "exercises": []
-    },
-    {
-      "chapter": 20,
-      "title": "Lesson 20 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch20_1",
-          "chapter": 20,
-          "chapterTitle": "Plain Form & Casual Speech (普通形)",
-          "number": 1,
-          "japanese": "アイスクリーム[を] たべる？ …うん、たべる。",
-          "romaji": "",
-          "english": "Will you have some ice  cream?  …Yes, I will."
-        },
-        {
-          "id": "listen_ch20_2",
-          "chapter": 20,
-          "chapterTitle": "Plain Form & Casual Speech (普通形)",
-          "number": 2,
-          "japanese": "そこに はさみ[が] ある？ …ううん、ない。",
-          "romaji": "",
-          "english": "Do you have any scissors?  …No, I don’t."
-        },
-        {
-          "id": "listen_ch20_3",
-          "chapter": 20,
-          "chapterTitle": "Plain Form & Casual Speech (普通形)",
-          "number": 3,
-          "japanese": "きのう きむらさんに あった？ …ううん、あわなかった。",
-          "romaji": "",
-          "english": "Did you see Ms. Kimura  yesterday?  …No, I don’t."
-        },
-        {
-          "id": "listen_ch20_4",
-          "chapter": 20,
-          "chapterTitle": "Plain Form & Casual Speech (普通形)",
-          "number": 4,
-          "japanese": "あした みんなで きょうと[へ] いか ない？ …うん。いいね。",
-          "romaji": "",
-          "english": "Shall we go to Kyoto all  together tomorrow?  Yes, that sounds nice."
-        },
-        {
-          "id": "listen_ch20_5",
-          "chapter": 20,
-          "chapterTitle": "Plain Form & Casual Speech (普通形)",
-          "number": 5,
-          "japanese": "その カレーライス[は] おいしい？ …うん、からいけど、おいしい。",
-          "romaji": "",
-          "english": "Is the curry delicious?  …Yes, it is hot, but delicious."
-        },
-        {
-          "id": "listen_ch20_6",
-          "chapter": 20,
-          "chapterTitle": "Plain Form & Casual Speech (普通形)",
-          "number": 6,
-          "japanese": "いま ひま？ …うん、ひま。なに？ ちょっと てつだって。",
-          "romaji": "",
-          "english": "Are you free now?  …Yes, I am why?  I need your help."
-        },
-        {
-          "id": "listen_ch20_7",
-          "chapter": 20,
-          "chapterTitle": "Plain Form & Casual Speech (普通形)",
-          "number": 7,
-          "japanese": "じしょ[を] もって [い]る? …ううん、もって [い] ない。",
-          "romaji": "",
-          "english": "Listen and practice pronunciation aloud."
-        }
-      ]
-    },
-    {
-      "chapter": 21,
-      "title": "Lesson 21 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch21_1",
-          "chapter": 21,
-          "chapterTitle": "Opinions & Quotations (意見・引用)",
-          "number": 1,
-          "japanese": "しごとと かぞくと どちらが たいせつ ですか。 …どちらも たいせつだと おもいます。",
-          "romaji": "",
-          "english": "Which is more important,  work or family?  …I think both are important."
-        },
-        {
-          "id": "listen_ch21_2",
-          "chapter": 21,
-          "chapterTitle": "Opinions & Quotations (意見・引用)",
-          "number": 2,
-          "japanese": "にほんに ついて どう おもいますか。 …ぶっかが たかいと おもいます。",
-          "romaji": "",
-          "english": "What do you think of Japan?  …I think things are expensive in  Japan."
-        },
-        {
-          "id": "listen_ch21_3",
-          "chapter": 21,
-          "chapterTitle": "Opinions & Quotations (意見・引用)",
-          "number": 3,
-          "japanese": "ミラーさんは どこですか。 …かいぎしつに いると おもいます。",
-          "romaji": "",
-          "english": "Where is Mr. Miller?  …I think he is in the meeting  room."
-        },
-        {
-          "id": "listen_ch21_4",
-          "chapter": 21,
-          "chapterTitle": "Opinions & Quotations (意見・引用)",
-          "number": 4,
-          "japanese": "ミラーさんは この ニュースを しって いますか。 …いいえ、たぶん しらないと おもいま す。ミラーさんは しゅっちょうして いま したから。",
-          "romaji": "",
-          "english": "Does Mr. Miller know this  news?  …No, I don’t think he does.  He was on a business trip."
-        },
-        {
-          "id": "listen_ch21_5",
-          "chapter": 21,
-          "chapterTitle": "Opinions & Quotations (意見・引用)",
-          "number": 5,
-          "japanese": "テレサちゃんは もう ねましたか。 …はい、もう ねたと おもいます。",
-          "romaji": "",
-          "english": "Has Teresa fallen asleep  already?  …Yes, I think she has."
-        },
-        {
-          "id": "listen_ch21_6",
-          "chapter": 21,
-          "chapterTitle": "Opinions & Quotations (意見・引用)",
-          "number": 6,
-          "japanese": "しょくじの まえに、おいのりを します か。 …いいえ、しませんが、「いただきます」と いいます。",
-          "romaji": "",
-          "english": "Do you pray before meals?  …No, we don’t, but we say  “Itadakimas.”"
-        },
-        {
-          "id": "listen_ch21_7",
-          "chapter": 21,
-          "chapterTitle": "Opinions & Quotations (意見・引用)",
-          "number": 7,
-          "japanese": "かいぎで なにか いけんを いいました か。 …はい。むだな コピーが おおいと いい ました。",
-          "romaji": "",
-          "english": "Did you say something in the  meeting?  …Yes, I said that a lot of  photocopying has been  wastefully done."
-        },
-        {
-          "id": "listen_ch21_8",
-          "chapter": 21,
-          "chapterTitle": "Opinions & Quotations (意見・引用)",
-          "number": 8,
-          "japanese": "しちがつに きょうとで おまつりが あるでしょう。 …ええ、あります。",
-          "romaji": "",
-          "english": "Listen and practice pronunciation aloud."
-        }
-      ]
-    },
-    {
-      "chapter": 22,
-      "title": "Lesson 22 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch22_1",
-          "chapter": 22,
-          "chapterTitle": "Noun Modification (名詞修飾)",
-          "number": 1,
-          "japanese": "これは ばんりの ちょうじょうで とった しゃしんです。 ….そうですか。すごいですね。",
-          "romaji": "",
-          "english": "This is a photo I took on the  Great Wall of China.  ...Is it? Superb isn't it?"
-        },
-        {
-          "id": "listen_ch22_2",
-          "chapter": 22,
-          "chapterTitle": "Noun Modification (名詞修飾)",
-          "number": 2,
-          "japanese": "かりなさんが かいた えは どれです か。 ….あれです。あの うみの え です。",
-          "romaji": "",
-          "english": "Which is the picture Ms.  Karina drew?  ....It’s that one. That picture of  sea."
-        },
-        {
-          "id": "listen_ch22_3",
-          "chapter": 22,
-          "chapterTitle": "Noun Modification (名詞修飾)",
-          "number": 3,
-          "japanese": "あの きものを きているひとは だれ ですか ….きむらさんです。",
-          "romaji": "",
-          "english": "Who is that women wearing  kimono?  ..That is Ms. Kimura."
-        },
-        {
-          "id": "listen_ch22_4",
-          "chapter": 22,
-          "chapterTitle": "Noun Modification (名詞修飾)",
-          "number": 4,
-          "japanese": "やまださん、おくさんに はじめて あった ところは どこですか ….おおさかじょう です。",
-          "romaji": "",
-          "english": "Mr. Yamada, Where did you  first meet your wife?  ...It was Osaka Castle."
-        },
-        {
-          "id": "listen_ch22_5",
-          "chapter": 22,
-          "chapterTitle": "Noun Modification (名詞修飾)",
-          "number": 5,
-          "japanese": "きむらさんと いったコンサートは どうでしたか。 ….とても よかったです。",
-          "romaji": "",
-          "english": "How was the concert you  went to with Ms. Kimura?  ....It was very good."
-        },
-        {
-          "id": "listen_ch22_6",
-          "chapter": 22,
-          "chapterTitle": "Noun Modification (名詞修飾)",
-          "number": 6,
-          "japanese": "どうしましたか。 ….きのうかった かさを なくしました。",
-          "romaji": "",
-          "english": "What's wrong with you?  ....I have lost my umbrella I  bought yesterday."
-        },
-        {
-          "id": "listen_ch22_7",
-          "chapter": 22,
-          "chapterTitle": "Noun Modification (名詞修飾)",
-          "number": 7,
-          "japanese": "どんな うちが ほしいですか。 ….ひろい にわが あるうちが ほしい です。",
-          "romaji": "",
-          "english": "What kind of house do you  want?  ....I want a house that has a big  garden."
-        },
-        {
-          "id": "listen_ch22_8",
-          "chapter": 22,
-          "chapterTitle": "Noun Modification (名詞修飾)",
-          "number": 8,
-          "japanese": "こんばん のみに いきませんか。 ….すみません。こんばんは ちょっと ともだちに あう やくそくが あります。",
-          "romaji": "",
-          "english": "Listen and practice pronunciation aloud."
-        }
-      ]
-    },
-    {
-      "chapter": 23,
-      "title": "Lesson 23 Listening Practice (CHŌKAI)",
-      "exercises": []
-    },
-    {
-      "chapter": 24,
-      "title": "Lesson 24 Listening Practice (CHŌKAI)",
-      "exercises": [
-        {
-          "id": "listen_ch24_1",
-          "chapter": 24,
-          "chapterTitle": "Giving & Receiving Favors (授受動詞・恩恵)",
-          "number": 1,
-          "japanese": "たろうくんは、おばあちゃんが すきですか。 …はいすきです。おばあちゃんは いつも おかしを くれます。",
-          "romaji": "",
-          "english": "Taro, Do you like your  Grandmother?  …Yes I do. She always gives  me sweets."
-        },
-        {
-          "id": "listen_ch24_2",
-          "chapter": 24,
-          "chapterTitle": "Giving & Receiving Favors (授受動詞・恩恵)",
-          "number": 2,
-          "japanese": "おいしい ワインですね。 …ええ。さとうさんが くれました。 フランスの ワインです。",
-          "romaji": "",
-          "english": "This is a very tasty wine.  …Yes Mr. Sato gave it to  me. It’s French wine."
-        },
-        {
-          "id": "listen_ch24_3",
-          "chapter": 24,
-          "chapterTitle": "Giving & Receiving Favors (授受動詞・恩恵)",
-          "number": 3,
-          "japanese": "たろうくんは、ははの ひに おかあさんに なにを して あげますか。 …ピアノを ひいてあげます。",
-          "romaji": "",
-          "english": "Taro, what will you do  for your mother on  mother’s day?  …I will play Piano for her."
-        },
-        {
-          "id": "listen_ch24_4",
-          "chapter": 24,
-          "chapterTitle": "Giving & Receiving Favors (授受動詞・恩恵)",
-          "number": 4,
-          "japanese": "ミラーさん、きのうの パーティーの りょうりは ぜんぶ じぶんで つくりましたか。 …いいえ。ワンさんに てつだって もらいました。",
-          "romaji": "",
-          "english": "Mr. Miller, did you cook  all the dishes for the party  yesterday by yourself?  …No. Mr. Wang helped  me."
-        },
-        {
-          "id": "listen_ch24_5",
-          "chapter": 24,
-          "chapterTitle": "Giving & Receiving Favors (授受動詞・恩恵)",
-          "number": 5,
-          "japanese": "でんしゃで いきましたか。 …いいえ。やまださんが くるま で おくってくれました。",
-          "romaji": "",
-          "english": "Listen and practice pronunciation aloud."
-        }
-      ]
-    }
-  ],
+  {
+    "chapter": 1,
+    "title": "Chapter 1 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch1_1",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 1,
+        "japanese": "はじめまして. わたし は いんど じん です. はじめまして. わたし は ちゅうごくじん です. いんどじん じゃ ありません.",
+        "romaji": "Hajimemashite. Watashi wa indo jin des. Hajimemashite. Watashi wa Chūgokujin des. indojin ja arimasen.",
+        "english": "Nice to meet you. I am Indian. Nice to meet you. I am Chinese. I am not Indian."
+      },
+      {
+        "id": "listen_ch1_2",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 2,
+        "japanese": "ミラー さん は いんどじん じゃ ありません. あめりかじん です.",
+        "romaji": "Mira san wa indojin ja arimasen. Amerikajin des.",
+        "english": "Mr. Miller is not Indian. He is American."
+      },
+      {
+        "id": "listen_ch1_3",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 3,
+        "japanese": "やまだ さん は かいしゃいん です. せんせい じゃ ありません.",
+        "romaji": "Yamada san wa kaishain des. Sensei ja arimasen.",
+        "english": "Mr. Yamada is an office worker. He is not a teacher."
+      },
+      {
+        "id": "listen_ch1_4",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 4,
+        "japanese": "ジム さん は ふらんすじん です. はい, ふらんすじん です.",
+        "romaji": "Jimu san wa furansujin des. Hai, furansujin des.",
+        "english": "Jim is French. Yes, he is French."
+      },
+      {
+        "id": "listen_ch1_5",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 5,
+        "japanese": "やまだ さん は しゃいん です. クマル さん も しゃいん です.",
+        "romaji": "Yamada san wa shain des. Kumar san mo shain des.",
+        "english": "Mr. Yamada is a company employee. Mr. Kumar is also an employee."
+      },
+      {
+        "id": "listen_ch1_6",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 6,
+        "japanese": "やまだ さん は どいつじん です か. いいえ, わたし は どいつじん じゃ ありません.",
+        "romaji": "Yamada san wa doitsujin des ka. iie, watashi wa doitsujin ja arimasen.",
+        "english": "Mr. Yamada, are you German? No, I am not German."
+      },
+      {
+        "id": "listen_ch1_7",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 7,
+        "japanese": "カリナ さん は せんせい です か. いいえ, がくせい です.",
+        "romaji": "Karina san wa sensei des ka. iie, gakusei des.",
+        "english": "Is Ms. Karina a teacher? No, she is a student."
+      },
+      {
+        "id": "listen_ch1_8",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 8,
+        "japanese": "やまだ さん は にほんじん です. たなか さん も にほんじん です.",
+        "romaji": "Yamada san wa nihonjin des. Tanaka san mo nihonjin des.",
+        "english": "Mr. Yamada is Japanese. Mr. Tanaka is also Japanese."
+      },
+      {
+        "id": "listen_ch1_9",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 9,
+        "japanese": "いんど は ひろい です か. はい, いんど は ひろい です.",
+        "romaji": "Indo wa hiroi des ka. Hai, Indo wa hiroi des.",
+        "english": "Is India large? Yes, India is large."
+      },
+      {
+        "id": "listen_ch1_10",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 10,
+        "japanese": "にほん は きれい です か. はい, にほん は きれい です.",
+        "romaji": "Nihon wa kirei des ka. Hai, Nihon wa kirei des.",
+        "english": "Is Japan beautiful? Yes, Japan is beautiful."
+      },
+      {
+        "id": "listen_ch1_11",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 11,
+        "japanese": "よしだ さん こんにちわ, おげんき です か. はい, げんき です. ありがとうございます.",
+        "romaji": "Yoshida san konnichiwa, Ogenki des ka. Hai, Genki des. Arigatōgozaimas.",
+        "english": "Hello Mr. Yoshida, how are you? Yes, I am fine. Thank you."
+      },
+      {
+        "id": "listen_ch1_12",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 12,
+        "japanese": "たまは は きれい です. ときょう とえる も きれい です.",
+        "romaji": "Tajmahal wa kirei des. Tokyō tower mo kirei des.",
+        "english": "Yokohama is beautiful. Tokyo Tower is also beautiful."
+      },
+      {
+        "id": "listen_ch1_13",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 13,
+        "japanese": "にほん の やました です. よろしく おねがいします.",
+        "romaji": "Nihon no Yamashita des. Yoroshiku onegaishimas.",
+        "english": "I am Yamashita from Japan. Pleased to meet you."
+      },
+      {
+        "id": "listen_ch1_14",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 14,
+        "japanese": "くまもと です. よろしく おねがいします.",
+        "romaji": "Kumamoto des. Yoroshiku onegaishimas.",
+        "english": "I am Kumamoto. Pleased to meet you."
+      },
+      {
+        "id": "listen_ch1_15",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 15,
+        "japanese": "きむら です. よろしく おねがいします.",
+        "romaji": "Kimura des. Yoroshiku onegaishimas.",
+        "english": "I am Kimura. Pleased to meet you."
+      },
+      {
+        "id": "listen_ch1_16",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 16,
+        "japanese": "よしだ です. よろしく おねがいします.",
+        "romaji": "Yoshida des. Yoroshiku onegaishimas.",
+        "english": "I am Yoshida. Pleased to meet you."
+      },
+      {
+        "id": "listen_ch1_17",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 17,
+        "japanese": "かわむら です. よろしく おねがいします.",
+        "romaji": "Kawamura des. Yoroshiku onegaishimas.",
+        "english": "I am Kawamura. Pleased to meet you."
+      },
+      {
+        "id": "listen_ch1_18",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 18,
+        "japanese": "わたなべ です. よろしく おねがいします.",
+        "romaji": "Watanabe des. Yoroshiku onegaishimas.",
+        "english": "I am Watanabe. Pleased to meet you."
+      },
+      {
+        "id": "listen_ch1_19",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 19,
+        "japanese": "さとう です. よろしく おねがいします.",
+        "romaji": "Satō des. Yoroshiku onegaishimas.",
+        "english": "I am Sato. Pleased to meet you."
+      },
+      {
+        "id": "listen_ch1_20",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 20,
+        "japanese": "いとう です. よろしく おねがいします れいぶん おあぶあ あなた……… ……………….よう いんじにあ……………………….えんぎねえる いしゃ…………………………..どとる あの かた……………はと ぺそん どなた…………………………ほ さくら………なめ お あ うにえし だいがく………………….うにえし れいぶん (えあんえす)",
+        "romaji": "Itō des. Yoroshiku onegaishimas Reibun Vocabulary Anata……… ……………….You Injinia……………………….Engineer Isha…………………………..Doctor Ano kata……………That person Donata…………………………Who Sakura………Name of a university Daigaku………………….University Reibun (Examples)",
+        "english": "I am Ito. Pleased to meet you."
+      },
+      {
+        "id": "listen_ch1_1",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 1,
+        "japanese": "まいく ミラー さん です か. はい, まいく ミラー です.",
+        "romaji": "Maiku Mira san des ka. Hai, Maiku Mira des.",
+        "english": "Nice to meet you. I am Indian. Nice to meet you. I am Chinese. I am not Indian."
+      },
+      {
+        "id": "listen_ch1_2",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 2,
+        "japanese": "ミラー さん は がくせい です か. いいえ, がくせい じゃ ありません. かいしゃいん です.",
+        "romaji": "Mira san wa gakusei des ka. iie, gakusei ja arimasen. Kaishain des.",
+        "english": "Mr. Miller is not Indian. He is American."
+      },
+      {
+        "id": "listen_ch1_3",
+        "chapter": 1,
+        "chapterTitle": "Self Introduction (自己紹介)",
+        "number": 3,
+        "japanese": "わん さん は いんじにあ です か. いいえ, わん さん は いんじにあ じゃ ありません. いしゃ です.",
+        "romaji": "Wan san wa injinia des ka. iie, wan san wa injinia ja arimasen. isha des.",
+        "english": "Mr. Yamada is an office worker. He is not a teacher."
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "title": "Chapter 2 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch2_1",
+        "chapter": 2,
+        "chapterTitle": "Let’s Count (数え方・数字)",
+        "number": 1,
+        "japanese": "あなた の パソコン は いんど の パソコン です か. いいえ. あめりか の パソコン です.",
+        "romaji": "Anata no pasokon wa Indo no pasokon des ka. iie. Amerika no pasokon des.",
+        "english": "Is your PC an Indian PC? No, it is an American PC."
+      },
+      {
+        "id": "listen_ch2_2",
+        "chapter": 2,
+        "chapterTitle": "Let’s Count (数え方・数字)",
+        "number": 2,
+        "japanese": "パソコン は いくら です か. パソコン は よんまん るぺえ です.",
+        "romaji": "Pasokon wa ikura des ka. Pasokon wa yonman rupee des.",
+        "english": "How much is the PC? The PC is 40,000 rupees."
+      },
+      {
+        "id": "listen_ch2_3",
+        "chapter": 2,
+        "chapterTitle": "Let’s Count (数え方・数字)",
+        "number": 3,
+        "japanese": "きむ さん の とけい は いくら です か. にせん さんびゃく えん です.",
+        "romaji": "Kim san no tokei wa ikura des ka. Nisen Sambyaku en des.",
+        "english": "How much is Mr. Kim's watch? It is 2,300 yen."
+      },
+      {
+        "id": "listen_ch2_4",
+        "chapter": 2,
+        "chapterTitle": "Let’s Count (数え方・数字)",
+        "number": 4,
+        "japanese": "あなた の ばいく は いくら です か. ばいく は にじゅうまん えん です.",
+        "romaji": "Anata no Baiku wa ikura des ka. Baiku wa Nijūman en des.",
+        "english": "How much is your motorcycle? The motorcycle is 200,000 yen."
+      },
+      {
+        "id": "listen_ch2_5",
+        "chapter": 2,
+        "chapterTitle": "Let’s Count (数え方・数字)",
+        "number": 5,
+        "japanese": "ジム さん の カメラ は いくら です か. わたし の カメラ は ろくまん えん です.",
+        "romaji": "Jimu san no kamera wa ikura des ka. Watashi no kamera wa Rokuman en des.",
+        "english": "How much is Jim's camera? My camera is 60,000 yen."
+      },
+      {
+        "id": "listen_ch2_6",
+        "chapter": 2,
+        "chapterTitle": "Let’s Count (数え方・数字)",
+        "number": 6,
+        "japanese": "あめりか の くるま は いくら です か. あめりか の くるま は にまん どる です.",
+        "romaji": "Amerika no kuruma wa ikura des ka. Amerika no kuruma wa Niman Doru des.",
+        "english": "How much is an American car? An American car is $20,000."
+      },
+      {
+        "id": "listen_ch2_7",
+        "chapter": 2,
+        "chapterTitle": "Let’s Count (数え方・数字)",
+        "number": 7,
+        "japanese": "たなか さん の かばん は たかい です か. はい, ちょっと たかい です. いちまん えん です.",
+        "romaji": "Tanaka san no kaban wa takai des ka. Hai, chotto takai des. Ichiman en des.",
+        "english": "Is Mr. Tanaka's bag expensive? Yes, it's a bit expensive. It's 10,000 yen."
+      },
+      {
+        "id": "listen_ch2_8",
+        "chapter": 2,
+        "chapterTitle": "Let’s Count (数え方・数字)",
+        "number": 8,
+        "japanese": "れな さん の でんわ は たかい です か. はい, ちょっと たかい です. ごまん るぺえ です.",
+        "romaji": "Rena san no Denwa wa takai des ka. Hai, chotto takai des. Goman rupee des.",
+        "english": "Is Lena's phone expensive? Yes, it's a bit expensive. It's 50,000 rupees."
+      },
+      {
+        "id": "listen_ch2_9",
+        "chapter": 2,
+        "chapterTitle": "Let’s Count (数え方・数字)",
+        "number": 9,
+        "japanese": "にほん の おさけ は いくら です か. おさけ は ごひゃく えん です.",
+        "romaji": "Nihon no osake wa ikura des ka. Osake wa Gohyaku en des.",
+        "english": "How much is Japanese sake? The sake is 500 yen."
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "title": "Chapter 3 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch3_7",
+        "chapter": 3,
+        "chapterTitle": "Time & Days (時間・曜日)",
+        "number": 7,
+        "japanese": "がっこう の やすみ は どようび と にちようび です か. いいえ, にちようび です.",
+        "romaji": "Gakkō no yasumi wa doyōbi to nichiyōbi des ka. iie, Nichiyōbi des.",
+        "english": "Are school days off Saturday and Sunday? No, only Sunday."
+      },
+      {
+        "id": "listen_ch3_10",
+        "chapter": 3,
+        "chapterTitle": "Time & Days (時間・曜日)",
+        "number": 10,
+        "japanese": "やすみ は なにょうび です か. すいようび です.",
+        "romaji": "Yasumi wa nanyōbi des ka. Suiyōbi des.",
+        "english": "What day of the week is your day off? It is Wednesday."
+      },
+      {
+        "id": "listen_ch3_13",
+        "chapter": 3,
+        "chapterTitle": "Time & Days (時間・曜日)",
+        "number": 13,
+        "japanese": "たんじょうび は いつ です か. たんじょうび は じゅうがつ みっか です.",
+        "romaji": "Tanjōbi wa itsu des ka. Tanjōbi wa Jūgatsu mikka des.",
+        "english": "When is your birthday? My birthday is October 3rd."
+      },
+      {
+        "id": "listen_ch3_14",
+        "chapter": 3,
+        "chapterTitle": "Time & Days (時間・曜日)",
+        "number": 14,
+        "japanese": "ここのか は なにょうび です か. ここのか は もくようび です.",
+        "romaji": "Kokonoka wa nanyōbi des ka. Kokonoka wa mokuyōbi des.",
+        "english": "What day of the week is the 9th? The 9th is Thursday."
+      },
+      {
+        "id": "listen_ch3_15",
+        "chapter": 3,
+        "chapterTitle": "Time & Days (時間・曜日)",
+        "number": 15,
+        "japanese": "あした は なん にち です か. あした は じゅうよっか です.",
+        "romaji": "Ashita wa nan nichi des ka. Ashita wa jūyokka des.",
+        "english": "What date is tomorrow? Tomorrow is the 14th."
+      },
+      {
+        "id": "listen_ch3_16",
+        "chapter": 3,
+        "chapterTitle": "Time & Days (時間・曜日)",
+        "number": 16,
+        "japanese": "げつようび は なん にち です か. げつようび は じゅうさん にち です.",
+        "romaji": "Getsuyōbi wa nan nichi des ka. Getsuyōbi wa jūsan nichi des.",
+        "english": "What date is Monday? Monday is the 13th."
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "title": "Chapter 4 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch4_1",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 1,
+        "japanese": "これ は わし の ほん です.",
+        "romaji": "Kore wa watshi no hon des.",
+        "english": "This is my book."
+      },
+      {
+        "id": "listen_ch4_2",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 2,
+        "japanese": "あれ は なん です か. あれ は にほんご の ほん です.",
+        "romaji": "Are wa nan des ka. Are wa Nihongo no hon des.",
+        "english": "What is that over there? That is a Japanese language book."
+      },
+      {
+        "id": "listen_ch4_3",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 3,
+        "japanese": "ここ は いりぐち です か. でぐち です か. ここ は でぐち です.",
+        "romaji": "Koko wa iriguchi des ka. Deguchi des ka. Koko wa deguchi des.",
+        "english": "Is here the entrance or the exit? Here is the exit."
+      },
+      {
+        "id": "listen_ch4_4",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 4,
+        "japanese": "これ は だれ の ほん です か. それ は せんせい の ほん です.",
+        "romaji": "Kore wa dare no hon des ka. Sore wa sensei no hon des.",
+        "english": "Whose book is this? That is the teacher's book."
+      },
+      {
+        "id": "listen_ch4_5",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 5,
+        "japanese": "ここ は どこ です か. ここ は じむしつ です.",
+        "romaji": "Koko wa doko des ka. Koko wa jimushitsu des.",
+        "english": "Where is this? This is the office."
+      },
+      {
+        "id": "listen_ch4_6",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 6,
+        "japanese": "うけつけ は どこ です か. あそこ です.",
+        "romaji": "Uketsuke wa doko des ka. Asoko des.",
+        "english": "Where is the reception desk? It is over there."
+      },
+      {
+        "id": "listen_ch4_7",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 7,
+        "japanese": "かばん は どこ です か. かばん は いす の うえ です.",
+        "romaji": "Kaban wa doko des ka. Kaban wa isu no ue des.",
+        "english": "Where is the bag? The bag is on top of the chair."
+      },
+      {
+        "id": "listen_ch4_8",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 8,
+        "japanese": "しんぶん は どこ です か. しんぶん は くるま の なか です.",
+        "romaji": "Shimbun wa doko des ka. Shimbun wa kuruma no naka des.",
+        "english": "Where is the newspaper? The newspaper is inside the car."
+      },
+      {
+        "id": "listen_ch4_9",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 9,
+        "japanese": "ねこ は どこ です か. ねこ は いす の した です.",
+        "romaji": "Neko wa doko des ka. Neko wa isu no shita des.",
+        "english": "Where is the cat? The cat is under the chair."
+      },
+      {
+        "id": "listen_ch4_10",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 10,
+        "japanese": "パソコン は どこ です か. パソコン は いえ の なか です.",
+        "romaji": "Pasokon wa doko des ka. Pasokon wa ie no naka des.",
+        "english": "Where is the PC? The PC is inside the house."
+      },
+      {
+        "id": "listen_ch4_1",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 1,
+        "japanese": "れいぶん (えあんえす)",
+        "romaji": "Reibun (Examples)",
+        "english": "This is my book."
+      },
+      {
+        "id": "listen_ch4_1",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 1,
+        "japanese": "これ は てえほね あど です か. はい, そう です.",
+        "romaji": "Kore wa telephone card des ka. Hai, sō des.",
+        "english": "This is my book."
+      },
+      {
+        "id": "listen_ch4_2",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 2,
+        "japanese": "それ は ノート です か. いいえ, そう じゃ ありません. てちょう です.",
+        "romaji": "Sore wa nōto des ka. iie, sō ja arimasen. Techō des.",
+        "english": "What is that over there? That is a Japanese language book."
+      },
+      {
+        "id": "listen_ch4_3",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 3,
+        "japanese": "それ は なん です か. めいし です.",
+        "romaji": "Sore wa nan des ka. Meishi des.",
+        "english": "Is here the entrance or the exit? Here is the exit."
+      },
+      {
+        "id": "listen_ch4_4",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 4,
+        "japanese": "これ は きゅう です か. なな です か. きゅう です.",
+        "romaji": "Kore wa kyū des ka. Nana des ka. Kyū des.",
+        "english": "Whose book is this? That is the teacher's book."
+      },
+      {
+        "id": "listen_ch4_5",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 5,
+        "japanese": "それ は なん の ざっし です か. じどうしゃ の ざっし です.",
+        "romaji": "Sore wa nan no zasshi des ka. Jidōsha no zasshi des.",
+        "english": "Where is this? This is the office."
+      },
+      {
+        "id": "listen_ch4_6",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 6,
+        "japanese": "あれ は だれ の かばん です か. さとう さん の かばん です.",
+        "romaji": "Are wa dare no kaban des ka. Satō san no kaban des.",
+        "english": "Where is the reception desk? It is over there."
+      },
+      {
+        "id": "listen_ch4_7",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 7,
+        "japanese": "この かさ は あなた の です か. いいえ, わたし の じゃ ありません.",
+        "romaji": "Kono kasa wa anata no des ka. iie, watashi no ja arimasen.",
+        "english": "Where is the bag? The bag is on top of the chair."
+      },
+      {
+        "id": "listen_ch4_8",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 8,
+        "japanese": "この かぎ は だれ の です か. わたし の です. れいぶん おあぶあ ノート……… ……………….のてぼおく てちょう……………………….ぽけと ぢあ めいし………………………いしちんぐ あど ざっし………..…………….まがじね じどうしゃ…………………….あうともびえ かさ…………………………うんれっあ かぎ…………………………..けす しん おうさか.…………….(あえ なめ) おてあらい…………………….わろおむ じむしょ………………………おっふぃえ えれべた………………………いと くに…………………….(ようる) おうん くつ………………………しょえす",
+        "romaji": "Kono kagi wa dare no des ka. Watashi no des. Reibun Vocabulary Nōto……… ……………….Notebook Techō……………………….Pocket Diary Meishi………………………Visiting card Zasshi………..…………….Magazine Jidōsha…………………….Automobile Kasa…………………………Umbrella Kagi…………………………..Keys Shin Ōsaka.…………….(Place Name) Otearai…………………….Washroom Jimusho………………………Office Erebeta………………………Lift Kuni…………………….(Your) country Kutsu………………………Shoes",
+        "english": "Where is the newspaper? The newspaper is inside the car."
+      },
+      {
+        "id": "listen_ch4_2",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 2,
+        "japanese": "れいぶん (えあんえす)",
+        "romaji": "Reibun (Examples)",
+        "english": "What is that over there? That is a Japanese language book."
+      },
+      {
+        "id": "listen_ch4_1",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 1,
+        "japanese": "ここ は しん おうさか です か. はい, そう です.",
+        "romaji": "Koko wa Shin Ōsaka des ka. Hai, sō des.",
+        "english": "This is my book."
+      },
+      {
+        "id": "listen_ch4_2",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 2,
+        "japanese": "おてあらい は どこ です か. あそこ です.",
+        "romaji": "Otearai wa doko des ka. Asoko des.",
+        "english": "What is that over there? That is a Japanese language book."
+      },
+      {
+        "id": "listen_ch4_3",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 3,
+        "japanese": "やまだ さん は どこ です か. じむしょ です.",
+        "romaji": "Yamada san wa doko des ka. Jimusho des.",
+        "english": "Is here the entrance or the exit? Here is the exit."
+      },
+      {
+        "id": "listen_ch4_4",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 4,
+        "japanese": "えれべた は どちら です か. そちら です.",
+        "romaji": "Erebeta wa dochira des ka. Sochira des.",
+        "english": "Whose book is this? That is the teacher's book."
+      },
+      {
+        "id": "listen_ch4_5",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 5,
+        "japanese": "くに は どちら です か. あめりか です.",
+        "romaji": "Kuni wa dochira des ka. Amerika des.",
+        "english": "Where is this? This is the office."
+      },
+      {
+        "id": "listen_ch4_6",
+        "chapter": 4,
+        "chapterTitle": "This & That (これ・それ・あれ)",
+        "number": 6,
+        "japanese": "それ は どこ の くつ です か. いたりあ の くつ です.",
+        "romaji": "Sore wa doko no kutsu des ka. Itaria no kutsu des.",
+        "english": "Where is the reception desk? It is over there."
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "title": "Chapter 5 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch5_1",
+        "chapter": 5,
+        "chapterTitle": "Basic Adjectives (基本の形容詞)",
+        "number": 1,
+        "japanese": "きょう は とても あつい です ね.",
+        "romaji": "Kyō wa totemo atsui des ne.",
+        "english": "It is very hot today, isn't it?"
+      },
+      {
+        "id": "listen_ch5_2",
+        "chapter": 5,
+        "chapterTitle": "Basic Adjectives (基本の形容詞)",
+        "number": 2,
+        "japanese": "ミラー さん は らいしゅう の げつようび まで いそがしい です.",
+        "romaji": "Mira san wa raishū no getsuyōbi made isogashii des.",
+        "english": "Mr. Miller is busy until next week's Monday."
+      },
+      {
+        "id": "listen_ch5_3",
+        "chapter": 5,
+        "chapterTitle": "Basic Adjectives (基本の形容詞)",
+        "number": 3,
+        "japanese": "にほんご は やさしい です が, えいご は むずかしい です ね.",
+        "romaji": "Nihongo wa yasashii des ga, Eigo wa muzukashii des ne.",
+        "english": "Japanese is easy, but English is difficult, isn't it?"
+      },
+      {
+        "id": "listen_ch5_4",
+        "chapter": 5,
+        "chapterTitle": "Basic Adjectives (基本の形容詞)",
+        "number": 4,
+        "japanese": "この かさ は だれ の です か.",
+        "romaji": "Kono kasa wa dare no des ka.",
+        "english": "Whose umbrella is this?"
+      },
+      {
+        "id": "listen_ch5_5",
+        "chapter": 5,
+        "chapterTitle": "Basic Adjectives (基本の形容詞)",
+        "number": 5,
+        "japanese": "この しんぶん は あなた の です か.",
+        "romaji": "Kono Shimbun wa anata no des ka.",
+        "english": "Is this newspaper yours?"
+      },
+      {
+        "id": "listen_ch5_6",
+        "chapter": 5,
+        "chapterTitle": "Basic Adjectives (基本の形容詞)",
+        "number": 6,
+        "japanese": "あの ひと は だれ です か. ミラー さん です.",
+        "romaji": "Ano hito wa dare des ka. Mira san des.",
+        "english": "Who is that person over there? That is Mr. Miller."
+      },
+      {
+        "id": "listen_ch5_8",
+        "chapter": 5,
+        "chapterTitle": "Basic Adjectives (基本の形容詞)",
+        "number": 8,
+        "japanese": "にほん の りょうり は どう です か.",
+        "romaji": "Nihon no ryōri wa dō des ka.",
+        "english": "How is Japanese food? (How do you like Japanese cuisine?)"
+      },
+      {
+        "id": "listen_ch5_9",
+        "chapter": 5,
+        "chapterTitle": "Basic Adjectives (基本の形容詞)",
+        "number": 9,
+        "japanese": "にほん は どうんな くに です か.",
+        "romaji": "Nihon wa dōnna Kuni des ka.",
+        "english": "What kind of country is Japan?"
+      },
+      {
+        "id": "listen_ch5_10",
+        "chapter": 5,
+        "chapterTitle": "Basic Adjectives (基本の形容詞)",
+        "number": 10,
+        "japanese": "ミラー さん の こうら は どれ です か.",
+        "romaji": "Mira san no Kōra wa dore des ka.",
+        "english": "Which one is Mr. Miller's cola?"
+      },
+      {
+        "id": "listen_ch5_11",
+        "chapter": 5,
+        "chapterTitle": "Basic Adjectives (基本の形容詞)",
+        "number": 11,
+        "japanese": "ふじさん は とても たかい やま です か. はい, にほん の なか で いちばん たかい やま です.",
+        "romaji": "Fujisan wa totemo takai yama des ka. Hai, Nihon no naka de ichiban takai yama des.",
+        "english": "Is Mt. Fuji a very high mountain? Yes, it is the highest mountain in Japan."
+      },
+      {
+        "id": "listen_ch5_12",
+        "chapter": 5,
+        "chapterTitle": "Basic Adjectives (基本の形容詞)",
+        "number": 12,
+        "japanese": "この ほん は おもしろい です か. いいえ, おもしろくない です.",
+        "romaji": "Kono hon wa omoshiroi des ka. iie, omoshirokunai des.",
+        "english": "Is this book interesting? No, it is not interesting."
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "title": "Chapter 6 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch6_1",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 1,
+        "japanese": "らいしゅう の にちようび は どこ へ いきます か. ともだち の うち へ いきます.",
+        "romaji": "Raishū no nichiyōbi wa doko e ikimas ka. Tomodachi no uchi e ikimas.",
+        "english": "Where are you going next Sunday? I am going to my friend's house."
+      },
+      {
+        "id": "listen_ch6_2",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 2,
+        "japanese": "ともだち の うち で なに を します か. えいが を みます.",
+        "romaji": "Tomodachi no uchi de nani o shimas ka. Eiga o mimas.",
+        "english": "What will you do at your friend's house? I will watch a movie."
+      },
+      {
+        "id": "listen_ch6_3",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 3,
+        "japanese": "この でんしゃ は よこはま へ いきます か. いいえ, いきません.",
+        "romaji": "Kono densha wa Yokohama e ikimas ka. iie, ikimasen.",
+        "english": "Does this train go to Yokohama? No, it does not."
+      },
+      {
+        "id": "listen_ch6_4",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 4,
+        "japanese": "わたし は せんげつ かぞく と にほん に きました.",
+        "romaji": "Watashi wa sengetsu kazoku to nihon ni kimashita.",
+        "english": "I came to Japan last month with my family."
+      },
+      {
+        "id": "listen_ch6_5",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 5,
+        "japanese": "わたし は まいにち ジュース を のみます.",
+        "romaji": "Watashi wa mainichi jūsu o nomimas.",
+        "english": "I drink juice every day."
+      },
+      {
+        "id": "listen_ch6_6",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 6,
+        "japanese": "たなか さん は まいばん さっか を します.",
+        "romaji": "Tanaka san wa maiban sakka o shimas.",
+        "english": "Mr. Tanaka plays soccer every evening."
+      },
+      {
+        "id": "listen_ch6_7",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 7,
+        "japanese": "わたし は テレビ を みません.",
+        "romaji": "Watashi wa Terebi o mimasen.",
+        "english": "I do not watch television."
+      },
+      {
+        "id": "listen_ch6_8",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 8,
+        "japanese": "すずき さん は らいしゅう の にちようび に ぱ を します.",
+        "romaji": "Suzuki san wa raishū no nichiyōbi ni party o shimas.",
+        "english": "Mr. Suzuki is having a party next Sunday."
+      },
+      {
+        "id": "listen_ch6_9",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 9,
+        "japanese": "げつようび は なに を します か.",
+        "romaji": "Getsuyōbi wa nani o shimas ka.",
+        "english": "What do you do on Mondays?"
+      },
+      {
+        "id": "listen_ch6_10",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 10,
+        "japanese": "わたし と いっしょ に おさけ を のみません か.",
+        "romaji": "Watashi to issho ni osake o nomimasen ka.",
+        "english": "Won't you drink sake with me?"
+      },
+      {
+        "id": "listen_ch6_11",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 11,
+        "japanese": "わたなべ さん は さかな を たべます か. いいえ, たべません.",
+        "romaji": "Watanabe san wa sakana o tabemas ka. iie, tabemasen.",
+        "english": "Does Mr. Watanabe eat fish? No, he does not eat fish."
+      },
+      {
+        "id": "listen_ch6_12",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 12,
+        "japanese": "あした, わたし の うち で ぱ を しません か. はい, しましょう.",
+        "romaji": "Ashita, watashi no uchi de party o shimasen ka. Hai, shimashō.",
+        "english": "Shall we have a party at my house tomorrow? Yes, let's do that."
+      },
+      {
+        "id": "listen_ch6_13",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 13,
+        "japanese": "いっしょ に えいが を みません か. はい, みましょう",
+        "romaji": "Issho ni eiga o mimasen ka. Hai, mimashō",
+        "english": "Won't you watch a movie with me? Yes, let's watch it."
+      },
+      {
+        "id": "listen_ch6_14",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 14,
+        "japanese": "よる は なに を します か. おんがく を ききます. れいぶん おあぶあ あさ……………………….もにんぐ けさ……………………とだ もにんぐ よる………………………にと らいしゅう….……………….ねと ええく まいにち…………………だい まいばん……………………ええ ええにんぐ さっか………………………そっえる なら….………………(なめ お あ あえ) ねがちえ ぱと お あ えぶ いす まで れあいんぐ ’ました’ い ‘ませんでした’. ふぉる えあんえ: たべました- たべませんでした れいぶん (えあんえす)",
+        "romaji": "Yoru wa nani o shimas ka. Ongaku o kikimas. Reibun Vocabulary Asa……………………….Morning Kesa……………………Today Morning Yoru………………………Night Raishū….……………….Next week Mainichi…………………Daily Maiban……………………Every evening Sakka………………………Soccer Nara….………………(Name of a place) Negative past of a verb is made by replacing ’mashita’ with ‘masendeshita’. For Example: Tabemashita- Tabemasendeshita Reibun (Examples)",
+        "english": "What do you do in the evening? I listen to music."
+      },
+      {
+        "id": "listen_ch6_1",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 1,
+        "japanese": "あした どこ へ いきます か. なら へ いきます.",
+        "romaji": "Ashita doko e ikimas ka. Nara e ikimas.",
+        "english": "Where are you going next Sunday? I am going to my friend's house."
+      },
+      {
+        "id": "listen_ch6_2",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 2,
+        "japanese": "にちようび どこ へ いきました か. どこ も いきませんでした.",
+        "romaji": "Nichiyōbi doko e ikimashita ka. Doko mo ikimasendeshita.",
+        "english": "What will you do at your friend's house? I will watch a movie."
+      },
+      {
+        "id": "listen_ch6_3",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 3,
+        "japanese": "なん で とうきょ へ いきます か. しんかんせん で いきます.",
+        "romaji": "Nan de Tōkyo e ikimas ka. Shinkansen de ikimas.",
+        "english": "Does this train go to Yokohama? No, it does not."
+      },
+      {
+        "id": "listen_ch6_4",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 4,
+        "japanese": "だれ と とうきょ へ いきます か. やまだ さん と いきます.",
+        "romaji": "Dare to Tōkyo e ikimas ka. Yamada san to ikimas.",
+        "english": "I came to Japan last month with my family."
+      },
+      {
+        "id": "listen_ch6_5",
+        "chapter": 6,
+        "chapterTitle": "Verbs (基本の動詞)",
+        "number": 5,
+        "japanese": "いつ にほん へ きました か. さん がつ にじゅう ご にち に きました.",
+        "romaji": "Itsu Nihon e kimashita ka. San gatsu Nijū go nichi ni kimashita.",
+        "english": "I drink juice every day."
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "title": "Chapter 7 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch7_1",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 1,
+        "japanese": "どこ で あさごはん を たべました か. かいしゃ の しょくどう で たべました.",
+        "romaji": "Doko de asagohan o tabemashita ka. Kaisha no shokudō de tabemashita.",
+        "english": "Where did you eat breakfast? I ate at the company cafeteria."
+      },
+      {
+        "id": "listen_ch7_2",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 2,
+        "japanese": "いっしょ に ひるごはん を たべません か. ええ, たべましょう.",
+        "romaji": "Issho ni hirugohan o tabemasen ka. Ee, tabemashō.",
+        "english": "Won't you eat lunch together? Yes, let's eat."
+      },
+      {
+        "id": "listen_ch7_3",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 3,
+        "japanese": "よる しゅくだい を します. それから ど を ききます.",
+        "romaji": "Yoru shukudai o shimas. Sorekara CD o kikimas.",
+        "english": "I do homework at night. After that, I listen to audio."
+      },
+      {
+        "id": "listen_ch7_4",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 4,
+        "japanese": "わたし は ジュース を のみませんでした.",
+        "romaji": "Watashi wa jūsu o nomimasendeshita.",
+        "english": "I did not drink juice."
+      },
+      {
+        "id": "listen_ch7_5",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 5,
+        "japanese": "ちょっと やすみましょう.",
+        "romaji": "Chotto yasumimashō.",
+        "english": "Let's take a short break."
+      },
+      {
+        "id": "listen_ch7_6",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 6,
+        "japanese": "はし で ごはん を たべます か.",
+        "romaji": "Hashi de gohan o tabemas ka.",
+        "english": "Do you eat meals with chopsticks?"
+      },
+      {
+        "id": "listen_ch7_7",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 7,
+        "japanese": "ぺん で てがみ を かきます.",
+        "romaji": "Pen de tegami o kakimas.",
+        "english": "I write a letter with a pen."
+      },
+      {
+        "id": "listen_ch7_9",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 9,
+        "japanese": "て で ごはん を たべます.",
+        "romaji": "Te de gohan o tabemas.",
+        "english": "I eat food with my hands."
+      },
+      {
+        "id": "listen_ch7_10",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 10,
+        "japanese": "あとぷ は にほんご で なん です か. パソコン です.",
+        "romaji": "Laptop wa nihongo de nan des ka. Pasokon des.",
+        "english": "What is 'laptop' in Japanese? It is 'pasokon'."
+      },
+      {
+        "id": "listen_ch7_11",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 11,
+        "japanese": "きのう の ぱ は たのしかった.",
+        "romaji": "Kinō no party wa tanoshikatta.",
+        "english": "Yesterday's party was fun."
+      },
+      {
+        "id": "listen_ch7_12",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 12,
+        "japanese": "この かいぎしつ は しずか じゃない ね.",
+        "romaji": "Kono kaigishitsu wa shizuka janai ne.",
+        "english": "This meeting room is not quiet, is it?"
+      },
+      {
+        "id": "listen_ch7_13",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 13,
+        "japanese": "しんかんせん は はやかった ね.",
+        "romaji": "Shinkansen wa hayakatta ne.",
+        "english": "The Shinkansen was fast, wasn't it?"
+      },
+      {
+        "id": "listen_ch7_14",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 14,
+        "japanese": "おさか は にぎやか です か. はい, にぎやか です.",
+        "romaji": "Osaka wa nigiyaka des ka. Hai, nigiyaka des.",
+        "english": "Is Osaka lively? Yes, it is lively."
+      },
+      {
+        "id": "listen_ch7_15",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 15,
+        "japanese": "とうきょう の ちかてつ は どう です か. きれい です. そして べんり です.",
+        "romaji": "Tōkyō no chikatetsu wa dō des ka. Kirei des. Soshite benri des.",
+        "english": "How is the Tokyo subway? It is clean. And it is convenient."
+      },
+      {
+        "id": "listen_ch7_16",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 16,
+        "japanese": "きのう えいが を みました. なんという えいが でした か. [しちにん の さむらい] という えいが です. ふるい えいが です が, とても おもしろかった です.",
+        "romaji": "Kinō eiga o mimashita. Nantoiu eiga deshita ka. [Shichinin no samurai] toiu eiga des. Furui eiga des ga, totemo omoshirokatta des.",
+        "english": "I watched a movie yesterday. What movie was it? It was 'Seven Samurai'. It's an old movie, but it was very interesting."
+      },
+      {
+        "id": "listen_ch7_17",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 17,
+        "japanese": "きょう は めろ で いきました. そう です か. めろ は どう でした か. やすかった です. そして べんり でした.",
+        "romaji": "Kyō wa Metro de ikimashita. Sō des ka. Metro wa dō deshita ka. Yasukatta des. Soshite benri deshita.",
+        "english": "Today I went by metro. Is that so? How was the metro? It was cheap. And it was convenient."
+      },
+      {
+        "id": "listen_ch7_18",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 18,
+        "japanese": "ミラー さん は じどうしゃ を もっています か. いいえ, もっていません. れいぶん おあぶあ それから…………………あてる はと もう………………………….あれあ べんきょう……………………つぢえす かいます………………………と ぶ めきしこ…………………めいお という………………………..あっえど あす あさごはん……………….れあふぁと もっています……………….と はえ れいぶん (えあんえす)",
+        "romaji": "Mira san wa jidōsha o motteimas ka. iie, motteimasen. Reibun Vocabulary Sorekara…………………After that Mō………………………….Already Benkyō……………………Studies Kaimas………………………To buy Mekishiko…………………Mexico toiu………………………..Called as Asagohan……………….Breakfast Motteimas……………….To have Reibun (Examples)",
+        "english": "Does Mr. Miller have a car? No, he does not have one."
+      },
+      {
+        "id": "listen_ch7_1",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 1,
+        "japanese": "たばこ を すいます か. いいえ, すいません.",
+        "romaji": "Tabako o suimas ka. iie, suimasen.",
+        "english": "Where did you eat breakfast? I ate at the company cafeteria."
+      },
+      {
+        "id": "listen_ch7_2",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 2,
+        "japanese": "まいあさ なに を たべます か. ぱん と たまご を たべます.",
+        "romaji": "Maiasa nani o tabemas ka. Pan to tamago o tabemas.",
+        "english": "Won't you eat lunch together? Yes, let's eat."
+      },
+      {
+        "id": "listen_ch7_3",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 3,
+        "japanese": "けさ ない を たべました か. なに も たべませんでした.",
+        "romaji": "Kesa nai o tabemashita ka. Nani mo tabemasendeshita.",
+        "english": "I do homework at night. After that, I listen to audio."
+      },
+      {
+        "id": "listen_ch7_4",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 4,
+        "japanese": "どようび なに を しました か. にほんご を べんきょう しました. それから えいが を みました. にちようび は なに を しました か. とうもだち と なら へ いきました.",
+        "romaji": "Doyōbi nani o shimashita ka. Nihongo o benkyō shimashita. Sorekara eiga o mimashita. Nichiyōbi wa nani o shimashita ka. Tōmodachi to Nara e ikimashita.",
+        "english": "I did not drink juice."
+      },
+      {
+        "id": "listen_ch7_5",
+        "chapter": 7,
+        "chapterTitle": "My Family & Daily Life (家族・日常)",
+        "number": 5,
+        "japanese": "どこ で その かばん を かいました か. めきしこ で かいました.",
+        "romaji": "Doko de sono kaban o kaimashita ka. Mekishiko de kaimashita.",
+        "english": "Let's take a short break."
+      }
+    ]
+  },
+  {
+    "chapter": 8,
+    "title": "Chapter 8 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch8_1",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 1,
+        "japanese": "たなか さん は だんえ が すき です か. いいえ, すき じゃ ありません.",
+        "romaji": "Tanaka san wa dance ga suki des ka. iie, suki ja arimasen.",
+        "english": "Does Mr. Tanaka like dancing? No, he does not like it."
+      },
+      {
+        "id": "listen_ch8_2",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 2,
+        "japanese": "たなか さん は どんな のみもの が すき です か. おさけ が すき です.",
+        "romaji": "Tanaka san wa donna nomimono ga suki des ka. Osake ga suki des.",
+        "english": "What kind of drink does Mr. Tanaka like? He likes sake."
+      },
+      {
+        "id": "listen_ch8_3",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 3,
+        "japanese": "さとう さん は うた が じょうず です.",
+        "romaji": "Satō san wa uta ga jōzu des.",
+        "english": "Ms. Sato is good at singing."
+      },
+      {
+        "id": "listen_ch8_4",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 4,
+        "japanese": "ミラー さん は うた が じょうず じゃ ありません.",
+        "romaji": "Mira san wa uta ga jōzu ja arimasen.",
+        "english": "Mr. Miller is not good at singing."
+      },
+      {
+        "id": "listen_ch8_5",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 5,
+        "japanese": "どうして きょうと へ いけない の です か. ようじ が ある から です.",
+        "romaji": "Dōshite Kyōto e ikenai no des ka. Yōji ga aru kara des.",
+        "english": "Why can't you go to Kyoto? Because I have errands to run."
+      },
+      {
+        "id": "listen_ch8_6",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 6,
+        "japanese": "いたりあ りょうり が すき です か. ええ, すき です.",
+        "romaji": "Itaria ryōri ga suki des ka. Ee, suki des.",
+        "english": "Do you like Italian food? Yes, I like it."
+      },
+      {
+        "id": "listen_ch8_7",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 7,
+        "japanese": "これ は とても ゆうめい な えいが です ね. そう です ね.",
+        "romaji": "Kore wa totemo yūmei na eiga des ne. Sō des ne.",
+        "english": "This is a very famous movie, isn't it? Yes, it is."
+      },
+      {
+        "id": "listen_ch8_8",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 8,
+        "japanese": "どうして いま かえる の です か. ようじ が ある から です.",
+        "romaji": "Dōshite ima kaeru no des ka. Yōji ga aru kara des.",
+        "english": "Why are you going home now? Because I have errands."
+      },
+      {
+        "id": "listen_ch8_9",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 9,
+        "japanese": "かいしゃ で だれ と はなします か. かいしゃ で たなか さん と はなします.",
+        "romaji": "Kaisha de dare to hanashimas ka. Kaisha de tanaka san to hanashimas.",
+        "english": "Are you good at cooking? No, I am not very good at it."
+      },
+      {
+        "id": "listen_ch8_10",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 10,
+        "japanese": "クマル さん は さっか が じょうず です か. いいえ, へた です.",
+        "romaji": "Kumar san wa Sakka ga jōzu des ka. iie, heta des.",
+        "english": "What kind of sports do you like? I like soccer and tennis."
+      },
+      {
+        "id": "listen_ch8_11",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 11,
+        "japanese": "しん ちゃん は なに が きらい です か. さかな が きらい です.",
+        "romaji": "Shin chan wa nani ga kirai des ka. Sakana ga kirai des.",
+        "english": "Do you understand Japanese? Yes, I understand a little."
+      },
+      {
+        "id": "listen_ch8_12",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 12,
+        "japanese": "クマル さん は かんじ が わかります か. かんじ は わかりません が ひらがな は わかります.",
+        "romaji": "Kumar san wa Kanji ga wakarimas ka. Kanji wa wakarimasen ga Hiragana wa wakarimas.",
+        "english": "Does Mr. Miller understand kanji? No, he does not understand it at all."
+      },
+      {
+        "id": "listen_ch8_13",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 13,
+        "japanese": "きのう でんわ で だれ と はなしました か. はは と はなしました. じゅっぷん はなしました. れいぶん おあぶあ どうして ………..…………… え…………………………………ぱいんちんぐ から…………………………..へれふぉれ ぜんぜん……………………...のと あと あっ こまかい…………………..ちゃんげ おかね…………………………もね いけない…………………………あん’と ご れいぶん (えあんえす)",
+        "romaji": "Kinō denwa de dare to hanashimashita ka. Haha to hanashimashita. Juppun hanashimashita. Reibun Vocabulary Dōshite ………..……………Why e…………………………………Painting kara…………………………..Therefore zenzen……………………...Not at all Komakai…………………..Change Okane…………………………Money ikenai…………………………Can’t go Reibun (Examples)",
+        "english": "Do you have change / coins? No, I do not have any."
+      },
+      {
+        "id": "listen_ch8_1",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 1,
+        "japanese": "おさけ が すき です か. いいえ, すき じゃ ありません.",
+        "romaji": "Osake ga suki des ka. iie, suki ja arimasen.",
+        "english": "Does Mr. Tanaka like dancing? No, he does not like it."
+      },
+      {
+        "id": "listen_ch8_2",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 2,
+        "japanese": "どんな すぽうつ が すき です か. さっか が すき です.",
+        "romaji": "Donna supōtsu ga suki des ka. Sakka ga suki des.",
+        "english": "What kind of drink does Mr. Tanaka like? He likes sake."
+      },
+      {
+        "id": "listen_ch8_3",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 3,
+        "japanese": "カリナ さん は へ が じょうず です か. はい, とても じょうず です.",
+        "romaji": "Karina san wa e ga jōzu des ka. Hai, totemo jōzu des.",
+        "english": "Ms. Sato is good at singing."
+      },
+      {
+        "id": "listen_ch8_4",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 4,
+        "japanese": "たなか さん は いんどねしあご が わかります か. いいえ, ぜねん わかりません.",
+        "romaji": "Tanaka san wa indoneshiago ga wakarimas ka. iie, zenen wakarimasen.",
+        "english": "Mr. Miller is not good at singing."
+      },
+      {
+        "id": "listen_ch8_5",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 5,
+        "japanese": "こまかい おかね が あります か. いいえ, ありません.",
+        "romaji": "Komakai okane ga arimas ka. iie, arimasen.",
+        "english": "Why can't you go to Kyoto? Because I have errands to run."
+      },
+      {
+        "id": "listen_ch8_6",
+        "chapter": 8,
+        "chapterTitle": "Tele-Conference & Transport (電話・交通)",
+        "number": 6,
+        "japanese": "まいあさ しんぶん を よみます か. いいえ, じかん が ありません から よみません.",
+        "romaji": "Maiasa shimbun o yomimas ka. iie, jikan ga arimasen kara yomimasen.",
+        "english": "Do you like Italian food? Yes, I like it."
+      }
+    ]
+  },
+  {
+    "chapter": 9,
+    "title": "Chapter 9 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch9_1",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 1,
+        "japanese": "きょうしつ に がくせい が います.",
+        "romaji": "Kyōshitsu ni gakusei ga imas.",
+        "english": "There is a man over there. Who is that person? That is Mr. Matsumoto of IMC."
+      },
+      {
+        "id": "listen_ch9_2",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 2,
+        "japanese": "あそこ に たかい びる が あります.",
+        "romaji": "Asoko ni takai Biru ga arimas.",
+        "english": "Is there a telephone near here? Yes, there is one over there."
+      },
+      {
+        "id": "listen_ch9_3",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 3,
+        "japanese": "きのう の しけん は かんたん じゃ ありません でした.",
+        "romaji": "Kinō no shiken wa kantan ja arimasen deshita.",
+        "english": "Who is in the garden? Nobody is there. There is a cat."
+      },
+      {
+        "id": "listen_ch9_4",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 4,
+        "japanese": "きのう の ひる は いい てんき でした が, よる は あめ でした.",
+        "romaji": "Kinō no hiru wa ii tenki deshita ga, Yoru wa ame deshita.",
+        "english": "What is inside the box? There are old letters and photographs."
+      },
+      {
+        "id": "listen_ch9_5",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 5,
+        "japanese": "ぱ は たのしかった です か. いいえ, たのしくなかった です.",
+        "romaji": "Party wa tanoshikatta des ka. iie, tanoshikunakatta des.",
+        "english": "Where is Mr. Miller? He is in the conference room."
+      },
+      {
+        "id": "listen_ch9_6",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 6,
+        "japanese": "どの きせつ が いちばん すき です か. あき が いちばん すき です.",
+        "romaji": "Dono kisetsu ga ichiban suki des ka. Aki ga ichiban suki des.",
+        "english": "Is there a convenience store nearby? Yes, it is in front of the station."
+      },
+      {
+        "id": "listen_ch9_7",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 7,
+        "japanese": "きのう はじめて すし を たべました.",
+        "romaji": "Kinō hajimete sushi o tabemashita.",
+        "english": "What is on the desk? There is a computer and a notebook."
+      },
+      {
+        "id": "listen_ch9_9",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 9,
+        "japanese": "きょうと は しずか でした か. いいえ, しずか じゃ ありません でした.",
+        "romaji": "Kyōto wa shizuka deshita ka. iie, shizuka ja arimasen deshita.",
+        "english": "There is a bookstore between the bank and the post office."
+      },
+      {
+        "id": "listen_ch9_10",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 10,
+        "japanese": "りょこう は たのしかった です か. はい, とても たのしかった です.",
+        "romaji": "Ryokō wa tanoshikatta des ka. Hai, totemo tanoshikatta des.",
+        "english": "Where is your dog? It is sleeping under the table."
+      },
+      {
+        "id": "listen_ch9_11",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 11,
+        "japanese": "てんき は よかった です か. いいえ, あまり よくなかった です.",
+        "romaji": "Tenki wa yokatta des ka. iie, amari yokunakatta des.",
+        "english": "Was Kyoto quiet? No, it was not quiet."
+      },
+      {
+        "id": "listen_ch9_12",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 12,
+        "japanese": "にほん りょうり で なに が いちばん すき です か. てんぷら が いちばん すき です.",
+        "romaji": "Nihon ryōri de nani ga ichiban suki des ka. Tempura ga ichiban suki des.",
+        "english": "Was the trip fun? Yes, it was very fun."
+      },
+      {
+        "id": "listen_ch9_13",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 13,
+        "japanese": "ことし は どこ へ りょこう に いきました か. どこ へ も いきませんでした.",
+        "romaji": "Kotoshi wa Doko e ryokō ni ikimashita ka. Doko e mo ikimasendeshita.",
+        "english": "Was the weather good? No, it wasn't very good."
+      },
+      {
+        "id": "listen_ch9_1",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 1,
+        "japanese": "あそこ に おとこ の ひと が います ね. あの ひと は だれ です か. アイエムシー の まつもと さん です.",
+        "romaji": "Asoko ni otoko no hito ga imas ne. Ano hito wa dare des ka. IMC no Matsumoto san des.",
+        "english": "There is a man over there. Who is that person? That is Mr. Matsumoto of IMC."
+      },
+      {
+        "id": "listen_ch9_2",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 2,
+        "japanese": "この ちかく に でんわ が あります か. はい, あそこ に あります.",
+        "romaji": "Kono chikaku ni denwa ga arimas ka. Hai, asoko ni arimas.",
+        "english": "Is there a telephone near here? Yes, there is one over there."
+      },
+      {
+        "id": "listen_ch9_3",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 3,
+        "japanese": "にわ に だれ が います か. だれ も いません. ねこ が います.",
+        "romaji": "Niwa ni dare ga imas ka. Dare mo imasen. Neko ga imas.",
+        "english": "Who is in the garden? Nobody is there. There is a cat."
+      },
+      {
+        "id": "listen_ch9_4",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 4,
+        "japanese": "はこ の なか に なに が あります か. ふるい てがみ や しゃしん が あります.",
+        "romaji": "Hako no naka ni nani ga arimas ka. Furui tegami ya shashin ga arimas.",
+        "english": "What is inside the box? There are old letters and photographs."
+      },
+      {
+        "id": "listen_ch9_5",
+        "chapter": 9,
+        "chapterTitle": "Travel & Places (旅行・場所)",
+        "number": 5,
+        "japanese": "ミラー さん は どこ に います か. かいぎしつ に います.",
+        "romaji": "Mira san wa doko ni imas ka. Kaigishitsu ni imas.",
+        "english": "Where is Mr. Miller? He is in the conference room."
+      }
+    ]
+  },
+  {
+    "chapter": 10,
+    "title": "Chapter 10 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch10_1",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 1,
+        "japanese": "やまだ さん は きむら さん に まんが を もりました.",
+        "romaji": "Yamada san wa Kimura san ni manga o morimashita.",
+        "english": "Mr. Yamada received a manga from Mr. Kimura."
+      },
+      {
+        "id": "listen_ch10_2",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 2,
+        "japanese": "きむら さん は たなか さん に ど を あげました.",
+        "romaji": "Kimura san wa Tanaka san ni CD o agemashita.",
+        "english": "Mr. Kimura gave a card to Mr. Tanaka."
+      },
+      {
+        "id": "listen_ch10_3",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 3,
+        "japanese": "わたし は よしだ さん に かさ を かりました.",
+        "romaji": "Watashi wa Yoshida san ni kasa o Karimashita.",
+        "english": "I borrowed an umbrella from Mr. Yoshida."
+      },
+      {
+        "id": "listen_ch10_4",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 4,
+        "japanese": "じょん さん は もりた さん に えいご を おしえます.",
+        "romaji": "John san wa Morita san ni eigo o oshiemas.",
+        "english": "John teaches English to Mr. Morita."
+      },
+      {
+        "id": "listen_ch10_5",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 5,
+        "japanese": "じょん さん は もりた さん に にほんご を ならいます.",
+        "romaji": "John san wa Morita san ni nihongo o naraimas.",
+        "english": "John learns Japanese from Mr. Morita."
+      },
+      {
+        "id": "listen_ch10_6",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 6,
+        "japanese": "すずき さん は やん さん に おみやげ を おくりました.",
+        "romaji": "Suzuki san wa Yan san ni Omiyage o okurimashita.",
+        "english": "Mr. Suzuki sent a souvenir to Mr. Yan."
+      },
+      {
+        "id": "listen_ch10_7",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 7,
+        "japanese": "すずき さん は やん さん に てがみ を もらいました.",
+        "romaji": "Suzuki san wa Yan san ni Tegami o moraimashita.",
+        "english": "Mr. Suzuki received a letter from Mr. Yan."
+      },
+      {
+        "id": "listen_ch10_8",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 8,
+        "japanese": "きのう やん さん から えんぴつ を もらいました.",
+        "romaji": "Kinō Yan san kara empitsu o moraimashita.",
+        "english": "Yesterday I received a pencil from Mr. Yan."
+      },
+      {
+        "id": "listen_ch10_9",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 9,
+        "japanese": "おととい, じょん さん に おかね を かりました.",
+        "romaji": "Ototoi, John san ni okane o karimashita.",
+        "english": "The day before yesterday, I borrowed money from John."
+      },
+      {
+        "id": "listen_ch10_10",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 10,
+        "japanese": "わたし は パソコン が ほしい です.",
+        "romaji": "Watashi wa pasokon ga hoshii des.",
+        "english": "I want a computer."
+      },
+      {
+        "id": "listen_ch10_11",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 11,
+        "japanese": "わたし は あたらしい いえ が ほしい です.",
+        "romaji": "Watashi wa atarashii ie ga hoshii des.",
+        "english": "I want a new house."
+      },
+      {
+        "id": "listen_ch10_12",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 12,
+        "japanese": "たなか さん は おかね が ほしい です.",
+        "romaji": "Tanaka san wa okane ga hoshii des.",
+        "english": "Mr. Tanaka wants money."
+      },
+      {
+        "id": "listen_ch10_13",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 13,
+        "japanese": "どんな カメラ が ほしい です か.",
+        "romaji": "Donna kamera ga hoshii des ka.",
+        "english": "What kind of camera do you want?"
+      },
+      {
+        "id": "listen_ch10_14",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 14,
+        "japanese": "ちいさい カメラ が ほしい です.",
+        "romaji": "Chiisai kamera ga hoshii des.",
+        "english": "I want a compact camera."
+      },
+      {
+        "id": "listen_ch10_15",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 15,
+        "japanese": "どんな くるま が ほしい です か.",
+        "romaji": "Donna kuruma ga hoshii des ka.",
+        "english": "What kind of car do you want?"
+      },
+      {
+        "id": "listen_ch10_16",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 16,
+        "japanese": "あたらしい くるま が ほしい です.",
+        "romaji": "Atarashii kuruma ga hoshii des.",
+        "english": "I want a new car."
+      },
+      {
+        "id": "listen_ch10_17",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 17,
+        "japanese": "わたし は ともだち が ほしい です.",
+        "romaji": "Watashi wa tomodachi ga hoshii des.",
+        "english": "I want friends."
+      },
+      {
+        "id": "listen_ch10_18",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 18,
+        "japanese": "すし を たべたい です.",
+        "romaji": "Sushi o tabetai des.",
+        "english": "I want to eat sushi."
+      },
+      {
+        "id": "listen_ch10_19",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 19,
+        "japanese": "おさけ を のみたい です.",
+        "romaji": "Osake o nomitai des.",
+        "english": "I want to drink sake."
+      },
+      {
+        "id": "listen_ch10_20",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 20,
+        "japanese": "えいが を みたい です.",
+        "romaji": "Eiga o mitai des.",
+        "english": "I want to watch a movie."
+      },
+      {
+        "id": "listen_ch10_21",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 21,
+        "japanese": "たなか さん は なに を かいたい です か. テレビ を かいたい です.",
+        "romaji": "Tanaka san wa nani o kaitai des ka. Terebi o kaitai des.",
+        "english": "What does Mr. Tanaka want to buy? He wants to buy a television."
+      },
+      {
+        "id": "listen_ch10_22",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 22,
+        "japanese": "どんな ほん を よみたい です か. りょこう の ほん を よみたい です.",
+        "romaji": "Donna hon o yomitai des ka. Ryokō no hon o yomitai des.",
+        "english": "What kind of book do you want to read? I want to read a travel book."
+      },
+      {
+        "id": "listen_ch10_23",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 23,
+        "japanese": "なつやすみ に どこ へ いきたい です か. わたし は おきなわ へ いきたい です.",
+        "romaji": "Natsuyasumi ni doko e ikitai des ka. Watashi wa okinawa e ikitai des.",
+        "english": "Where do you want to go during summer vacation? I want to go to Okinawa."
+      },
+      {
+        "id": "listen_ch10_24",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 24,
+        "japanese": "わたし は りょうり を ならいたい です. れいぶん (えあんえす)",
+        "romaji": "Watashi wa ryōri o naraitai des. Reibun (Examples)",
+        "english": "I want to learn cooking."
+      },
+      {
+        "id": "listen_ch10_1",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 1,
+        "japanese": "テレビ で にほんご を べんきょう しました か. いいえ, ラジオ で べんきょう しました.",
+        "romaji": "Terebi de nihongo o benkyō shimashita ka. iie, rajio de benkyō shimashita.",
+        "english": "Mr. Yamada received a manga from Mr. Kimura."
+      },
+      {
+        "id": "listen_ch10_2",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 2,
+        "japanese": "にほんご で れぽと を かきます か. いいえ, えいご で かきます.",
+        "romaji": "Nihongo de report o kakimas ka. iie, eigo de kakimas.",
+        "english": "Mr. Kimura gave a card to Mr. Tanaka."
+      },
+      {
+        "id": "listen_ch10_3",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 3,
+        "japanese": "“ごおど え” は にほんご で なん です か. “さようなら” です.",
+        "romaji": "“Good bye” wa nihongo de nan des ka. “Sayōnara” des.",
+        "english": "I borrowed an umbrella from Mr. Yoshida."
+      },
+      {
+        "id": "listen_ch10_4",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 4,
+        "japanese": "だれ に ります かあど を かきます か. かぞく と ともだち に かきます.",
+        "romaji": "Dare ni Christmas kādo o kakimas ka. Kazoku to tomodachi ni kakimas.",
+        "english": "John teaches English to Mr. Morita."
+      },
+      {
+        "id": "listen_ch10_5",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 5,
+        "japanese": "それ は なん です か. てちょう です. やまだ さん に もらいました.",
+        "romaji": "Sore wa nan des ka. Techō des. Yamada san ni moraimashita.",
+        "english": "John learns Japanese from Mr. Morita."
+      },
+      {
+        "id": "listen_ch10_6",
+        "chapter": 10,
+        "chapterTitle": "Give and Take (授受動詞)",
+        "number": 6,
+        "japanese": "もう しんかんせん の きっぷ を かいました か. はい, もう かいました.",
+        "romaji": "Mō shinkansen no kippu o kaimashita ka. Hai, mō kaimashita.",
+        "english": "Mr. Suzuki sent a souvenir to Mr. Yan."
+      }
+    ]
+  },
+  {
+    "chapter": 11,
+    "title": "Chapter 11 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch11_1",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 1,
+        "japanese": "いま なに が いちばん ほしい です か. いま, かのじょ が ほしい です.",
+        "romaji": "Ima nani ga ichiban hoshii des ka. Ima, kanojo ga hoshii des.",
+        "english": "What do you want most right now? Right now, I want a girlfriend."
+      },
+      {
+        "id": "listen_ch11_2",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 2,
+        "japanese": "きょう の かいぎ は たいへん でした ね. そう です ね とても たいへん でした.",
+        "romaji": "Kyō no kaigi wa taihen deshita ne. Sō des ne totemo taihen deshita.",
+        "english": "Today's meeting was tough, wasn't it? Yes, it was very tough."
+      },
+      {
+        "id": "listen_ch11_3",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 3,
+        "japanese": "こんど の にちようび は なに を します か. こども と しんかんせん で なら へ いきます.",
+        "romaji": "Kondo no nichiyōbi wa nani o shimas ka. Kodomo to shinkansen de Nara e ikimas.",
+        "english": "What will you do this coming Sunday? I will go to Nara by Shinkansen with my child."
+      },
+      {
+        "id": "listen_ch11_4",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 4,
+        "japanese": "にほん の なに が いちばん すき です か. にほんじん は しんせつ です ね. それ が いちばん すき です. そう です ね. にほん は しんせつ な ひと が おうい です ね.",
+        "romaji": "Nihon no nani ga ichiban suki des ka. Nihonjin wa shinsetsu des ne. Sore ga ichiban suki des. Sō des ne. Nihon wa shinsetsu na hito ga ōi des ne.",
+        "english": "What do you like most about Japan? Japanese people are very kind. That is what I like most. That's true, there are many kind people in Japan."
+      },
+      {
+        "id": "listen_ch11_5",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 5,
+        "japanese": "えいご の べんきょう は どう です か. たいへん です. れいぶん (えあんえす)",
+        "romaji": "Eigo no benkyō wa dō des ka. Taihen des. Reibun (Examples)",
+        "english": "How is studying English? It is tough."
+      },
+      {
+        "id": "listen_ch11_1",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 1,
+        "japanese": "きょうと は しずか でした か. いいえ, しずか じゃ ありません でした.",
+        "romaji": "Kyōto wa shizuka deshita ka. iie, shizuka ja arimasen deshita.",
+        "english": "What do you want most right now? Right now, I want a girlfriend."
+      },
+      {
+        "id": "listen_ch11_2",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 2,
+        "japanese": "りょこう は たのしかった です か. はい, とても たのしかった です.",
+        "romaji": "Ryokō wa tanoshikatta des ka. Hai, totemo tanoshikatta des.",
+        "english": "Today's meeting was tough, wasn't it? Yes, it was very tough."
+      },
+      {
+        "id": "listen_ch11_3",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 3,
+        "japanese": "てんき は よかった です か. いいえ, あまり よくなかった です.",
+        "romaji": "Tenki wa yokatta des ka. iie, amari yokunakatta des.",
+        "english": "What will you do this coming Sunday? I will go to Nara by Shinkansen with my child."
+      },
+      {
+        "id": "listen_ch11_4",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 4,
+        "japanese": "きのう の ぱ は どう でした か. とても にぎやか でした. いろいろな ひと に あいました.",
+        "romaji": "Kinō no party wa dō deshita ka. Totemo nigiyaka deshita. Iroirona hito ni aimashita.",
+        "english": "What do you like most about Japan? Japanese people are very kind. That is what I like most. That's true, there are many kind people in Japan."
+      },
+      {
+        "id": "listen_ch11_5",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 5,
+        "japanese": "とうきょう は ねよく より ひと が おうい です か. はい, ずっと おうい です か.",
+        "romaji": "Tōkyō wa NewYork yori hito ga ōi des ka. Hai, zutto ōi des ka.",
+        "english": "How is studying English? It is tough."
+      },
+      {
+        "id": "listen_ch11_6",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 6,
+        "japanese": "くうこう まで バス と でんしゃ と どちら が はやい です か. でんしゃ の ほう が はやい です.",
+        "romaji": "Kūkō made basu to densha to dochira ga hayai des ka. Densha no hō ga hayai des.",
+        "english": "Was Kyoto quiet? No, it was not quiet."
+      },
+      {
+        "id": "listen_ch11_7",
+        "chapter": 11,
+        "chapterTitle": "Question Answers (質問と答え・総復習)",
+        "number": 7,
+        "japanese": "うみ と やま と どちら が すき です か. どちら も すき です.",
+        "romaji": "Umi to yama to dochira ga suki des ka. Dochira mo suki des.",
+        "english": "Was the trip fun? Yes, it was very fun."
+      }
+    ]
+  },
+  {
+    "chapter": 12,
+    "title": "Lesson 12 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch12_1",
+        "chapter": 12,
+        "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+        "number": 1,
+        "japanese": "きょうとは しずかでしたか。 いいえ、しずかじゃ ありませんでした。",
+        "romaji": "",
+        "english": "Was Kyoto quiet?  …No, it wasn’t."
+      },
+      {
+        "id": "listen_ch12_2",
+        "chapter": 12,
+        "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+        "number": 2,
+        "japanese": "りょこうは たのしかったですか。 はい、とても たのしかったです。",
+        "romaji": "",
+        "english": "Was the trip enjoyable?  …Yes, it was very enjoyable."
+      },
+      {
+        "id": "listen_ch12_3",
+        "chapter": 12,
+        "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+        "number": 3,
+        "japanese": "てんきは よかったですか。 いいえ、あまり よくなかったです。",
+        "romaji": "",
+        "english": "Was the weather good?  …No, it wasn’t so good."
+      },
+      {
+        "id": "listen_ch12_4",
+        "chapter": 12,
+        "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+        "number": 4,
+        "japanese": "きのうの パーティーは どうでしたか。 とても にぎやか でした。いろいろな ひとに あいました。",
+        "romaji": "",
+        "english": "How was the party yesterday?  …It was very lively. I met various  people."
+      },
+      {
+        "id": "listen_ch12_5",
+        "chapter": 12,
+        "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+        "number": 5,
+        "japanese": "とうきょうは ニューヨークより ひとが おおいですか。 はい、ずっと おおいです。",
+        "romaji": "",
+        "english": "Are there more people in Tokyo  than in New York?  …Yes, a lot more."
+      },
+      {
+        "id": "listen_ch12_6",
+        "chapter": 12,
+        "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+        "number": 6,
+        "japanese": "くうこうまで バスと でんしゃと どちらが はやいですか。 でんしゃの ほうが はやいです。",
+        "romaji": "",
+        "english": "Which is the faster way to get  to the airport, by bus or by train?  …the train is faster."
+      },
+      {
+        "id": "listen_ch12_7",
+        "chapter": 12,
+        "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+        "number": 7,
+        "japanese": "うみと やまと どちらが すきですか。 どちらも すきです。",
+        "romaji": "",
+        "english": "Which do you prefer, the sea or  the mountains?  …I like both."
+      },
+      {
+        "id": "listen_ch12_8",
+        "chapter": 12,
+        "chapterTitle": "Comparison & Seasons (比較・季節・天気)",
+        "number": 8,
+        "japanese": "にほんりょうりで なにが いちばん すきですか。 …てんぷらが いちばん すきです。",
+        "romaji": "",
+        "english": "What Japanese dish do you like most? ...Tempura is my favorite."
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "title": "Lesson 13 Listening Practice (CHŌKAI)",
+    "exercises": []
+  },
+  {
+    "chapter": 14,
+    "title": "Lesson 14 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch14_1",
+        "chapter": 14,
+        "chapterTitle": "Te-form & Requests (て形・～てください)",
+        "number": 1,
+        "japanese": "ここに じゅうしょと なまえを か いて ください。 …はい、わかりました。",
+        "romaji": "",
+        "english": "Please write your name and  address here.  …Yes."
+      },
+      {
+        "id": "listen_ch14_2",
+        "chapter": 14,
+        "chapterTitle": "Te-form & Requests (て形・～てください)",
+        "number": 2,
+        "japanese": "あの シャツを みせて ください。 …はい、どうぞ。 もう、すこし おおきいのは、ありませ んか。 …はい、この シャツは いかがです か。",
+        "romaji": "",
+        "english": "Please show me that shirt.  …here you are.  Do you have one a little  bigger?  …Yes. How about this shirt."
+      },
+      {
+        "id": "listen_ch14_3",
+        "chapter": 14,
+        "chapterTitle": "Te-form & Requests (て形・～てください)",
+        "number": 3,
+        "japanese": "すみませんが、この かんじの よみ かたを おしえて ください。 …それは 「かきとめ」ですよ。",
+        "romaji": "",
+        "english": "Excuse me. Please tell me  how to read this kanji.  …It’s “kakitome.”"
+      },
+      {
+        "id": "listen_ch14_4",
+        "chapter": 14,
+        "chapterTitle": "Te-form & Requests (て形・～てください)",
+        "number": 4,
+        "japanese": "あついですね。まどを あけましょう か。 …すみません。おねがいします。",
+        "romaji": "",
+        "english": "It’s hot, isn’t it? Shall I open  the window?  …Yes, please."
+      },
+      {
+        "id": "listen_ch14_5",
+        "chapter": 14,
+        "chapterTitle": "Te-form & Requests (て形・～てください)",
+        "number": 5,
+        "japanese": "えきまで むかえに いきましょう か。 …いいえ、けっこうです。タクシーで いきますから。",
+        "romaji": "",
+        "english": "Shall I come to the station  to pick you up?  …No, thank you. I will come  by taxi."
+      },
+      {
+        "id": "listen_ch14_6",
+        "chapter": 14,
+        "chapterTitle": "Te-form & Requests (て形・～てください)",
+        "number": 6,
+        "japanese": "さとうさんは どこですか。 …いま かいぎしつで まつもとさんと はなして います。 じゃ、また あとで きます。",
+        "romaji": "",
+        "english": "Where is Ms. Sato? ...She is in the conference room right now with Mr. Matsumoto."
+      }
+    ]
+  },
+  {
+    "chapter": 15,
+    "title": "Lesson 15 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch15_1",
+        "chapter": 15,
+        "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
+        "number": 1,
+        "japanese": "この カタログを もらってもいいです か。 …ええ、いいですよ。どうぞ。",
+        "romaji": "",
+        "english": "May I keep this catalog?  …sure, please do."
+      },
+      {
+        "id": "listen_ch15_2",
+        "chapter": 15,
+        "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
+        "number": 2,
+        "japanese": "この じしょを かりてもいいですか。 …すみません、ちょっと….。いま つかって います。",
+        "romaji": "",
+        "english": "May I borrow this  dictionary?  …I am sorry, but…I am using it  now."
+      },
+      {
+        "id": "listen_ch15_3",
+        "chapter": 15,
+        "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
+        "number": 3,
+        "japanese": "ここで あそんでは いけません。 …はい。",
+        "romaji": "",
+        "english": "You must not play here.  …all right."
+      },
+      {
+        "id": "listen_ch15_4",
+        "chapter": 15,
+        "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
+        "number": 4,
+        "japanese": "しやくしょの でんわばんごうを しって いますか。 …いいえ、しりません。",
+        "romaji": "",
+        "english": "Do you know the phone  number of the City Hall?  …No, I don’t."
+      },
+      {
+        "id": "listen_ch15_5",
+        "chapter": 15,
+        "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
+        "number": 5,
+        "japanese": "マリアさんは どこに すんで います か。 …おおさかに すんで います。",
+        "romaji": "",
+        "english": "Where do you live, Ms.  Maria?  …I live in Osaka."
+      },
+      {
+        "id": "listen_ch15_6",
+        "chapter": 15,
+        "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
+        "number": 6,
+        "japanese": "ワンさんは どくしんですか。 …いいえ、けっこんして います。",
+        "romaji": "",
+        "english": "Is Mr. Wan single?  …No, he is married."
+      },
+      {
+        "id": "listen_ch15_7",
+        "chapter": 15,
+        "chapterTitle": "Permissions & Prohibitions (許可・禁止)",
+        "number": 7,
+        "japanese": "おしごとは なんですか。 …きょうしです。ふじだいがくで おしえて います。 せんもんは？ …にほんの びじゅつです。",
+        "romaji": "",
+        "english": "May I smoke here? ...No, smoking is prohibited here."
+      }
+    ]
+  },
+  {
+    "chapter": 16,
+    "title": "Lesson 16 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch16_1",
+        "chapter": 16,
+        "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+        "number": 1,
+        "japanese": "きのう なにを しましたか。 …としょかんへ いって、ほんを かり て、それから ともだちに あいまし た。",
+        "romaji": "",
+        "english": "What did you do  yesterday?  …I went to the library and  borrowed some books, and  then met a friend."
+      },
+      {
+        "id": "listen_ch16_3",
+        "chapter": 16,
+        "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+        "number": 3,
+        "japanese": "くにへ かえってから、なにを し ますか。 …ちちの かいしゃで はたらきます。",
+        "romaji": "",
+        "english": "What are you going to do  after getting back to your  country?  …I will work for my father’s  company."
+      },
+      {
+        "id": "listen_ch16_4",
+        "chapter": 16,
+        "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+        "number": 4,
+        "japanese": "サントスさんは どの ひと です か。 …あの せが たかくて、かみが くろ い ひとです。",
+        "romaji": "",
+        "english": "Which person is Mr.  Santos?  …He is that tall man with dark  hair."
+      },
+      {
+        "id": "listen_ch16_5",
+        "chapter": 16,
+        "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+        "number": 5,
+        "japanese": "ならは どんな まちですか。 …しずかで、きれいな まちです。",
+        "romaji": "",
+        "english": "What kind of city is Nara?  …It is that quiet and beautiful  city."
+      },
+      {
+        "id": "listen_ch16_6",
+        "chapter": 16,
+        "chapterTitle": "Connecting Actions & Adjectives (文の接続)",
+        "number": 6,
+        "japanese": "あの ひとは だれですか。 …カリナさんです。インドネシアじん で、ふじだいがくの りゅうがくせい です。",
+        "romaji": "",
+        "english": "How do you go to the university? ...I take the train from the station and then walk 5 minutes."
+      }
+    ]
+  },
+  {
+    "chapter": 17,
+    "title": "Lesson 17 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch17_1",
+        "chapter": 17,
+        "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+        "number": 1,
+        "japanese": "そこに くるまを とめないで ください。 …すみません。",
+        "romaji": "",
+        "english": "Do not park your car  there, please.  …I am sorry."
+      },
+      {
+        "id": "listen_ch17_3",
+        "chapter": 17,
+        "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+        "number": 3,
+        "japanese": "こんばん のみに いきませんか。 …すみません。きょうは つまと やく そくが あります。ですから、はやく かえらなければ なりません。",
+        "romaji": "",
+        "english": "Shall we go for a drink  tonight?  ..Sorry, today I’m going out  with my wife.  So I must go to home early."
+      },
+      {
+        "id": "listen_ch17_4",
+        "chapter": 17,
+        "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+        "number": 4,
+        "japanese": "レポートは いつまでに ださなけ れば なりませんか。 …きんようびまでに だしてください。",
+        "romaji": "",
+        "english": "By when do I have to  submit the report?  …Submit it by Friday, please."
+      },
+      {
+        "id": "listen_ch17_5",
+        "chapter": 17,
+        "chapterTitle": "Nai-form & Obligations (ない形・義務)",
+        "number": 5,
+        "japanese": "こどもも おかねを はらわなけれ ば なりませんか。 …いいえ、はらわなくても いいです。",
+        "romaji": "",
+        "english": "Do you have to take medicine every day? ...Yes, twice a day after meals."
+      }
+    ]
+  },
+  {
+    "chapter": 18,
+    "title": "Lesson 18 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch18_1",
+        "chapter": 18,
+        "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
+        "number": 1,
+        "japanese": "スキーが できますか。 …はい、できます。でも、あまり じょうず じゃ ありません。",
+        "romaji": "",
+        "english": "Can you ski?  …yes I can. But I am not very  good at it."
+      },
+      {
+        "id": "listen_ch18_2",
+        "chapter": 18,
+        "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
+        "number": 2,
+        "japanese": "マリアさんは パソコンを つかう こと が できますか。 …いいえ、できません。",
+        "romaji": "",
+        "english": "Can you use a personal  computer, Ms. Maria?  …No, I can’t"
+      },
+      {
+        "id": "listen_ch18_4",
+        "chapter": 18,
+        "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
+        "number": 4,
+        "japanese": "カードで はらう ことが できますか。 …すみませんが、げんきんで おねがいしま す。",
+        "romaji": "",
+        "english": "Can I pay by credit card?  …I am sorry, but please pay in  cash."
+      },
+      {
+        "id": "listen_ch18_5",
+        "chapter": 18,
+        "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
+        "number": 5,
+        "japanese": "しゅみは なんですか。 …ふるい とけいを あつめる ことです。",
+        "romaji": "",
+        "english": "What is your hobby?  …Collecting old clocks and  watches."
+      },
+      {
+        "id": "listen_ch18_6",
+        "chapter": 18,
+        "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
+        "number": 6,
+        "japanese": "にほんの こどもは がっこうに はいる まえに、ひらがなを おぼえなければ なり ませんか。 …いいえ、おぼえなくても いいです。",
+        "romaji": "",
+        "english": "Must Japanese children  Learn Hiragana before they  enter school?  …no, they need not."
+      },
+      {
+        "id": "listen_ch18_7",
+        "chapter": 18,
+        "chapterTitle": "Dictionary Form & Ability (辞書形・可能)",
+        "number": 7,
+        "japanese": "しょくじの まえに、この くすりを のんで ください。 ….はい、わかりました。",
+        "romaji": "",
+        "english": "Please take this medicine  before meals.  …Ok, I understood."
+      }
+    ]
+  },
+  {
+    "chapter": 19,
+    "title": "Lesson 19 Listening Practice (CHŌKAI)",
+    "exercises": []
+  },
+  {
+    "chapter": 20,
+    "title": "Lesson 20 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch20_1",
+        "chapter": 20,
+        "chapterTitle": "Plain Form & Casual Speech (普通形)",
+        "number": 1,
+        "japanese": "アイスクリーム[を] たべる？ …うん、たべる。",
+        "romaji": "",
+        "english": "Will you have some ice  cream?  …Yes, I will."
+      },
+      {
+        "id": "listen_ch20_2",
+        "chapter": 20,
+        "chapterTitle": "Plain Form & Casual Speech (普通形)",
+        "number": 2,
+        "japanese": "そこに はさみ[が] ある？ …ううん、ない。",
+        "romaji": "",
+        "english": "Do you have any scissors?  …No, I don’t."
+      },
+      {
+        "id": "listen_ch20_3",
+        "chapter": 20,
+        "chapterTitle": "Plain Form & Casual Speech (普通形)",
+        "number": 3,
+        "japanese": "きのう きむらさんに あった？ …ううん、あわなかった。",
+        "romaji": "",
+        "english": "Did you see Ms. Kimura  yesterday?  …No, I don’t."
+      },
+      {
+        "id": "listen_ch20_4",
+        "chapter": 20,
+        "chapterTitle": "Plain Form & Casual Speech (普通形)",
+        "number": 4,
+        "japanese": "あした みんなで きょうと[へ] いか ない？ …うん。いいね。",
+        "romaji": "",
+        "english": "Shall we go to Kyoto all  together tomorrow?  Yes, that sounds nice."
+      },
+      {
+        "id": "listen_ch20_5",
+        "chapter": 20,
+        "chapterTitle": "Plain Form & Casual Speech (普通形)",
+        "number": 5,
+        "japanese": "その カレーライス[は] おいしい？ …うん、からいけど、おいしい。",
+        "romaji": "",
+        "english": "Is the curry delicious?  …Yes, it is hot, but delicious."
+      },
+      {
+        "id": "listen_ch20_6",
+        "chapter": 20,
+        "chapterTitle": "Plain Form & Casual Speech (普通形)",
+        "number": 6,
+        "japanese": "いま ひま？ …うん、ひま。なに？ ちょっと てつだって。",
+        "romaji": "",
+        "english": "Are you free now?  …Yes, I am why?  I need your help."
+      },
+      {
+        "id": "listen_ch20_7",
+        "chapter": 20,
+        "chapterTitle": "Plain Form & Casual Speech (普通形)",
+        "number": 7,
+        "japanese": "じしょ[を] もって [い]る? …ううん、もって [い] ない。",
+        "romaji": "",
+        "english": "Are you free this weekend? ...Yeah, let's go eat ramen together."
+      }
+    ]
+  },
+  {
+    "chapter": 21,
+    "title": "Lesson 21 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch21_1",
+        "chapter": 21,
+        "chapterTitle": "Opinions & Quotations (意見・引用)",
+        "number": 1,
+        "japanese": "しごとと かぞくと どちらが たいせつ ですか。 …どちらも たいせつだと おもいます。",
+        "romaji": "",
+        "english": "Which is more important,  work or family?  …I think both are important."
+      },
+      {
+        "id": "listen_ch21_2",
+        "chapter": 21,
+        "chapterTitle": "Opinions & Quotations (意見・引用)",
+        "number": 2,
+        "japanese": "にほんに ついて どう おもいますか。 …ぶっかが たかいと おもいます。",
+        "romaji": "",
+        "english": "What do you think of Japan?  …I think things are expensive in  Japan."
+      },
+      {
+        "id": "listen_ch21_3",
+        "chapter": 21,
+        "chapterTitle": "Opinions & Quotations (意見・引用)",
+        "number": 3,
+        "japanese": "ミラーさんは どこですか。 …かいぎしつに いると おもいます。",
+        "romaji": "",
+        "english": "Where is Mr. Miller?  …I think he is in the meeting  room."
+      },
+      {
+        "id": "listen_ch21_4",
+        "chapter": 21,
+        "chapterTitle": "Opinions & Quotations (意見・引用)",
+        "number": 4,
+        "japanese": "ミラーさんは この ニュースを しって いますか。 …いいえ、たぶん しらないと おもいま す。ミラーさんは しゅっちょうして いま したから。",
+        "romaji": "",
+        "english": "Does Mr. Miller know this  news?  …No, I don’t think he does.  He was on a business trip."
+      },
+      {
+        "id": "listen_ch21_5",
+        "chapter": 21,
+        "chapterTitle": "Opinions & Quotations (意見・引用)",
+        "number": 5,
+        "japanese": "テレサちゃんは もう ねましたか。 …はい、もう ねたと おもいます。",
+        "romaji": "",
+        "english": "Has Teresa fallen asleep  already?  …Yes, I think she has."
+      },
+      {
+        "id": "listen_ch21_6",
+        "chapter": 21,
+        "chapterTitle": "Opinions & Quotations (意見・引用)",
+        "number": 6,
+        "japanese": "しょくじの まえに、おいのりを します か。 …いいえ、しませんが、「いただきます」と いいます。",
+        "romaji": "",
+        "english": "Do you pray before meals?  …No, we don’t, but we say  “Itadakimas.”"
+      },
+      {
+        "id": "listen_ch21_7",
+        "chapter": 21,
+        "chapterTitle": "Opinions & Quotations (意見・引用)",
+        "number": 7,
+        "japanese": "かいぎで なにか いけんを いいました か。 …はい。むだな コピーが おおいと いい ました。",
+        "romaji": "",
+        "english": "Did you say something in the  meeting?  …Yes, I said that a lot of  photocopying has been  wastefully done."
+      },
+      {
+        "id": "listen_ch21_8",
+        "chapter": 21,
+        "chapterTitle": "Opinions & Quotations (意見・引用)",
+        "number": 8,
+        "japanese": "しちがつに きょうとで おまつりが あるでしょう。 …ええ、あります。",
+        "romaji": "",
+        "english": "I think Japan's public transportation is very convenient and punctual."
+      }
+    ]
+  },
+  {
+    "chapter": 22,
+    "title": "Lesson 22 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch22_1",
+        "chapter": 22,
+        "chapterTitle": "Noun Modification (名詞修飾)",
+        "number": 1,
+        "japanese": "これは ばんりの ちょうじょうで とった しゃしんです。 ….そうですか。すごいですね。",
+        "romaji": "",
+        "english": "This is a photo I took on the  Great Wall of China.  ...Is it? Superb isn't it?"
+      },
+      {
+        "id": "listen_ch22_2",
+        "chapter": 22,
+        "chapterTitle": "Noun Modification (名詞修飾)",
+        "number": 2,
+        "japanese": "かりなさんが かいた えは どれです か。 ….あれです。あの うみの え です。",
+        "romaji": "",
+        "english": "Which is the picture Ms.  Karina drew?  ....It’s that one. That picture of  sea."
+      },
+      {
+        "id": "listen_ch22_3",
+        "chapter": 22,
+        "chapterTitle": "Noun Modification (名詞修飾)",
+        "number": 3,
+        "japanese": "あの きものを きているひとは だれ ですか ….きむらさんです。",
+        "romaji": "",
+        "english": "Who is that women wearing  kimono?  ..That is Ms. Kimura."
+      },
+      {
+        "id": "listen_ch22_4",
+        "chapter": 22,
+        "chapterTitle": "Noun Modification (名詞修飾)",
+        "number": 4,
+        "japanese": "やまださん、おくさんに はじめて あった ところは どこですか ….おおさかじょう です。",
+        "romaji": "",
+        "english": "Mr. Yamada, Where did you  first meet your wife?  ...It was Osaka Castle."
+      },
+      {
+        "id": "listen_ch22_5",
+        "chapter": 22,
+        "chapterTitle": "Noun Modification (名詞修飾)",
+        "number": 5,
+        "japanese": "きむらさんと いったコンサートは どうでしたか。 ….とても よかったです。",
+        "romaji": "",
+        "english": "How was the concert you  went to with Ms. Kimura?  ....It was very good."
+      },
+      {
+        "id": "listen_ch22_6",
+        "chapter": 22,
+        "chapterTitle": "Noun Modification (名詞修飾)",
+        "number": 6,
+        "japanese": "どうしましたか。 ….きのうかった かさを なくしました。",
+        "romaji": "",
+        "english": "What's wrong with you?  ....I have lost my umbrella I  bought yesterday."
+      },
+      {
+        "id": "listen_ch22_7",
+        "chapter": 22,
+        "chapterTitle": "Noun Modification (名詞修飾)",
+        "number": 7,
+        "japanese": "どんな うちが ほしいですか。 ….ひろい にわが あるうちが ほしい です。",
+        "romaji": "",
+        "english": "What kind of house do you  want?  ....I want a house that has a big  garden."
+      },
+      {
+        "id": "listen_ch22_8",
+        "chapter": 22,
+        "chapterTitle": "Noun Modification (名詞修飾)",
+        "number": 8,
+        "japanese": "こんばん のみに いきませんか。 ….すみません。こんばんは ちょっと ともだちに あう やくそくが あります。",
+        "romaji": "",
+        "english": "The person wearing the blue jacket is Mr. Miller."
+      }
+    ]
+  },
+  {
+    "chapter": 23,
+    "title": "Lesson 23 Listening Practice (CHŌKAI)",
+    "exercises": []
+  },
+  {
+    "chapter": 24,
+    "title": "Lesson 24 Listening Practice (CHŌKAI)",
+    "exercises": [
+      {
+        "id": "listen_ch24_1",
+        "chapter": 24,
+        "chapterTitle": "Giving & Receiving Favors (授受動詞・恩恵)",
+        "number": 1,
+        "japanese": "たろうくんは、おばあちゃんが すきですか。 …はいすきです。おばあちゃんは いつも おかしを くれます。",
+        "romaji": "",
+        "english": "Taro, Do you like your  Grandmother?  …Yes I do. She always gives  me sweets."
+      },
+      {
+        "id": "listen_ch24_2",
+        "chapter": 24,
+        "chapterTitle": "Giving & Receiving Favors (授受動詞・恩恵)",
+        "number": 2,
+        "japanese": "おいしい ワインですね。 …ええ。さとうさんが くれました。 フランスの ワインです。",
+        "romaji": "",
+        "english": "This is a very tasty wine.  …Yes Mr. Sato gave it to  me. It’s French wine."
+      },
+      {
+        "id": "listen_ch24_3",
+        "chapter": 24,
+        "chapterTitle": "Giving & Receiving Favors (授受動詞・恩恵)",
+        "number": 3,
+        "japanese": "たろうくんは、ははの ひに おかあさんに なにを して あげますか。 …ピアノを ひいてあげます。",
+        "romaji": "",
+        "english": "Taro, what will you do  for your mother on  mother’s day?  …I will play Piano for her."
+      },
+      {
+        "id": "listen_ch24_4",
+        "chapter": 24,
+        "chapterTitle": "Giving & Receiving Favors (授受動詞・恩恵)",
+        "number": 4,
+        "japanese": "ミラーさん、きのうの パーティーの りょうりは ぜんぶ じぶんで つくりましたか。 …いいえ。ワンさんに てつだって もらいました。",
+        "romaji": "",
+        "english": "Mr. Miller, did you cook  all the dishes for the party  yesterday by yourself?  …No. Mr. Wang helped  me."
+      },
+      {
+        "id": "listen_ch24_5",
+        "chapter": 24,
+        "chapterTitle": "Giving & Receiving Favors (授受動詞・恩恵)",
+        "number": 5,
+        "japanese": "でんしゃで いきましたか。 …いいえ。やまださんが くるま で おくってくれました。",
+        "romaji": "",
+        "english": "My grandmother gave me a warm sweater for my birthday."
+      }
+    ]
+  }
+],
   "conversations": [
     {
       "id": "convo_b1_v1",
