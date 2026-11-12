@@ -222,27 +222,40 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1 }) {
     const word = filteredWords[index];
     if (!word) return;
 
-    // 1. Speak Japanese word
+    // Update Mobile Lock Screen / Notification Media Controls
+    audioService.setMediaSession({
+      title: `${word.japanese || word.kana}${word.romaji ? ` (${word.romaji})` : ''}`,
+      artist: `💬 ${word.english}`,
+      album: `${word.chapterOrigin || 'Lesson'} • JLPT N5 Master`,
+      onPlay: () => resumeListenLearn(),
+      onPause: () => pauseListenLearn(),
+      onNext: () => skipAudioNext(),
+      onPrev: () => skipAudioPrev()
+    });
+
+    // 1. Speak Japanese word (HTML5 audio stream - mobile background compatible)
     setAudioPhase('japanese');
     await audioService.speak(word.japanese || word.kana, audioSpeed);
 
     if (playbackTokenRef.current !== token) return;
 
-    // 2. Recall pause (allow learner to guess English meaning)
+    // 2. Hardware silence pause for recall gap (unthrottled by mobile OS)
     setAudioPhase('delay');
-    const delayOk = await cancellableSleep(recallDelaySec * 1000, token);
-    if (!delayOk || playbackTokenRef.current !== token) return;
+    await audioService.playSilence(recallDelaySec);
 
-    // 3. Speak English definition
+    if (playbackTokenRef.current !== token) return;
+
+    // 3. Speak English definition (HTML5 audio stream - plays while screen locked)
     setAudioPhase('english');
     await audioService.speakEnglish(word.english, audioSpeed);
 
     if (playbackTokenRef.current !== token) return;
 
-    // 4. Brief pause between words
+    // 4. Brief silence between words (unthrottled by mobile OS)
     setAudioPhase('between');
-    const betweenOk = await cancellableSleep(1200, token);
-    if (!betweenOk || playbackTokenRef.current !== token) return;
+    await audioService.playSilence(1.0);
+
+    if (playbackTokenRef.current !== token) return;
 
     // 5. Proceed to next word
     runAudioLoop(index + 1, token);

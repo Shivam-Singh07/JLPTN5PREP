@@ -37,12 +37,13 @@ function handleTTSProxy(req, res) {
   try {
     const urlObj = new URL(req.url, 'http://localhost:5173');
     const q = urlObj.searchParams.get('q');
+    const tl = urlObj.searchParams.get('tl') || 'ja';
     if (!q) {
       res.statusCode = 400;
       res.end('Missing query');
       return;
     }
-    const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=ja&client=tw-ob&q=${encodeURIComponent(q)}`;
+    const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=${encodeURIComponent(tl)}&client=tw-ob&q=${encodeURIComponent(q)}`;
     https.get(ttsUrl, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
