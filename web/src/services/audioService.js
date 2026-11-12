@@ -152,21 +152,32 @@ class AudioService {
 
   /**
    * Plays an audio stream from URL using persistent audio element.
-   * Guaranteed to preserve mobile background permissions and never hang.
+   * Prevents back-to-back duplicate audio by clearing connection timer upon onplaying,
+   * and ensuring that failed streams are stopped before triggering fallback synthesis.
    */
-  playAudioStream(url, rate = null, notifyState = true, text = '', timeoutMs = 1400) {
+  playAudioStream(url, rate = null, notifyState = true, text = '', connectTimeoutMs = 1500) {
     return new Promise((resolve) => {
       let isDone = false;
-      let timer = null;
+      let startTimer = null;
+      let maxPlaybackTimer = null;
       const audio = this.getAudioElement();
 
       const finish = (success) => {
         if (isDone) return;
         isDone = true;
-        if (timer) clearTimeout(timer);
+        if (startTimer) clearTimeout(startTimer);
+        if (maxPlaybackTimer) clearTimeout(maxPlaybackTimer);
         if (audio) {
           audio.onended = null;
           audio.onerror = null;
+          audio.onplaying = null;
+          // If stream failed, immediately pause and reset so it can NEVER overlap fallback!
+          if (!success) {
+            try {
+              audio.pause();
+              audio.currentTime = 0;
+            } catch {}
+          }
         }
         if (notifyState) this.notify(false, '');
         resolve(success);
@@ -178,16 +189,34 @@ class AudioService {
       }
 
       try {
+        this.stop(); // Stop any pending synthesis/audio first
         this.currentAudio = audio;
         audio.playbackRate = rate || this.rate || 1.0;
 
-        // If network or Brave shields blocks stream, fail fast to trigger instant speech synthesis!
-        timer = setTimeout(() => {
+        // 1. Connection timer: if stream cannot connect/start within 1.5s, failover to synth
+        startTimer = setTimeout(() => {
           finish(false);
-        }, timeoutMs);
+        }, connectTimeoutMs);
 
-        audio.onended = () => finish(true);
-        audio.onerror = () => finish(false);
+        // 2. Stream started playing successfully -> CANCEL connection timer!
+        audio.onplaying = () => {
+          if (startTimer) {
+            clearTimeout(startTimer);
+            startTimer = null;
+          }
+          // Safety fallback timeout (max 12s) just in case onended doesn't fire
+          maxPlaybackTimer = setTimeout(() => finish(true), 12000);
+        };
+
+        // 3. Audio ended naturally -> successful completion (prevents fallback from running!)
+        audio.onended = () => {
+          finish(true);
+        };
+
+        // 4. Audio error -> failover to synth
+        audio.onerror = () => {
+          finish(false);
+        };
 
         if (notifyState && text) {
           this.notify(true, text);
