@@ -10,8 +10,9 @@
 
 class AudioService {
   constructor() {
-    this.rate = 0.95; // comfortable learner speed
+    this.rate = 1.0; // standard natural speed
     this.currentAudio = null;
+    this.audioElement = null; // persistent audio element to preserve mobile user gesture
     this.speechSynth = typeof window !== 'undefined' ? window.speechSynthesis : null;
     this.japaneseVoice = null;
     this.englishVoice = null;
@@ -25,6 +26,14 @@ class AudioService {
         this.speechSynth.onvoiceschanged = () => this.initVoices();
       }
     }
+  }
+
+  getAudioElement() {
+    if (!this.audioElement && typeof window !== 'undefined') {
+      this.audioElement = new Audio();
+      this.audioElement.referrerPolicy = 'no-referrer';
+    }
+    return this.audioElement;
   }
 
   initVoices() {
@@ -134,20 +143,22 @@ class AudioService {
   cleanEnglishText(rawText) {
     if (!rawText) return '';
     let text = String(rawText);
-    text = text.replace(/[\(\)]/g, ' ');
+    text = text.replace(/[\(\)\[\]\{\}]/g, ' ');
     text = text.replace(/[\/;]/g, ', ');
+    text = text.replace(/['"`]/g, '');
     text = text.replace(/\s+/g, ' ').trim();
     return text;
   }
 
   /**
-   * Plays an audio stream from URL. Always resolves with true/false (never throws).
+   * Plays an audio stream from URL using persistent audio element.
+   * Guaranteed to preserve mobile background permissions and never hang.
    */
-  playAudioStream(url, rate = null, notifyState = true, text = '', timeoutMs = 4000) {
+  playAudioStream(url, rate = null, notifyState = true, text = '', timeoutMs = 1400) {
     return new Promise((resolve) => {
       let isDone = false;
-      let audio = null;
       let timer = null;
+      const audio = this.getAudioElement();
 
       const finish = (success) => {
         if (isDone) return;
@@ -157,21 +168,21 @@ class AudioService {
           audio.onended = null;
           audio.onerror = null;
         }
-        if (this.currentAudio === audio) {
-          this.currentAudio = null;
-        }
         if (notifyState) this.notify(false, '');
         resolve(success);
       };
 
-      try {
-        audio = new Audio();
-        audio.referrerPolicy = 'no-referrer';
-        audio.playbackRate = rate || this.rate;
-        this.currentAudio = audio;
+      if (!audio) {
+        resolve(false);
+        return;
+      }
 
+      try {
+        this.currentAudio = audio;
+        audio.playbackRate = rate || this.rate || 1.0;
+
+        // If network or Brave shields blocks stream, fail fast to trigger instant speech synthesis!
         timer = setTimeout(() => {
-          try { audio.pause(); } catch {}
           finish(false);
         }, timeoutMs);
 
@@ -202,15 +213,15 @@ class AudioService {
     const cleaned = this.cleanJapaneseText(text);
     if (!cleaned) return true;
 
-    const rate = customRate || this.rate;
+    const rate = customRate || this.rate || 1.0;
     const encoded = encodeURIComponent(cleaned);
 
     const directUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=ja&client=tw-ob&q=${encoded}`;
 
-    // 1. Try HTML5 audio stream
-    const playedOk = await this.playAudioStream(directUrl, rate, true, text, 4000);
+    // 1. Try HTML5 audio stream (works in mobile background play)
+    const playedOk = await this.playAudioStream(directUrl, rate, true, text, 1400);
 
-    // 2. If stream failed, fallback to native speech synthesis
+    // 2. If stream failed, fallback immediately to native speech synthesis
     if (!playedOk) {
       await this.speakJapaneseSynth(cleaned, rate, text);
     }
@@ -219,8 +230,8 @@ class AudioService {
 
   /**
    * Speaks English definition.
-   * Rock-solid fallback guarantee: tries HTML5 audio first (for background mobile),
-   * and immediately falls back to native Web Speech API so it ALWAYS reads the English word!
+   * Guaranteed: tries HTML5 audio first (for background mobile),
+   * and immediately falls back to native Web Speech API so it ALWAYS reads!
    */
   async speakEnglish(text, customRate = null) {
     if (!text) return true;
@@ -228,15 +239,15 @@ class AudioService {
     const cleaned = this.cleanEnglishText(text);
     if (!cleaned) return true;
 
-    const rate = customRate || this.rate;
+    const rate = customRate || this.rate || 1.0;
     const encoded = encodeURIComponent(cleaned);
 
     const directUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=${encoded}`;
 
     // 1. Try HTML5 audio stream (works in Brave background play)
-    const playedOk = await this.playAudioStream(directUrl, rate, true, text, 3500);
+    const playedOk = await this.playAudioStream(directUrl, rate, true, text, 1400);
 
-    // 2. If stream failed (or blocked by CORS/offline), use native SpeechSynthesis
+    // 2. If stream failed (or blocked by Brave Shields/CORS/offline), use native SpeechSynthesis
     if (!playedOk) {
       await this.speakEnglishSynth(cleaned, rate, text);
     }
@@ -252,8 +263,14 @@ class AudioService {
       }
 
       try {
+        // Fix Chrome/Brave stuck synthesis
+        this.speechSynth.cancel();
+        if (this.speechSynth.paused) {
+          this.speechSynth.resume();
+        }
+
         let isDone = false;
-        const done = () => {
+        const finish = () => {
           if (isDone) return;
           isDone = true;
           clearTimeout(timeoutId);
@@ -261,19 +278,33 @@ class AudioService {
           resolve(true);
         };
 
-        const timeoutId = setTimeout(done, 5000);
+        const timeoutId = setTimeout(finish, 5000);
 
         const utterance = new SpeechSynthesisUtterance(text);
-        utterance.rate = rate || this.rate;
+        if (typeof window !== 'undefined') {
+          window.__activeSpeechUtterance = utterance; // Prevent V8 garbage collection bug
+        }
+        utterance.rate = rate || this.rate || 1.0;
         utterance.pitch = 1.0;
-        utterance.lang = 'ja-JP';
 
-        if (!this.japaneseVoice) this.initVoices();
-        if (this.japaneseVoice) utterance.voice = this.japaneseVoice;
+        const voices = this.speechSynth.getVoices() || [];
+        const jaVoice = voices.find(v => 
+          v.lang === 'ja-JP' || 
+          v.lang === 'ja_JP' || 
+          v.lang.toLowerCase().startsWith('ja') ||
+          v.name.toLowerCase().includes('japan')
+        ) || this.japaneseVoice;
+
+        if (jaVoice) {
+          utterance.voice = jaVoice;
+          utterance.lang = jaVoice.lang;
+        } else {
+          utterance.lang = 'ja-JP';
+        }
 
         utterance.onstart = () => this.notify(true, originalText || text);
-        utterance.onend = done;
-        utterance.onerror = done;
+        utterance.onend = finish;
+        utterance.onerror = finish;
 
         this.speechSynth.speak(utterance);
       } catch {
@@ -292,8 +323,14 @@ class AudioService {
       }
 
       try {
+        // Fix Chrome/Brave stuck synthesis
+        this.speechSynth.cancel();
+        if (this.speechSynth.paused) {
+          this.speechSynth.resume();
+        }
+
         let isDone = false;
-        const done = () => {
+        const finish = () => {
           if (isDone) return;
           isDone = true;
           clearTimeout(timeoutId);
@@ -301,19 +338,33 @@ class AudioService {
           resolve(true);
         };
 
-        // Safety timeout: guaranteed to never hang!
-        const timeoutId = setTimeout(done, 6000);
+        // Safety timeout
+        const timeoutId = setTimeout(finish, 5000);
 
         const utterance = new SpeechSynthesisUtterance(text);
-        utterance.rate = rate || this.rate;
-        utterance.lang = 'en-US';
+        if (typeof window !== 'undefined') {
+          window.__activeSpeechUtterance = utterance; // Prevent V8 garbage collection bug
+        }
+        utterance.rate = rate || this.rate || 1.0;
+        utterance.pitch = 1.0;
 
-        if (!this.englishVoice) this.initVoices();
-        if (this.englishVoice) utterance.voice = this.englishVoice;
+        const voices = this.speechSynth.getVoices() || [];
+        const enVoice = voices.find(v => 
+          v.lang.startsWith('en') || 
+          v.lang.includes('en') ||
+          v.name.toLowerCase().includes('english')
+        ) || this.englishVoice;
+
+        if (enVoice) {
+          utterance.voice = enVoice;
+          utterance.lang = enVoice.lang;
+        } else {
+          utterance.lang = 'en-US';
+        }
 
         utterance.onstart = () => this.notify(true, originalText || text);
-        utterance.onend = done;
-        utterance.onerror = done;
+        utterance.onend = finish;
+        utterance.onerror = finish;
 
         this.speechSynth.speak(utterance);
       } catch {
