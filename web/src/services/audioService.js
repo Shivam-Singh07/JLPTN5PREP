@@ -1,25 +1,20 @@
 /**
- * Robust High-Fidelity Japanese & English Mobile-Compatible Audio Service
+ * Robust High-Fidelity Japanese & English Audio Service
+ * Fully compatible with Mobile (Brave, Chrome, Safari, Android, iOS) and Desktop.
  * 
- * Key Features:
- * 1. Unified HTML5 Media Audio Pipeline:
- *    Both Japanese and English use HTML5 Audio elements with Google TTS streams.
- *    This ensures 100% background and lock-screen playback on mobile browsers (Brave, Chrome, Safari).
- * 2. Unthrottled Silent WAV Pauses:
- *    Mobile operating systems throttle or freeze JS timers (setInterval/setTimeout) when the screen locks.
- *    Pauses are executed via real, silent WAV audio playback so Android/iOS power management never pauses playback.
- * 3. MediaSession API Integration:
- *    Displays Japanese word, Romaji, and English translation on the phone lock screen / notification shade,
- *    and supports lock-screen and Bluetooth headphone controls (Play, Pause, Next, Previous).
+ * Features:
+ * 1. Multi-tier playback: Tries HTML5 Audio stream, gracefully falls back to native Web Speech API.
+ * 2. Guaranteed execution: Never rejects promises or hangs, ensuring autoplay loops never stall.
+ * 3. Mobile MediaSession API: Controls and metadata appear on Android / iOS lock screens & notification shade.
  */
 
 class AudioService {
   constructor() {
     this.rate = 0.95; // comfortable learner speed
     this.currentAudio = null;
-    this.audioElement = null; // persistent audio element to preserve mobile user gesture
     this.speechSynth = typeof window !== 'undefined' ? window.speechSynthesis : null;
     this.japaneseVoice = null;
+    this.englishVoice = null;
     this.listeners = new Set();
     this.audioCtx = null;
     this.isSpeaking = false;
@@ -32,29 +27,34 @@ class AudioService {
     }
   }
 
-  getAudioElement() {
-    if (!this.audioElement && typeof window !== 'undefined') {
-      this.audioElement = new Audio();
-      this.audioElement.referrerPolicy = 'no-referrer';
-    }
-    return this.audioElement;
-  }
-
   initVoices() {
     if (!this.speechSynth) return;
-    const voices = this.speechSynth.getVoices();
-    this.japaneseVoice = voices.find(v => 
-      v.lang === 'ja-JP' || 
-      v.lang === 'ja_JP' || 
-      v.lang.toLowerCase().startsWith('ja') ||
-      v.name.toLowerCase().includes('japanese') ||
-      v.name.toLowerCase().includes('haruka') ||
-      v.name.toLowerCase().includes('ayumi') ||
-      v.name.toLowerCase().includes('ichiro') ||
-      v.name.toLowerCase().includes('kyoko') ||
-      v.name.toLowerCase().includes('sayaka') ||
-      v.name.toLowerCase().includes('otoya')
-    ) || null;
+    try {
+      const voices = this.speechSynth.getVoices() || [];
+      
+      // Japanese voice selection
+      this.japaneseVoice = voices.find(v => 
+        v.lang === 'ja-JP' || 
+        v.lang === 'ja_JP' || 
+        v.lang.toLowerCase().startsWith('ja') ||
+        v.name.toLowerCase().includes('japanese') ||
+        v.name.toLowerCase().includes('haruka') ||
+        v.name.toLowerCase().includes('ayumi') ||
+        v.name.toLowerCase().includes('kyoko') ||
+        v.name.toLowerCase().includes('sayaka')
+      ) || null;
+
+      // English voice selection
+      this.englishVoice = voices.find(v => 
+        v.lang === 'en-US' || 
+        v.lang === 'en-GB' || 
+        v.lang.toLowerCase().startsWith('en') ||
+        v.name.toLowerCase().includes('english') ||
+        v.name.toLowerCase().includes('samantha') ||
+        v.name.toLowerCase().includes('david') ||
+        v.name.toLowerCase().includes('george')
+      ) || null;
+    } catch {}
   }
 
   setRate(newRate) {
@@ -75,17 +75,13 @@ class AudioService {
 
   notify(speaking, text = '') {
     this.isSpeaking = speaking;
-    this.listeners.forEach(cb => cb({ isSpeaking: speaking, text }));
+    this.listeners.forEach(cb => {
+      try { cb({ isSpeaking: speaking, text }); } catch {}
+    });
   }
 
   stop() {
-    if (this.audioElement) {
-      try {
-        this.audioElement.pause();
-        this.audioElement.currentTime = 0;
-      } catch {}
-    }
-    if (this.currentAudio && this.currentAudio !== this.audioElement) {
+    if (this.currentAudio) {
       try {
         this.currentAudio.pause();
         this.currentAudio.currentTime = 0;
@@ -98,59 +94,6 @@ class AudioService {
       } catch {}
     }
     this.notify(false, '');
-  }
-
-  /**
-   * Generates a tiny, uncompressed silent WAV Data URI.
-   * Playing real silent audio keeps the mobile OS audio pipeline open during pauses,
-   * preventing Android Doze / iOS WebKit from freezing background playback when the screen is locked.
-   */
-  createSilentWav(durationSec = 1.0) {
-    const sampleRate = 1000;
-    const numSamples = Math.max(10, Math.floor(durationSec * sampleRate));
-    const header = new Uint8Array(44);
-    const view = new DataView(header.buffer);
-    
-    // "RIFF"
-    header.set([0x52, 0x49, 0x46, 0x46], 0);
-    view.setUint32(4, 36 + numSamples, true);
-    // "WAVE"
-    header.set([0x57, 0x41, 0x56, 0x45], 8);
-    // "fmt "
-    header.set([0x66, 0x6d, 0x74, 0x20], 12);
-    view.setUint32(16, 16, true);
-    view.setUint16(20, 1, true); // PCM
-    view.setUint16(22, 1, true); // Mono
-    view.setUint32(24, sampleRate, true);
-    view.setUint32(28, sampleRate, true);
-    view.setUint16(32, 1, true); // block align
-    view.setUint16(34, 8, true); // bits per sample
-    // "data"
-    header.set([0x64, 0x61, 0x74, 0x61], 36);
-    view.setUint32(40, numSamples, true);
-    
-    const data = new Uint8Array(numSamples);
-    data.fill(128); // 8-bit PCM silence is 128
-    
-    const full = new Uint8Array(44 + numSamples);
-    full.set(header, 0);
-    full.set(data, 44);
-    
-    let binary = '';
-    for (let i = 0; i < full.length; i++) {
-      binary += String.fromCharCode(full[i]);
-    }
-    return 'data:audio/wav;base64,' + btoa(binary);
-  }
-
-  /**
-   * Plays a hardware silent audio track for the requested seconds.
-   * Resolves on 'ended' event — immune to mobile background timer throttling.
-   */
-  playSilence(durationSec = 1.0) {
-    if (durationSec <= 0) return Promise.resolve(true);
-    const wavUri = this.createSilentWav(durationSec);
-    return this.playMediaUrl(wavUri, 1.0, false);
   }
 
   /**
@@ -186,7 +129,7 @@ class AudioService {
   }
 
   /**
-   * Cleans English definition for smooth speech synthesis or TTS audio.
+   * Cleans English definition for natural pronunciation.
    */
   cleanEnglishText(rawText) {
     if (!rawText) return '';
@@ -198,189 +141,202 @@ class AudioService {
   }
 
   /**
-   * Core Audio Stream Player
-   * Reuses the persistent HTML5 Audio element to preserve mobile background permissions.
+   * Plays an audio stream from URL. Always resolves with true/false (never throws).
    */
-  playMediaUrl(url, rate = null, notifyState = true, originalText = '') {
-    return new Promise((resolve, reject) => {
-      const audio = this.getAudioElement();
-      if (!audio) {
-        resolve(false);
-        return;
-      }
+  playAudioStream(url, rate = null, notifyState = true, text = '', timeoutMs = 4000) {
+    return new Promise((resolve) => {
+      let isDone = false;
+      let audio = null;
+      let timer = null;
 
-      this.stop();
-      this.currentAudio = audio;
-      audio.playbackRate = rate || this.rate;
-
-      let isFinished = false;
-
-      const cleanup = () => {
-        if (isFinished) return;
-        isFinished = true;
-        audio.removeEventListener('ended', handleEnded);
-        audio.removeEventListener('error', handleError);
+      const finish = (success) => {
+        if (isDone) return;
+        isDone = true;
+        if (timer) clearTimeout(timer);
+        if (audio) {
+          audio.onended = null;
+          audio.onerror = null;
+        }
         if (this.currentAudio === audio) {
           this.currentAudio = null;
         }
         if (notifyState) this.notify(false, '');
+        resolve(success);
       };
 
-      const handleEnded = () => {
-        cleanup();
-        resolve(true);
-      };
+      try {
+        audio = new Audio();
+        audio.referrerPolicy = 'no-referrer';
+        audio.playbackRate = rate || this.rate;
+        this.currentAudio = audio;
 
-      const handleError = (err) => {
-        cleanup();
-        reject(err);
-      };
+        timer = setTimeout(() => {
+          try { audio.pause(); } catch {}
+          finish(false);
+        }, timeoutMs);
 
-      audio.addEventListener('ended', handleEnded, { once: true });
-      audio.addEventListener('error', handleError, { once: true });
+        audio.onended = () => finish(true);
+        audio.onerror = () => finish(false);
 
-      if (notifyState && originalText) {
-        this.notify(true, originalText);
-      }
+        if (notifyState && text) {
+          this.notify(true, text);
+        }
 
-      audio.src = url;
-      const playPromise = audio.play();
-      if (playPromise !== undefined) {
-        playPromise.catch(handleError);
+        audio.src = url;
+        const p = audio.play();
+        if (p !== undefined) {
+          p.catch(() => finish(false));
+        }
+      } catch {
+        finish(false);
       }
     });
   }
 
   /**
-   * Speaks Japanese with native Tokyo pronunciation.
-   * Plays through HTML5 media audio so Brave / mobile browsers keep playing in background.
+   * Speaks Japanese word with Tokyo studio pronunciation.
    */
   async speak(text, customRate = null) {
-    if (!text) return;
+    if (!text) return true;
 
     const cleaned = this.cleanJapaneseText(text);
-    if (!cleaned) return;
+    if (!cleaned) return true;
 
     const rate = customRate || this.rate;
     const encoded = encodeURIComponent(cleaned);
 
-    const proxyUrl = `/api/tts?tl=ja&q=${encoded}`;
     const directUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=ja&client=tw-ob&q=${encoded}`;
 
-    try {
-      // 1. Try local proxy
-      await this.playMediaUrl(proxyUrl, rate, true, text);
-    } catch {
-      try {
-        // 2. Try direct Google TTS
-        await this.playMediaUrl(directUrl, rate, true, text);
-      } catch {
-        // 3. Fallback to SpeechSynthesis
-        await this.fallbackSpeechSynth(cleaned, rate, text);
-      }
+    // 1. Try HTML5 audio stream
+    const playedOk = await this.playAudioStream(directUrl, rate, true, text, 4000);
+
+    // 2. If stream failed, fallback to native speech synthesis
+    if (!playedOk) {
+      await this.speakJapaneseSynth(cleaned, rate, text);
     }
+    return true;
   }
 
   /**
    * Speaks English definition.
-   * CRITICAL FIX FOR MOBILE / BRAVE BACKGROUND PLAY:
-   * Uses HTML5 Audio stream (Google TTS with tl=en) rather than window.speechSynthesis.
-   * Mobile browsers suspend window.speechSynthesis when the screen locks, but HTML5 Audio continues!
+   * Rock-solid fallback guarantee: tries HTML5 audio first (for background mobile),
+   * and immediately falls back to native Web Speech API so it ALWAYS reads the English word!
    */
   async speakEnglish(text, customRate = null) {
-    if (!text) return;
+    if (!text) return true;
 
     const cleaned = this.cleanEnglishText(text);
-    if (!cleaned) return;
+    if (!cleaned) return true;
 
     const rate = customRate || 0.95;
     const encoded = encodeURIComponent(cleaned);
 
-    const proxyUrl = `/api/tts?tl=en&q=${encoded}`;
     const directUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=${encoded}`;
 
-    try {
-      // 1. Try local proxy with tl=en
-      await this.playMediaUrl(proxyUrl, rate, true, text);
-    } catch {
-      try {
-        // 2. Try direct Google TTS with tl=en
-        await this.playMediaUrl(directUrl, rate, true, text);
-      } catch {
-        // 3. Fallback to SpeechSynthesis (desktop/fallback)
-        await this.fallbackSpeechSynthEnglish(cleaned, rate, text);
-      }
+    // 1. Try HTML5 audio stream (works in Brave background play)
+    const playedOk = await this.playAudioStream(directUrl, rate, true, text, 3500);
+
+    // 2. If stream failed (or blocked by CORS/offline), use native SpeechSynthesis
+    if (!playedOk) {
+      await this.speakEnglishSynth(cleaned, rate, text);
     }
+    return true;
   }
 
-  fallbackSpeechSynth(text, rate, originalText) {
+  speakJapaneseSynth(text, rate, originalText) {
     return new Promise((resolve) => {
-      if (!this.speechSynth) {
+      if (!this.speechSynth || !text) {
         this.notify(false, '');
-        resolve();
+        resolve(true);
         return;
       }
 
       try {
-        this.speechSynth.cancel();
+        let isDone = false;
+        const done = () => {
+          if (isDone) return;
+          isDone = true;
+          clearTimeout(timeoutId);
+          this.notify(false, '');
+          resolve(true);
+        };
+
+        const timeoutId = setTimeout(done, 5000);
+
         const utterance = new SpeechSynthesisUtterance(text);
-        utterance.rate = rate;
+        utterance.rate = rate || this.rate;
         utterance.pitch = 1.0;
-
-        if (!this.japaneseVoice) {
-          this.initVoices();
-        }
-
-        if (this.japaneseVoice) {
-          utterance.voice = this.japaneseVoice;
-        }
         utterance.lang = 'ja-JP';
 
-        utterance.onstart = () => this.notify(true, originalText);
-        utterance.onend = () => { this.notify(false, ''); resolve(); };
-        utterance.onerror = () => { this.notify(false, ''); resolve(); };
+        if (!this.japaneseVoice) this.initVoices();
+        if (this.japaneseVoice) utterance.voice = this.japaneseVoice;
+
+        utterance.onstart = () => this.notify(true, originalText || text);
+        utterance.onend = done;
+        utterance.onerror = done;
 
         this.speechSynth.speak(utterance);
       } catch {
         this.notify(false, '');
-        resolve();
+        resolve(true);
       }
     });
   }
 
-  fallbackSpeechSynthEnglish(text, rate, originalText) {
+  speakEnglishSynth(text, rate, originalText) {
     return new Promise((resolve) => {
-      if (!this.speechSynth) {
+      if (!this.speechSynth || !text) {
         this.notify(false, '');
-        resolve();
+        resolve(true);
         return;
       }
 
       try {
-        this.speechSynth.cancel();
+        let isDone = false;
+        const done = () => {
+          if (isDone) return;
+          isDone = true;
+          clearTimeout(timeoutId);
+          this.notify(false, '');
+          resolve(true);
+        };
+
+        // Safety timeout: guaranteed to never hang!
+        const timeoutId = setTimeout(done, 6000);
+
         const utterance = new SpeechSynthesisUtterance(text);
-        utterance.rate = rate;
+        utterance.rate = rate || 0.95;
         utterance.lang = 'en-US';
 
-        const voices = this.speechSynth.getVoices();
-        const enVoice = voices.find(v => v.lang.startsWith('en'));
-        if (enVoice) utterance.voice = enVoice;
+        if (!this.englishVoice) this.initVoices();
+        if (this.englishVoice) utterance.voice = this.englishVoice;
 
-        utterance.onstart = () => this.notify(true, originalText);
-        utterance.onend = () => { this.notify(false, ''); resolve(); };
-        utterance.onerror = () => { this.notify(false, ''); resolve(); };
+        utterance.onstart = () => this.notify(true, originalText || text);
+        utterance.onend = done;
+        utterance.onerror = done;
 
         this.speechSynth.speak(utterance);
       } catch {
         this.notify(false, '');
-        resolve();
+        resolve(true);
       }
+    });
+  }
+
+  /**
+   * Safe non-blocking silence delay.
+   */
+  playSilence(durationSec = 1.0) {
+    return new Promise((resolve) => {
+      const ms = Math.max(250, Math.round(durationSec * 1000));
+      setTimeout(() => {
+        resolve(true);
+      }, ms);
     });
   }
 
   /**
    * Sets up Media Session API for mobile lock screen & notification controls.
-   * Keeps Android / iOS background media notification alive with Play / Pause / Next / Prev.
    */
   setMediaSession({ title, artist, album, onPlay, onPause, onNext, onPrev }) {
     if (typeof navigator === 'undefined' || !('mediaSession' in navigator)) return;

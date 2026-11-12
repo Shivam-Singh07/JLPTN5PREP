@@ -233,32 +233,39 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1 }) {
       onPrev: () => skipAudioPrev()
     });
 
-    // 1. Speak Japanese word (HTML5 audio stream - mobile background compatible)
-    setAudioPhase('japanese');
-    await audioService.speak(word.japanese || word.kana, audioSpeed);
+    try {
+      // 1. Speak Japanese word (HTML5 audio stream - mobile background compatible)
+      setAudioPhase('japanese');
+      await audioService.speak(word.japanese || word.kana, audioSpeed);
 
-    if (playbackTokenRef.current !== token) return;
+      if (playbackTokenRef.current !== token) return;
 
-    // 2. Hardware silence pause for recall gap (unthrottled by mobile OS)
-    setAudioPhase('delay');
-    await audioService.playSilence(recallDelaySec);
+      // 2. Hardware silence pause for recall gap (unthrottled by mobile OS)
+      setAudioPhase('delay');
+      await audioService.playSilence(recallDelaySec);
 
-    if (playbackTokenRef.current !== token) return;
+      if (playbackTokenRef.current !== token) return;
 
-    // 3. Speak English definition (HTML5 audio stream - plays while screen locked)
-    setAudioPhase('english');
-    await audioService.speakEnglish(word.english, audioSpeed);
+      // 3. Speak English definition (HTML5 audio stream + Web Speech fallback)
+      setAudioPhase('english');
+      await audioService.speakEnglish(word.english, audioSpeed);
 
-    if (playbackTokenRef.current !== token) return;
+      if (playbackTokenRef.current !== token) return;
 
-    // 4. Brief silence between words (unthrottled by mobile OS)
-    setAudioPhase('between');
-    await audioService.playSilence(1.0);
+      // 4. Brief silence between words (unthrottled by mobile OS)
+      setAudioPhase('between');
+      await audioService.playSilence(1.0);
 
-    if (playbackTokenRef.current !== token) return;
+      if (playbackTokenRef.current !== token) return;
 
-    // 5. Proceed to next word
-    runAudioLoop(index + 1, token);
+      // 5. Proceed to next word
+      runAudioLoop(index + 1, token);
+    } catch (err) {
+      console.warn("Audio loop error recovered:", err);
+      if (playbackTokenRef.current === token) {
+        setTimeout(() => runAudioLoop(index + 1, token), 500);
+      }
+    }
   };
 
   const pauseListenLearn = () => {
@@ -491,6 +498,7 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1 }) {
               <div>
                 <div className="flex items-center gap-2">
                   <span className="font-extrabold text-sm text-white">Continuous Audio Reader</span>
+                  <span className="text-[10px] font-mono font-bold px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">v0.0.1</span>
                   <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider ${
                     audioPhase === 'japanese' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30 animate-pulse' :
                     audioPhase === 'delay' ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' :

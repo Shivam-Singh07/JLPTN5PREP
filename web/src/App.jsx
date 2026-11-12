@@ -94,13 +94,17 @@ export default function App() {
 
       {/* Footer */}
       <footer className="border-t border-white/5 bg-slate-950/60 py-6 px-4 mt-auto text-center text-xs text-slate-500 space-y-2">
-        <div className="flex items-center justify-center gap-2">
+        <div className="flex flex-wrap items-center justify-center gap-2">
           <span>🌸 JLPT N5 Master Prep App</span>
           <span>•</span>
           <span>Basic 1 & 2 • Script Book • N5 Kanji 110</span>
+          <span>•</span>
+          <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono font-bold text-xs shadow-sm">
+            v0.0.1
+          </span>
         </div>
-        <div>
-          Powered by Web Speech API for authentic Japanese audio playback • 24 Comprehensive Lessons
+        <div className="text-[11px] text-slate-500">
+          Mobile Background Audio & Native Voice Engine • 24 Comprehensive Lessons • Build v0.0.1
         </div>
       </footer>
     </div>
