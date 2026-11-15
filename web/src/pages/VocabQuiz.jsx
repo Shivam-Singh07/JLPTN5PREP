@@ -353,39 +353,39 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
 
   // Category Switcher
   const CategorySwitcher = (
-    <div className="flex flex-wrap items-center justify-center gap-2 p-1.5 bg-slate-900/90 rounded-2xl border border-white/10 w-fit mx-auto shadow-xl">
+    <div className="flex flex-wrap items-center justify-center gap-1.5 p-1 bg-[#17171b] rounded-xl border border-white/5 w-fit mx-auto shadow-sm">
       <button
         onClick={() => setActiveCategory('vocab')}
-        className={`px-4 py-2 rounded-xl text-xs font-extrabold flex items-center gap-2 transition-all ${
+        className={`px-3.5 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1.5 transition-all ${
           activeCategory === 'vocab'
-            ? 'bg-rose-500 text-white shadow-md shadow-rose-500/20'
-            : 'text-slate-400 hover:text-white'
+            ? 'bg-[#c53d33] text-white'
+            : 'text-stone-400 hover:text-white'
         }`}
       >
-        <BookOpen size={14} />
-        <span>Vocabulary Quiz (Multi-Chapter)</span>
+        <BookOpen size={13} />
+        <span>語彙問題 (Vocab Quiz)</span>
       </button>
       <button
         onClick={() => setActiveCategory('kanji')}
-        className={`px-4 py-2 rounded-xl text-xs font-extrabold flex items-center gap-2 transition-all ${
+        className={`px-3.5 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1.5 transition-all ${
           activeCategory === 'kanji'
-            ? 'bg-purple-500 text-white shadow-md shadow-purple-500/20'
-            : 'text-slate-400 hover:text-white'
+            ? 'bg-[#c53d33] text-white'
+            : 'text-stone-400 hover:text-white'
         }`}
       >
-        <Sparkles size={14} />
-        <span>Kanji Drill (10 Ch & Full)</span>
+        <span className="font-mincho">漢</span>
+        <span>漢字演習 (Kanji Drill)</span>
       </button>
       <button
         onClick={() => setActiveCategory('kana')}
-        className={`px-4 py-2 rounded-xl text-xs font-extrabold flex items-center gap-2 transition-all ${
+        className={`px-3.5 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1.5 transition-all ${
           activeCategory === 'kana'
-            ? 'bg-pink-500 text-white shadow-md shadow-pink-500/20'
-            : 'text-slate-400 hover:text-white'
+            ? 'bg-[#c53d33] text-white'
+            : 'text-stone-400 hover:text-white'
         }`}
       >
-        <Grid size={14} />
-        <span>Kana Drill (Hira & Kata)</span>
+        <Grid size={13} />
+        <span>五十音演習 (Kana Drill)</span>
       </button>
     </div>
   );
@@ -413,117 +413,111 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
     const isReady = totalAvailableWords > 0;
 
     return (
-      <div className="max-w-4xl mx-auto space-y-8 animate-fadeIn">
+      <div className="max-w-4xl mx-auto space-y-6 animate-fadeIn pb-12">
         {CategorySwitcher}
 
         {/* Header */}
         <div className="text-center space-y-2">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-300 text-xs font-bold">
-            <HelpCircle size={14} />
-            <span>INTERACTIVE MULTI-CHAPTER PRACTICE WORKSHOP</span>
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-[#c53d33]/10 border border-[#c53d33]/30 text-[#e57a6f] text-xs font-mincho font-medium">
+            <HelpCircle size={13} />
+            <span>〔 語彙問題演習 〕 VOCABULARY PRACTICE</span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-black text-white">
-            JLPT N5 Vocabulary Practice
+          <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
+            JLPT N5 語彙演習 (Practice Quiz)
           </h1>
-          <p className="text-slate-400 text-sm max-w-xl mx-auto">
-            Select any combination of chapters (single, multiple, or all 24) to practice together with authentic audio and instant feedback.
+          <p className="text-stone-400 text-xs sm:text-sm max-w-lg mx-auto font-jp">
+            演習したい課を自由に選択し、出題形式・問題数を設定して実践的な4択問題を開始できます。
           </p>
         </div>
 
         {/* Configuration Card */}
-        <div className="p-6 md:p-8 glass-panel-glow border-white/10 space-y-6">
+        <div className="p-6 md:p-8 rounded-2xl bg-[#17171b] border border-white/5 space-y-6">
           
-          {/* Step 1: Select Scope (Multi-Chapter Selection) */}
+          {/* Step 1: Select Scope */}
           <div className="space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-              <label className="text-sm font-bold text-slate-200 flex items-center gap-2">
-                <span className="w-6 h-6 rounded-lg bg-rose-500 text-white flex items-center justify-center text-xs">1</span>
-                <span>Select Chapters to Practice</span>
+              <label className="text-xs font-medium text-stone-200 flex items-center gap-2 font-jp">
+                <span className="w-5 h-5 rounded bg-[#c53d33] text-white flex items-center justify-center text-[11px] font-bold">1</span>
+                <span>出題範囲の選択 (Select Chapters)</span>
               </label>
 
               {/* Status Pill */}
               <div className="flex items-center gap-2">
-                <span className={`text-xs px-3 py-1 rounded-full font-bold border transition-all ${
+                <span className={`text-[11px] px-2.5 py-0.5 rounded border transition-all font-jp ${
                   isReady 
-                    ? 'bg-rose-500/15 border-rose-500/40 text-rose-300' 
-                    : 'bg-amber-500/15 border-amber-500/40 text-amber-300'
+                    ? 'bg-[#c53d33]/10 border-[#c53d33]/30 text-[#e57a6f]' 
+                    : 'bg-amber-500/10 border-amber-500/20 text-amber-300'
                 }`}>
                   {isReady 
-                    ? `🎯 ${selectedChapters.length} Chapters Selected (${totalAvailableWords} Words Available)`
-                    : '⚠️ Please select at least 1 chapter'}
+                    ? `${selectedChapters.length}課 選択中 (${totalAvailableWords}語 出題可能)`
+                    : '最低1つの課を選択してください'}
                 </span>
               </div>
             </div>
 
             {/* Quick Action Preset Buttons */}
-            <div className="flex flex-wrap items-center gap-2 pt-1">
+            <div className="flex flex-wrap items-center gap-1.5 pt-1">
               <button
                 type="button"
                 onClick={selectAllChapters}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${
+                className={`px-2.5 py-1 rounded-lg text-xs font-medium border transition-all ${
                   selectedChapters.length === 24 && includeAdverbs
-                    ? 'bg-rose-500 text-white border-rose-400 shadow-sm'
-                    : 'bg-slate-800/80 text-slate-300 border-white/10 hover:border-white/25 hover:text-white'
+                    ? 'bg-[#c53d33] text-white border-[#c53d33]'
+                    : 'bg-[#131316] text-stone-400 border-white/5 hover:text-white'
                 }`}
               >
-                🌸 Select All 24 Chapters
+                全24課
               </button>
 
               <button
                 type="button"
                 onClick={selectBasic1}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${
+                className={`px-2.5 py-1 rounded-lg text-xs font-medium border transition-all ${
                   selectedChapters.length === 11 && selectedChapters.every(id => id <= 11)
-                    ? 'bg-indigo-600 text-white border-indigo-400 shadow-sm'
-                    : 'bg-slate-800/80 text-slate-300 border-white/10 hover:border-white/25 hover:text-white'
+                    ? 'bg-[#c53d33] text-white border-[#c53d33]'
+                    : 'bg-[#131316] text-stone-400 border-white/5 hover:text-white'
                 }`}
               >
-                📗 Basic 1 (Ch 1–11)
+                初級1 (1–11)
               </button>
 
               <button
                 type="button"
                 onClick={selectBasic2}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${
+                className={`px-2.5 py-1 rounded-lg text-xs font-medium border transition-all ${
                   selectedChapters.length === 13 && selectedChapters.every(id => id >= 12)
-                    ? 'bg-purple-600 text-white border-purple-400 shadow-sm'
-                    : 'bg-slate-800/80 text-slate-300 border-white/10 hover:border-white/25 hover:text-white'
+                    ? 'bg-[#c53d33] text-white border-[#c53d33]'
+                    : 'bg-[#131316] text-stone-400 border-white/5 hover:text-white'
                 }`}
               >
-                📘 Basic 2 (Ch 12–24)
+                初級2 (12–24)
               </button>
 
               <button
                 type="button"
                 onClick={() => setIncludeAdverbs(!includeAdverbs)}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-all flex items-center gap-1.5 ${
+                className={`px-2.5 py-1 rounded-lg text-xs font-medium border transition-all flex items-center gap-1 ${
                   includeAdverbs
-                    ? 'bg-emerald-600 text-white border-emerald-400 shadow-sm'
-                    : 'bg-slate-800/80 text-slate-300 border-white/10 hover:border-white/25'
+                    ? 'bg-[#222227] text-white border-white/20'
+                    : 'bg-[#131316] text-stone-400 border-white/5'
                 }`}
               >
-                <span>🏷️</span>
-                <span>+ Adverbs (60w)</span>
-                <span className="text-[10px] opacity-80">{includeAdverbs ? '✓ ON' : 'OFF'}</span>
+                <span>副詞 (60語)</span>
+                <span className="text-[10px] opacity-80">{includeAdverbs ? '✓' : ''}</span>
               </button>
 
               <button
                 type="button"
                 onClick={clearSelection}
-                className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-800/40 text-slate-400 border border-white/5 hover:text-rose-400 hover:border-rose-400/30 transition-all ml-auto"
+                className="px-2.5 py-1 rounded-lg text-xs font-medium text-stone-500 hover:text-stone-300 transition-colors ml-auto"
               >
-                Clear Selection
+                選択解除
               </button>
             </div>
 
-            {/* Chapter Selection Grid (Multi-Select) */}
-            <div className="space-y-2">
-              <div className="text-xs font-semibold text-slate-400 flex items-center justify-between">
-                <span>Click chapters to toggle them into your custom practice pool:</span>
-                <span className="text-[11px] text-slate-500">Multiple selection enabled</span>
-              </div>
-
-              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-2.5 max-h-64 overflow-y-auto p-1.5 scrollbar-thin bg-slate-950/40 rounded-2xl border border-white/5">
+            {/* Chapter Selection Grid */}
+            <div className="space-y-1.5">
+              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-2 max-h-60 overflow-y-auto p-1.5 scrollbar-thin bg-[#131316] rounded-xl border border-white/5">
                 {chapters.map(ch => {
                   const isSelected = selectedChapters.includes(ch.id);
                   return (
@@ -531,26 +525,24 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
                       key={ch.id}
                       type="button"
                       onClick={() => toggleChapter(ch.id)}
-                      className={`p-3 rounded-xl border text-left transition-all relative flex flex-col justify-between ${
+                      className={`p-2.5 rounded-lg border text-left transition-all relative flex flex-col justify-between ${
                         isSelected
-                          ? 'bg-rose-500/20 border-rose-500 text-white shadow-md shadow-rose-500/10'
-                          : 'bg-slate-800/60 border-white/5 text-slate-400 hover:border-white/20 hover:text-slate-200'
+                          ? 'bg-[#c53d33]/15 border-[#c53d33] text-white'
+                          : 'bg-[#17171b] border-white/5 text-stone-400 hover:border-white/15 hover:text-stone-200'
                       }`}
                     >
                       <div className="flex items-center justify-between">
-                        <span className="text-xs font-extrabold text-white">Ch {ch.id}</span>
+                        <span className="text-xs font-bold font-mincho">第{ch.id}課</span>
                         {isSelected ? (
-                          <CheckSquare size={14} className="text-rose-400 shrink-0" />
+                          <CheckSquare size={13} className="text-[#e57a6f] shrink-0" />
                         ) : (
-                          <Square size={14} className="text-slate-600 shrink-0" />
+                          <Square size={13} className="text-stone-600 shrink-0" />
                         )}
                       </div>
                       
-                      <div className="mt-2 flex items-center justify-between text-[11px]">
-                        <span className="text-slate-400 font-medium truncate">{ch.count} words</span>
-                        <span className={`text-[9px] px-1.5 py-0.2 rounded font-bold ${
-                          ch.isBasic1 ? 'bg-indigo-500/20 text-indigo-300' : 'bg-purple-500/20 text-purple-300'
-                        }`}>
+                      <div className="mt-1 flex items-center justify-between text-[10px]">
+                        <span className="text-stone-400">{ch.count}語</span>
+                        <span className="text-stone-500 text-[9px]">
                           {ch.isBasic1 ? 'B1' : 'B2'}
                         </span>
                       </div>
@@ -562,40 +554,40 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
           </div>
 
           {/* Step 2: Select Quiz Direction Mode */}
-          <div className="space-y-3 pt-4 border-t border-white/10">
-            <label className="text-sm font-bold text-slate-200 flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-indigo-500 text-white flex items-center justify-center text-xs">2</span>
-              <span>Select Question Mode</span>
+          <div className="space-y-3 pt-4 border-t border-white/5">
+            <label className="text-xs font-medium text-stone-200 flex items-center gap-2 font-jp">
+              <span className="w-5 h-5 rounded bg-[#c53d33] text-white flex items-center justify-center text-[11px] font-bold">2</span>
+              <span>出題形式の選択 (Question Mode)</span>
             </label>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
               {[
-                { id: 'jp_to_en', label: 'Japanese ➔ English', desc: 'Read Japanese (Kana/Kanji), choose English meaning.' },
-                { id: 'en_to_jp', label: 'English ➔ Japanese', desc: 'Read English prompt, choose correct Japanese word.' },
-                { id: 'audio', label: '🎧 Audio Listening', desc: 'Listen to native voice, choose correct meaning.' }
+                { id: 'jp_to_en', label: '日本語 ➔ 英語', desc: '日本語（漢字/仮名）を読み、正しい英語の意味を選択。' },
+                { id: 'en_to_jp', label: '英語 ➔ 日本語', desc: '英語の意味から正しい日本語単語を選択。' },
+                { id: 'audio', label: '🎧 音声聴解', desc: 'ネイティブ音声を聴き、正しい意味を選択。' }
               ].map(m => (
                 <button
                   key={m.id}
                   type="button"
                   onClick={() => setSelectedMode(m.id)}
-                  className={`p-4 rounded-xl border text-left transition-all ${
+                  className={`p-3.5 rounded-xl border text-left transition-all ${
                     selectedMode === m.id
-                      ? 'bg-indigo-500/20 border-indigo-400 text-white shadow-md'
-                      : 'bg-slate-800/60 border-white/10 text-slate-300 hover:border-white/20'
+                      ? 'bg-[#222227] border-[#c53d33] text-white'
+                      : 'bg-[#131316] border-white/5 text-stone-300 hover:border-white/15'
                   }`}
                 >
-                  <div className="font-bold text-sm text-indigo-300">{m.label}</div>
-                  <p className="text-xs text-slate-400 mt-1">{m.desc}</p>
+                  <div className={`font-bold text-xs ${selectedMode === m.id ? 'text-[#e57a6f]' : 'text-stone-200'}`}>{m.label}</div>
+                  <p className="text-[11px] text-stone-400 mt-1 leading-relaxed font-jp">{m.desc}</p>
                 </button>
               ))}
             </div>
           </div>
 
           {/* Step 3: Question Count */}
-          <div className="space-y-3 pt-4 border-t border-white/10">
-            <label className="text-sm font-bold text-slate-200 flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-500 text-white flex items-center justify-center text-xs">3</span>
-              <span>Number of Questions</span>
+          <div className="space-y-3 pt-4 border-t border-white/5">
+            <label className="text-xs font-medium text-stone-200 flex items-center gap-2 font-jp">
+              <span className="w-5 h-5 rounded bg-[#c53d33] text-white flex items-center justify-center text-[11px] font-bold">3</span>
+              <span>出題数 (Question Count)</span>
             </label>
 
             <div className="flex flex-wrap gap-2">
@@ -604,13 +596,13 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
                   key={c}
                   type="button"
                   onClick={() => setQuestionCount(c)}
-                  className={`px-5 py-2.5 rounded-xl border font-bold text-xs transition-all ${
+                  className={`px-3.5 py-1.5 rounded-lg border font-medium text-xs transition-all ${
                     questionCount === c
-                      ? 'bg-emerald-500/20 border-emerald-400 text-emerald-300 shadow-md'
-                      : 'bg-slate-800/70 border-white/10 text-slate-400 hover:text-white'
+                      ? 'bg-[#c53d33] border-[#c53d33] text-white'
+                      : 'bg-[#131316] border-white/5 text-stone-400 hover:text-white'
                   }`}
                 >
-                  {c} Questions
+                  {c}問
                 </button>
               ))}
 
@@ -618,34 +610,34 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
                 <button
                   type="button"
                   onClick={() => setQuestionCount('all')}
-                  className={`px-5 py-2.5 rounded-xl border font-bold text-xs transition-all ${
+                  className={`px-3.5 py-1.5 rounded-lg border font-medium text-xs transition-all ${
                     questionCount === 'all'
-                      ? 'bg-emerald-500/20 border-emerald-400 text-emerald-300 shadow-md'
-                      : 'bg-slate-800/70 border-white/10 text-slate-400 hover:text-white'
+                      ? 'bg-[#c53d33] border-[#c53d33] text-white'
+                      : 'bg-[#131316] border-white/5 text-stone-400 hover:text-white'
                   }`}
                 >
-                  All Available ({totalAvailableWords} Words)
+                  全問 ({totalAvailableWords}語)
                 </button>
               )}
             </div>
           </div>
 
           {/* Start CTA */}
-          <div className="pt-4">
+          <div className="pt-2">
             <button
               onClick={() => startQuiz()}
               disabled={!isReady}
-              className={`w-full py-4 rounded-xl font-extrabold text-base shadow-xl transition-all flex items-center justify-center gap-2 ${
+              className={`w-full py-3.5 rounded-xl font-medium text-sm transition-all flex items-center justify-center gap-2 shadow-sm ${
                 isReady
-                  ? 'bg-gradient-to-r from-rose-500 via-pink-500 to-indigo-600 hover:from-rose-600 hover:to-indigo-700 text-white shadow-rose-500/20 hover:scale-[1.01] active:scale-[0.99] cursor-pointer'
-                  : 'bg-slate-800 text-slate-500 border border-white/5 cursor-not-allowed opacity-60'
+                  ? 'bg-[#c53d33] hover:bg-[#b12f26] text-white cursor-pointer'
+                  : 'bg-[#1c1c20] text-stone-500 border border-white/5 cursor-not-allowed opacity-60'
               }`}
             >
-              <Play size={20} className={isReady ? 'fill-white' : 'fill-slate-500'} />
+              <Play size={15} className={isReady ? 'fill-white' : 'fill-stone-500'} />
               <span>
                 {isReady 
-                  ? `Start Quiz (${selectedChapters.length} Chapters • ${questionCount === 'all' ? totalAvailableWords : Math.min(questionCount, totalAvailableWords)} Questions)`
-                  : 'Select At Least 1 Chapter to Begin'}
+                  ? `演習開始 (${selectedChapters.length}課 • ${questionCount === 'all' ? totalAvailableWords : Math.min(questionCount, totalAvailableWords)}問)`
+                  : '課を選択して演習を開始'}
               </span>
             </button>
           </div>
@@ -660,47 +652,47 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
     const progress = Math.round(((currentIndex + 1) / questions.length) * 100);
 
     return (
-      <div className="max-w-3xl mx-auto space-y-6 animate-fadeIn">
+      <div className="max-w-3xl mx-auto space-y-6 animate-fadeIn pb-12">
         {/* Top Info Bar */}
-        <div className="flex items-center justify-between text-xs font-bold text-slate-400 px-1">
+        <div className="flex items-center justify-between text-xs text-stone-400 px-1 font-jp">
           <div className="flex items-center gap-3">
-            <span className="px-2.5 py-1 rounded-full bg-rose-500/15 text-rose-300 border border-rose-500/30 truncate max-w-[200px] sm:max-w-xs">
+            <span className="px-2 py-0.5 rounded border border-[#c53d33]/30 bg-[#c53d33]/10 text-[#e57a6f] truncate max-w-[200px] sm:max-w-xs font-mincho">
               {scopeSummaryText}
             </span>
-            <span className="flex items-center gap-1 text-slate-400">
-              <Clock size={13} />
+            <span className="flex items-center gap-1 text-stone-400">
+              <Clock size={12} />
               <span>{formatTime(elapsedSeconds)}</span>
             </span>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5">
             {currentQ.vocabItem?.chapterOrigin && (
-              <span className="text-[11px] px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-white/5">
+              <span className="text-[10px] px-2 py-0.5 rounded bg-white/5 text-stone-400 border border-white/5 font-jp">
                 {currentQ.vocabItem.chapterOrigin}
               </span>
             )}
-            <span className="text-white font-bold">Q {currentIndex + 1}</span>
+            <span className="text-white font-medium">第 {currentIndex + 1} 問</span>
             <span>/</span>
             <span>{questions.length}</span>
           </div>
         </div>
 
-        {/* Progress Bar */}
-        <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
+        {/* Progress Bar (Thin Vermilion Line) */}
+        <div className="w-full h-1 rounded-full bg-[#17171b] overflow-hidden">
           <div 
-            className="h-full bg-gradient-to-r from-rose-500 to-indigo-500 transition-all duration-300"
+            className="h-full bg-[#c53d33] transition-all duration-300"
             style={{ width: `${progress}%` }}
           ></div>
         </div>
 
         {/* Prompt Card */}
-        <div className="p-8 md:p-12 glass-panel-glow border-white/10 rounded-3xl text-center space-y-4">
-          <div className="text-xs uppercase tracking-widest text-slate-400 font-bold">
+        <div className="p-8 md:p-12 rounded-2xl bg-[#17171b] border border-white/5 text-center space-y-3">
+          <div className="text-[11px] font-mincho text-[#e57a6f]">
             {selectedMode === 'jp_to_en' 
-              ? 'Select the correct English meaning' 
+              ? '〔 意味の選択 〕 正しい英語の意味を選んでください' 
               : selectedMode === 'en_to_jp' 
-              ? 'Select the correct Japanese word' 
-              : 'Listen to the audio and select meaning'}
+              ? '〔 単語の選択 〕 正しい日本語の単語を選んでください' 
+              : '〔 聴解 〕 音声を聴き、正しい意味を選んでください'}
           </div>
 
           {/* Large Prompt Text */}
@@ -708,15 +700,15 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
             {selectedMode === 'audio' ? (
               <div className="space-y-3">
                 <AudioButton text={currentQ.prompt} size="lg" className="mx-auto" />
-                <div className="text-slate-400 text-xs">Click speaker to replay pronunciation</div>
+                <div className="text-stone-400 text-xs font-jp">スピーカーをクリックして音声を再生</div>
               </div>
             ) : (
               <div className="flex flex-col items-center gap-1">
-                <div className="text-3xl md:text-5xl font-black text-white font-jp tracking-wide">
+                <div className="text-3xl md:text-5xl font-bold text-white font-mincho tracking-wide">
                   {currentQ.prompt}
                 </div>
                 {currentQ.vocabItem?.romaji && selectedMode === 'jp_to_en' && (
-                  <div className="text-xs md:text-sm text-slate-400 font-sans">
+                  <div className="text-xs md:text-sm text-stone-400 font-sans">
                     {currentQ.vocabItem.romaji}
                   </div>
                 )}
@@ -733,9 +725,9 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
         </div>
 
         {/* Multiple Choice Options (4 Buttons) */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {currentQ.options.map((option, idx) => {
-            const letter = ['A', 'B', 'C', 'D'][idx];
+            const letter = ['ア', 'イ', 'ウ', 'エ'][idx];
             let stateClass = '';
 
             if (isAnswered) {
@@ -757,10 +749,10 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
                 <span className="option-badge">{letter}</span>
                 <span className="flex-1 font-jp leading-snug">{option}</span>
                 {isAnswered && idx === currentQ.correctIndex && (
-                  <Check size={18} className="text-emerald-400 shrink-0" />
+                  <Check size={16} className="text-emerald-400 shrink-0" />
                 )}
                 {isAnswered && idx === selectedOption && idx !== currentQ.correctIndex && (
-                  <X size={18} className="text-red-400 shrink-0" />
+                  <X size={16} className="text-red-400 shrink-0" />
                 )}
               </button>
             );
@@ -772,11 +764,11 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
           <div className="pt-2 animate-fadeIn">
             <button
               onClick={handleNext}
-              className="w-full py-4 rounded-2xl bg-gradient-to-r from-rose-500 to-indigo-600 hover:from-rose-600 hover:to-indigo-700 text-white font-extrabold text-base shadow-lg shadow-rose-500/20 hover:scale-[1.01] active:scale-[0.99] transition-all flex items-center justify-center gap-2"
+              className="w-full py-3.5 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white font-medium text-sm transition-all flex items-center justify-center gap-2 shadow-sm"
             >
-              <span>{currentIndex + 1 === questions.length ? 'See Final Score' : 'Next Question'}</span>
-              <ArrowRight size={18} />
-              <span className="text-xs opacity-75 font-normal ml-2">(Press Enter ↵)</span>
+              <span>{currentIndex + 1 === questions.length ? '採点結果を表示 (Results)' : '次の問題へ (Next Question)'}</span>
+              <ArrowRight size={16} />
+              <span className="text-xs opacity-75 font-normal ml-2 font-mono">(Enter ↵)</span>
             </button>
           </div>
         )}
@@ -791,138 +783,138 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
     const percent = Math.round((score / total) * 100);
     const mistakes = userAnswers.filter(a => !a.isCorrect);
 
-    let grade = { label: 'Keep Practicing', color: 'text-amber-400', badge: 'bg-amber-500/20 border-amber-500/30' };
+    let grade = { label: '復習をおすすめします', jp: '要復習', color: 'text-stone-300', badge: 'border-white/10 bg-white/5' };
     if (percent >= 90) {
-      grade = { label: 'JLPT N5 Master! 🌸', color: 'text-emerald-400', badge: 'bg-emerald-500/20 border-emerald-500/30' };
+      grade = { label: '大変優秀です！合格レベル', jp: '合 格', color: 'text-emerald-400', badge: 'border-emerald-500/40 bg-emerald-950/20' };
     } else if (percent >= 70) {
-      grade = { label: 'Passed! Well Done! 🌟', color: 'text-rose-400', badge: 'bg-rose-500/20 border-rose-500/30' };
+      grade = { label: '合格基準を達成しました', jp: '合 格', color: 'text-[#e57a6f]', badge: 'border-[#c53d33]/40 bg-[#c53d33]/10' };
     }
 
     const filteredReviews = reviewFilter === 'mistakes' ? mistakes : userAnswers;
 
     return (
-      <div className="max-w-3xl mx-auto space-y-8 animate-fadeIn">
+      <div className="max-w-3xl mx-auto space-y-6 animate-fadeIn pb-12">
         {/* Score Summary Card */}
-        <div className="p-8 md:p-10 glass-panel-glow border-white/10 rounded-3xl text-center space-y-5">
-          <div className={`inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border text-xs font-bold ${grade.badge} ${grade.color}`}>
-            <Trophy size={14} />
+        <div className="p-8 md:p-10 rounded-2xl bg-[#17171b] border border-white/5 text-center space-y-5">
+          <div className={`inline-flex items-center gap-2 px-3 py-1 rounded border text-xs font-mincho ${grade.badge} ${grade.color}`}>
+            <span>〔 {grade.jp} 〕</span>
             <span>{grade.label}</span>
           </div>
 
-          <h2 className="text-2xl md:text-3xl font-black text-white">Quiz Completed</h2>
+          <h2 className="text-2xl font-bold text-white tracking-tight">演習終了 (Quiz Completed)</h2>
 
           {/* Big Score Display */}
           <div className="flex items-center justify-center">
-            <div className="w-36 h-36 rounded-full bg-gradient-to-tr from-rose-500/20 via-pink-500/20 to-indigo-500/20 border-2 border-rose-500/40 flex flex-col items-center justify-center shadow-xl shadow-rose-500/10">
-              <span className="text-4xl font-black text-white">{percent}%</span>
-              <span className="text-xs text-slate-400 font-semibold mt-1">{score} / {total} Correct</span>
+            <div className="w-32 h-32 rounded-full bg-[#131316] border border-white/10 flex flex-col items-center justify-center shadow-inner">
+              <span className="text-3xl font-bold text-white font-mincho">{percent}%</span>
+              <span className="text-xs text-stone-400 font-jp mt-0.5">{score} / {total} 問 正解</span>
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs text-slate-400 font-medium">
-            <div>Scope: <strong className="text-white">{scopeSummaryText}</strong></div>
-            <div>Time: <strong className="text-white">{formatTime(elapsedSeconds)}</strong></div>
-            <div>Accuracy: <strong className={grade.color}>{percent}%</strong></div>
+          <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-stone-400 font-jp">
+            <div>範囲: <strong className="text-white font-medium">{scopeSummaryText}</strong></div>
+            <div>所要時間: <strong className="text-white font-medium">{formatTime(elapsedSeconds)}</strong></div>
+            <div>正答率: <strong className={`font-medium ${grade.color}`}>{percent}%</strong></div>
           </div>
 
           {/* Action CTAs */}
-          <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-2.5">
             {mistakes.length > 0 && (
               <button
                 onClick={retakeMistakes}
-                className="flex items-center gap-2 px-5 py-3 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 font-bold text-sm transition-all"
+                className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#222227] hover:bg-[#2a2a32] text-stone-200 border border-white/10 font-medium text-xs transition-all"
               >
-                <RotateCcw size={16} />
-                <span>Retake {mistakes.length} Missed Words</span>
+                <RotateCcw size={14} />
+                <span>間違えた{mistakes.length}語を再演習</span>
               </button>
             )}
 
             <button
               onClick={() => startQuiz(selectedMode, questionCount)}
-              className="flex items-center gap-2 px-5 py-3 rounded-xl bg-rose-500 hover:bg-rose-600 text-white font-bold text-sm shadow-md shadow-rose-500/20 transition-all"
+              className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white font-medium text-xs shadow-sm transition-all"
             >
-              <RotateCcw size={16} />
-              <span>Retry Same Quiz</span>
+              <RotateCcw size={14} />
+              <span>もう一度挑戦</span>
             </button>
 
             <button
               onClick={() => setQuizState('setup')}
-              className="flex items-center gap-2 px-5 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-white/10 font-bold text-sm transition-all"
+              className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#1c1c20] hover:bg-[#26262c] text-stone-300 border border-white/5 font-medium text-xs transition-all"
             >
-              <Sliders size={16} />
-              <span>Change Chapters / Settings</span>
+              <Sliders size={14} />
+              <span>設定を変更</span>
             </button>
           </div>
         </div>
 
         {/* Detailed Review Section */}
-        <div className="space-y-4">
+        <div className="space-y-3">
           <div className="flex items-center justify-between">
-            <h3 className="font-bold text-white text-lg flex items-center gap-2">
-              <span>Detailed Question Review</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400">
-                {userAnswers.length}
+            <h3 className="font-bold text-white text-base flex items-center gap-2 font-jp">
+              <span>解答詳細 (Question Review)</span>
+              <span className="text-xs px-2 py-0.5 rounded bg-white/5 text-stone-400">
+                {userAnswers.length}問
               </span>
             </h3>
 
             {/* Filter Toggle */}
             {mistakes.length > 0 && (
-              <div className="flex items-center gap-1 bg-slate-800/80 p-1 rounded-xl text-xs">
+              <div className="flex items-center gap-1 bg-[#17171b] p-1 rounded-lg border border-white/5 text-xs font-jp">
                 <button
                   onClick={() => setReviewFilter('all')}
-                  className={`px-3 py-1 rounded-lg font-semibold transition-all ${
-                    reviewFilter === 'all' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-white'
+                  className={`px-2.5 py-1 rounded font-medium transition-all ${
+                    reviewFilter === 'all' ? 'bg-[#222227] text-white' : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  All ({userAnswers.length})
+                  全問 ({userAnswers.length})
                 </button>
                 <button
                   onClick={() => setReviewFilter('mistakes')}
-                  className={`px-3 py-1 rounded-lg font-semibold transition-all ${
-                    reviewFilter === 'mistakes' ? 'bg-red-500/20 text-red-300' : 'text-slate-400 hover:text-white'
+                  className={`px-2.5 py-1 rounded font-medium transition-all ${
+                    reviewFilter === 'mistakes' ? 'bg-[#c53d33]/20 text-[#e57a6f]' : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  Mistakes ({mistakes.length})
+                  誤答のみ ({mistakes.length})
                 </button>
               </div>
             )}
           </div>
 
-          <div className="space-y-2.5">
+          <div className="space-y-2">
             {filteredReviews.map((item, idx) => (
               <div
                 key={idx}
-                className={`p-4 rounded-xl border flex items-center justify-between gap-4 transition-all ${
+                className={`p-3.5 rounded-xl border flex items-center justify-between gap-4 transition-all ${
                   item.isCorrect
-                    ? 'bg-slate-800/40 border-white/5'
-                    : 'bg-red-500/10 border-red-500/30'
+                    ? 'bg-[#17171b] border-white/5'
+                    : 'bg-[#17171b] border-[#c53d33]/30'
                 }`}
               >
                 <div className="flex items-center gap-3">
-                  <div className={`w-8 h-8 rounded-lg flex items-center justify-center shrink-0 ${
-                    item.isCorrect ? 'bg-emerald-500/20 text-emerald-400' : 'bg-red-500/20 text-red-400'
+                  <div className={`w-6 h-6 rounded-md flex items-center justify-center shrink-0 ${
+                    item.isCorrect ? 'bg-emerald-500/10 text-emerald-400' : 'bg-[#c53d33]/15 text-[#e57a6f]'
                   }`}>
-                    {item.isCorrect ? <Check size={16} /> : <X size={16} />}
+                    {item.isCorrect ? <Check size={14} /> : <X size={14} />}
                   </div>
 
                   <div>
                     <div className="flex items-center gap-2">
-                      <span className="font-bold text-white font-jp text-base">{item.question.prompt}</span>
+                      <span className="font-bold text-white font-mincho text-base">{item.question.prompt}</span>
                       {item.question.vocabItem?.chapterOrigin && (
-                        <span className="text-[10px] px-1.5 py-0.2 rounded bg-slate-700 text-slate-300 font-mono">
+                        <span className="text-[10px] px-1.5 py-0.2 rounded bg-white/5 text-stone-400 font-jp">
                           {item.question.vocabItem.chapterOrigin}
                         </span>
                       )}
                       {item.question.vocabItem?.romaji && (
-                        <span className="text-xs text-slate-400 font-sans">({item.question.vocabItem.romaji})</span>
+                        <span className="text-xs text-stone-400 font-sans">({item.question.vocabItem.romaji})</span>
                       )}
                     </div>
-                    <div className="text-xs mt-0.5">
-                      <span className="text-slate-400">Correct: </span>
-                      <span className="text-emerald-400 font-medium">{item.question.correctAnswer}</span>
+                    <div className="text-xs mt-0.5 font-jp">
+                      <span className="text-stone-400">正解: </span>
+                      <span className="text-stone-200 font-medium">{item.question.correctAnswer}</span>
                       {!item.isCorrect && (
-                        <span className="ml-3 text-red-400 line-through opacity-80">
-                          You chose: {item.selectedAnswer}
+                        <span className="ml-3 text-[#e57a6f] line-through opacity-80">
+                          選択: {item.selectedAnswer}
                         </span>
                       )}
                     </div>

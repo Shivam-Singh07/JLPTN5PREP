@@ -53,17 +53,17 @@ export default function ConvoView() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto space-y-6 animate-fadeIn">
+    <div className="max-w-4xl mx-auto space-y-6 animate-fadeIn pb-12">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 p-6 glass-panel rounded-2xl">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 p-6 rounded-2xl bg-[#17171b] border border-white/5">
         <div className="space-y-1">
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-300 text-xs font-bold">
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-[#c53d33]/10 border border-[#c53d33]/30 text-[#e57a6f] text-xs font-mincho font-medium">
             <MessageSquare size={13} />
-            <span>VIDEO CONVERSATIONS & ROLEPLAY</span>
+            <span>〔 日常会話 〕 CONVERSATIONS & ROLEPLAY</span>
           </div>
-          <h1 className="text-2xl font-black text-white">{convo?.title}</h1>
-          <p className="text-xs text-slate-400">
-            Natural Japanese dialogues from everyday scenarios (meeting, ordering food, office, shopping).
+          <h1 className="text-2xl font-bold text-white tracking-tight">{convo?.title}</h1>
+          <p className="text-xs text-stone-400 font-jp">
+            場面ごとの自然な日本語対話。一行ずつ再生、または役割を選択して発音練習が可能です。
           </p>
         </div>
 
@@ -72,42 +72,42 @@ export default function ConvoView() {
           {/* English Meaning Toggle */}
           <button
             onClick={() => setShowEnglish(prev => !prev)}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${
+            className={`px-3 py-1.5 rounded-xl text-xs font-medium border transition-all ${
               showEnglish
-                ? 'bg-amber-500/20 border-amber-500/40 text-amber-300'
-                : 'bg-slate-800 border-white/10 text-slate-400 hover:text-white'
+                ? 'bg-[#222227] border-white/20 text-white'
+                : 'bg-[#17171b] border-white/5 text-stone-400 hover:text-white'
             }`}
           >
-            🇬🇧 English: {showEnglish ? 'ON' : 'OFF'}
+            日本語訳: {showEnglish ? '表示' : '非表示'}
           </button>
 
           {/* Romaji Toggle */}
           <button
             onClick={() => setShowRomaji(prev => !prev)}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${
+            className={`px-3 py-1.5 rounded-xl text-xs font-medium border transition-all ${
               showRomaji
-                ? 'bg-amber-500/20 border-amber-500/40 text-amber-300'
-                : 'bg-slate-800 border-white/10 text-slate-400 hover:text-white'
+                ? 'bg-[#222227] border-white/20 text-white'
+                : 'bg-[#17171b] border-white/5 text-stone-400 hover:text-white'
             }`}
           >
-            🔤 Romaji: {showRomaji ? 'ON' : 'OFF'}
+            ローマ字: {showRomaji ? '表示' : '非表示'}
           </button>
 
           {isAutoPlaying ? (
             <button
               onClick={stopAutoPlay}
-              className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-red-500/80 hover:bg-red-600 text-white text-xs font-bold shadow-md transition-all cursor-pointer"
+              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-white text-xs font-medium border border-white/10 transition-all cursor-pointer"
             >
-              <Pause size={14} />
-              <span>Stop Playback</span>
+              <Pause size={13} />
+              <span>停止</span>
             </button>
           ) : (
             <button
               onClick={startAutoPlay}
-              className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-600 text-white text-xs font-bold shadow-md shadow-amber-500/20 transition-all cursor-pointer"
+              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white text-xs font-medium shadow-sm transition-all cursor-pointer"
             >
-              <Play size={14} className="fill-white" />
-              <span>Play Entire Dialogue</span>
+              <Play size={13} className="fill-white" />
+              <span>全対話再生</span>
             </button>
           )}
         </div>
@@ -119,48 +119,48 @@ export default function ConvoView() {
           <button
             key={c.id}
             onClick={() => { setSelectedConvoId(c.id); stopAutoPlay(); setRoleplayCharacter(null); }}
-            className={`px-3.5 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
+            className={`px-3 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition-all border ${
               selectedConvoId === c.id
-                ? 'bg-amber-500 border-amber-400 text-white shadow-sm'
-                : 'bg-slate-800/60 border-white/5 text-slate-400 hover:text-white'
+                ? 'bg-[#c53d33] border-[#c53d33] text-white'
+                : 'bg-[#17171b] border-white/5 text-stone-400 hover:text-white'
             }`}
           >
-            Video {c.videoNumber}
+            <span className="font-mincho">第{c.videoNumber}話</span>
           </button>
         ))}
       </div>
 
       {/* Roleplay Character Picker */}
       {speakers.length > 0 && (
-        <div className="p-4 rounded-xl bg-slate-800/60 border border-white/5 flex flex-wrap items-center justify-between gap-3 text-xs">
-          <div className="flex items-center gap-2 text-slate-300 font-semibold">
-            <Mic size={14} className="text-amber-400" />
-            <span>Roleplay Speaking Mode:</span>
+        <div className="p-3.5 rounded-xl bg-[#17171b] border border-white/5 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div className="flex items-center gap-2 text-stone-300 font-medium font-jp">
+            <Mic size={14} className="text-[#e57a6f]" />
+            <span>発話練習 (Roleplay Mode):</span>
           </div>
 
           <div className="flex items-center gap-2">
             <button
               onClick={() => setRoleplayCharacter(null)}
-              className={`px-3 py-1 rounded-lg font-bold border transition-all ${
+              className={`px-2.5 py-1 rounded-lg font-medium border transition-all ${
                 roleplayCharacter === null
-                  ? 'bg-white/10 text-white border-white/20'
-                  : 'text-slate-400 border-transparent hover:text-white'
+                  ? 'bg-[#222227] text-white border-white/20'
+                  : 'text-stone-400 border-transparent hover:text-white'
               }`}
             >
-              Both Speakers
+              全員再生
             </button>
 
             {speakers.map(spk => (
               <button
                 key={spk}
                 onClick={() => setRoleplayCharacter(spk)}
-                className={`px-3 py-1 rounded-lg font-bold border transition-all ${
+                className={`px-2.5 py-1 rounded-lg font-medium border transition-all ${
                   roleplayCharacter === spk
-                    ? 'bg-amber-500 text-white border-amber-400 shadow-sm'
-                    : 'bg-slate-800 text-slate-300 border-white/5 hover:border-white/20'
+                    ? 'bg-[#c53d33] text-white border-[#c53d33]'
+                    : 'bg-[#131316] text-stone-300 border-white/5 hover:border-white/20'
                 }`}
               >
-                I am {spk}
+                {spk} を担当
               </button>
             ))}
           </div>
@@ -177,46 +177,41 @@ export default function ConvoView() {
           return (
             <div
               key={idx}
-              className={`p-5 rounded-2xl glass-panel transition-all flex items-start gap-4 ${
+              className={`p-4 rounded-xl bg-[#17171b] transition-all flex items-start gap-4 border ${
                 isActive 
-                  ? 'border-amber-400 bg-amber-500/10 shadow-lg shadow-amber-500/10 scale-[1.01]' 
+                  ? 'border-[#c53d33] bg-[#c53d33]/5' 
                   : 'border-white/5'
-              } ${isUserRole ? 'border-l-4 border-l-amber-500' : ''}`}
+              } ${isUserRole ? 'border-l-2 border-l-[#c53d33]' : ''}`}
             >
               {/* Avatar */}
-              <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-bold text-xs shrink-0 shadow-md ${
-                isUserRole
-                  ? 'bg-gradient-to-tr from-amber-500 to-orange-500 text-white'
-                  : 'bg-gradient-to-tr from-indigo-600 to-purple-600 text-white'
-              }`}>
-                {speakerClean ? speakerClean.slice(0, 2).toUpperCase() : <User size={16} />}
+              <div className="w-8 h-8 rounded-lg bg-[#222227] text-stone-200 border border-white/5 flex items-center justify-center font-mincho font-bold text-xs shrink-0">
+                {speakerClean ? speakerClean.slice(0, 2) : <User size={14} />}
               </div>
 
               {/* Speech bubble */}
               <div className="space-y-1 flex-1">
                 <div className="flex items-center gap-2">
-                  <span className="font-bold text-xs text-amber-300">{speakerClean}</span>
+                  <span className="font-bold text-xs text-stone-300 font-jp">{speakerClean}</span>
                   {isUserRole && (
-                    <span className="text-[10px] px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                      Your Turn
+                    <span className="text-[10px] px-1.5 py-0.2 rounded bg-[#c53d33]/20 text-[#e57a6f] border border-[#c53d33]/30 font-jp">
+                      あなたの番 (Your Turn)
                     </span>
                   )}
                 </div>
 
-                <div className="text-base md:text-lg font-bold text-white font-jp leading-relaxed">
+                <div className="text-base md:text-lg font-bold text-white font-mincho leading-relaxed">
                   {line.japanese || line.romaji}
                 </div>
 
                 {showRomaji && line.romaji && (
-                  <div className="text-xs text-slate-400 font-sans">
+                  <div className="text-xs text-stone-400 font-sans">
                     {line.romaji}
                   </div>
                 )}
 
                 {showEnglish && line.english && (
-                  <div className="text-xs sm:text-sm font-medium text-amber-200/90 pt-1 mt-1 border-t border-white/5 flex items-start gap-1.5">
-                    <span className="text-amber-400 select-none">💬</span>
-                    <span>{line.english}</span>
+                  <div className="text-xs text-stone-300 pt-1 mt-1 border-t border-white/5 font-jp">
+                    {line.english}
                   </div>
                 )}
               </div>
@@ -232,4 +227,3 @@ export default function ConvoView() {
     </div>
   );
 }
-

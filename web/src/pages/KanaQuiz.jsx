@@ -197,52 +197,55 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
   return (
     <div className="max-w-3xl mx-auto space-y-6 animate-fadeIn pb-12">
       {/* Top Breadcrumb */}
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-xl bg-pink-500/20 text-pink-400 flex items-center justify-center font-bold text-sm">
-            <Grid size={16} />
+      <div className="flex items-center justify-between pb-3 border-b border-white/5">
+        <div className="flex items-center gap-2.5">
+          <div className="w-8 h-8 rounded-lg bg-[#c53d33]/15 text-[#e57a6f] border border-[#c53d33]/30 flex items-center justify-center font-bold">
+            <span className="font-mincho">仮</span>
           </div>
           <div>
-            <h2 className="text-xl font-bold text-white">Kana Practice Drill</h2>
-            <p className="text-xs text-slate-400">Master Hiragana and Katakana character recognition & pronunciation</p>
+            <div className="flex items-center gap-2">
+              <span className="text-xs font-mincho text-[#e57a6f]">〔 五十音演習 〕</span>
+              <h2 className="text-lg font-bold text-white tracking-tight">Kana Practice Drill</h2>
+            </div>
+            <p className="text-xs text-stone-400 font-jp">平仮名・片仮名の文字認識と音声リスニング演習</p>
           </div>
         </div>
 
         {onBackToSoundboard && (
           <button
             onClick={onBackToSoundboard}
-            className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-white/5 transition-colors"
+            className="text-xs font-medium px-3 py-1.5 rounded-lg bg-[#17171b] hover:bg-[#202026] text-stone-300 border border-white/5 transition-colors font-jp"
           >
-            ← Back to Soundboard
+            ← 五十音図へ戻る
           </button>
         )}
       </div>
 
       {/* SETUP SCREEN */}
       {quizState === 'setup' && (
-        <div className="glass-panel-glow border-pink-500/25 p-6 md:p-8 rounded-3xl space-y-8 bg-slate-900/90 shadow-2xl">
-          <div className="space-y-2">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pink-500/15 border border-pink-500/30 text-pink-300 text-xs font-bold">
-              <Sliders size={13} />
-              <span>CONFIGURE KANA DRILL</span>
+        <div className="p-6 md:p-8 rounded-2xl bg-[#17171b] border border-white/5 space-y-6">
+          <div className="space-y-1">
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-[#c53d33]/10 border border-[#c53d33]/30 text-[#e57a6f] text-xs font-mincho font-medium">
+              <Sliders size={12} />
+              <span>演習設定 (KANA CONFIGURATION)</span>
             </div>
-            <h1 className="text-2xl md:text-3xl font-black text-white">Hiragana & Katakana Practice</h1>
-            <p className="text-xs text-slate-400">
-              Select your target Japanese script, syllable category, and testing mode.
+            <h1 className="text-xl md:text-2xl font-bold text-white tracking-tight">平仮名・片仮名 演習設定</h1>
+            <p className="text-xs text-stone-400 font-jp">
+              対象とする文字種、音の分類、出題形式を選択して演習を開始できます。
             </p>
           </div>
 
           {/* Script Selection */}
           <div className="space-y-3">
-            <label className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
-              <Sparkles size={14} className="text-pink-400" />
-              <span>Target Script:</span>
+            <label className="text-xs font-medium text-stone-300 flex items-center gap-2 font-jp">
+              <span className="w-5 h-5 rounded bg-[#c53d33] text-white flex items-center justify-center text-[11px] font-bold">1</span>
+              <span>対象文字 (Target Script):</span>
             </label>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-3 gap-2.5">
               {[
-                { id: 'hiragana', title: 'Hiragana', sub: 'ひらがな (あいうえお)', count: n5Data.hiragana.length },
-                { id: 'katakana', title: 'Katakana', sub: 'カタカナ (アイウエオ)', count: n5Data.katakana.length },
-                { id: 'mixed', title: 'Mixed Both', sub: 'Hiragana & Katakana', count: n5Data.hiragana.length + n5Data.katakana.length }
+                { id: 'hiragana', title: '平仮名 (Hiragana)', sub: 'あいうえお', count: n5Data.hiragana.length },
+                { id: 'katakana', title: '片仮名 (Katakana)', sub: 'アイウエオ', count: n5Data.katakana.length },
+                { id: 'mixed', title: '混合 (Both)', sub: '平仮名 & 片仮名', count: n5Data.hiragana.length + n5Data.katakana.length }
               ].map((s) => {
                 const isSelected = selectedScript === s.id;
                 return (
@@ -250,19 +253,19 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
                     key={s.id}
                     type="button"
                     onClick={() => setSelectedScript(s.id)}
-                    className={`p-4 rounded-2xl border text-left transition-all ${
+                    className={`p-3.5 rounded-xl border text-left transition-all ${
                       isSelected
-                        ? 'bg-pink-500/20 border-pink-500 text-white shadow-md shadow-pink-500/10'
-                        : 'bg-slate-800/60 border-white/5 text-slate-300 hover:border-white/20'
+                        ? 'bg-[#222227] border-[#c53d33] text-white'
+                        : 'bg-[#131316] border-white/5 text-stone-300 hover:border-white/15'
                     }`}
                   >
                     <div className="flex items-center justify-between">
-                      <div className="text-sm font-extrabold">{s.title}</div>
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-white/10 text-pink-300">
-                        {s.count}
+                      <div className="text-xs font-bold font-mincho">{s.title}</div>
+                      <span className="text-[10px] font-medium px-1.5 py-0.2 rounded bg-white/5 text-stone-400">
+                        {s.count}字
                       </span>
                     </div>
-                    <div className="text-xs text-slate-400 mt-1 font-jp">{s.sub}</div>
+                    <div className="text-[11px] text-stone-400 mt-1 font-mincho">{s.sub}</div>
                   </button>
                 );
               })}
@@ -270,17 +273,17 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
           </div>
 
           {/* Group / Category Filter */}
-          <div className="space-y-3">
-            <label className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
-              <Filter size={14} className="text-pink-400" />
-              <span>Syllable Category:</span>
+          <div className="space-y-3 pt-3 border-t border-white/5">
+            <label className="text-xs font-medium text-stone-300 flex items-center gap-2 font-jp">
+              <span className="w-5 h-5 rounded bg-[#c53d33] text-white flex items-center justify-center text-[11px] font-bold">2</span>
+              <span>音の分類 (Category):</span>
             </label>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
               {[
-                { id: 'all', label: 'All Characters', desc: 'Complete syllable set' },
-                { id: 'basic', label: 'Basic 46 (五十音)', desc: 'Pure sounds (あ〜ん)' },
-                { id: 'dakuten', label: 'Dakuten (濁音)', desc: 'Voiced sounds (が〜ぽ)' },
-                { id: 'yoon', label: 'Yōon (拗音)', desc: 'Combos (きゃ〜ぴょ)' }
+                { id: 'all', label: 'すべての音', desc: '全音セット' },
+                { id: 'basic', label: '基本音 (46音)', desc: '清音 (あ〜ん)' },
+                { id: 'dakuten', label: '濁音・半濁音', desc: 'が〜ぽ' },
+                { id: 'yoon', label: '拗音 (33音)', desc: 'きゃ〜ぴょ' }
               ].map((g) => {
                 const isSelected = selectedGroup === g.id;
                 return (
@@ -288,14 +291,14 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
                     key={g.id}
                     type="button"
                     onClick={() => setSelectedGroup(g.id)}
-                    className={`p-3.5 rounded-xl text-left border transition-all ${
+                    className={`p-3 rounded-xl text-left border transition-all ${
                       isSelected
-                        ? 'bg-pink-500/20 border-pink-500 text-white shadow-sm'
-                        : 'bg-slate-800/50 border-white/5 text-slate-300 hover:border-white/20'
+                        ? 'bg-[#222227] border-[#c53d33] text-white'
+                        : 'bg-[#131316] border-white/5 text-stone-300 hover:border-white/15'
                     }`}
                   >
-                    <div className="text-xs font-bold">{g.label}</div>
-                    <div className="text-[10px] text-slate-400 mt-1">{g.desc}</div>
+                    <div className="text-xs font-bold font-jp">{g.label}</div>
+                    <div className="text-[10px] text-stone-400 mt-0.5 font-jp">{g.desc}</div>
                   </button>
                 );
               })}
@@ -303,16 +306,16 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
           </div>
 
           {/* Mode Selector */}
-          <div className="space-y-3">
-            <label className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
-              <Sliders size={14} className="text-pink-400" />
-              <span>Exercise Mode:</span>
+          <div className="space-y-3 pt-3 border-t border-white/5">
+            <label className="text-xs font-medium text-stone-300 flex items-center gap-2 font-jp">
+              <span className="w-5 h-5 rounded bg-[#c53d33] text-white flex items-center justify-center text-[11px] font-bold">3</span>
+              <span>出題形式 (Mode):</span>
             </label>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
               {[
-                { id: 'kana_to_romaji', label: 'Kana → Romaji', desc: 'Read Kana, choose Romanization' },
-                { id: 'romaji_to_kana', label: 'Romaji → Kana', desc: 'Read Romaji, choose Kana symbol' },
-                { id: 'audio', label: 'Listening Drill', desc: 'Hear sound, pick matching Kana' }
+                { id: 'kana_to_romaji', label: '仮名 ➔ ローマ字', desc: '文字を見て正しい発音・表記を選択' },
+                { id: 'romaji_to_kana', label: 'ローマ字 ➔ 仮名', desc: 'ローマ字を見て該当する仮名を選択' },
+                { id: 'audio', label: '🎧 音声聴解', desc: '音声を聴き、正しい仮名を選択' }
               ].map((m) => {
                 const isSelected = selectedMode === m.id;
                 return (
@@ -320,14 +323,14 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
                     key={m.id}
                     type="button"
                     onClick={() => setSelectedMode(m.id)}
-                    className={`p-3.5 rounded-xl text-left border transition-all ${
+                    className={`p-3 rounded-xl text-left border transition-all ${
                       isSelected
-                        ? 'bg-pink-500/20 border-pink-500 text-white shadow-sm'
-                        : 'bg-slate-800/50 border-white/5 text-slate-300 hover:border-white/20'
+                        ? 'bg-[#222227] border-[#c53d33] text-white'
+                        : 'bg-[#131316] border-white/5 text-stone-300 hover:border-white/15'
                     }`}
                   >
-                    <div className="text-xs font-bold">{m.label}</div>
-                    <div className="text-[10px] text-slate-400 mt-1">{m.desc}</div>
+                    <div className={`text-xs font-bold ${isSelected ? 'text-[#e57a6f]' : 'text-stone-200'}`}>{m.label}</div>
+                    <div className="text-[10px] text-stone-400 mt-0.5 leading-snug font-jp">{m.desc}</div>
                   </button>
                 );
               })}
@@ -335,10 +338,10 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
           </div>
 
           {/* Question Count */}
-          <div className="space-y-3">
-            <label className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
-              <Clock size={14} className="text-pink-400" />
-              <span>Question Count:</span>
+          <div className="space-y-3 pt-3 border-t border-white/5">
+            <label className="text-xs font-medium text-stone-300 flex items-center gap-2 font-jp">
+              <span className="w-5 h-5 rounded bg-[#c53d33] text-white flex items-center justify-center text-[11px] font-bold">4</span>
+              <span>出題数:</span>
             </label>
             <div className="flex flex-wrap gap-2">
               {[10, 15, 25, 46, 'all'].map((cnt) => (
@@ -346,13 +349,13 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
                   key={cnt}
                   type="button"
                   onClick={() => setQuestionCount(cnt)}
-                  className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
+                  className={`px-3.5 py-1.5 rounded-lg text-xs font-medium border transition-all ${
                     questionCount === cnt
-                      ? 'bg-pink-500 text-white border-pink-500 shadow-md shadow-pink-500/20'
-                      : 'bg-slate-800/70 border-white/5 text-slate-300 hover:border-white/20'
+                      ? 'bg-[#c53d33] text-white border-[#c53d33]'
+                      : 'bg-[#131316] border-white/5 text-stone-300 hover:text-white'
                   }`}
                 >
-                  {cnt === 'all' ? 'All Kana' : `${cnt} Questions`}
+                  {cnt === 'all' ? '全問' : `${cnt}問`}
                 </button>
               ))}
             </div>
@@ -361,59 +364,59 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
           {/* Start CTA */}
           <button
             onClick={() => startQuiz()}
-            className="w-full py-4 rounded-2xl bg-gradient-to-r from-pink-500 via-rose-500 to-pink-600 hover:from-pink-600 hover:to-rose-600 text-white font-extrabold text-sm shadow-xl shadow-pink-500/25 hover:scale-[1.01] active:scale-[0.99] transition-all flex items-center justify-center gap-2.5"
+            className="w-full py-3.5 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white font-medium text-sm transition-all flex items-center justify-center gap-2 shadow-sm"
           >
-            <Play size={18} className="fill-white" />
-            <span>Start Kana Practice Quiz</span>
+            <Play size={15} className="fill-white" />
+            <span>五十音演習開始</span>
           </button>
         </div>
       )}
 
       {/* ACTIVE QUIZ SCREEN */}
       {quizState === 'active' && currentQ && (
-        <div className="space-y-6">
+        <div className="space-y-6 pb-12">
           {/* Header */}
-          <div className="glass-panel p-4 rounded-2xl flex items-center justify-between text-xs border-pink-500/20">
+          <div className="p-3.5 rounded-xl bg-[#17171b] border border-white/5 flex items-center justify-between text-xs font-jp">
             <div className="flex items-center gap-3">
-              <span className="font-extrabold text-white">
-                Question {currentIndex + 1} / {questions.length}
+              <span className="font-bold text-white">
+                第 {currentIndex + 1} / {questions.length} 問
               </span>
-              <span className="text-slate-500">•</span>
-              <span className="text-pink-300 font-semibold uppercase">
+              <span className="text-stone-500">•</span>
+              <span className="text-[#e57a6f] uppercase font-mincho">
                 {selectedScript} ({selectedGroup})
               </span>
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="flex items-center gap-1.5 text-slate-400 font-mono">
-                <Clock size={13} />
+              <div className="flex items-center gap-1.5 text-stone-400 font-mono">
+                <Clock size={12} />
                 <span>{Math.floor(elapsedSeconds / 60)}:{(elapsedSeconds % 60).toString().padStart(2, '0')}</span>
               </div>
-              <div className="flex items-center gap-1.5 font-bold text-emerald-400">
-                <Check size={14} />
-                <span>{correctCount}</span>
+              <div className="flex items-center gap-1.5 font-medium text-emerald-400">
+                <Check size={13} />
+                <span>{correctCount}正解</span>
               </div>
             </div>
           </div>
 
           {/* Progress Bar */}
-          <div className="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+          <div className="w-full h-1 bg-[#17171b] rounded-full overflow-hidden">
             <div 
-              className="h-full bg-gradient-to-r from-pink-500 to-rose-500 transition-all duration-300"
+              className="h-full bg-[#c53d33] transition-all duration-300"
               style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}
             ></div>
           </div>
 
           {/* Question Card */}
-          <div className="glass-panel-glow border-pink-500/30 p-8 rounded-3xl bg-slate-900/90 text-center space-y-4 shadow-xl">
-            <div className="text-xs font-bold text-pink-400 uppercase tracking-wider">
-              {currentQ.subPrompt}
+          <div className="p-8 md:p-12 rounded-2xl bg-[#17171b] border border-white/5 text-center space-y-3">
+            <div className="text-[11px] font-mincho text-[#e57a6f]">
+              〔 {currentQ.subPrompt} 〕
             </div>
 
             {/* Prompt */}
             <div className="py-2">
-              <div className={`font-black text-white font-jp ${
-                selectedMode === 'romaji_to_kana' ? 'text-4xl sm:text-5xl font-mono' : 'text-7xl sm:text-8xl text-pink-300'
+              <div className={`font-bold text-white font-mincho ${
+                selectedMode === 'romaji_to_kana' ? 'text-4xl sm:text-5xl font-mono' : 'text-7xl sm:text-8xl tracking-wider'
               }`}>
                 {currentQ.prompt}
               </div>
@@ -421,25 +424,25 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
 
             {/* Pronunciation Button */}
             <div className="flex items-center justify-center gap-2 pt-1">
-              <AudioButton text={currentQ.audioText} label="Replay Audio" size="md" />
+              <AudioButton text={currentQ.audioText} label="音声を聴く" size="md" />
             </div>
           </div>
 
           {/* Options Grid (4 MCQs) */}
-          <div className="grid grid-cols-2 gap-3.5">
+          <div className="grid grid-cols-2 gap-3">
             {currentQ.options.map((option, idx) => {
               const isSelected = selectedOption === option;
               const isCorrect = option === currentQ.correctAnswer;
 
-              let btnClass = 'bg-slate-800/80 hover:bg-slate-700/80 border-white/10 text-slate-100';
+              let btnClass = 'bg-[#17171b] hover:bg-[#1e1e24] border-white/5 text-stone-100';
 
               if (isAnswered) {
                 if (isCorrect) {
-                  btnClass = 'bg-emerald-500/25 border-emerald-500 text-emerald-200 font-black shadow-lg shadow-emerald-500/20';
+                  btnClass = 'bg-emerald-950/20 border-emerald-500 text-emerald-300';
                 } else if (isSelected) {
-                  btnClass = 'bg-rose-500/25 border-rose-500 text-rose-200 font-black shadow-lg shadow-rose-500/20';
+                  btnClass = 'bg-[#c53d33]/15 border-[#c53d33] text-[#e57a6f]';
                 } else {
-                  btnClass = 'bg-slate-900/50 border-white/5 text-slate-500 opacity-60';
+                  btnClass = 'bg-[#131316] border-white/5 text-stone-600 opacity-50';
                 }
               }
 
@@ -449,15 +452,15 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
                   type="button"
                   onClick={() => handleSelectOption(option)}
                   disabled={isAnswered}
-                  className={`p-5 rounded-2xl border text-center transition-all group ${btnClass}`}
+                  className={`p-4 rounded-xl border text-center transition-all group ${btnClass}`}
                 >
-                  <div className={`font-black ${
-                    selectedMode === 'kana_to_romaji' ? 'text-xl font-mono' : 'text-4xl font-jp text-pink-200'
+                  <div className={`font-bold ${
+                    selectedMode === 'kana_to_romaji' ? 'text-xl font-mono' : 'text-4xl font-mincho text-white'
                   }`}>
                     {option}
                   </div>
-                  <div className="text-[10px] text-slate-500 mt-1 uppercase font-semibold">
-                    Option {String.fromCharCode(65 + idx)}
+                  <div className="text-[10px] text-stone-500 mt-1 uppercase font-mincho">
+                    選択肢 {['ア', 'イ', 'ウ', 'エ'][idx]}
                   </div>
                 </button>
               );
@@ -469,10 +472,10 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
             <div className="pt-2 animate-fadeIn">
               <button
                 onClick={handleNext}
-                className="w-full py-4 rounded-2xl bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 text-white font-extrabold text-sm shadow-xl shadow-pink-500/25 flex items-center justify-center gap-2"
+                className="w-full py-3.5 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white font-medium text-sm transition-all flex items-center justify-center gap-2 shadow-sm"
               >
-                <span>{currentIndex + 1 < questions.length ? 'Next Character' : 'View Results'}</span>
-                <ArrowRight size={16} />
+                <span>{currentIndex + 1 < questions.length ? '次の文字へ' : '採点結果を表示'}</span>
+                <ArrowRight size={15} />
               </button>
             </div>
           )}
@@ -481,118 +484,118 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
 
       {/* RESULTS SCREEN */}
       {quizState === 'result' && (
-        <div className="glass-panel-glow border-pink-500/30 p-6 md:p-8 rounded-3xl space-y-8 bg-slate-900/90 shadow-2xl animate-fadeIn">
+        <div className="p-8 rounded-2xl bg-[#17171b] border border-white/5 space-y-6 text-center animate-fadeIn pb-12">
           {/* Header */}
-          <div className="text-center space-y-3">
-            <div className="w-16 h-16 rounded-3xl bg-gradient-to-tr from-pink-500 to-rose-500 flex items-center justify-center text-white mx-auto shadow-xl shadow-pink-500/30">
-              <Trophy size={32} />
+          <div className="text-center space-y-2">
+            <div className="w-14 h-14 rounded-full bg-[#131316] text-[#e57a6f] border border-white/10 flex items-center justify-center mx-auto">
+              <span className="font-mincho text-2xl font-bold">印</span>
             </div>
 
-            <h1 className="text-2xl md:text-3xl font-black text-white">Kana Practice Complete!</h1>
-            <p className="text-xs text-slate-400">
-              {selectedScript.toUpperCase()} ({selectedGroup}) • {questions.length} Characters Tested
+            <h1 className="text-2xl font-bold text-white tracking-tight font-jp">五十音演習終了 (Complete)</h1>
+            <p className="text-xs text-stone-400 font-jp">
+              {selectedScript.toUpperCase()} ({selectedGroup}) • {questions.length}問 演習完了
             </p>
           </div>
 
           {/* Score Banner */}
-          <div className="grid grid-cols-3 gap-3 text-center">
-            <div className="p-4 rounded-2xl bg-white/5 border border-white/5">
-              <div className="text-2xl md:text-3xl font-black text-pink-400">
+          <div className="grid grid-cols-3 gap-3 text-center max-w-md mx-auto">
+            <div className="p-3.5 rounded-xl bg-[#131316] border border-white/5">
+              <div className="text-2xl font-bold text-white font-mincho">
                 {Math.round((correctCount / questions.length) * 100)}%
               </div>
-              <div className="text-xs text-slate-400 mt-1">Accuracy</div>
+              <div className="text-[11px] text-stone-400 mt-0.5 font-jp">正答率</div>
             </div>
 
-            <div className="p-4 rounded-2xl bg-white/5 border border-white/5">
-              <div className="text-2xl md:text-3xl font-black text-emerald-400">
+            <div className="p-3.5 rounded-xl bg-[#131316] border border-white/5">
+              <div className="text-2xl font-bold text-emerald-400 font-mincho">
                 {correctCount} / {questions.length}
               </div>
-              <div className="text-xs text-slate-400 mt-1">Score</div>
+              <div className="text-[11px] text-stone-400 mt-0.5 font-jp">正解数</div>
             </div>
 
-            <div className="p-4 rounded-2xl bg-white/5 border border-white/5">
-              <div className="text-2xl md:text-3xl font-black text-amber-400">
+            <div className="p-3.5 rounded-xl bg-[#131316] border border-white/5">
+              <div className="text-2xl font-bold text-stone-300 font-mono">
                 {Math.floor(elapsedSeconds / 60)}:{(elapsedSeconds % 60).toString().padStart(2, '0')}
               </div>
-              <div className="text-xs text-slate-400 mt-1">Time</div>
+              <div className="text-[11px] text-stone-400 mt-0.5 font-jp">所要時間</div>
             </div>
           </div>
 
           {/* Action Buttons */}
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-wrap items-center justify-center gap-2.5 max-w-md mx-auto">
             <button
               onClick={restartQuiz}
-              className="flex-1 py-3.5 rounded-xl bg-pink-500 hover:bg-pink-600 text-white font-bold text-xs shadow-lg shadow-pink-500/20 flex items-center justify-center gap-2"
+              className="flex-1 py-2.5 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white font-medium text-xs flex items-center justify-center gap-2 transition-colors shadow-sm"
             >
-              <RotateCcw size={15} />
-              <span>Drill Again</span>
+              <RotateCcw size={14} />
+              <span>もう一度演習</span>
             </button>
 
             {mistakes.length > 0 && (
               <button
                 onClick={retryMistakes}
-                className="flex-1 py-3.5 rounded-xl bg-rose-500/20 hover:bg-rose-500/30 text-rose-300 border border-rose-500/30 font-bold text-xs flex items-center justify-center gap-2"
+                className="flex-1 py-2.5 rounded-xl bg-[#222227] hover:bg-[#2a2a32] text-stone-200 border border-white/10 font-medium text-xs flex items-center justify-center gap-2 transition-colors"
               >
-                <X size={15} />
-                <span>Retry {mistakes.length} Mistakes</span>
+                <X size={14} />
+                <span>誤答の{mistakes.length}文字を再挑戦</span>
               </button>
             )}
 
             <button
               onClick={() => setQuizState('setup')}
-              className="px-5 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs border border-white/5"
+              className="px-4 py-2.5 rounded-xl bg-[#131316] hover:bg-[#1a1a20] text-stone-400 hover:text-white font-medium text-xs border border-white/5 transition-colors font-jp"
             >
-              Change Settings
+              設定変更
             </button>
           </div>
 
           {/* Mistakes Review */}
-          <div className="space-y-4 pt-4 border-t border-white/10">
+          <div className="space-y-3 pt-4 border-t border-white/5 text-left">
             <div className="flex items-center justify-between">
-              <h3 className="text-sm font-bold text-white flex items-center gap-2">
-                <span>Character Review</span>
-                <span className="text-xs px-2 py-0.5 rounded-full bg-white/10 text-slate-300">
-                  {userAnswers.length}
+              <h3 className="text-sm font-bold text-white flex items-center gap-2 font-jp">
+                <span>解答一覧 (Character Review)</span>
+                <span className="text-xs px-2 py-0.5 rounded bg-white/5 text-stone-400 font-jp">
+                  {userAnswers.length}問
                 </span>
               </h3>
 
-              <div className="flex items-center gap-1 bg-slate-800 p-0.5 rounded-lg text-xs">
+              <div className="flex items-center gap-1 bg-[#131316] p-1 rounded-lg border border-white/5 text-xs font-jp">
                 <button
                   onClick={() => setReviewFilter('all')}
-                  className={`px-2.5 py-1 rounded-md font-semibold ${
-                    reviewFilter === 'all' ? 'bg-pink-500 text-white' : 'text-slate-400'
+                  className={`px-2.5 py-1 rounded font-medium transition-all ${
+                    reviewFilter === 'all' ? 'bg-[#222227] text-white' : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  All ({userAnswers.length})
+                  全問 ({userAnswers.length})
                 </button>
                 <button
                   onClick={() => setReviewFilter('mistakes')}
-                  className={`px-2.5 py-1 rounded-md font-semibold ${
-                    reviewFilter === 'mistakes' ? 'bg-rose-500 text-white' : 'text-slate-400'
+                  className={`px-2.5 py-1 rounded font-medium transition-all ${
+                    reviewFilter === 'mistakes' ? 'bg-[#c53d33]/20 text-[#e57a6f]' : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  Mistakes ({mistakes.length})
+                  誤答のみ ({mistakes.length})
                 </button>
               </div>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5 max-h-72 overflow-y-auto pr-1 scrollbar-thin">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 max-h-72 overflow-y-auto pr-1 scrollbar-thin">
               {userAnswers
                 .filter(a => reviewFilter === 'all' || !a.isCorrect)
                 .map((ans, idx) => (
                   <div
                     key={idx}
-                    className={`p-3 rounded-xl border flex items-center justify-between ${
+                    className={`p-2.5 rounded-xl border flex items-center justify-between ${
                       ans.isCorrect
-                        ? 'bg-slate-800/40 border-white/5'
-                        : 'bg-rose-500/10 border-rose-500/30'
+                        ? 'bg-[#131316] border-white/5'
+                        : 'bg-[#131316] border-[#c53d33]/30'
                     }`}
                   >
                     <div>
-                      <div className="text-2xl font-black text-white font-jp">
+                      <div className="text-2xl font-bold text-white font-mincho">
                         {ans.question.item.kana}
                       </div>
-                      <div className="text-xs font-mono text-pink-300 font-bold">
+                      <div className="text-xs font-mono text-stone-400">
                         {ans.question.item.romaji}
                       </div>
                     </div>
@@ -600,7 +603,7 @@ export default function KanaQuiz({ initialScript = 'hiragana', onBackToSoundboar
                     <div className="flex flex-col items-end gap-1">
                       <AudioButton text={ans.question.item.kana} size="sm" />
                       {!ans.isCorrect && (
-                        <span className="text-[10px] text-rose-400 line-through">
+                        <span className="text-[10px] text-[#e57a6f] line-through">
                           {ans.selected}
                         </span>
                       )}

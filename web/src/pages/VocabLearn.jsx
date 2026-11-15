@@ -414,17 +414,17 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
   return (
     <div className="max-w-5xl mx-auto space-y-6 animate-fadeIn pb-12">
       {/* ================= HEADER & STUDIO DASHBOARD ================= */}
-      <div className="glass-panel p-6 rounded-3xl border-white/10 space-y-5">
+      <div className="p-6 rounded-2xl bg-[#17171b] border border-white/5 space-y-5">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="space-y-1">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-rose-400">Vocabulary Studio</span>
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-300 font-bold">
-                {filteredWords.length} Words in Pool
+              <span className="text-xs font-mincho text-[#e57a6f]">〔 語彙学習 〕</span>
+              <span className="text-[11px] px-2 py-0.5 rounded border border-white/10 bg-white/5 text-stone-300 font-medium font-jp">
+                {filteredWords.length}語
               </span>
             </div>
-            <h1 className="text-2xl sm:text-3xl font-black text-white">{currentTitle}</h1>
-            <p className="text-xs text-slate-400">Select chapters below to customize your study pool or start continuous audio playback.</p>
+            <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">{currentTitle}</h1>
+            <p className="text-xs text-stone-400 font-jp">学習したい課を選択し、単語カードまたは連続音声学習を開始できます。</p>
           </div>
 
           {/* Master Actions */}
@@ -440,44 +440,44 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
                   startListenLearn(cardIndex || 0);
                 }
               }}
-              className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-extrabold text-xs shadow-lg transition-all ${
+              className={`flex items-center gap-2 px-3.5 py-2.5 rounded-xl font-medium text-xs transition-all border ${
                 isAudioPlaying
-                  ? 'bg-amber-500 hover:bg-amber-600 text-white shadow-amber-500/25 animate-pulse'
-                  : 'bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white shadow-emerald-500/25 hover:scale-[1.02]'
+                  ? 'bg-amber-600 text-white border-amber-500 animate-pulse'
+                  : 'bg-[#222227] hover:bg-[#2c2c34] text-stone-200 border-white/5'
               }`}
             >
-              <Headphones size={15} />
-              <span>{isAudioPlaying ? 'Pause Audio Player' : '🎧 Listen & Learn (Autoplay)'}</span>
+              <Headphones size={14} className={isAudioPlaying ? 'text-white' : 'text-[#e57a6f]'} />
+              <span>{isAudioPlaying ? '一時停止 (Pause)' : '連続音声再生 (Autoplay)'}</span>
             </button>
 
             {/* Practice Quiz */}
             <button
               onClick={() => onStartPractice({ chapters: selectedChapters, count: 15 })}
-              className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold text-xs shadow-md shadow-rose-500/20 transition-all"
+              className="flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white font-medium text-xs shadow-sm transition-all"
             >
-              <Play size={14} className="fill-white" />
-              <span>Practice Quiz</span>
+              <Play size={13} className="fill-white" />
+              <span>問題練習 (Quiz)</span>
             </button>
 
             {/* View Toggle */}
-            <div className="flex items-center bg-slate-800/80 p-1 rounded-xl border border-white/5 text-xs">
+            <div className="flex items-center bg-[#131316] p-1 rounded-xl border border-white/5 text-xs">
               <button
                 onClick={() => setViewMode('flashcard')}
-                className={`flex items-center gap-1 px-3 py-1.5 rounded-lg font-semibold transition-all ${
-                  viewMode === 'flashcard' ? 'bg-rose-500 text-white' : 'text-slate-400 hover:text-white'
+                className={`flex items-center gap-1 px-3 py-1.5 rounded-lg font-medium transition-all ${
+                  viewMode === 'flashcard' ? 'bg-[#222227] text-white' : 'text-stone-400 hover:text-white'
                 }`}
               >
                 <Layers size={13} />
-                <span>Cards</span>
+                <span>カード</span>
               </button>
               <button
                 onClick={() => setViewMode('grid')}
-                className={`flex items-center gap-1 px-3 py-1.5 rounded-lg font-semibold transition-all ${
-                  viewMode === 'grid' ? 'bg-rose-500 text-white' : 'text-slate-400 hover:text-white'
+                className={`flex items-center gap-1 px-3 py-1.5 rounded-lg font-medium transition-all ${
+                  viewMode === 'grid' ? 'bg-[#222227] text-white' : 'text-stone-400 hover:text-white'
                 }`}
               >
                 <List size={13} />
-                <span>List</span>
+                <span>一覧</span>
               </button>
             </div>
           </div>
@@ -486,10 +486,10 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
         {/* ================= MULTI-CHAPTER SELECTION TOOLBAR ================= */}
         <div className="pt-3 border-t border-white/5 space-y-3">
           <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
-            <span className="font-bold text-slate-300 flex items-center gap-1.5">
-              <span>Select Chapters to Include:</span>
-              <span className="text-[11px] text-slate-400 font-normal">
-                ({selectedChapters.length} active • {chapterWords.length} words total)
+            <span className="font-medium text-stone-300 flex items-center gap-1.5 font-jp">
+              <span>学習範囲の選択:</span>
+              <span className="text-[11px] text-stone-400 font-normal">
+                ({selectedChapters.length}課 選択中 • 計{chapterWords.length}語)
               </span>
             </span>
 
@@ -497,49 +497,49 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
             <div className="flex flex-wrap items-center gap-1.5">
               <button
                 onClick={selectAllChapters}
-                className={`px-2.5 py-1 rounded-lg font-bold text-[11px] border transition-all ${
+                className={`px-2.5 py-1 rounded-lg font-medium text-[11px] border transition-all ${
                   selectedChapters.length === 24 && includeAdverbs
-                    ? 'bg-rose-500 text-white border-rose-400 shadow-sm'
-                    : 'bg-slate-800/80 text-slate-400 border-white/5 hover:text-white'
+                    ? 'bg-[#c53d33] text-white border-[#c53d33]'
+                    : 'bg-[#18181c] text-stone-400 border-white/5 hover:text-white'
                 }`}
               >
-                🌸 All 24 Ch
+                全24課
               </button>
               <button
                 onClick={selectBasic1}
-                className={`px-2.5 py-1 rounded-lg font-bold text-[11px] border transition-all ${
+                className={`px-2.5 py-1 rounded-lg font-medium text-[11px] border transition-all ${
                   selectedChapters.length === 11 && selectedChapters.every(c => c <= 11)
-                    ? 'bg-indigo-600 text-white border-indigo-400 shadow-sm'
-                    : 'bg-slate-800/80 text-slate-400 border-white/5 hover:text-white'
+                    ? 'bg-[#c53d33] text-white border-[#c53d33]'
+                    : 'bg-[#18181c] text-stone-400 border-white/5 hover:text-white'
                 }`}
               >
-                📗 Basic 1 (1–11)
+                初級1 (1–11)
               </button>
               <button
                 onClick={selectBasic2}
-                className={`px-2.5 py-1 rounded-lg font-bold text-[11px] border transition-all ${
+                className={`px-2.5 py-1 rounded-lg font-medium text-[11px] border transition-all ${
                   selectedChapters.length === 13 && selectedChapters.every(c => c >= 12)
-                    ? 'bg-purple-600 text-white border-purple-400 shadow-sm'
-                    : 'bg-slate-800/80 text-slate-400 border-white/5 hover:text-white'
+                    ? 'bg-[#c53d33] text-white border-[#c53d33]'
+                    : 'bg-[#18181c] text-stone-400 border-white/5 hover:text-white'
                 }`}
               >
-                📘 Basic 2 (12–24)
+                初級2 (12–24)
               </button>
               <button
                 onClick={() => setIncludeAdverbs(!includeAdverbs)}
-                className={`px-2.5 py-1 rounded-lg font-bold text-[11px] border transition-all ${
+                className={`px-2.5 py-1 rounded-lg font-medium text-[11px] border transition-all ${
                   includeAdverbs
-                    ? 'bg-emerald-600 text-white border-emerald-400 shadow-sm'
-                    : 'bg-slate-800/80 text-slate-400 border-white/5 hover:text-white'
+                    ? 'bg-[#222227] text-white border-white/20'
+                    : 'bg-[#18181c] text-stone-400 border-white/5 hover:text-white'
                 }`}
               >
-                🏷️ + Adverbs {includeAdverbs ? '✓' : ''}
+                副詞 {includeAdverbs ? '✓' : ''}
               </button>
               <button
                 onClick={clearSelection}
-                className="px-2 py-1 rounded-lg font-semibold text-[11px] text-slate-500 hover:text-rose-400 transition-colors"
+                className="px-2 py-1 rounded-lg font-medium text-[11px] text-stone-500 hover:text-stone-300 transition-colors"
               >
-                Clear
+                解除
               </button>
             </div>
           </div>
@@ -553,15 +553,15 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
                 <button
                   key={ch}
                   onClick={() => toggleChapter(ch)}
-                  className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all border flex items-center gap-1.5 ${
+                  className={`px-2.5 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition-all border flex items-center gap-1.5 ${
                     isSelected
-                      ? 'bg-rose-500 border-rose-400 text-white shadow-md shadow-rose-500/20'
-                      : 'bg-slate-800/60 border-white/5 text-slate-400 hover:border-white/20 hover:text-white'
+                      ? 'bg-[#c53d33] border-[#c53d33] text-white'
+                      : 'bg-[#18181c] border-white/5 text-stone-400 hover:border-white/20 hover:text-white'
                   }`}
                 >
-                  <span>Ch {ch}</span>
-                  <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                    isSelected ? 'bg-rose-700/60 text-rose-100' : 'bg-slate-700/60 text-slate-400'
+                  <span className="font-mincho">第{ch}課</span>
+                  <span className={`text-[10px] px-1.5 py-0.2 rounded ${
+                    isSelected ? 'bg-black/20 text-white' : 'bg-white/5 text-stone-400'
                   }`}>
                     {count}
                   </span>
@@ -574,85 +574,83 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
 
       {/* ================= LISTEN & LEARN AUTOPLAY CONTROLLER CARD ================= */}
       {isAudioModeOpen && currentAudioWord && (
-        <div className="glass-panel-glow border-emerald-500/30 p-5 rounded-3xl bg-gradient-to-br from-slate-900 via-slate-900 to-emerald-950/40 shadow-2xl space-y-4 animate-fadeIn">
+        <div className="p-5 rounded-2xl bg-[#17171b] border border-white/10 space-y-4 animate-fadeIn">
           {/* Header Row: Title & Stable Fixed-Width Status Pill */}
-          <div className="flex items-center justify-between gap-3 pb-3 border-b border-white/10">
+          <div className="flex items-center justify-between gap-3 pb-3 border-b border-white/5">
             <div className="flex items-center gap-3 min-w-0">
-              <div className={`w-9 h-9 shrink-0 rounded-xl flex items-center justify-center font-bold ${
-                isAudioPlaying ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/30 animate-pulse' : 'bg-slate-800 text-slate-400'
+              <div className={`w-8 h-8 shrink-0 rounded-lg flex items-center justify-center font-bold ${
+                isAudioPlaying ? 'bg-[#c53d33] text-white animate-pulse' : 'bg-[#222227] text-stone-400'
               }`}>
-                <Headphones size={18} />
+                <Headphones size={15} />
               </div>
               <div className="min-w-0">
-                <div className="font-extrabold text-sm text-white truncate">Continuous Audio Reader</div>
-                <div className="text-xs text-slate-400">
-                  Word {currentAudioIndex + 1} of {filteredWords.length} • {Math.round(((currentAudioIndex + 1) / filteredWords.length) * 100)}% Complete
+                <div className="font-bold text-sm text-white truncate font-jp">連続音声再生 (Audio Player)</div>
+                <div className="text-xs text-stone-400 font-jp">
+                  第 {currentAudioIndex + 1} / {filteredWords.length} 語 • {Math.round(((currentAudioIndex + 1) / filteredWords.length) * 100)}% 完了
                 </div>
               </div>
             </div>
 
             {/* Stable Status Indicator & Close */}
             <div className="flex items-center gap-2 shrink-0">
-              <div className="w-44 sm:w-48 text-center shrink-0">
-                <span className={`inline-block w-full text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider text-center truncate transition-colors ${
-                  audioPhase === 'japanese' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30 animate-pulse' :
-                  audioPhase === 'delay' ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' :
-                  audioPhase === 'english' ? 'bg-teal-500/20 text-teal-300 border border-teal-500/30 animate-pulse' :
-                  isAudioPaused ? 'bg-slate-800 text-slate-400 border border-white/5' :
-                  'bg-slate-800/80 text-slate-400 border border-white/5'
+              <div className="w-40 sm:w-44 text-center shrink-0">
+                <span className={`inline-block w-full text-[10px] font-medium font-jp px-2 py-1 rounded border text-center truncate ${
+                  audioPhase === 'japanese' ? 'bg-[#c53d33]/15 text-[#e57a6f] border-[#c53d33]/30 animate-pulse' :
+                  audioPhase === 'delay' ? 'bg-amber-500/10 text-amber-300 border-amber-500/20' :
+                  audioPhase === 'english' ? 'bg-white/10 text-white border-white/20 animate-pulse' :
+                  isAudioPaused ? 'bg-[#222227] text-stone-400 border-white/5' :
+                  'bg-[#222227] text-stone-400 border-white/5'
                 }`}>
-                  {audioPhase === 'japanese' ? '🇯🇵 Reading Japanese' :
-                   audioPhase === 'delay' ? (practiceDirection === 'en_to_jp' ? `⏳ Recall JP (${recallDelaySec}s)` : `⏳ Guess EN (${recallDelaySec}s)`) :
-                   audioPhase === 'english' ? '🇬🇧 Reading English' :
-                   isAudioPaused ? '⏸️ Paused' : 'Ready'}
+                  {audioPhase === 'japanese' ? '🇯🇵 日本語音声' :
+                   audioPhase === 'delay' ? (practiceDirection === 'en_to_jp' ? `⏳ 想起 (${recallDelaySec}秒)` : `⏳ 推測 (${recallDelaySec}秒)`) :
+                   audioPhase === 'english' ? '🇬🇧 英語解説' :
+                   isAudioPaused ? '⏸️ 一時停止' : '待機中'}
                 </span>
               </div>
 
               <button
                 onClick={stopListenLearn}
-                className="p-1 rounded-lg text-slate-500 hover:text-rose-400 hover:bg-slate-800 transition-colors shrink-0"
-                title="Close player"
+                className="p-1 rounded-lg text-stone-500 hover:text-white hover:bg-white/5 transition-colors shrink-0"
+                title="閉じる"
               >
                 ✕
               </button>
             </div>
           </div>
 
-          {/* Quick Player Settings: Dedicated Fixed Toolbar (Never Jumps or Shifts) */}
-          <div className="flex flex-wrap items-center justify-between gap-2.5 text-xs bg-slate-950/40 p-2.5 rounded-2xl border border-white/5">
+          {/* Quick Player Settings */}
+          <div className="flex flex-wrap items-center justify-between gap-2.5 text-xs bg-[#131316] p-2.5 rounded-xl border border-white/5">
             <div className="flex flex-wrap items-center gap-2">
-              {/* Practice Direction Toggle (JP->EN vs EN->JP) */}
-              <div className="flex items-center gap-1 bg-slate-800/90 p-1 rounded-xl border border-white/5 shrink-0">
-                <span className="text-slate-400 text-[11px] px-1 font-medium">Order:</span>
+              {/* Practice Direction Toggle */}
+              <div className="flex items-center gap-1 bg-[#1c1c20] p-1 rounded-lg border border-white/5 shrink-0">
+                <span className="text-stone-400 text-[11px] px-1 font-jp">順序:</span>
                 <button
                   onClick={() => handleDirectionChange('jp_to_en')}
-                  className={`px-2 py-0.5 rounded-lg text-[11px] font-bold transition-all flex items-center gap-1 ${
+                  className={`px-2 py-0.5 rounded text-[11px] font-medium transition-all ${
                     practiceDirection === 'jp_to_en'
-                      ? 'bg-rose-500 text-white shadow-sm'
-                      : 'text-slate-400 hover:text-white'
+                      ? 'bg-[#c53d33] text-white'
+                      : 'text-stone-400 hover:text-white'
                   }`}
-                  title="Practice Japanese to English (Japanese spoken first, then English)"
+                  title="日本語から英語へ"
                 >
-                  <span>🇯🇵 ➔ 🇬🇧</span>
-                  <span className="hidden sm:inline">JP ➔ EN</span>
+                  日 ➔ 英
                 </button>
                 <button
                   onClick={() => handleDirectionChange('en_to_jp')}
-                  className={`px-2 py-0.5 rounded-lg text-[11px] font-bold transition-all flex items-center gap-1 ${
+                  className={`px-2 py-0.5 rounded text-[11px] font-medium transition-all ${
                     practiceDirection === 'en_to_jp'
-                      ? 'bg-teal-500 text-white shadow-sm'
-                      : 'text-slate-400 hover:text-white'
+                      ? 'bg-[#c53d33] text-white'
+                      : 'text-stone-400 hover:text-white'
                   }`}
-                  title="Practice English to Japanese (English spoken first, then Japanese)"
+                  title="英語から日本語へ"
                 >
-                  <span>🇬🇧 ➔ 🇯🇵</span>
-                  <span className="hidden sm:inline">EN ➔ JP</span>
+                  英 ➔ 日
                 </button>
               </div>
 
-              {/* Speed selector (0.75x to 2.0x) */}
-              <div className="flex items-center gap-1 bg-slate-800/90 p-1 rounded-xl border border-white/5 shrink-0">
-                <span className="text-slate-400 text-[11px] px-1 font-medium">Speed:</span>
+              {/* Speed selector */}
+              <div className="flex items-center gap-1 bg-[#1c1c20] p-1 rounded-lg border border-white/5 shrink-0">
+                <span className="text-stone-400 text-[11px] px-1 font-jp">速度:</span>
                 {[
                   { val: 0.75, label: '0.75x' },
                   { val: 1.0, label: '1.0x' },
@@ -663,10 +661,10 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
                   <button
                     key={s.val}
                     onClick={() => handleSpeedSelect(s.val)}
-                    className={`px-1.5 py-0.5 rounded text-[10px] font-bold transition-all ${
+                    className={`px-1.5 py-0.5 rounded text-[10px] font-medium transition-all ${
                       Math.abs(audioSpeed - s.val) < 0.05
-                        ? 'bg-emerald-500 text-white shadow-sm'
-                        : 'text-slate-400 hover:text-white'
+                        ? 'bg-[#c53d33] text-white'
+                        : 'text-stone-400 hover:text-white'
                     }`}
                   >
                     {s.label}
@@ -675,17 +673,17 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
               </div>
 
               {/* Recall Gap Selector */}
-              <div className="flex items-center gap-1 bg-slate-800/80 px-2 py-1 rounded-xl border border-white/5 shrink-0">
-                <span className="text-slate-400 text-[11px]">Recall Gap:</span>
+              <div className="flex items-center gap-1 bg-[#1c1c20] px-2 py-1 rounded-lg border border-white/5 shrink-0">
+                <span className="text-stone-400 text-[11px] font-jp">待機間隔:</span>
                 {[1.0, 1.5, 2.5].map(sec => (
                   <button
                     key={sec}
                     onClick={() => handleRecallDelaySelect(sec)}
-                    className={`px-1.5 py-0.5 rounded text-[10px] font-bold transition-all ${
-                      recallDelaySec === sec ? 'bg-emerald-500 text-white' : 'text-slate-400 hover:text-white'
+                    className={`px-1.5 py-0.5 rounded text-[10px] font-medium transition-all ${
+                      recallDelaySec === sec ? 'bg-[#c53d33] text-white' : 'text-stone-400 hover:text-white'
                     }`}
                   >
-                    {sec}s
+                    {sec}秒
                   </button>
                 ))}
               </div>
@@ -694,47 +692,43 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
             {/* Loop Toggle */}
             <button
               onClick={handleLoopToggle}
-              className={`flex items-center gap-1 px-2.5 py-1 rounded-xl font-bold border transition-all shrink-0 ${
+              className={`flex items-center gap-1 px-2.5 py-1 rounded-lg font-medium border text-xs transition-all shrink-0 ${
                 isLooping 
-                  ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40' 
-                  : 'bg-slate-800/80 text-slate-400 border-white/5 hover:text-white'
+                  ? 'bg-[#c53d33]/20 text-[#e57a6f] border-[#c53d33]/40' 
+                  : 'bg-[#1c1c20] text-stone-400 border-white/5 hover:text-white'
               }`}
-              title="Repeat playlist continuously"
             >
               <Repeat size={12} />
-              <span>Loop {isLooping ? 'ON' : 'OFF'}</span>
+              <span>反復 {isLooping ? 'ON' : 'OFF'}</span>
             </button>
           </div>
 
-          {/* Large Currently Playing Display: Fixed Positions (Never Swaps or Shifts Heights) */}
-          <div className="p-4 rounded-2xl bg-slate-950/60 border border-white/5 flex flex-col md:flex-row md:items-center justify-between gap-4 min-h-[130px]">
+          {/* Large Currently Playing Display */}
+          <div className="p-4 rounded-xl bg-[#131316] border border-white/5 flex flex-col md:flex-row md:items-center justify-between gap-4 min-h-[120px]">
             <div className="space-y-1.5 flex-1 min-w-0">
               <div className="flex items-center gap-2">
-                <span className="text-[11px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-mono shrink-0">
+                <span className="text-[10px] px-2 py-0.5 rounded bg-white/5 text-stone-300 font-mono shrink-0">
                   {currentAudioWord.chapterOrigin || 'Word'}
                 </span>
-                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/5 text-slate-300 font-medium shrink-0">
-                  {practiceDirection === 'en_to_jp' ? '🇬🇧 English ➔ 🇯🇵 Japanese' : '🇯🇵 Japanese ➔ 🇬🇧 English'}
-                </span>
                 {currentAudioWord.romaji && (
-                  <span className="text-xs text-rose-300 font-sans truncate">
+                  <span className="text-xs text-stone-400 font-sans truncate">
                     {currentAudioWord.romaji}
                   </span>
                 )}
               </div>
 
-              {/* Japanese Word Slot (Always Row 1, highlights when reading Japanese) */}
-              <div className={`text-2xl sm:text-3xl font-black font-jp transition-colors duration-200 ${
-                audioPhase === 'japanese' ? 'text-rose-400' : 'text-white'
+              {/* Japanese Word Slot */}
+              <div className={`text-2xl sm:text-3xl font-bold font-mincho transition-colors duration-200 ${
+                audioPhase === 'japanese' ? 'text-[#e57a6f]' : 'text-white'
               }`}>
                 {currentAudioWord.japanese || currentAudioWord.kana}
               </div>
 
-              {/* English Meaning Slot (Always Row 2, highlights when reading English) */}
-              <div className={`text-base sm:text-lg font-bold transition-colors duration-200 ${
-                audioPhase === 'english' ? 'text-teal-300' : 'text-amber-200'
+              {/* English Meaning Slot */}
+              <div className={`text-base font-medium transition-colors duration-200 ${
+                audioPhase === 'english' ? 'text-white' : 'text-stone-300'
               }`}>
-                💬 {currentAudioWord.english}
+                {currentAudioWord.english}
               </div>
             </div>
 
@@ -742,10 +736,10 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
             <div className="flex items-center gap-2 self-start md:self-center">
               <button
                 onClick={skipAudioPrev}
-                className="w-10 h-10 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center transition-all border border-white/5"
-                title="Previous Word"
+                className="w-9 h-9 rounded-xl bg-[#1c1c20] hover:bg-[#26262c] text-stone-300 flex items-center justify-center transition-all border border-white/5"
+                title="前へ"
               >
-                <SkipBack size={16} />
+                <SkipBack size={15} />
               </button>
 
               <button
@@ -758,65 +752,65 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
                     startListenLearn(currentAudioIndex);
                   }
                 }}
-                className="w-12 h-12 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white flex items-center justify-center shadow-lg shadow-emerald-500/30 transition-all hover:scale-105 active:scale-95"
-                title={isAudioPlaying ? 'Pause' : 'Play'}
+                className="w-10 h-10 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white flex items-center justify-center shadow-sm transition-all"
+                title={isAudioPlaying ? '一時停止' : '再生'}
               >
-                {isAudioPlaying ? <Pause size={20} /> : <Play size={20} className="fill-white ml-0.5" />}
+                {isAudioPlaying ? <Pause size={17} /> : <Play size={17} className="fill-white ml-0.5" />}
               </button>
 
               <button
                 onClick={skipAudioNext}
-                className="w-10 h-10 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center transition-all border border-white/5"
-                title="Next Word"
+                className="w-9 h-9 rounded-xl bg-[#1c1c20] hover:bg-[#26262c] text-stone-300 flex items-center justify-center transition-all border border-white/5"
+                title="次へ"
               >
-                <SkipForward size={16} />
+                <SkipForward size={15} />
               </button>
 
               <button
                 onClick={stopListenLearn}
-                className="w-10 h-10 rounded-xl bg-slate-800/80 hover:bg-rose-500/20 text-slate-400 hover:text-rose-400 flex items-center justify-center transition-all border border-white/5 ml-1"
-                title="Stop Autoplay"
+                className="w-9 h-9 rounded-xl bg-[#1c1c20] hover:bg-[#c53d33]/20 text-stone-400 hover:text-[#e57a6f] flex items-center justify-center transition-all border border-white/5 ml-1"
+                title="停止"
               >
-                <Square size={14} />
+                <Square size={13} />
               </button>
             </div>
           </div>
 
           {/* Progress bar */}
-          <div className="w-full h-1.5 rounded-full bg-slate-800 overflow-hidden">
+          <div className="w-full h-1 rounded-full bg-[#131316] overflow-hidden">
             <div 
-              className="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-300"
+              className="h-full bg-[#c53d33] transition-all duration-300"
               style={{ width: `${Math.round(((currentAudioIndex + 1) / filteredWords.length) * 100)}%` }}
             ></div>
           </div>
         </div>
       )}
 
-      {/* ================= VIEW 1: 3D FLASHCARD ================= */}
+      {/* ================= VIEW 1: 3D FLASHCARD (JAPANESE TANGOCHO) ================= */}
       {viewMode === 'flashcard' && currentWord ? (
-        <div className="space-y-6">
-          <div className="flex items-center justify-between text-xs text-slate-400 px-2">
-            <span>Card {cardIndex + 1} of {filteredWords.length}</span>
+        <div className="space-y-5">
+          <div className="flex items-center justify-between text-xs text-stone-400 px-1 font-jp">
+            <span>第 {cardIndex + 1} / {filteredWords.length} 枚</span>
             <div className="flex items-center gap-3">
               <label className="flex items-center gap-1.5 cursor-pointer select-none">
                 <input 
                   type="checkbox" 
                   checked={showRomaji} 
                   onChange={(e) => setShowRomaji(e.target.checked)}
-                  className="rounded border-slate-700 bg-slate-800 text-rose-500 focus:ring-rose-500"
+                  className="rounded border-stone-700 bg-stone-900 text-[#c53d33] focus:ring-[#c53d33]"
                 />
-                <span>Show Romaji</span>
+                <span>ローマ字 (Romaji)</span>
               </label>
               <button 
                 onClick={() => toggleMastered(currentWord.id)}
-                className={`flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold border transition-all ${
+                className={`flex items-center gap-1 px-2.5 py-1 rounded text-xs font-medium border transition-all ${
                   masteredList.includes(currentWord.id)
-                    ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30'
-                    : 'bg-white/5 text-slate-400 border-white/10 hover:text-white'
+                    ? 'bg-emerald-950/40 text-emerald-300 border-emerald-500/40'
+                    : 'bg-white/5 text-stone-400 border-white/10 hover:text-white'
                 }`}
               >
                 <Check size={12} />
-                <span>{masteredList.includes(currentWord.id) ? 'Mastered' : 'Mark Mastered'}</span>
+                <span>{masteredList.includes(currentWord.id) ? '習得済 (Mastered)' : '習得済みにする'}</span>
               </button>
             </div>
           </div>
@@ -828,49 +822,57 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
           >
             <div className={`flashcard-inner ${isFlipped ? 'flipped' : ''}`}>
               {/* Front of card: Japanese */}
-              <div className="flashcard-front glass-panel-glow border-rose-500/30 bg-gradient-to-br from-slate-900 to-slate-800">
+              <div className="flashcard-front bg-[#17171b] border border-white/10 rounded-2xl relative shadow-md">
                 <div className="absolute top-4 right-4" onClick={(e) => e.stopPropagation()}>
                   <AudioButton text={currentWord.japanese || currentWord.kana} size="md" />
                 </div>
 
-                <div className="text-xs uppercase tracking-widest text-slate-400 font-bold mb-4">
-                  Tap to Reveal Meaning 🔄
+                <div className="text-[11px] font-mincho text-[#e57a6f] mb-3">
+                  〔 日本語単語 〕
                 </div>
 
-                <div className="text-4xl md:text-6xl font-black text-white font-jp tracking-wide py-2">
+                <div className="text-4xl md:text-6xl font-bold text-white font-mincho tracking-wider py-2">
                   {currentWord.japanese || currentWord.kana}
                 </div>
 
                 {showRomaji && currentWord.romaji && (
-                  <div className="text-sm md:text-base text-rose-300 font-medium mt-2">
+                  <div className="text-sm md:text-base text-stone-400 font-sans mt-2 tracking-wide">
                     {currentWord.romaji}
                   </div>
                 )}
 
                 {currentWord.chapterOrigin && (
-                  <div className="mt-3 text-[11px] px-2.5 py-0.5 rounded-full bg-slate-800/80 text-slate-400 border border-white/5">
+                  <div className="mt-4 text-[10px] px-2.5 py-0.5 rounded bg-white/5 text-stone-400 border border-white/5 font-jp">
                     {currentWord.chapterOrigin}
                   </div>
                 )}
+
+                <div className="absolute bottom-4 text-[11px] text-stone-500 font-jp">
+                  「 クリックして意味を表示 」 (Click to flip)
+                </div>
               </div>
 
               {/* Back of card: English & Details */}
-              <div className="flashcard-back glass-panel-glow border-indigo-500/30 bg-gradient-to-br from-slate-900 to-indigo-950">
+              <div className="flashcard-back bg-[#1b1b20] border border-white/10 rounded-2xl relative shadow-md">
                 <div className="absolute top-4 right-4" onClick={(e) => e.stopPropagation()}>
                   <AudioButton text={currentWord.japanese || currentWord.kana} size="md" />
                 </div>
 
-                <div className="text-xs uppercase tracking-widest text-indigo-300 font-bold mb-4">
-                  English Definition
+                <div className="text-[11px] font-mincho text-stone-400 mb-3">
+                  〔 英語訳 〕
                 </div>
 
-                <div className="text-2xl md:text-4xl font-extrabold text-white text-center px-4 leading-snug">
+                <div className="text-2xl md:text-4xl font-bold text-white text-center px-4 leading-snug">
                   {currentWord.english}
                 </div>
 
-                <div className="mt-4 text-xs text-slate-400 font-jp flex items-center gap-2">
-                  <span>Japanese: {currentWord.japanese || currentWord.kana}</span>
+                <div className="mt-4 text-xs text-stone-400 font-jp flex items-center gap-2">
+                  <span className="font-mincho text-stone-300">{currentWord.japanese || currentWord.kana}</span>
                   {currentWord.romaji && <span>• ({currentWord.romaji})</span>}
+                </div>
+
+                <div className="absolute bottom-4 text-[11px] text-stone-500 font-jp">
+                  「 クリックして表面へ 」
                 </div>
               </div>
             </div>
@@ -880,10 +882,10 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
           <div className="flex items-center justify-between gap-4">
             <button
               onClick={handlePrevCard}
-              className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs border border-white/10 transition-all"
+              className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-[#1c1c20] hover:bg-[#26262c] text-stone-200 font-medium text-xs border border-white/5 transition-all"
             >
-              <ChevronLeft size={16} />
-              <span>Previous</span>
+              <ChevronLeft size={15} />
+              <span>前へ (Prev)</span>
             </button>
 
             <button
@@ -892,19 +894,19 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
                 setCardIndex(randomIdx);
                 setIsFlipped(false);
               }}
-              className="p-2.5 rounded-xl bg-slate-800/60 hover:bg-slate-700 text-slate-400 hover:text-white border border-white/10 text-xs font-semibold flex items-center gap-1"
-              title="Shuffle"
+              className="p-2.5 rounded-xl bg-[#1c1c20] hover:bg-[#26262c] text-stone-400 hover:text-white border border-white/5 text-xs font-medium flex items-center gap-1"
+              title="ランダム"
             >
-              <Shuffle size={14} />
-              <span>Random</span>
+              <Shuffle size={13} />
+              <span>ランダム</span>
             </button>
 
             <button
               onClick={handleNextCard}
-              className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs border border-white/10 transition-all"
+              className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-[#1c1c20] hover:bg-[#26262c] text-stone-200 font-medium text-xs border border-white/5 transition-all"
             >
-              <span>Next</span>
-              <ChevronRight size={16} />
+              <span>次へ (Next)</span>
+              <ChevronRight size={15} />
             </button>
           </div>
         </div>
@@ -915,13 +917,13 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
         <div className="space-y-4">
           {/* Search Input */}
           <div className="relative">
-            <Search size={16} className="absolute left-3.5 top-3.5 text-slate-400" />
+            <Search size={15} className="absolute left-3.5 top-3.5 text-stone-500" />
             <input
               type="text"
-              placeholder="Search words by Japanese, English, or Romaji..."
+              placeholder="日本語・英語・ローマ字で単語を検索..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 bg-slate-800/80 border border-white/10 rounded-xl text-sm text-white placeholder-slate-500 focus:outline-none focus:border-rose-500"
+              className="w-full pl-10 pr-4 py-2.5 bg-[#17171b] border border-white/10 rounded-xl text-xs text-white placeholder-stone-500 focus:outline-none focus:border-[#c53d33]"
             />
           </div>
 
@@ -938,29 +940,29 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
                       startListenLearn(idx);
                     }
                   }}
-                  className={`p-4 rounded-xl glass-panel border flex items-start justify-between gap-3 group transition-all cursor-pointer ${
+                  className={`p-3.5 rounded-xl border flex items-start justify-between gap-3 group transition-all cursor-pointer ${
                     isCurrentlyPlayingWord
-                      ? 'border-emerald-400 bg-emerald-500/15 shadow-lg shadow-emerald-500/20 scale-[1.01]'
-                      : 'border-white/5 hover:bg-slate-800/90 hover:border-white/15'
+                      ? 'border-[#c53d33] bg-[#c53d33]/10'
+                      : 'border-white/5 bg-[#17171b] hover:bg-[#1e1e24] hover:border-white/15'
                   }`}
                 >
                   <div className="space-y-1">
                     <div className="flex items-center gap-2">
-                      <span className="font-bold text-white font-jp text-lg">
+                      <span className="font-bold text-white font-mincho text-base">
                         {word.japanese || word.kana}
                       </span>
                       {word.chapterOrigin && (
-                        <span className="text-[9px] px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 font-mono">
+                        <span className="text-[9px] px-1.5 py-0.2 rounded bg-white/5 text-stone-400 font-jp">
                           {word.chapterOrigin}
                         </span>
                       )}
                     </div>
                     {word.romaji && (
-                      <div className="text-xs text-rose-300 font-sans">
+                      <div className="text-[11px] text-stone-400 font-sans">
                         {word.romaji}
                       </div>
                     )}
-                    <div className="text-xs text-slate-300 font-medium">
+                    <div className="text-xs text-stone-300 font-medium">
                       {word.english}
                     </div>
                   </div>
@@ -971,11 +973,11 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
                       className={`w-7 h-7 rounded-lg flex items-center justify-center transition-all ${
                         masteredList.includes(word.id)
                           ? 'text-emerald-400 bg-emerald-500/10'
-                          : 'text-slate-600 hover:text-slate-400'
+                          : 'text-stone-600 hover:text-stone-400'
                       }`}
-                      title={masteredList.includes(word.id) ? 'Mastered' : 'Mark Mastered'}
+                      title={masteredList.includes(word.id) ? '習得済' : '習得済みにする'}
                     >
-                      <Check size={14} />
+                      <Check size={13} />
                     </button>
                     <AudioButton text={word.japanese || word.kana} size="sm" />
                   </div>

@@ -18,17 +18,17 @@ export default function GrammarView() {
   const points = currentGrammar?.points || [];
 
   return (
-    <div className="max-w-4xl mx-auto space-y-6 animate-fadeIn">
+    <div className="max-w-4xl mx-auto space-y-6 animate-fadeIn pb-12">
       {/* Header */}
-      <div className="p-6 glass-panel rounded-2xl space-y-2">
-        <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-indigo-500/15 border border-indigo-500/30 text-indigo-300 text-xs font-bold">
+      <div className="p-6 rounded-2xl bg-[#17171b] border border-white/5 space-y-2">
+        <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-[#c53d33]/10 border border-[#c53d33]/30 text-[#e57a6f] text-xs font-mincho font-medium">
           <FileText size={13} />
-          <span>GRAMMAR MASTER (文法)</span>
+          <span>〔 文法解説 〕 GRAMMAR HANDBOOK</span>
         </div>
-        <h1 className="text-2xl font-black text-white">
-          Chapter {currentGrammar?.chapter}: {currentGrammar?.title}
+        <h1 className="text-2xl font-bold text-white tracking-tight">
+          第{currentGrammar?.chapter}課: {currentGrammar?.title}
         </h1>
-        <p className="text-xs text-slate-300 leading-relaxed max-w-2xl">
+        <p className="text-xs text-stone-300 leading-relaxed max-w-2xl font-jp">
           {currentGrammar?.description}
         </p>
       </div>
@@ -39,13 +39,13 @@ export default function GrammarView() {
           <button
             key={ch}
             onClick={() => setSelectedChapter(ch)}
-            className={`px-3.5 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
+            className={`px-3 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition-all border ${
               selectedChapter === ch
-                ? 'bg-indigo-500 border-indigo-400 text-white shadow-sm'
-                : 'bg-slate-800/60 border-white/5 text-slate-400 hover:text-white'
+                ? 'bg-[#c53d33] border-[#c53d33] text-white'
+                : 'bg-[#17171b] border-white/5 text-stone-400 hover:text-white'
             }`}
           >
-            Ch {ch}
+            <span className="font-mincho">第{ch}課</span>
           </button>
         ))}
       </div>
@@ -55,12 +55,12 @@ export default function GrammarView() {
         {points.map((point, idx) => (
           <div
             key={idx}
-            className="p-6 rounded-2xl glass-panel border-white/10 space-y-4 hover:border-indigo-500/30 transition-all"
+            className="p-6 rounded-2xl bg-[#17171b] border border-white/5 space-y-4 hover:border-white/15 transition-all"
           >
             {/* Title & Badge */}
             <div className="flex items-start justify-between gap-4">
               <div className="flex items-center gap-2.5">
-                <span className="w-7 h-7 rounded-lg bg-indigo-500/20 text-indigo-300 font-bold text-xs flex items-center justify-center shrink-0">
+                <span className="w-6 h-6 rounded-md bg-[#222227] text-stone-300 font-mincho font-bold text-xs flex items-center justify-center shrink-0">
                   {idx + 1}
                 </span>
                 <h3 className="text-lg font-bold text-white font-jp">{point.title}</h3>
@@ -69,39 +69,39 @@ export default function GrammarView() {
 
             {/* Formula Box */}
             {point.formula && (
-              <div className="p-3.5 rounded-xl bg-indigo-950/40 border border-indigo-500/30 flex items-center gap-2.5">
-                <Lightbulb size={16} className="text-indigo-400 shrink-0" />
-                <div className="font-mono text-xs md:text-sm text-indigo-200 font-semibold font-jp">
+              <div className="p-3.5 rounded-xl bg-[#131316] border border-white/5 flex items-center gap-2.5">
+                <Lightbulb size={15} className="text-[#e57a6f] shrink-0" />
+                <div className="font-mono text-xs md:text-sm text-stone-200 font-semibold font-jp">
                   {point.formula}
                 </div>
               </div>
             )}
 
             {/* Explanation */}
-            <p className="text-xs md:text-sm text-slate-300 leading-relaxed">
+            <p className="text-xs md:text-sm text-stone-300 leading-relaxed font-jp">
               {point.explanation}
             </p>
 
             {/* Example Sentences */}
             {point.examples && point.examples.length > 0 && (
               <div className="space-y-2 pt-2 border-t border-white/5">
-                <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Example Sentences:</div>
+                <div className="text-[11px] font-medium text-stone-400 font-jp">例文 (Example Sentences):</div>
                 <div className="space-y-2">
                   {point.examples.map((ex, exIdx) => (
                     <div 
                       key={exIdx} 
-                      className="p-3.5 rounded-xl bg-slate-900/60 border border-white/5 flex items-start justify-between gap-3 group"
+                      className="p-3 rounded-xl bg-[#131316] border border-white/5 flex items-start justify-between gap-3 group"
                     >
                       <div className="space-y-0.5">
-                        <div className="font-bold text-white font-jp text-sm md:text-base leading-snug">
+                        <div className="font-bold text-white font-mincho text-sm md:text-base leading-snug">
                           {ex.jp}
                         </div>
                         {ex.ro && (
-                          <div className="text-xs text-indigo-300 font-sans">
+                          <div className="text-xs text-stone-400 font-sans">
                             {ex.ro}
                           </div>
                         )}
-                        <div className="text-xs text-slate-400">
+                        <div className="text-xs text-stone-400 font-jp">
                           {ex.en}
                         </div>
                       </div>
@@ -118,4 +118,3 @@ export default function GrammarView() {
     </div>
   );
 }
-

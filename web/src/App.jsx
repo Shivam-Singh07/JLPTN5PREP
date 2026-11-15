@@ -26,7 +26,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#0b0f19] text-slate-100 selection:bg-rose-500 selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#121214] text-[#f4f3ee] selection:bg-[#c53d33] selection:text-white">
       {/* Top Navigation */}
       <Navbar
         activeTab={activeTab}
@@ -94,22 +94,23 @@ export default function App() {
         )}
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-white/5 bg-slate-950/60 py-6 px-4 mt-auto text-center text-xs text-slate-500 space-y-2">
-        <div className="flex flex-wrap items-center justify-center gap-2">
-          <span>🌸 JLPT N5 Master Prep App</span>
+      {/* Minimalist Japanese Footer */}
+      <footer className="border-t border-white/5 bg-[#0e0e10]/90 py-6 px-4 mt-auto text-center text-xs text-stone-500 space-y-2">
+        <div className="flex flex-wrap items-center justify-center gap-2.5">
+          <span className="font-mincho text-stone-400">日本語能力試験 N5 完全対策</span>
           <span>•</span>
-          <span>Basic 1 & 2 • Script Book • N5 Kanji 110</span>
+          <span>JLPT N5 Prep Master</span>
           <span>•</span>
-          <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono font-bold text-xs shadow-sm">
+          <span>全24課 • 漢字110 • 聴解・文法</span>
+          <span>•</span>
+          <span className="px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-stone-800 text-stone-400 border border-white/5">
             v0.0.3
           </span>
         </div>
-        <div className="text-[11px] text-slate-500">
-          Mobile Background Audio & Native Voice Engine • 24 Comprehensive Lessons • Build v0.0.3
+        <div className="text-[11px] text-stone-600">
+          Designed for focused, distraction-free Japanese language acquisition.
         </div>
       </footer>
     </div>
   );
 }
-

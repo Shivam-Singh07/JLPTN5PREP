@@ -51,46 +51,46 @@ export default function KanjiExplorer({ initialView = 'explore', initialChapter 
   }
 
   return (
-    <div className="max-w-5xl mx-auto space-y-6 animate-fadeIn">
+    <div className="max-w-5xl mx-auto space-y-6 animate-fadeIn pb-12">
       {/* Top Header & Tab Switcher */}
-      <div className="p-6 glass-panel rounded-2xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div className="p-6 rounded-2xl bg-[#17171b] border border-white/5 flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div className="space-y-1">
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-purple-500/15 border border-purple-500/30 text-purple-300 text-xs font-bold">
-            <Sparkles size={13} />
-            <span>N5 KANJI 110 (漢字)</span>
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-[#c53d33]/10 border border-[#c53d33]/30 text-[#e57a6f] text-xs font-mincho font-medium">
+            <span>〔 漢字辞典 〕</span>
+            <span>N5 KANJI 110</span>
           </div>
-          <h1 className="text-2xl font-black text-white">Essential JLPT N5 Kanji</h1>
-          <p className="text-xs text-slate-300">
-            All 110 official Kanji characters structured across 10 themed chapters with stroke counts, readings, and vocabulary.
+          <h1 className="text-2xl font-bold text-white tracking-tight">Essential JLPT N5 Kanji</h1>
+          <p className="text-xs text-stone-400 font-jp">
+            全110字の基本漢字を10のテーマ別課に分類。画数・音読み・訓読み・実践熟語を収録。
           </p>
         </div>
 
         {/* View Switcher Pills */}
-        <div className="flex items-center bg-slate-800/80 p-1 rounded-xl border border-white/5 text-xs">
+        <div className="flex items-center bg-[#131316] p-1 rounded-xl border border-white/5 text-xs">
           <button
             onClick={() => setActiveView('explore')}
-            className={`px-3.5 py-2 rounded-lg font-bold transition-all flex items-center gap-1.5 ${
+            className={`px-3.5 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 ${
               activeView === 'explore'
-                ? 'bg-purple-500 text-white shadow-md'
-                : 'text-slate-400 hover:text-white'
+                ? 'bg-[#222227] text-white'
+                : 'text-stone-400 hover:text-white'
             }`}
           >
             <BookOpen size={14} />
-            <span>Explore 110</span>
+            <span>一覧 (110)</span>
           </button>
           <button
             onClick={() => {
               setQuizChapter('all');
               setActiveView('quiz');
             }}
-            className={`px-3.5 py-2 rounded-lg font-bold transition-all flex items-center gap-1.5 ${
+            className={`px-3.5 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 ${
               activeView === 'quiz'
-                ? 'bg-purple-500 text-white shadow-md'
-                : 'text-slate-400 hover:text-white'
+                ? 'bg-[#c53d33] text-white'
+                : 'text-stone-400 hover:text-white'
             }`}
           >
-            <Play size={14} className="fill-purple-300" />
-            <span>Practice Quiz</span>
+            <Play size={13} className="fill-current" />
+            <span>問題練習 (Quiz)</span>
           </button>
         </div>
       </div>
@@ -101,51 +101,51 @@ export default function KanjiExplorer({ initialView = 'explore', initialChapter 
         <div className="flex items-center gap-1.5 overflow-x-auto w-full md:w-auto pb-1 md:pb-0 scrollbar-none">
           <button
             onClick={() => setSelectedChapterFilter('all')}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
+            className={`px-3 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition-all border ${
               selectedChapterFilter === 'all'
-                ? 'bg-purple-500 text-white shadow-sm'
-                : 'bg-slate-800/80 text-slate-400 hover:text-white border border-white/5'
+                ? 'bg-[#c53d33] border-[#c53d33] text-white'
+                : 'bg-[#17171b] text-stone-400 hover:text-white border-white/5'
             }`}
           >
-            All Kanji (110)
+            全110字
           </button>
           {kanjiChapters.map((ch) => (
             <button
               key={ch.id}
               onClick={() => setSelectedChapterFilter(String(ch.id))}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
+              className={`px-2.5 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition-all border ${
                 selectedChapterFilter === String(ch.id)
-                  ? 'bg-purple-500 text-white shadow-sm'
-                  : 'bg-slate-800/80 text-slate-400 hover:text-white border border-white/5'
+                  ? 'bg-[#c53d33] border-[#c53d33] text-white'
+                  : 'bg-[#17171b] text-stone-400 hover:text-white border-white/5'
               }`}
             >
-              Ch {ch.id}: {ch.title.split('(')[0].trim()} ({ch.count})
+              <span className="font-mincho">第{ch.id}課:</span> {ch.title.split('(')[0].trim()} ({ch.count})
             </button>
           ))}
         </div>
 
         {/* Search */}
         <div className="relative w-full md:w-64">
-          <Search size={15} className="absolute left-3.5 top-3 text-slate-400" />
+          <Search size={14} className="absolute left-3 top-2.5 text-stone-500" />
           <input
             type="text"
-            placeholder="Search Kanji, meaning, or reading..."
+            placeholder="漢字・意味・読みで検索..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-9 pr-3 py-2 bg-slate-800/80 border border-white/10 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-purple-500"
+            className="w-full pl-9 pr-3 py-2 bg-[#17171b] border border-white/10 rounded-xl text-xs text-white placeholder-stone-500 focus:outline-none focus:border-[#c53d33]"
           />
         </div>
       </div>
 
       {/* Quick Launch Practice Banner for selected chapter */}
       {selectedChapterFilter !== 'all' && (
-        <div className="p-4 rounded-2xl bg-purple-500/10 border border-purple-500/25 flex items-center justify-between gap-3 animate-fadeIn">
+        <div className="p-3.5 rounded-xl bg-[#17171b] border border-white/10 flex items-center justify-between gap-3 animate-fadeIn">
           <div>
-            <div className="text-xs font-bold text-white">
-              Ready to test Chapter {selectedChapterFilter}?
+            <div className="text-xs font-medium text-white font-jp">
+              第 {selectedChapterFilter} 課の漢字演習
             </div>
-            <div className="text-[11px] text-purple-300">
-              Practice this chapter's {filteredKanji.length} Kanji with 4-choice questions and pronunciation.
+            <div className="text-[11px] text-stone-400 font-jp">
+              この課の {filteredKanji.length} 字を4択問題と音声で練習できます。
             </div>
           </div>
           <button
@@ -153,33 +153,33 @@ export default function KanjiExplorer({ initialView = 'explore', initialChapter 
               setQuizChapter(selectedChapterFilter);
               setActiveView('quiz');
             }}
-            className="px-4 py-2 rounded-xl bg-purple-500 hover:bg-purple-600 text-white font-bold text-xs shadow-md shadow-purple-500/20 flex items-center gap-1.5 whitespace-nowrap"
+            className="px-3.5 py-1.5 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white font-medium text-xs flex items-center gap-1.5 whitespace-nowrap transition-colors"
           >
-            <Play size={13} className="fill-white" />
-            <span>Practice Chapter {selectedChapterFilter}</span>
+            <Play size={12} className="fill-white" />
+            <span>練習開始</span>
           </button>
         </div>
       )}
 
       {/* Kanji Grid */}
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2.5">
         {filteredKanji.map((item) => (
           <div
             key={item.kanji}
             onClick={() => setSelectedKanji(item)}
-            className="p-4 rounded-2xl glass-panel hover:bg-slate-800 border-white/5 hover:border-purple-500/40 cursor-pointer text-center group transition-all transform hover:-translate-y-1 shadow-sm"
+            className="p-3.5 rounded-xl bg-[#17171b] border border-white/5 hover:border-white/20 hover:bg-[#1e1e24] cursor-pointer text-center group transition-all"
           >
-            <div className="text-3xl md:text-4xl font-black text-white font-jp group-hover:text-purple-400 transition-colors">
+            <div className="text-3xl md:text-4xl font-bold text-white font-mincho group-hover:text-[#e57a6f] transition-colors py-1">
               {item.kanji}
             </div>
-            <div className="text-xs font-bold text-slate-200 mt-2 truncate">
+            <div className="text-xs font-medium text-stone-200 mt-1 truncate">
               {item.meaning}
             </div>
-            <div className="text-[10px] text-purple-300/80 mt-0.5 truncate font-jp">
+            <div className="text-[10px] text-stone-400 mt-0.5 truncate font-jp">
               {item.kunyomi || item.onyomi}
             </div>
-            <div className="text-[9px] text-slate-500 mt-1">
-              {item.strokes} strokes
+            <div className="text-[9px] text-stone-500 mt-1 font-mincho">
+              {item.strokes}画
             </div>
           </div>
         ))}
@@ -189,64 +189,64 @@ export default function KanjiExplorer({ initialView = 'explore', initialChapter 
       {selectedKanji && (
         <div 
           onClick={() => setSelectedKanji(null)} 
-          className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 animate-fadeIn"
+          className="fixed inset-0 z-50 bg-black/75 backdrop-blur-sm flex items-center justify-center p-4 animate-fadeIn"
         >
           <div 
             onClick={(e) => e.stopPropagation()} 
-            className="max-w-lg w-full p-6 md:p-8 rounded-3xl glass-panel-glow border-purple-500/30 bg-slate-900 space-y-6 shadow-2xl relative"
+            className="max-w-lg w-full p-6 md:p-8 rounded-2xl bg-[#18181c] border border-white/10 space-y-6 shadow-2xl relative"
           >
             <button
               onClick={() => setSelectedKanji(null)}
-              className="absolute top-4 right-4 p-2 rounded-full text-slate-400 hover:text-white hover:bg-white/10 transition-colors"
+              className="absolute top-4 right-4 p-1.5 rounded-lg text-stone-400 hover:text-white hover:bg-white/10 transition-colors"
             >
-              <X size={20} />
+              <X size={18} />
             </button>
 
             {/* Kanji Header */}
-            <div className="flex items-center gap-6">
-              <div className="w-24 h-24 rounded-2xl bg-gradient-to-tr from-purple-500/20 to-indigo-500/20 border border-purple-500/40 flex items-center justify-center text-5xl font-black text-white font-jp shadow-inner">
+            <div className="flex items-center gap-5">
+              <div className="w-20 h-20 rounded-xl bg-[#121214] border border-white/10 flex items-center justify-center text-5xl font-bold text-white font-mincho">
                 {selectedKanji.kanji}
               </div>
 
               <div className="space-y-1">
-                <div className="text-2xl font-black text-white">{selectedKanji.meaning}</div>
-                <div className="text-xs text-purple-300 font-semibold">{selectedKanji.strokes} Strokes</div>
+                <div className="text-xl font-bold text-white">{selectedKanji.meaning}</div>
+                <div className="text-xs text-stone-400 font-mincho font-medium">{selectedKanji.strokes} 画 (Strokes)</div>
                 <div className="pt-1">
-                  <AudioButton text={selectedKanji.kanji} size="sm" label="Pronounce" />
+                  <AudioButton text={selectedKanji.kanji} size="sm" label="発音" />
                 </div>
               </div>
             </div>
 
             {/* Readings */}
-            <div className="grid grid-cols-2 gap-3 p-4 rounded-xl bg-slate-800/60 border border-white/5">
+            <div className="grid grid-cols-2 gap-3 p-3.5 rounded-xl bg-[#121214] border border-white/5">
               <div>
-                <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400">音読み (On'yomi)</div>
-                <div className="text-sm font-bold text-white font-jp mt-1">{selectedKanji.onyomi || '—'}</div>
+                <div className="text-[10px] font-medium text-stone-400 font-jp">音読み (On'yomi)</div>
+                <div className="text-sm font-bold text-white font-mincho mt-1">{selectedKanji.onyomi || '—'}</div>
               </div>
               <div>
-                <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400">訓読み (Kun'yomi)</div>
-                <div className="text-sm font-bold text-white font-jp mt-1">{selectedKanji.kunyomi || '—'}</div>
+                <div className="text-[10px] font-medium text-stone-400 font-jp">訓読み (Kun'yomi)</div>
+                <div className="text-sm font-bold text-white font-mincho mt-1">{selectedKanji.kunyomi || '—'}</div>
               </div>
             </div>
 
             {/* Compound Words */}
             {selectedKanji.examples && selectedKanji.examples.length > 0 && (
               <div className="space-y-2">
-                <div className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                  Example Vocabulary Compounds:
+                <div className="text-xs font-medium text-stone-400 font-jp">
+                  熟語・用例 (Vocabulary Compounds):
                 </div>
-                <div className="space-y-1.5">
+                <div className="space-y-1.5 max-h-48 overflow-y-auto pr-1">
                   {selectedKanji.examples.map((ex, idx) => (
                     <div 
                       key={idx}
-                      className="p-3 rounded-xl bg-slate-800/40 border border-white/5 flex items-center justify-between gap-3"
+                      className="p-2.5 rounded-xl bg-[#121214] border border-white/5 flex items-center justify-between gap-3"
                     >
                       <div>
                         <div className="flex items-center gap-2">
-                          <span className="font-bold text-white font-jp text-base">{ex.word}</span>
-                          <span className="text-xs text-purple-300 font-jp">【{ex.reading}】</span>
+                          <span className="font-bold text-white font-mincho text-sm">{ex.word}</span>
+                          <span className="text-xs text-[#e57a6f] font-jp">【{ex.reading}】</span>
                         </div>
-                        <div className="text-xs text-slate-400 mt-0.5">{ex.meaning}</div>
+                        <div className="text-xs text-stone-400 mt-0.5">{ex.meaning}</div>
                       </div>
 
                       <AudioButton text={ex.word} size="sm" />
@@ -257,9 +257,9 @@ export default function KanjiExplorer({ initialView = 'explore', initialChapter 
             )}
 
             {/* Modal Bottom CTA */}
-            <div className="pt-2 border-t border-white/5 flex items-center justify-between gap-3">
-              <span className="text-xs text-slate-400">
-                Chapter {selectedKanji.chapter}: {selectedKanji.chapterTitle?.split('(')[0]?.trim() || 'N5 Kanji'}
+            <div className="pt-3 border-t border-white/5 flex items-center justify-between gap-3">
+              <span className="text-[11px] text-stone-400 font-mincho">
+                第 {selectedKanji.chapter} 課: {selectedKanji.chapterTitle?.split('(')[0]?.trim() || 'N5 Kanji'}
               </span>
               <button
                 onClick={() => {
@@ -267,10 +267,10 @@ export default function KanjiExplorer({ initialView = 'explore', initialChapter 
                   setSelectedKanji(null);
                   setActiveView('quiz');
                 }}
-                className="px-4 py-2 rounded-xl bg-purple-500 hover:bg-purple-600 text-white font-bold text-xs shadow-md shadow-purple-500/20 flex items-center gap-1.5"
+                className="px-3.5 py-1.5 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white font-medium text-xs transition-colors flex items-center gap-1.5"
               >
-                <Play size={13} className="fill-white" />
-                <span>Practice Chapter {selectedKanji.chapter}</span>
+                <Play size={12} className="fill-white" />
+                <span>この課を練習 (Practice Ch {selectedKanji.chapter})</span>
               </button>
             </div>
           </div>
