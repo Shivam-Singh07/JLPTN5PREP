@@ -284,7 +284,7 @@ body {
 .bento-box {
   position: relative;
   background: linear-gradient(180deg, #18181d 0%, #131317 100%);
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 20px;
   transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
   overflow: hidden;
@@ -292,9 +292,9 @@ body {
 }
 
 .bento-box:hover {
-  border-color: rgba(255, 255, 255, 0.16);
-  transform: translateY(-2px);
-  box-shadow: 0 14px 32px -8px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.09);
+  border-color: rgba(197, 61, 51, 0.38);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.7), 0 0 24px -6px rgba(197, 61, 51, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .bento-box::before {
@@ -303,8 +303,8 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #c53d33, transparent);
+  height: 2.5px;
+  background: linear-gradient(90deg, transparent, #c53d33 30%, #e57a6f 50%, #c53d33 70%, transparent);
   opacity: 0;
   transition: opacity 0.3s ease;
   z-index: 2;
@@ -317,8 +317,8 @@ body {
 /* Watermark character inside Japanese cards */
 .kamon-watermark {
   position: absolute;
-  right: 12px;
-  bottom: 8px;
+  right: 14px;
+  bottom: 10px;
   font-family: var(--font-mincho);
   font-size: 5rem;
   line-height: 1;
@@ -329,8 +329,8 @@ body {
 }
 
 .bento-box:hover .kamon-watermark {
-  color: rgba(197, 61, 51, 0.08);
-  transform: scale(1.06) rotate(-2deg);
+  color: rgba(197, 61, 51, 0.09);
+  transform: scale(1.08) rotate(-3deg);
 }
 
 /* Vertical Japanese text (Tategaki) */
