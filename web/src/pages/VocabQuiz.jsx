@@ -430,8 +430,9 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
           </p>
         </div>
 
-        {/* Configuration Card */}
-        <div className="p-6 md:p-8 rounded-2xl bg-[#17171b] border border-white/5 space-y-6">
+        {/* Configuration Card - Modern Japanese Bento Template */}
+        <div className="bento-box p-6 md:p-8 space-y-6 relative">
+          <div className="kamon-watermark">問</div>
           
           {/* Step 1: Select Scope */}
           <div className="space-y-4">
@@ -685,8 +686,9 @@ export default function VocabQuiz({ initialConfig = null, onSelectChapter }) {
           ></div>
         </div>
 
-        {/* Prompt Card */}
-        <div className="p-8 md:p-12 rounded-2xl bg-[#17171b] border border-white/5 text-center space-y-3">
+        {/* Prompt Card - Modern Japanese Bento Template */}
+        <div className="bento-box p-8 md:p-12 text-center space-y-3 relative overflow-hidden">
+          <div className="kamon-watermark">問</div>
           <div className="text-[11px] font-mincho text-[#e57a6f]">
             {selectedMode === 'jp_to_en' 
               ? '〔 意味の選択 〕 正しい英語の意味を選んでください' 

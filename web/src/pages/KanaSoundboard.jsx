@@ -39,28 +39,29 @@ export default function KanaSoundboard({ initialView = 'chart' }) {
 
   return (
     <div className="max-w-5xl mx-auto space-y-6 animate-fadeIn pb-12">
-      {/* Header */}
-      <div className="p-6 rounded-2xl bg-[#17171b] border border-white/5 flex flex-col md:flex-row md:items-center justify-between gap-4">
-        <div className="space-y-1">
+      {/* Header - Modern Japanese Bento Banner */}
+      <div className="bento-box p-6 md:p-8 relative overflow-hidden flex flex-col md:flex-row md:items-center justify-between gap-5">
+        <div className="kamon-watermark">音</div>
+        <div className="space-y-2 relative z-10">
           <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-[#c53d33]/10 border border-[#c53d33]/30 text-[#e57a6f] text-xs font-mincho font-medium">
             <span>〔 五十音図 〕</span>
             <span>KANA AUDIO SYSTEM</span>
           </div>
-          <h1 className="text-2xl font-bold text-white tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-bold font-mincho text-white tracking-tight">
             {selectedScript === 'hiragana' ? 'Hiragana Soundboard (平仮名)' : 'Katakana Soundboard (片仮名)'}
           </h1>
-          <p className="text-xs text-stone-400 font-jp">
+          <p className="text-xs text-stone-300 font-jp leading-relaxed max-w-xl">
             文字をクリックすると東京アクセントのネイティブ音声が再生されます。
           </p>
         </div>
 
         {/* View Switcher Pills */}
-        <div className="flex items-center bg-[#131316] p-1 rounded-xl border border-white/5 text-xs">
+        <div className="flex items-center bg-[#131316] p-1.5 rounded-xl border border-white/10 text-xs relative z-10 shrink-0">
           <button
             onClick={() => setActiveView('chart')}
-            className={`px-3.5 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 ${
+            className={`px-3.5 py-2 rounded-lg font-medium transition-all flex items-center gap-1.5 cursor-pointer ${
               activeView === 'chart'
-                ? 'bg-[#222227] text-white'
+                ? 'bg-[#222227] text-white shadow-sm'
                 : 'text-stone-400 hover:text-white'
             }`}
           >
@@ -69,9 +70,9 @@ export default function KanaSoundboard({ initialView = 'chart' }) {
           </button>
           <button
             onClick={() => setActiveView('quiz')}
-            className={`px-3.5 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 ${
+            className={`px-3.5 py-2 rounded-lg font-bold transition-all flex items-center gap-1.5 cursor-pointer ${
               activeView === 'quiz'
-                ? 'bg-[#c53d33] text-white'
+                ? 'bg-[#c53d33] text-white shadow-md shadow-[#c53d33]/20'
                 : 'text-stone-400 hover:text-white'
             }`}
           >

@@ -54,28 +54,29 @@ export default function ConvoView() {
 
   return (
     <div className="max-w-4xl mx-auto space-y-6 animate-fadeIn pb-12">
-      {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 p-6 rounded-2xl bg-[#17171b] border border-white/5">
-        <div className="space-y-1">
+      {/* Header - Modern Japanese Bento Banner */}
+      <div className="bento-box p-6 md:p-8 relative overflow-hidden flex flex-col md:flex-row md:items-center justify-between gap-5">
+        <div className="kamon-watermark">話</div>
+        <div className="space-y-2 relative z-10">
           <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-[#c53d33]/10 border border-[#c53d33]/30 text-[#e57a6f] text-xs font-mincho font-medium">
             <MessageSquare size={13} />
             <span>〔 日常会話 〕 CONVERSATIONS & ROLEPLAY</span>
           </div>
-          <h1 className="text-2xl font-bold text-white tracking-tight">{convo?.title}</h1>
-          <p className="text-xs text-stone-400 font-jp">
+          <h1 className="text-2xl sm:text-3xl font-bold font-mincho text-white tracking-tight">{convo?.title}</h1>
+          <p className="text-xs text-stone-300 font-jp leading-relaxed max-w-xl">
             場面ごとの自然な日本語対話。一行ずつ再生、または役割を選択して発音練習が可能です。
           </p>
         </div>
 
         {/* Global Controls */}
-        <div className="flex flex-wrap items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2 relative z-10 shrink-0">
           {/* English Meaning Toggle */}
           <button
             onClick={() => setShowEnglish(prev => !prev)}
-            className={`px-3 py-1.5 rounded-xl text-xs font-medium border transition-all ${
+            className={`px-3 py-1.5 rounded-xl text-xs font-medium border transition-all cursor-pointer ${
               showEnglish
-                ? 'bg-[#222227] border-white/20 text-white'
-                : 'bg-[#17171b] border-white/5 text-stone-400 hover:text-white'
+                ? 'bg-[#1e1e24] border-white/20 text-white'
+                : 'bg-[#141418] border-white/5 text-stone-400 hover:text-white'
             }`}
           >
             日本語訳: {showEnglish ? '表示' : '非表示'}
@@ -84,10 +85,10 @@ export default function ConvoView() {
           {/* Romaji Toggle */}
           <button
             onClick={() => setShowRomaji(prev => !prev)}
-            className={`px-3 py-1.5 rounded-xl text-xs font-medium border transition-all ${
+            className={`px-3 py-1.5 rounded-xl text-xs font-medium border transition-all cursor-pointer ${
               showRomaji
-                ? 'bg-[#222227] border-white/20 text-white'
-                : 'bg-[#17171b] border-white/5 text-stone-400 hover:text-white'
+                ? 'bg-[#1e1e24] border-white/20 text-white'
+                : 'bg-[#141418] border-white/5 text-stone-400 hover:text-white'
             }`}
           >
             ローマ字: {showRomaji ? '表示' : '非表示'}
@@ -104,7 +105,7 @@ export default function ConvoView() {
           ) : (
             <button
               onClick={startAutoPlay}
-              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white text-xs font-medium shadow-sm transition-all cursor-pointer"
+              className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#c53d33] hover:bg-[#b12f26] text-white text-xs font-bold shadow-md shadow-[#c53d33]/20 transition-all cursor-pointer"
             >
               <Play size={13} className="fill-white" />
               <span>全対話再生</span>

@@ -815,64 +815,88 @@ export default function VocabLearn({ onStartPractice, activeChapter = 1, current
             </div>
           </div>
 
-          {/* The Flashcard */}
+          {/* The Flashcard - Modern Japanese Tangocho Template */}
           <div 
             onClick={() => setIsFlipped(!isFlipped)} 
-            className="w-full h-80 card-perspective cursor-pointer select-none"
+            className="w-full h-84 card-perspective cursor-pointer select-none group"
           >
             <div className={`flashcard-inner ${isFlipped ? 'flipped' : ''}`}>
               {/* Front of card: Japanese */}
-              <div className="flashcard-front bg-[#17171b] border border-white/10 rounded-2xl relative shadow-md">
-                <div className="absolute top-4 right-4" onClick={(e) => e.stopPropagation()}>
-                  <AudioButton text={currentWord.japanese || currentWord.kana} size="md" />
+              <div className="flashcard-front bg-gradient-to-b from-[#19191e] to-[#141417] border border-white/10 group-hover:border-white/20 rounded-3xl relative shadow-2xl p-6 sm:p-8 flex flex-col justify-between">
+                {/* Traditional Tangocho Ring Binder Grommet */}
+                <div className="w-5 h-5 rounded-full bg-[#121214] border-2 border-white/25 shadow-inner absolute top-3 left-1/2 -translate-x-1/2 flex items-center justify-center">
+                  <div className="w-1.5 h-1.5 rounded-full bg-white/10"></div>
                 </div>
 
-                <div className="text-[11px] font-mincho text-[#e57a6f] mb-3">
-                  〔 日本語単語 〕
-                </div>
-
-                <div className="text-4xl md:text-6xl font-bold text-white font-mincho tracking-wider py-2">
-                  {currentWord.japanese || currentWord.kana}
-                </div>
-
-                {showRomaji && currentWord.romaji && (
-                  <div className="text-sm md:text-base text-stone-400 font-sans mt-2 tracking-wide">
-                    {currentWord.romaji}
+                <div className="w-full flex items-center justify-between pt-2">
+                  <span className="hanko-badge text-[10px]">
+                    〔 日本語単語 〕
+                  </span>
+                  <div onClick={(e) => e.stopPropagation()}>
+                    <AudioButton text={currentWord.japanese || currentWord.kana} size="md" />
                   </div>
-                )}
+                </div>
 
-                {currentWord.chapterOrigin && (
-                  <div className="mt-4 text-[10px] px-2.5 py-0.5 rounded bg-white/5 text-stone-400 border border-white/5 font-jp">
-                    {currentWord.chapterOrigin}
+                <div className="text-center my-auto py-2">
+                  <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-white font-mincho tracking-wider">
+                    {currentWord.japanese || currentWord.kana}
                   </div>
-                )}
 
-                <div className="absolute bottom-4 text-[11px] text-stone-500 font-jp">
-                  「 クリックして意味を表示 」 (Click to flip)
+                  {showRomaji && currentWord.romaji && (
+                    <div className="text-sm md:text-base text-stone-400 font-sans mt-3 tracking-wide">
+                      {currentWord.romaji}
+                    </div>
+                  )}
+
+                  {currentWord.chapterOrigin && (
+                    <div className="mt-4 inline-block text-[10px] px-3 py-0.5 rounded-full bg-white/5 text-stone-400 border border-white/5 font-jp">
+                      {currentWord.chapterOrigin}
+                    </div>
+                  )}
+                </div>
+
+                <div className="w-full text-center pb-1">
+                  <span className="text-[11px] text-stone-500 font-mincho tracking-wider">
+                    「 タップして英訳を表示 • Click to flip 」
+                  </span>
                 </div>
               </div>
 
               {/* Back of card: English & Details */}
-              <div className="flashcard-back bg-[#1b1b20] border border-white/10 rounded-2xl relative shadow-md">
-                <div className="absolute top-4 right-4" onClick={(e) => e.stopPropagation()}>
-                  <AudioButton text={currentWord.japanese || currentWord.kana} size="md" />
+              <div className="flashcard-back bg-gradient-to-b from-[#1c1c22] to-[#16161a] border border-white/10 group-hover:border-white/20 rounded-3xl relative shadow-2xl p-6 sm:p-8 flex flex-col justify-between">
+                {/* Traditional Tangocho Ring Binder Grommet */}
+                <div className="w-5 h-5 rounded-full bg-[#121214] border-2 border-white/25 shadow-inner absolute top-3 left-1/2 -translate-x-1/2 flex items-center justify-center">
+                  <div className="w-1.5 h-1.5 rounded-full bg-white/10"></div>
                 </div>
 
-                <div className="text-[11px] font-mincho text-stone-400 mb-3">
-                  〔 英語訳 〕
+                <div className="w-full flex items-center justify-between pt-2">
+                  <span className="hanko-badge text-[10px]">
+                    〔 英語解説 〕
+                  </span>
+                  <div onClick={(e) => e.stopPropagation()}>
+                    <AudioButton text={currentWord.japanese || currentWord.kana} size="md" />
+                  </div>
                 </div>
 
-                <div className="text-2xl md:text-4xl font-bold text-white text-center px-4 leading-snug">
-                  {currentWord.english}
+                <div className="text-center my-auto py-2 space-y-2">
+                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white leading-snug px-4">
+                    {currentWord.english}
+                  </div>
+
+                  <div className="pt-2 text-xs text-stone-300 font-jp flex items-center justify-center gap-2">
+                    <span className="font-mincho text-white font-medium text-sm">
+                      {currentWord.japanese || currentWord.kana}
+                    </span>
+                    {currentWord.romaji && (
+                      <span className="text-stone-400 font-sans">({currentWord.romaji})</span>
+                    )}
+                  </div>
                 </div>
 
-                <div className="mt-4 text-xs text-stone-400 font-jp flex items-center gap-2">
-                  <span className="font-mincho text-stone-300">{currentWord.japanese || currentWord.kana}</span>
-                  {currentWord.romaji && <span>• ({currentWord.romaji})</span>}
-                </div>
-
-                <div className="absolute bottom-4 text-[11px] text-stone-500 font-jp">
-                  「 クリックして表面へ 」
+                <div className="w-full text-center pb-1">
+                  <span className="text-[11px] text-stone-500 font-mincho tracking-wider">
+                    「 タップして表面へ戻る • Click to flip back 」
+                  </span>
                 </div>
               </div>
             </div>

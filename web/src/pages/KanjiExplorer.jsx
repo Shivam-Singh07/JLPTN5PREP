@@ -52,26 +52,27 @@ export default function KanjiExplorer({ initialView = 'explore', initialChapter 
 
   return (
     <div className="max-w-5xl mx-auto space-y-6 animate-fadeIn pb-12">
-      {/* Top Header & Tab Switcher */}
-      <div className="p-6 rounded-2xl bg-[#17171b] border border-white/5 flex flex-col md:flex-row md:items-center justify-between gap-4">
-        <div className="space-y-1">
+      {/* Top Header & Tab Switcher - Modern Japanese Bento Banner */}
+      <div className="bento-box p-6 md:p-8 relative overflow-hidden flex flex-col md:flex-row md:items-center justify-between gap-5">
+        <div className="kamon-watermark">漢</div>
+        <div className="space-y-2 relative z-10">
           <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-[#c53d33]/10 border border-[#c53d33]/30 text-[#e57a6f] text-xs font-mincho font-medium">
             <span>〔 漢字辞典 〕</span>
             <span>N5 KANJI 110</span>
           </div>
-          <h1 className="text-2xl font-bold text-white tracking-tight">Essential JLPT N5 Kanji</h1>
-          <p className="text-xs text-stone-400 font-jp">
+          <h1 className="text-2xl sm:text-3xl font-bold font-mincho text-white tracking-tight">Essential JLPT N5 Kanji</h1>
+          <p className="text-xs text-stone-300 font-jp leading-relaxed max-w-xl">
             全110字の基本漢字を10のテーマ別課に分類。画数・音読み・訓読み・実践熟語を収録。
           </p>
         </div>
 
         {/* View Switcher Pills */}
-        <div className="flex items-center bg-[#131316] p-1 rounded-xl border border-white/5 text-xs">
+        <div className="flex items-center bg-[#131316] p-1.5 rounded-xl border border-white/10 text-xs relative z-10 shrink-0">
           <button
             onClick={() => setActiveView('explore')}
-            className={`px-3.5 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 ${
+            className={`px-3.5 py-2 rounded-lg font-medium transition-all flex items-center gap-1.5 cursor-pointer ${
               activeView === 'explore'
-                ? 'bg-[#222227] text-white'
+                ? 'bg-[#222227] text-white shadow-sm'
                 : 'text-stone-400 hover:text-white'
             }`}
           >
@@ -83,9 +84,9 @@ export default function KanjiExplorer({ initialView = 'explore', initialChapter 
               setQuizChapter('all');
               setActiveView('quiz');
             }}
-            className={`px-3.5 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 ${
+            className={`px-3.5 py-2 rounded-lg font-bold transition-all flex items-center gap-1.5 cursor-pointer ${
               activeView === 'quiz'
-                ? 'bg-[#c53d33] text-white'
+                ? 'bg-[#c53d33] text-white shadow-md shadow-[#c53d33]/20'
                 : 'text-stone-400 hover:text-white'
             }`}
           >
